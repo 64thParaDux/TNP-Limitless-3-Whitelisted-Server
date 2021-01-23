@@ -1,0 +1,33 @@
+{
+	id: 785,
+	title: "Test",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: true,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1,
+						id: "enigmaticlegacy:ceaseless"
+					}]
+				}
+			},
+			title: "Ceaseless (Infinity but for Crossbows.)"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: true,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1,
+						id: "minecraft:infinity"
+					}]
+				}
+			},
+			title: "Infinity"
+		}
+	]
+}

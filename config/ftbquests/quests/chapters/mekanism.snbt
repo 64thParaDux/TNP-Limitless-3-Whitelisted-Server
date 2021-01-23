@@ -1,0 +1,2910 @@
+{
+	id: 374,
+	filename: "mekanism",
+	order_index: 7,
+	title: "Mekanism",
+	icon: "mekanismgenerators:advanced_solar_generator",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: 1.5d,
+			subtitle: "Create Enriched Alloy",
+			description: [
+				"The most basic item which most Mekanism machines and generators use. Crafted in the Metallurgic Infuser by infusing an Iron Ingot with Redstone, Redstone Blocks, or Compressed Redstone.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;582],
+			id: 402,
+			tasks: [{
+				id: 403,
+				type: "item",
+				item: "mekanism:alloy_infused"
+			}],
+			rewards: [{
+				id: 813,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			subtitle: "Create Reinforced Alloy",
+			description: [
+				"Upgraded version of the Enriched Alloy which some Mekanism machines and items use. Crafted in the Metallurgic Infuser by infusing an Enriched Alloy with Diamond Dust or Compressed Diamond.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			id: 404,
+			tasks: [{
+				id: 405,
+				type: "item",
+				item: "mekanism:alloy_reinforced"
+			}],
+			rewards: [{
+				id: 814,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.5d,
+			subtitle: "Create Atomic Alloy",
+			description: [
+				"Upgraded version of the Reinforced Alloy which some Mekanism machines and items use. Crafted in the Metallurgic Infuser by infusing a Reinforced Alloy with Refined Obsidian Dust or Compressed Obsidian.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				404,
+				422
+			],
+			id: 406,
+			tasks: [{
+				id: 407,
+				type: "item",
+				item: "mekanism:alloy_atomic"
+			}],
+			rewards: [{
+				id: 815,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "Create a Basic Control Circuit",
+			description: [
+				"The Basic Control Circuit is a Crafting Component used in the creation of multiple lower-tier machines.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;582],
+			id: 408,
+			tasks: [{
+				id: 409,
+				type: "item",
+				item: "mekanism:basic_control_circuit"
+			}],
+			rewards: [{
+				id: 816,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			subtitle: "Create a Advanced Control Circuit",
+			description: [
+				"An upgraded Basic Control Circuit, used in many tier 2 machines and items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				408,
+				402
+			],
+			id: 410,
+			tasks: [{
+				id: 411,
+				type: "item",
+				item: "mekanism:advanced_control_circuit"
+			}],
+			rewards: [{
+				id: 817,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.5d,
+			subtitle: "Create a Elite Control Circuit",
+			description: [
+				"An upgraded Advanced Control Circuit, used in many tier 3 machines and items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				410,
+				404
+			],
+			id: 412,
+			tasks: [{
+				id: 413,
+				type: "item",
+				item: "mekanism:elite_control_circuit"
+			}],
+			rewards: [{
+				id: 818,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.5d,
+			subtitle: "Create a Ultimate Control Circuit",
+			description: [
+				"An upgraded Elite Control Circuit, used in many tier 4 machines and items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				412,
+				406
+			],
+			id: 414,
+			tasks: [{
+				id: 415,
+				type: "item",
+				item: "mekanism:ultimate_control_circuit"
+			}],
+			rewards: [{
+				id: 819,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			subtitle: "Create Enriched Carbon",
+			description: [
+				"Enriched Carbon is used in the Metallurgic Infuser.",
+				" ",
+				"Enriched Carbon yields 80 units of carbon in the infuser, the same as 8 coal or 4 charcoal.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			size: 0.9d,
+			id: 416,
+			tasks: [{
+				id: 417,
+				type: "item",
+				item: "mekanism:enriched_carbon"
+			}],
+			rewards: [{
+				id: 820,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			subtitle: "Create Enriched Redstone",
+			description: [
+				"Enriched Redstone is used in the Metallurgic Infuser.",
+				" ",
+				"Enriched Redstone yields 80 units of redstone in the Metallurgic Infuser, the same as 8 redstone.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			size: 0.9d,
+			optional: true,
+			id: 418,
+			tasks: [{
+				id: 419,
+				type: "item",
+				item: "mekanism:enriched_redstone"
+			}],
+			rewards: [{
+				id: 821,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			subtitle: "Create Enriched Diamond",
+			description: [
+				"Enriched Diamond is used in the Metallurgic Infuser.",
+				" ",
+				"Enriched Diamond yields 80 units of diamond in the Metallurgic Infuser, the same as 8 diamonds.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			size: 0.9d,
+			id: 420,
+			tasks: [{
+				id: 421,
+				type: "item",
+				item: "mekanism:enriched_diamond"
+			}],
+			rewards: [{
+				id: 822,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.5d,
+			subtitle: "Create Enriched Obsidian",
+			description: [
+				"Enriched Obsidian is used in the Metallurgic Infuser.",
+				" ",
+				"Enriched Obsidian yields 80 units of obsidian in the Metallurgic Infuser, the same as 8 Refined Obsidian Dust.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				614,
+				574
+			],
+			size: 0.9d,
+			id: 422,
+			tasks: [{
+				id: 423,
+				type: "item",
+				item: "mekanism:enriched_refined_obsidian"
+			}],
+			rewards: [{
+				id: 823,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			subtitle: "Create Enriched Tin",
+			description: [
+				"Enriched Tin is used in the Metallurgic Infuser.",
+				" ",
+				"Enriched Tin yields 80 units of tin in the Metallurgic Infuser, the same as 8 Tin Dust.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			size: 0.9d,
+			optional: true,
+			id: 424,
+			tasks: [{
+				id: 425,
+				type: "item",
+				item: "mekanism:enriched_tin"
+			}],
+			rewards: [{
+				id: 824,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "Craft a Basic Fluid Tank",
+			description: [
+				"The Basic Fluid Tank can hold up to 14000mB of fluids. It can double as a bucket by switching its mode to bucket mode.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 426,
+			tasks: [{
+				id: 427,
+				type: "item",
+				item: "mekanism:basic_fluid_tank"
+			}],
+			rewards: [{
+				id: 825,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -5.5d,
+			subtitle: "Craft an Advanced Fluid Tank",
+			description: [
+				"The Advanced Fluid Tank can hold up to 28000mB of fluids which is double the amount of the Basic Fluid Tank. It can double as a bucket by switching its mode to bucket mode.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				426,
+				402
+			],
+			id: 428,
+			tasks: [{
+				id: 429,
+				type: "item",
+				item: "mekanism:advanced_fluid_tank"
+			}],
+			rewards: [{
+				id: 826,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			subtitle: "Craft an Elite Fluid Tank",
+			description: [
+				"The Elite Fluid Tank is an upgraded version of the Advanced Fluid Tank that can hold 56000 mB of liquid. You can toggle its Bucket Mode on and off by shift-right clicking while holding it.",
+				" ",
+				"When Bucket Mode is on it can collect water and lava like a bucket. When Bucket Mode is off it can be placed like a block so you can attach Mechanical Pipe to it.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				428,
+				404
+			],
+			id: 430,
+			tasks: [{
+				id: 431,
+				type: "item",
+				item: "mekanism:elite_fluid_tank"
+			}],
+			rewards: [{
+				id: 827,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -3.5d,
+			subtitle: "Craft an Ultimate Fluid Tank",
+			description: [
+				"The Ultimate Fluid Tank is an upgraded version of the Elite Fluid Tank that can hold 112000 mB of liquid. You can toggle its Bucket Mode on and off by shift-right clicking while holding it.",
+				" ",
+				"When Bucket Mode is on it can collect water and lava like a bucket. When Bucket Mode is off it can be placed like a block so you can attach Mechanical Pipe to it.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				430,
+				406
+			],
+			id: 432,
+			tasks: [{
+				id: 433,
+				type: "item",
+				item: "mekanism:ultimate_fluid_tank"
+			}],
+			rewards: [{
+				id: 828,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -5.5d,
+			shape: "square",
+			subtitle: "Craft a Basic Energy Cube",
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				456,
+				636
+			],
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "mekanism:basic_energy_cube"
+			}],
+			rewards: [{
+				id: 829,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.5d,
+			subtitle: "Craft an Advanced Energy Cube",
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems.",
+				" ",
+				"&oAn upgraded version of the Basic Energy Cube.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				434,
+				402
+			],
+			id: 436,
+			tasks: [{
+				id: 437,
+				type: "item",
+				item: "mekanism:advanced_energy_cube"
+			}],
+			rewards: [{
+				id: 830,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.5d,
+			subtitle: "Craft an Elite Energy Cube",
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems.",
+				" ",
+				"&oAn upgraded version of the Advanced Energy Cube.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				436,
+				404
+			],
+			id: 438,
+			tasks: [{
+				id: 439,
+				type: "item",
+				item: "mekanism:elite_energy_cube"
+			}],
+			rewards: [{
+				id: 831,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			subtitle: "Craft an Ultimate Energy Cube",
+			description: [
+				"An Energy Cube is an advanced type of battery that is compatible with multiple energy systems.",
+				" ",
+				"&oAn upgraded version of the Elite Energy Cube.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				438,
+				406
+			],
+			id: 440,
+			tasks: [{
+				id: 441,
+				type: "item",
+				item: "mekanism:ultimate_energy_cube"
+			}],
+			rewards: [{
+				id: 832,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -7.5d,
+			shape: "circle",
+			subtitle: "Craft a Solar Generator",
+			description: [
+				"The Solar Generator harnesses sunlight to create power.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				456,
+				402
+			],
+			size: 0.85d,
+			id: 442,
+			tasks: [{
+				id: 443,
+				type: "item",
+				item: "mekanismgenerators:solar_generator"
+			}],
+			rewards: [{
+				id: 833,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -6.5d,
+			subtitle: "Craft an Advanced Solar Generator.",
+			description: [
+				"The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator.",
+				" ",
+				"Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller cousin.",
+				" ",
+				"It also requires an area of 3x3x3 Blocks in order to be placed.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;442],
+			size: 0.85d,
+			id: 444,
+			tasks: [{
+				id: 445,
+				type: "item",
+				item: "mekanismgenerators:advanced_solar_generator"
+			}],
+			rewards: [{
+				id: 834,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -5.5d,
+			shape: "circle",
+			subtitle: "Craft a Wind Generator",
+			description: [
+				"A Wind Turbine's giant blades harness the force of the wind to generate power. Each Wind Turbine requires a fairly large 1x1x5 area.",
+				" ",
+				"The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky (over the rotor housing at the top of the tower).",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				456,
+				408,
+				402
+			],
+			size: 0.85d,
+			id: 446,
+			tasks: [{
+				id: 447,
+				type: "item",
+				item: "mekanismgenerators:wind_generator"
+			}],
+			rewards: [{
+				id: 835,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -4.5d,
+			subtitle: "Craft a Flamethrower",
+			description: [
+				"The Flamethrower is a ranged weapon which uses Hydrogen gas as its fuel. It is fairly effective against mobs as it deals damage when they are directly hit with the stream and sets them on fire.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				470,
+				410
+			],
+			size: 0.85d,
+			optional: true,
+			id: 448,
+			tasks: [{
+				id: 449,
+				type: "item",
+				item: "mekanism:flamethrower"
+			}],
+			rewards: [{
+				id: 836,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.5d,
+			subtitle: "Craft an Atomic Disassembler",
+			description: [
+				"The Atomic Disassembler is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;406],
+			size: 0.85d,
+			optional: true,
+			id: 450,
+			tasks: [{
+				id: 451,
+				type: "item",
+				item: {
+					id: "mekanism:atomic_disassembler",
+					Count: true,
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}],
+			rewards: [{
+				id: 837,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.5d,
+			subtitle: "Craft an Electric Bow",
+			description: [
+				"The Electric Bow works like the vanilla Bow and shoots normal Arrows.",
+				" ",
+				"The difference is, that every shot doesn't damage, but discharges the bow. If the internal energy storage is empty, the bow doesn't work and needs to be recharged e.g. on a Basic Energy Cube.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				456,
+				402
+			],
+			size: 0.85d,
+			optional: true,
+			id: 452,
+			tasks: [{
+				id: 453,
+				type: "item",
+				item: "mekanism:electric_bow"
+			}],
+			rewards: [{
+				id: 838,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -7.5d,
+			subtitle: "Craft a pair of Free Runners",
+			description: [
+				"Free Runners are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing fall damage as long as they are charged.",
+				"",
+				"A fall will reduce the item's charge, depending on how far the fall was.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				456,
+				408,
+				402
+			],
+			size: 0.85d,
+			optional: true,
+			id: 454,
+			tasks: [{
+				id: 455,
+				type: "item",
+				item: "mekanism:free_runners"
+			}],
+			rewards: [{
+				id: 839,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			shape: "circle",
+			subtitle: "Craft an Energy Tablet",
+			description: [
+				"The Energy Tablet is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices.",
+				" ",
+				"It is also an ingredient in many recipes.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			id: 456,
+			tasks: [{
+				id: 457,
+				type: "item",
+				item: "mekanism:energy_tablet"
+			}],
+			rewards: [{
+				id: 840,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "Craft a Basic Bin",
+			description: [
+				"The Basic Bin is a storage block which can hold 4096 of a single item. It will retain its inventory when broken.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				402,
+				408
+			],
+			id: 462,
+			tasks: [{
+				id: 463,
+				type: "item",
+				item: "mekanism:basic_bin"
+			}],
+			rewards: [{
+				id: 841,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.5d,
+			subtitle: "Craft an Advanced Bin",
+			description: [
+				"The Advanced Bin is a storage block which can hold 8192 of a single item. It will retain its inventory when broken.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				462,
+				402,
+				410
+			],
+			id: 464,
+			tasks: [{
+				id: 465,
+				type: "item",
+				item: "mekanism:advanced_bin"
+			}],
+			rewards: [{
+				id: 842,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -4.5d,
+			subtitle: "Craft an Elite Bin",
+			description: [
+				"The Elite Bin is a storage block which can hold 32,768 of a single item. It will retain its inventory when broken.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				464,
+				404,
+				412
+			],
+			id: 466,
+			tasks: [{
+				id: 467,
+				type: "item",
+				item: "mekanism:elite_bin"
+			}],
+			rewards: [{
+				id: 843,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.5d,
+			subtitle: "Craft an Ultimate Bin",
+			description: [
+				"The Ultimate Bin is a storage block which can hold 262,144 of a single item. It will retain its inventory when broken.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				466,
+				406,
+				414
+			],
+			id: 468,
+			tasks: [{
+				id: 469,
+				type: "item",
+				item: "mekanism:ultimate_bin"
+			}],
+			rewards: [{
+				id: 844,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "Craft a Basic Chemical Tank",
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 470,
+			tasks: [{
+				id: 4081,
+				type: "item",
+				item: "mekanism:basic_chemical_tank"
+			}],
+			rewards: [{
+				id: 845,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.5d,
+			subtitle: "Craft an Advanced Chemical Tank",
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				470,
+				402
+			],
+			id: 472,
+			tasks: [{
+				id: 4082,
+				type: "item",
+				item: "mekanism:advanced_chemical_tank"
+			}],
+			rewards: [{
+				id: 846,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.5d,
+			subtitle: "Craft an Elite Chemical Tank",
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				472,
+				404
+			],
+			id: 474,
+			tasks: [{
+				id: 10,
+				type: "item",
+				item: "mekanism:elite_chemical_tank"
+			}],
+			rewards: [{
+				id: 847,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			subtitle: "Craft an Ultimate Chemical Tank",
+			description: [
+				"Chemical Tanks are Mekanisms batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				474,
+				406
+			],
+			id: 476,
+			tasks: [{
+				id: 4083,
+				type: "item",
+				item: "mekanism:ultimate_chemical_tank"
+			}],
+			rewards: [{
+				id: 848,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Basic Universal Cable",
+			x: -0.5d,
+			y: -6.5d,
+			shape: "square",
+			subtitle: "Craft x8 Basic Universal Cables",
+			description: [
+				"Universal Cables are Mekanism's way to transfer power.",
+				" ",
+				"Capacity: 1.28 kFE/t",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 480,
+			tasks: [{
+				id: 481,
+				type: "item",
+				item: {
+					id: "mekanism:basic_universal_cable",
+					Count: 8b
+				}
+			}],
+			rewards: [{
+				id: 849,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Advanced Universal Cable",
+			x: -0.5d,
+			y: -5.5d,
+			subtitle: "Craft x8 Advanced Universal Cables",
+			description: [
+				"Universal Cables are Mekanism's way to transfer power.",
+				" ",
+				"Capacity: 5.12 kFE/t",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				480,
+				402
+			],
+			id: 482,
+			tasks: [{
+				id: 483,
+				type: "item",
+				item: {
+					id: "mekanism:advanced_universal_cable",
+					Count: 8b
+				}
+			}],
+			rewards: [{
+				id: 850,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Elite Universal Cable",
+			x: -0.5d,
+			y: -4.5d,
+			subtitle: "Craft x8 Elite Universal Cables",
+			description: [
+				"Universal Cables are Mekanism's way to transfer power.",
+				" ",
+				"Capacity: 25.60 kFE/t",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				482,
+				404
+			],
+			id: 484,
+			tasks: [{
+				id: 485,
+				type: "item",
+				item: {
+					id: "mekanism:elite_universal_cable",
+					Count: 8b
+				}
+			}],
+			rewards: [{
+				id: 851,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Ultimate Universal Cable",
+			x: -0.5d,
+			y: -3.5d,
+			subtitle: "Craft x8 Ultimate Universal Cables",
+			description: [
+				"Universal Cables are Mekanism's way to transfer power.",
+				" ",
+				"Capacity: 128 kFE/t",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				484,
+				406
+			],
+			id: 486,
+			tasks: [{
+				id: 487,
+				type: "item",
+				item: {
+					id: "mekanism:ultimate_universal_cable",
+					Count: 8b
+				}
+			}],
+			rewards: [{
+				id: 852,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Speed Upgrade",
+			description: [
+				"A Mekanism machine upgrade to make them process items faster each Mekanism machine can store 8 of these upgrades.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 488,
+			tasks: [{
+				id: 489,
+				type: "item",
+				item: "mekanism:upgrade_speed"
+			}],
+			rewards: [{
+				id: 853,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			shape: "rsquare",
+			subtitle: "Craft an Energy Upgrade",
+			description: [
+				"The energy upgrade upgrade allows you to increase the power storage capacity of a Mekanism machine which has an upgrade slot, as well as reduce its power consumption.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 490,
+			tasks: [{
+				id: 491,
+				type: "item",
+				item: "mekanism:upgrade_energy"
+			}],
+			rewards: [{
+				id: 854,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Filter Upgrade",
+			description: [
+				"The Filter Upgrade is an upgrade that, when used in the Electric Pump, allows the Electric Pump to produce Heavy Water.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 492,
+			tasks: [{
+				id: 493,
+				type: "item",
+				item: "mekanism:upgrade_filter"
+			}],
+			rewards: [{
+				id: 855,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Muffling Upgrade",
+			description: [
+				"A Mekanism machine upgrade to make them process a bit quiet . Install full 4 upgrades to completely muff the machines noises.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 494,
+			tasks: [{
+				id: 495,
+				type: "item",
+				item: "mekanism:upgrade_muffling"
+			}],
+			rewards: [{
+				id: 856,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Gas Upgrade",
+			description: [
+				"The gas upgrade allows you to increase the gas usage efficiency of a Mekanism machine which allows it.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 496,
+			tasks: [{
+				id: 497,
+				type: "item",
+				item: "mekanism:upgrade_gas"
+			}],
+			rewards: [{
+				id: 857,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			shape: "rsquare",
+			subtitle: "Craft an Anchor Upgrade",
+			description: [
+				"The Anchor Upgrade is a machine upgrade which keeps the chunk of the machine to which it is applied loaded. This is helpful for machines like the Digital Miner and Teleporter Portal which must be in loaded chunks to function properly.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			size: 0.75d,
+			optional: true,
+			id: 498,
+			tasks: [{
+				id: 499,
+				type: "item",
+				item: "mekanism:upgrade_anchor"
+			}],
+			rewards: [{
+				id: 858,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 0.0d,
+			shape: "circle",
+			subtitle: "Craft a Basic Smelting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;586],
+			id: 502,
+			tasks: [{
+				id: 503,
+				type: "item",
+				item: "mekanism:basic_smelting_factory"
+			}],
+			rewards: [{
+				id: 859,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			shape: "circle",
+			subtitle: "Craft a Basic Enriching Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			id: 504,
+			tasks: [{
+				id: 505,
+				type: "item",
+				item: "mekanism:basic_enriching_factory"
+			}],
+			rewards: [{
+				id: 860,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.0d,
+			shape: "circle",
+			subtitle: "Craft a Basic Crushing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;580],
+			id: 506,
+			tasks: [{
+				id: 507,
+				type: "item",
+				item: "mekanism:basic_crushing_factory"
+			}],
+			rewards: [{
+				id: 861,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 5.5d,
+			shape: "circle",
+			subtitle: "Craft a Basic Compressing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;616],
+			id: 508,
+			tasks: [{
+				id: 509,
+				type: "item",
+				item: "mekanism:basic_compressing_factory"
+			}],
+			rewards: [{
+				id: 862,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 0.0d,
+			subtitle: "Craft a Basic Combining Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;578],
+			id: 510,
+			tasks: [{
+				id: 511,
+				type: "item",
+				item: "mekanism:basic_combining_factory"
+			}],
+			rewards: [{
+				id: 863,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.5d,
+			shape: "circle",
+			subtitle: "Craft a Basic Purifying Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;584],
+			id: 512,
+			tasks: [{
+				id: 513,
+				type: "item",
+				item: "mekanism:basic_purifying_factory"
+			}],
+			rewards: [{
+				id: 864,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.0d,
+			shape: "circle",
+			subtitle: "Craft a Basic Injecting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;634],
+			id: 514,
+			tasks: [{
+				id: 515,
+				type: "item",
+				item: "mekanism:basic_injecting_factory"
+			}],
+			rewards: [{
+				id: 865,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			shape: "circle",
+			subtitle: "Craft a Basic Infusion Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;582],
+			optional: true,
+			id: 516,
+			tasks: [{
+				id: 517,
+				type: "item",
+				item: "mekanism:basic_infusing_factory"
+			}],
+			rewards: [{
+				id: 866,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.0d,
+			shape: "circle",
+			subtitle: "Craft a Basic Sawing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;598],
+			id: 518,
+			tasks: [{
+				id: 519,
+				type: "item",
+				item: "mekanism:basic_sawing_factory"
+			}],
+			rewards: [{
+				id: 867,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 1.0d,
+			subtitle: "Craft an Advanced Smelting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;502],
+			id: 520,
+			tasks: [{
+				id: 521,
+				type: "item",
+				item: "mekanism:advanced_smelting_factory"
+			}],
+			rewards: [{
+				id: 868,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			subtitle: "Craft an Advanced Enriching Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;504],
+			id: 522,
+			tasks: [{
+				id: 523,
+				type: "item",
+				item: "mekanism:advanced_enriching_factory"
+			}],
+			rewards: [{
+				id: 869,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 1.0d,
+			subtitle: "Craft an Advanced Crushing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;506],
+			id: 524,
+			tasks: [{
+				id: 525,
+				type: "item",
+				item: "mekanism:advanced_crushing_factory"
+			}],
+			rewards: [{
+				id: 870,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 6.5d,
+			subtitle: "Craft an Advanced Compressing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;508],
+			id: 526,
+			tasks: [{
+				id: 527,
+				type: "item",
+				item: "mekanism:advanced_compressing_factory"
+			}],
+			rewards: [{
+				id: 871,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 1.0d,
+			subtitle: "Craft an Advanced Combining Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;510],
+			id: 528,
+			tasks: [{
+				id: 529,
+				type: "item",
+				item: "mekanism:advanced_combining_factory"
+			}],
+			rewards: [{
+				id: 872,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.5d,
+			subtitle: "Craft an Advanced Purifying Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;512],
+			id: 530,
+			tasks: [{
+				id: 531,
+				type: "item",
+				item: "mekanism:advanced_purifying_factory"
+			}],
+			rewards: [{
+				id: 873,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -3.0d,
+			subtitle: "Craft an Advanced Injecting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;514],
+			id: 532,
+			tasks: [{
+				id: 533,
+				type: "item",
+				item: "mekanism:advanced_injecting_factory"
+			}],
+			rewards: [{
+				id: 874,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			subtitle: "Craft an Advanced Infusion Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;516],
+			id: 534,
+			tasks: [{
+				id: 535,
+				type: "item",
+				item: "mekanism:advanced_infusing_factory"
+			}],
+			rewards: [{
+				id: 875,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.0d,
+			subtitle: "Craft an Advanced Sawing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;518],
+			id: 536,
+			tasks: [{
+				id: 537,
+				type: "item",
+				item: "mekanism:advanced_sawing_factory"
+			}],
+			rewards: [{
+				id: 876,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 2.0d,
+			subtitle: "Craft an Elite Smelting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;520],
+			id: 538,
+			tasks: [{
+				id: 539,
+				type: "item",
+				item: "mekanism:elite_smelting_factory"
+			}],
+			rewards: [{
+				id: 877,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.5d,
+			subtitle: "Craft an Elite Enriching Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;522],
+			id: 540,
+			tasks: [{
+				id: 541,
+				type: "item",
+				item: "mekanism:elite_enriching_factory"
+			}],
+			rewards: [{
+				id: 878,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 2.0d,
+			subtitle: "Craft an Elite Crushing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;524],
+			id: 542,
+			tasks: [{
+				id: 543,
+				type: "item",
+				item: "mekanism:elite_crushing_factory"
+			}],
+			rewards: [{
+				id: 879,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 7.5d,
+			subtitle: "Craft an Elite Compressing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;526],
+			id: 544,
+			tasks: [{
+				id: 545,
+				type: "item",
+				item: "mekanism:elite_compressing_factory"
+			}],
+			rewards: [{
+				id: 880,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 2.0d,
+			subtitle: "Craft an Elite Combining Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;528],
+			id: 546,
+			tasks: [{
+				id: 547,
+				type: "item",
+				item: "mekanism:elite_combining_factory"
+			}],
+			rewards: [{
+				id: 881,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -3.5d,
+			subtitle: "Craft an Elite Purifying Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;530],
+			id: 548,
+			tasks: [{
+				id: 549,
+				type: "item",
+				item: "mekanism:elite_purifying_factory"
+			}],
+			rewards: [{
+				id: 882,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -4.0d,
+			subtitle: "Craft an Elite Injecting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;532],
+			id: 550,
+			tasks: [{
+				id: 551,
+				type: "item",
+				item: "mekanism:elite_injecting_factory"
+			}],
+			rewards: [{
+				id: 883,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			subtitle: "Craft an Elite Infusion Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;534],
+			id: 552,
+			tasks: [{
+				id: 553,
+				type: "item",
+				item: "mekanism:elite_infusing_factory"
+			}],
+			rewards: [{
+				id: 884,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			subtitle: "Craft an Elite Sawing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;536],
+			id: 554,
+			tasks: [{
+				id: 555,
+				type: "item",
+				item: "mekanism:elite_sawing_factory"
+			}],
+			rewards: [{
+				id: 885,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: 3.0d,
+			subtitle: "Craft an Ultimate Smelting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;538],
+			id: 556,
+			tasks: [{
+				id: 557,
+				type: "item",
+				item: "mekanism:ultimate_smelting_factory"
+			}],
+			rewards: [{
+				id: 886,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.5d,
+			subtitle: "Craft an Ultimate Enriching Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;540],
+			id: 558,
+			tasks: [{
+				id: 559,
+				type: "item",
+				item: "mekanism:ultimate_enriching_factory"
+			}],
+			rewards: [{
+				id: 887,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 3.0d,
+			subtitle: "Craft an Ultimate Crushing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;542],
+			id: 560,
+			tasks: [{
+				id: 561,
+				type: "item",
+				item: "mekanism:ultimate_crushing_factory"
+			}],
+			rewards: [{
+				id: 888,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 8.5d,
+			subtitle: "Craft an Ultimate Compressing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;544],
+			id: 562,
+			tasks: [{
+				id: 563,
+				type: "item",
+				item: "mekanism:ultimate_compressing_factory"
+			}],
+			rewards: [{
+				id: 889,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 3.0d,
+			subtitle: "Craft an Ultimate Combining Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;546],
+			id: 564,
+			tasks: [{
+				id: 565,
+				type: "item",
+				item: "mekanism:ultimate_combining_factory"
+			}],
+			rewards: [{
+				id: 890,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -4.5d,
+			subtitle: "Craft an Ultimate Purifying Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;548],
+			id: 566,
+			tasks: [{
+				id: 567,
+				type: "item",
+				item: "mekanism:ultimate_purifying_factory"
+			}],
+			rewards: [{
+				id: 891,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -5.0d,
+			subtitle: "Craft an Ultimate Injecting Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;550],
+			id: 568,
+			tasks: [{
+				id: 569,
+				type: "item",
+				item: "mekanism:ultimate_injecting_factory"
+			}],
+			rewards: [{
+				id: 892,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			subtitle: "Craft an Ultimate Infusion Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;552],
+			id: 570,
+			tasks: [{
+				id: 571,
+				type: "item",
+				item: "mekanism:ultimate_infusing_factory"
+			}],
+			rewards: [{
+				id: 893,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 3.0d,
+			subtitle: "Craft an Ultimate Sawing Factory",
+			description: [
+				"Factories are advanced forms of the basic machines aimed to assist in large scale resource processing",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;554],
+			id: 572,
+			tasks: [{
+				id: 573,
+				type: "item",
+				item: "mekanism:ultimate_sawing_factory"
+			}],
+			rewards: [{
+				id: 894,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "Craft an Enrichment Chamber",
+			description: [
+				"This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				636,
+				408
+			],
+			id: 574,
+			tasks: [{
+				id: 575,
+				type: "item",
+				item: "mekanism:enrichment_chamber"
+			}],
+			rewards: [{
+				id: 895,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Craft a Combiner",
+			description: [
+				"The Combiner allows the player to create an ore block from 8 dust. Place the ore dust in the top slot, and some cobblestone in the bottom slot, and it will combine to make the ore block.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;636],
+			id: 578,
+			tasks: [{
+				id: 579,
+				type: "item",
+				item: "mekanism:combiner"
+			}],
+			rewards: [{
+				id: 896,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Craft a Crusher",
+			description: [
+				"The Crusher crushes, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;636],
+			id: 580,
+			tasks: [{
+				id: 581,
+				type: "item",
+				item: "mekanism:crusher"
+			}],
+			rewards: [{
+				id: 897,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "Craft a Metallurgic Infuser",
+			description: [
+				"The Metallurgic Infuser is the first step in the Mekanism tech tree.",
+				" ",
+				"It's a machine used in the production of Steel Ingots, Bronze Ingot, Enriched Alloy, and Obsidian Ingots.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 582,
+			tasks: [{
+				id: 583,
+				type: "item",
+				item: "mekanism:metallurgic_infuser"
+			}],
+			rewards: [{
+				id: 898,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -0.5d,
+			shape: "square",
+			subtitle: "Craft a Purification Chamber",
+			description: [
+				"The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			id: 584,
+			tasks: [{
+				id: 585,
+				type: "item",
+				item: "mekanism:purification_chamber"
+			}],
+			rewards: [{
+				id: 899,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Craft an Energized Smelter",
+			description: [
+				"The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;636],
+			id: 586,
+			tasks: [{
+				id: 587,
+				type: "item",
+				item: "mekanism:energized_smelter"
+			}],
+			rewards: [{
+				id: 900,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -10.0d,
+			description: [
+				'The Rotary Condensentrator (pronounced "con-DEN-sen-traitor") is used for converting substances between liquid and gaseous forms at a rate of 1:1.',
+				" ",
+				"It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				470,
+				456,
+				426
+			],
+			id: 588,
+			tasks: [{
+				id: 589,
+				type: "item",
+				item: "mekanism:rotary_condensentrator"
+			}],
+			rewards: [{
+				id: 901,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -9.0d,
+			subtitle: "Craft a Chemical Oxidizer",
+			description: [
+				"The Chemical Oxidizer is used for making gases from materials. It's left side accepts incoming materials, while it's right side dispenses the gas created from those materials.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;470],
+			id: 590,
+			tasks: [{
+				id: 591,
+				type: "item",
+				item: "mekanism:chemical_oxidizer"
+			}],
+			rewards: [{
+				id: 902,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -10.0d,
+			subtitle: "Craft a Chemical Infuser",
+			description: [
+				"The Chemical Infuser combines or reacts two gases to create another gas.",
+				"",
+				"The gas gauges on the left and right side of its GUI are the input tanks, and correspond to correspond with the left and right sides of the machine.",
+				" ",
+				"The gauge in the middle is for the resulting gas, which likewise is output through the front of the machine.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				636,
+				470
+			],
+			id: 592,
+			tasks: [{
+				id: 593,
+				type: "item",
+				item: "mekanism:chemical_infuser"
+			}],
+			rewards: [{
+				id: 903,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -9.0d,
+			subtitle: "Craft an Electrolytic Separator",
+			description: [
+				"The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;402],
+			id: 596,
+			tasks: [{
+				id: 597,
+				type: "item",
+				item: "mekanism:electrolytic_separator"
+			}],
+			rewards: [{
+				id: 904,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Craft a Precision Sawmill",
+			description: [
+				"The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). Also makes sawdust for use in making Cardboard Box.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;636],
+			id: 598,
+			tasks: [{
+				id: 599,
+				type: "item",
+				item: "mekanism:precision_sawmill"
+			}],
+			rewards: [{
+				id: 905,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -10.0d,
+			subtitle: "Craft a Chemical Dissolution Chamber",
+			description: [
+				"The Chemical Dissolution Chamber is the first machine in the x5 ore processing setup.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;470],
+			id: 600,
+			tasks: [{
+				id: 601,
+				type: "item",
+				item: "mekanism:chemical_dissolution_chamber"
+			}],
+			rewards: [{
+				id: 906,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -8.0d,
+			subtitle: "Craft a Chemical Washer",
+			description: [
+				"The Chemical Washer turns Slurry into Clean Slurry using Water. The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer.",
+				" ",
+				'Note that unlike most Mekanism machines this one has fixed "in" and "out" sides for the mineral flow. "In" will be on the left when first placed and "out" is on the right.',
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				636,
+				470
+			],
+			id: 602,
+			tasks: [{
+				id: 603,
+				type: "item",
+				item: "mekanism:chemical_washer"
+			}],
+			rewards: [{
+				id: 907,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -9.0d,
+			subtitle: "Craft a Chemical Crystallizer",
+			description: [
+				"The Chemical Crystallizer turns Clean Slurry into Crystals and lithium into lithium dust.",
+				"",
+				"This is one of the select many machines in Mekanism to have dedicated, unchangeable sides for input and output.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				636,
+				470
+			],
+			id: 604,
+			tasks: [{
+				id: 605,
+				type: "item",
+				item: "mekanism:chemical_crystallizer"
+			}],
+			rewards: [{
+				id: 908,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -8.0d,
+			subtitle: "Craft a Pressurized Reaction Chamber",
+			description: [
+				"The Pressurized Reaction Chamber (PRC) is used primarily to create Substrate (to create HDPE Pellets), HDPE Pellets (to create HDPE Sheets), and Ethylene (an efficient source of fuel used in the Gas-Burning Generator).",
+				" ",
+				"It has a variable speed and energy usage dependent on the materials/gasses it is creating.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				574,
+				470
+			],
+			id: 606,
+			tasks: [{
+				id: 607,
+				type: "item",
+				item: "mekanism:pressurized_reaction_chamber"
+			}],
+			rewards: [{
+				id: 909,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			subtitle: "Obtain some Obsidian Dust",
+			description: [
+				"Achieved by enriching Obsidian in the Enrichment Chamber.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;574],
+			size: 0.9d,
+			id: 612,
+			tasks: [{
+				id: 674,
+				type: "item",
+				item: "mekanism:dust_obsidian"
+			}],
+			rewards: [{
+				id: 910,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 3.5d,
+			subtitle: "Craft Refined Obsidian Dust",
+			description: [
+				"Crafted by infusing Obsidian Dust with Diamond Dust or Compressed Diamond in the Metallurgic Infuser.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				612,
+				582
+			],
+			size: 0.9d,
+			id: 614,
+			tasks: [{
+				id: 615,
+				type: "item",
+				item: "mekanism:dust_refined_obsidian"
+			}],
+			rewards: [{
+				id: 911,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 4.5d,
+			shape: "square",
+			subtitle: "Create an Osmium Compressor",
+			description: [
+				"The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust.",
+				"",
+				"It fuses liquid Osmium (melted down Osmium Ingots placed in the machine's bottom slot) with the originating materials to create their corresponding ingots.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				614,
+				410,
+				636
+			],
+			id: 616,
+			tasks: [{
+				id: 617,
+				type: "item",
+				item: "mekanism:osmium_compressor"
+			}],
+			rewards: [{
+				id: 912,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 5.0d,
+			subtitle: "Create Refined Obsidian Ingot(s)",
+			description: [
+				"The Refined Obsidian Ingot is an ingot created by placing Refined Obsidian Dust into an Osmium Compressor fueled with Liquid Osmium (from Osmium Ingots).",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;616],
+			id: 620,
+			tasks: [{
+				id: 621,
+				type: "item",
+				item: "mekanism:ingot_refined_obsidian"
+			}],
+			rewards: [{
+				id: 913,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.0d,
+			subtitle: "Craft the Digital Miner",
+			description: [
+				'The Digital Miner is the scale mining machine of Mekanism. However, this machine is like no other as it "magically-teleports" mined blocks to its inventory.',
+				" ",
+				"&7Reward: 2x Loot Bag"
+			],
+			dependencies: [I;
+				626,
+				628
+			],
+			id: 622,
+			tasks: [{
+				id: 623,
+				type: "item",
+				item: "mekanism:digital_miner"
+			}],
+			rewards: [{
+				id: 914,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 7.0d,
+			subtitle: "Craft the Quantum Entangloporter",
+			description: [
+				"The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel.",
+				" ",
+				"The Quantum Entangloporter is similar to the Tesseract from earlier versions of Thermal Expansion, but the Quantum Entangloporter can send and receive gasses while the Tesseract cannot.",
+				" ",
+				"&7Reward: 2x Loot Bag"
+			],
+			dependencies: [I;
+				626,
+				414
+			],
+			id: 624,
+			tasks: [{
+				id: 625,
+				type: "item",
+				item: "mekanism:quantum_entangloporter"
+			}],
+			rewards: [{
+				id: 915,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.0d,
+			subtitle: "Craft a Teleportation Core",
+			description: [
+				"The Teleportation Core is a Crafting Component used in the crafting of the Portable Teleporter, the Teleporter and the Digital Miner.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;406],
+			id: 626,
+			tasks: [{
+				id: 627,
+				type: "item",
+				item: "mekanism:teleportation_core"
+			}],
+			rewards: [{
+				id: 916,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 6.0d,
+			subtitle: "Craft a Robit",
+			description: [
+				"Robit is Mekanism's mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				620,
+				406
+			],
+			id: 628,
+			tasks: [{
+				id: 629,
+				type: "item",
+				item: "mekanism:robit"
+			}],
+			rewards: [{
+				id: 917,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.0d,
+			shape: "square",
+			subtitle: "Craft a Chemical Injection Chamber",
+			description: [
+				"The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards. It is the start of x4 ore processing and requires a steady supply of Hydrogen Chloride, which in turn requires the player to have a Thermal Evaporation Plant runnin",
+				" ",
+				"It can also turn Water Vapor and Dirt into Clay. Like most Mekanism machines, the Chemical Injection Chamber has a Factory block of itself.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;584],
+			id: 634,
+			tasks: [{
+				id: 635,
+				type: "item",
+				item: "mekanism:chemical_injection_chamber"
+			}],
+			rewards: [{
+				id: 918,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -1.0d,
+			shape: "gear",
+			subtitle: "Craft a Steel Casing",
+			description: [
+				"Steel Casing is a block used in the crafting recipe of most Mekanism machines.",
+				" ",
+				"The Steel Ingots for this quest can be acquired in the Blast Furnace from Immersive Engineering.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.5d,
+			id: 636,
+			tasks: [{
+				id: 637,
+				type: "item",
+				item: "mekanism:steel_casing"
+			}],
+			rewards: [{
+				id: 919,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 1.5d,
+			subtitle: "Create Enriched Iron",
+			description: [
+				"Crafted by the Metallurgic Infuser this is the basis from which Steel Dust can be attained by reprocessing it in the Metallurgic Infuser.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				416,
+				582
+			],
+			size: 0.9d,
+			id: 638,
+			tasks: [{
+				id: 639,
+				type: "item",
+				item: "mekanism:enriched_iron"
+			}],
+			rewards: [{
+				id: 920,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Steel Dust",
+			x: 8.0d,
+			y: 1.5d,
+			subtitle: "Craft Steel Dust",
+			description: [
+				"Steel Dust is produced by infusing an iron ingot with 10 units of carbon (producing Enriched Iron) and then infusing that with a further 10 units of Carbon.",
+				" ",
+				"(Carbon = Coal, Charcoal or Refined Carbon)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;638],
+			size: 0.9d,
+			id: 640,
+			tasks: [{
+				id: 664,
+				type: "item",
+				item: "silents_mechanisms:steel_dust"
+			}],
+			rewards: [{
+				id: 4084,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Steel Ingot",
+			x: 9.0d,
+			y: 1.0d,
+			subtitle: "Create Steel Ingot(s)",
+			description: [
+				"A Steel Ingot is created by smelting Steel Dust in any type of furnace.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;640],
+			id: 642,
+			tasks: [{
+				id: 643,
+				type: "item",
+				title: "Any Steel Ingot",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}],
+			rewards: [{
+				id: 922,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -6.5d,
+			subtitle: "Craft a Chargepad",
+			description: [
+				"The Chargepad is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;456],
+			size: 0.85d,
+			optional: true,
+			id: 644,
+			tasks: [{
+				id: 645,
+				type: "item",
+				item: "mekanism:chargepad"
+			}],
+			rewards: [{
+				id: 923,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 7.0d,
+			subtitle: "Craft the Teleporter Compontents",
+			description: [
+				"The Teleporter Portal is a multi-block structure that allows the player to teleport between Teleporters on the same frequency.",
+				" ",
+				"Read more about it on the Wiki:",
+				"https://wiki.aidancbrady.com/wiki/Teleporter_Portal",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				626,
+				661,
+				620
+			],
+			id: 658,
+			tasks: [
+				{
+					id: 659,
+					type: "item",
+					item: "mekanism:teleporter"
+				},
+				{
+					id: 660,
+					type: "item",
+					item: "mekanism:teleporter_frame",
+					count: 9L
+				}
+			],
+			rewards: [{
+				id: 924,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.0d,
+			subtitle: "Create Glowstone Ingot(s)",
+			description: [
+				"Glowstone Ingots are made by putting Glowstone in a powered Osmium Compressor with Glowstone in the top and Osmium Ingots in the bottom.",
+				" ",
+				"Glowstone Ingots can be used for making Glowstone Armor, Refined Glowstone blocks and Teleporter Frames.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;616],
+			id: 661,
+			tasks: [{
+				id: 662,
+				type: "item",
+				item: "mekanism:ingot_refined_glowstone"
+			}],
+			rewards: [{
+				id: 925,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Basic Tier Installer",
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine",
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;582],
+			size: 0.85d,
+			id: 665,
+			tasks: [{
+				id: 666,
+				type: "item",
+				item: "mekanism:basic_tier_installer"
+			}],
+			rewards: [{
+				id: 926,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			shape: "rsquare",
+			subtitle: "Craft an Advanced Tier Installer",
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine",
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				665,
+				410,
+				402
+			],
+			size: 0.85d,
+			id: 667,
+			tasks: [{
+				id: 668,
+				type: "item",
+				item: "mekanism:advanced_tier_installer"
+			}],
+			rewards: [{
+				id: 927,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.5d,
+			shape: "rsquare",
+			subtitle: "Craft an Elite Tier Installer",
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine",
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				667,
+				412,
+				404
+			],
+			size: 0.85d,
+			id: 669,
+			tasks: [{
+				id: 670,
+				type: "item",
+				item: "mekanism:elite_tier_installer"
+			}],
+			rewards: [{
+				id: 928,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 4.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Ultimate Tier Installer",
+			description: [
+				"Tier Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the Tier Installer and it will upgrade that machine",
+				"- its level (Basic, Advanced, or Elite) depending on the level of the Tier Installer used.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				669,
+				414
+			],
+			size: 0.85d,
+			id: 671,
+			tasks: [{
+				id: 672,
+				type: "item",
+				item: "mekanism:ultimate_tier_installer"
+			}],
+			rewards: [{
+				id: 929,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

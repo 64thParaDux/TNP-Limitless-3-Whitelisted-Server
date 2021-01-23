@@ -1,0 +1,1019 @@
+{
+	id: 1351,
+	filename: "immersiveengineering",
+	order_index: 10,
+	title: "Immersive Engineering",
+	icon: {
+		id: "immersiveengineering:hammer",
+		Count: true,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 1.0d,
+			y: -2.5d,
+			shape: "diamond",
+			subtitle: "The Engineer's Screwdriver is a common item in your toolbox, which you'll need to do precise configuration on certain pieces of machinery.",
+			description: ["&7Reward: 5 EXP Levels"],
+			optional: true,
+			id: 1358,
+			tasks: [{
+				id: 1359,
+				type: "item",
+				item: "immersiveengineering:screwdriver"
+			}],
+			rewards: [{
+				id: 2241,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			title: "Coke Oven",
+			x: -3.0d,
+			y: -2.5d,
+			shape: "rsquare",
+			subtitle: "x27 Coke Bricks are needed to form the Coke Oven. Simply place down the bricks in a 3x3x3 cube. Then right click the cube with the Engineer's Hammer.",
+			description: [
+				"The Coke Oven is a slow one, so I would recommend for the early game to have at least 2 or 3 Coke Ovens in order to get stocked up on Coal Coke.",
+				" ",
+				"1 Piece of Coal will produce 500mb of Creosote Oil, whilst a Log will only produce 250mb.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1360,
+			tasks: [{
+				id: 1361,
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: 2202,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Blast Furnace",
+			x: -4.5d,
+			y: -4.0d,
+			shape: "rsquare",
+			subtitle: "x27 Blast Bricks are needed to form the Blast Furnace. Simply place down the bricks in a 3x3x3 cube. Then right click the cube with the Engineer's Hammer.",
+			description: [
+				"The Blast Furnace will also produce Slag as a by-product.",
+				" ",
+				"Slag can be used in a Crusher to get Sand. Or used to create Concrete & some other building blocks.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1362,
+			tasks: [{
+				id: 1363,
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 27L
+			}],
+			rewards: [{
+				id: 2203,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.7d,
+			y: -4.05d,
+			shape: "gear",
+			subtitle: "Craft the Engineer's Hammer.",
+			description: [
+				"The Engineer's Hammer is the most important tool at your disposal. It'll be used to form multiblocks like the Coke Oven and Blast Furnace.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.35d,
+			id: 1364,
+			tasks: [{
+				id: 1365,
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2204,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.0d,
+			shape: "pentagon",
+			subtitle: "Industrial Hemp, useful for the creation of Biodiesel, the hemp fibers are also used for the creation of Tough Fabric.",
+			description: [
+				"The Industrial Hemp Seeds can be obtained by breaking Tall Grass.",
+				" ",
+				"By using x3 Industrial Hemp Fibers in a crafting table they can be converted into 1 piece of string.",
+				" ",
+				"Alternatively these seeds can be obtained by using x4 DruidCraft 'Hemp Seeds' in a crafting table or inventory crafting grid. (2x2) - The Hemp Seeds from Druidcraft are obtained by breaking Tall or Short grass.",
+				"",
+				"&7Reward: 5 EXP Levels"
+			],
+			id: 1366,
+			tasks: [
+				{
+					id: 1367,
+					type: "item",
+					item: "immersiveengineering:hemp_fiber"
+				},
+				{
+					id: 1368,
+					type: "item",
+					item: "immersiveengineering:seed"
+				}
+			],
+			rewards: [{
+				id: 2240,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -4.0d,
+			subtitle: "Tough Fabric is used in the creation of the Improved Windmill Blade & Insulated Cables.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1366],
+			id: 1369,
+			tasks: [{
+				id: 1370,
+				type: "item",
+				item: "immersiveengineering:hemp_fabric"
+			}],
+			rewards: [{
+				id: 2205,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Steel Ingot",
+			x: -4.5d,
+			y: -3.0d,
+			subtitle: "Steel is produced by putting Iron Ingots into the Blast Furnace. And by using Charcoal / Coal Coke as fuel.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1362],
+			id: 1371,
+			tasks: [{
+				id: 1372,
+				type: "item",
+				title: "Any forge:ingots/steel",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}],
+			rewards: [{
+				id: 2206,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			subtitle: "The item Windmill Sail can be used on a Windmill by right-clicking with the item in hand on the Windmill.",
+			description: [
+				"A total of x8 Windmill Sails are required to max out a Windmill.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1369],
+			id: 1373,
+			tasks: [{
+				id: 1374,
+				type: "item",
+				item: "immersiveengineering:windmill_sail"
+			}],
+			rewards: [{
+				id: 2207,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			subtitle: "Acquire a bucket of Creosote Oil",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1360],
+			id: 1375,
+			tasks: [{
+				id: 1376,
+				type: "item",
+				item: "immersiveengineering:creosote_bucket"
+			}],
+			rewards: [{
+				id: 2208,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Treated Wood Planks",
+			x: -3.0d,
+			y: 0.5d,
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1375],
+			id: 1377,
+			tasks: [{
+				id: 1378,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2209,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.0d,
+			subtitle: "Windmill Blades are used to create the Windmill. x8 of them are needed for each Windmill.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1381,
+			tasks: [{
+				id: 1382,
+				type: "item",
+				item: "immersiveengineering:windmill_blade",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2210,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			subtitle: "The Windmill is able to produce a pretty decent amount of FE. The amount of FE produced depends on what altitude the Windmill is located at, and if it's raining or not.",
+			description: [
+				"The power generation can be increased by using Windmill Sails on the Windmill.",
+				" ",
+				"x8 Windmills Sails are needed for maximum power.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1381],
+			id: 1383,
+			tasks: [{
+				id: 1384,
+				type: "item",
+				item: "immersiveengineering:windmill"
+			}],
+			rewards: [{
+				id: 2211,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			subtitle: "Waterwheel Segments are used to create the Water Wheel. x4 of them are needed for each Water Wheel.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1385,
+			tasks: [{
+				id: 1386,
+				type: "item",
+				item: "immersiveengineering:waterwheel_segment",
+				count: 4L
+			}],
+			rewards: [{
+				id: 2212,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 0.5d,
+			subtitle: "The Water Wheels are able to produce a good amount of FE, a max total of 3 water wheel can be put side by side.",
+			description: [
+				"The Kinetic Dynamo is required to get FE out of the Wheels.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1385,
+				1371
+			],
+			id: 1387,
+			tasks: [{
+				id: 1388,
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}],
+			rewards: [{
+				id: 2213,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			shape: "pentagon",
+			subtitle: "The Engineer's Wire Cutters is a tool used to disconnect the corresponding Wire Coil. It also has its uses in different recipes.",
+			description: ["&7Reward: 1x Loot Bag"],
+			id: 1391,
+			tasks: [{
+				id: 1392,
+				type: "item",
+				item: {
+					id: "immersiveengineering:wirecutter",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2214,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Wire Connectors",
+			x: 0.0d,
+			y: 0.5d,
+			subtitle: "Wire Connectors are used to input and output Energy (FE) from Wire Coils.",
+			description: [
+				"Engineer's Wire Cutters can be used to disconnect wires with a right-click.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1401,
+			tasks: [
+				{
+					id: 1402,
+					type: "item",
+					item: "immersiveengineering:connector_lv"
+				},
+				{
+					id: 1403,
+					type: "item",
+					item: "immersiveengineering:connector_mv"
+				},
+				{
+					id: 1404,
+					type: "item",
+					item: "immersiveengineering:connector_hv"
+				}
+			],
+			rewards: [{
+				id: 2215,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "The Wire Relays are used to relay (connect) Wire Coils.",
+			description: [
+				"Engineer's Wire Cutters can be used to disconnect wires with a right-click.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1405,
+			tasks: [
+				{
+					id: 1406,
+					type: "item",
+					item: "immersiveengineering:connector_lv_relay"
+				},
+				{
+					id: 1407,
+					type: "item",
+					item: "immersiveengineering:connector_mv_relay"
+				},
+				{
+					id: 1408,
+					type: "item",
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			],
+			rewards: [{
+				id: 2216,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			subtitle: "The Kinetic Dynamo generates Energy (FE) using a Windmill, Water Wheel, or Improved Windmill.",
+			description: [
+				"The Kinetic Dynamo generates more FE depending on how fast the Water Wheel / Windmill spins.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1417],
+			id: 1409,
+			tasks: [{
+				id: 1410,
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}],
+			rewards: [{
+				id: 2217,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.0d,
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks.",
+			description: [
+				"(TIP: Don't walk into these wires. They can be very electric.)",
+				" ",
+				"Consider upgrading these to insulated wires to not get zapped whilst trying to walk near them.",
+				" ",
+				"(This Wire Coil can only manage up to 2048 FE/t; for any higher, a MV Wire Coil is needed.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1391],
+			id: 1411,
+			tasks: [{
+				id: 1412,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper"
+			}],
+			rewards: [{
+				id: 2218,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks.",
+			description: [
+				"(TIP: Don't try to walk into these wires. They can be very electric.)",
+				" ",
+				"Consider upgrading these to insulated wires to not get zapped whilst trying to walk near them.",
+				" ",
+				"(This Wire Coil can only manage up to 8192 FE/t; for any higher, a HV Wire Coil is needed.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1391],
+			id: 1413,
+			tasks: [{
+				id: 1414,
+				type: "item",
+				item: "immersiveengineering:wirecoil_electrum"
+			}],
+			rewards: [{
+				id: 2219,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			subtitle: "Wire Coils are used with Wire Connectors to power different blocks.",
+			description: [
+				"(TIP: Don't try to walk into these wires. They can be very electric.)",
+				" ",
+				"(This Wire Coil can manage up to 32768 FE/t.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1391],
+			id: 1415,
+			tasks: [{
+				id: 1416,
+				type: "item",
+				item: "immersiveengineering:wirecoil_steel"
+			}],
+			rewards: [{
+				id: 2220,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			subtitle: "Craft a Copper Coil Block",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1411],
+			id: 1417,
+			tasks: [{
+				id: 1418,
+				type: "item",
+				item: "immersiveengineering:coil_lv"
+			}],
+			rewards: [{
+				id: 2221,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			subtitle: "A safer version of the LV Wire Coil. This Wire Coil won't zap you if you get too close.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1411],
+			id: 1425,
+			tasks: [{
+				id: 1426,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper_ins",
+				count: 4L
+			}],
+			rewards: [{
+				id: 2222,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.5d,
+			subtitle: "A safer version of the MV Wire Coil. This Wire Coil won't zap you if you get too close.",
+			description: [
+				"(Highest tier of insulated cable, as there is no HV Insulated Cable.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1413],
+			id: 1427,
+			tasks: [{
+				id: 1428,
+				type: "item",
+				item: "immersiveengineering:wirecoil_electrum_ins",
+				count: 4L
+			}],
+			rewards: [{
+				id: 2223,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			subtitle: "Craft an Engineer's Workbench",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1431,
+			tasks: [{
+				id: 1432,
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}],
+			rewards: [{
+				id: 2224,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Any Engineer's Blueprint",
+			x: 0.0d,
+			y: -6.5d,
+			subtitle: "Craft any Engineer's Blueprint",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1431],
+			id: 1447,
+			tasks: [{
+				id: 1448,
+				type: "item",
+				item: {
+					id: "immersiveengineering:blueprint",
+					Count: true,
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}],
+			rewards: [{
+				id: 2225,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -7.0d,
+			subtitle: "These molds can be used in the Metal Press machine to easily produce Gears, Plates, Rods & Wires.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1431],
+			id: 1449,
+			tasks: [
+				{
+					id: 1450,
+					type: "item",
+					item: "immersiveengineering:mold_plate"
+				},
+				{
+					id: 1878,
+					type: "item",
+					item: "immersiveengineering:mold_gear"
+				},
+				{
+					id: 1879,
+					type: "item",
+					item: "immersiveengineering:mold_rod"
+				},
+				{
+					id: 1880,
+					type: "item",
+					item: "immersiveengineering:mold_wire"
+				}
+			],
+			rewards: [{
+				id: 2226,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Improved Blast Furnace",
+			x: -5.5d,
+			y: -4.0d,
+			subtitle: "x27 Reinforced Blast Bricks & 1 Hopper are needed to form the Improved Blast Furnace. Simply place down the Reinforced Blast Bricks in a 3x3x3 cube with a hopper ontop in the middle. Then right click the cube with the Engineer's Hammer.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1362],
+			id: 1457,
+			tasks: [
+				{
+					id: 1458,
+					type: "item",
+					item: "immersiveengineering:blastbrick_reinforced",
+					count: 27L
+				},
+				{
+					id: 1459,
+					type: "item",
+					item: "minecraft:hopper"
+				}
+			],
+			rewards: [{
+				id: 2227,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Blast Furnace Preheaters",
+			x: -5.5d,
+			y: -5.0d,
+			subtitle: "The Blast Furnace preheaters are used to speed up the Improved Blast Furnace using Energy (FE).",
+			description: [
+				"(Each preheater requires atleast 32 FE/t to function.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1457,
+				1464
+			],
+			id: 1462,
+			tasks: [{
+				id: 1463,
+				type: "item",
+				item: "immersiveengineering:blastfurnace_preheater",
+				count: 2L
+			}],
+			rewards: [{
+				id: 2228,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			subtitle: "Craft an External Heater",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1417],
+			id: 1464,
+			tasks: [{
+				id: 1465,
+				type: "item",
+				item: "immersiveengineering:furnace_heater"
+			}],
+			rewards: [{
+				id: 2229,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			subtitle: "The LV Capacitor is a block that can store energy (FE). It can store up to 100,000 FE.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1466,
+			tasks: [{
+				id: 1467,
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}],
+			rewards: [{
+				id: 2230,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			subtitle: "The MV Capacitor is a block that can store energy (FE). It can store up to 1,000,000 FE.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1468,
+			tasks: [{
+				id: 1469,
+				type: "item",
+				item: "immersiveengineering:capacitor_mv"
+			}],
+			rewards: [{
+				id: 2231,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			subtitle: "The HV Capacitor is a block that can store energy (FE). It can store up to 4,000,000 FE.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1377],
+			id: 1470,
+			tasks: [{
+				id: 1471,
+				type: "item",
+				item: "immersiveengineering:capacitor_hv"
+			}],
+			rewards: [{
+				id: 2232,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -0.5d,
+			shape: "octagon",
+			subtitle: "The Engineer's Volt meter can be used to measure how much Energy (FE) is stored in a Capacitor.",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 1472,
+			tasks: [{
+				id: 1473,
+				type: "item",
+				item: "immersiveengineering:voltmeter"
+			}],
+			rewards: [
+				{
+					id: 4221,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 4222,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			subtitle: "The Charging Station is a block that can be used to charge different items that require Energy (FE) to work.",
+			description: [
+				"The Energy (FE), transfer rate is 4000 FE/t",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1417,
+				1377
+			],
+			id: 1474,
+			tasks: [{
+				id: 1475,
+				type: "item",
+				item: "immersiveengineering:charging_station"
+			}],
+			rewards: [{
+				id: 2234,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			subtitle: "The Thermoelectric Generator generates Energy (FE) through the difference in temperature between blocks/liquids adjacent to it.",
+			description: [
+				"As an example Lava & Water together generates 31FE/t.",
+				" ",
+				"For a full list of suitable liquids check out the Wiki here: ",
+				"https://ftb.gamepedia.com/Thermoelectric_Generator",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1417],
+			id: 1476,
+			tasks: [{
+				id: 1477,
+				type: "item",
+				item: "immersiveengineering:thermoelectric_generator"
+			}],
+			rewards: [{
+				id: 2235,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.0d,
+			subtitle: "The Garden Cloche is a machine used to grow crops placed in it.",
+			description: [
+				"For more information regarding this machine head to the Wiki, found here:",
+				"https://ftb.gamepedia.com/Garden_Cloche",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1431],
+			optional: true,
+			id: 1478,
+			tasks: [{
+				id: 1479,
+				type: "item",
+				item: "immersiveengineering:cloche"
+			}],
+			rewards: [{
+				id: 2236,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Alloy Kiln",
+			x: -3.0d,
+			y: -5.5d,
+			shape: "rsquare",
+			subtitle: "x8 Kiln Bricks are needed to form the Alloy Kiln. Simply place down the bricks in a 2x2 cube. Then right click the cube with the Engineer's Hammer.",
+			description: [
+				"The Alloy Kiln can be used to produce Alloys such as Invar & Electrum.",
+				" ",
+				"Click the progress arrow inside the Kilns GUI to see all recipes.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1480,
+			tasks: [{
+				id: 1481,
+				type: "item",
+				item: "immersiveengineering:alloybrick",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2237,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Metal Press Multiblock",
+			x: -1.0d,
+			y: -7.5d,
+			subtitle: "The Metal Press is a 3x1x3 multi-block. It is used to create Plates, Rods & Gears.",
+			description: [
+				"For more information regarding this Multiblock head over to the Wiki found here:",
+				" ",
+				"https://ftb.gamepedia.com/Metal_Press",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1371],
+			id: 1482,
+			tasks: [
+				{
+					id: 1485,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 2L
+				},
+				{
+					id: 1486,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 1487,
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: 1488,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering"
+				},
+				{
+					id: 1489,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: 2238,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Crusher Multiblock",
+			x: -1.0d,
+			y: -6.5d,
+			subtitle: "The Crusher is a 3x5x3 multi-block It is used for crushing Ores into Grit (Dusts).",
+			description: [
+				"For more information regarding this Multiblock head over to the Wiki found here:",
+				" ",
+				"https://ftb.gamepedia.com/Crusher_(Immersive_Engineering)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1371],
+			id: 1490,
+			tasks: [
+				{
+					id: 1492,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 10L
+				},
+				{
+					id: 1493,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 10L
+				},
+				{
+					id: 1494,
+					type: "item",
+					item: "minecraft:hopper",
+					count: 9L
+				},
+				{
+					id: 1495,
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 8L
+				},
+				{
+					id: 1496,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				}
+			],
+			rewards: [{
+				id: 2239,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

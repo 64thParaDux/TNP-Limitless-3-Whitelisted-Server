@@ -1,0 +1,814 @@
+{
+	id: 1015,
+	filename: "ironjetpacks",
+	order_index: 16,
+	title: "Iron Jetpacks",
+	icon: "ironjetpacks:creative_jetpack",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.5d,
+			y: 0.5d,
+			shape: "hexagon",
+			subtitle: "Construct a Wooden Jetpack.",
+			description: [
+				"Jetpack Tier: 1",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1050],
+			size: 1.2d,
+			id: 1016,
+			tasks: [{
+				id: 1017,
+				type: "item",
+				item: "ironjetpacks:wood_jetpack"
+			}],
+			rewards: [{
+				id: 2287,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.5d,
+			subtitle: "Construct a Stone Jetpack.",
+			description: [
+				"Jetpack Tier: 1",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1053],
+			id: 1018,
+			tasks: [{
+				id: 1019,
+				type: "item",
+				item: "ironjetpacks:stone_jetpack"
+			}],
+			rewards: [{
+				id: 2288,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			subtitle: "Construct a Copper Jetpack.",
+			description: [
+				"Jetpack Tier: 1",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1047],
+			id: 1020,
+			tasks: [{
+				id: 1021,
+				type: "item",
+				item: "ironjetpacks:copper_jetpack"
+			}],
+			rewards: [{
+				id: 2289,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 0.5d,
+			subtitle: "Construct an Iron Jetpack.",
+			description: [
+				"Jetpack Tier: 2",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1056],
+			id: 1022,
+			tasks: [{
+				id: 1023,
+				type: "item",
+				item: "ironjetpacks:iron_jetpack"
+			}],
+			rewards: [{
+				id: 2290,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			subtitle: "Construct a Bronze Jetpack.",
+			description: [
+				"Jetpack Tier: 2",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1059],
+			id: 1024,
+			tasks: [{
+				id: 1025,
+				type: "item",
+				item: "ironjetpacks:bronze_jetpack"
+			}],
+			rewards: [{
+				id: 2291,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 3.0d,
+			subtitle: "Construct a Silver Jetpack.",
+			description: [
+				"Jetpack Tier: 2",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1062],
+			id: 1026,
+			tasks: [{
+				id: 1027,
+				type: "item",
+				item: "ironjetpacks:silver_jetpack"
+			}],
+			rewards: [{
+				id: 2292,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 0.0d,
+			subtitle: "Construct a Golden Jetpack.",
+			description: [
+				"Jetpack Tier: 3",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1065],
+			id: 1028,
+			tasks: [{
+				id: 1029,
+				type: "item",
+				item: "ironjetpacks:gold_jetpack"
+			}],
+			rewards: [{
+				id: 2293,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: 1.0d,
+			subtitle: "Construct an Invar Jetpack.",
+			description: [
+				"Jetpack Tier: 3",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1074],
+			id: 1030,
+			tasks: [{
+				id: 1031,
+				type: "item",
+				item: "ironjetpacks:invar_jetpack"
+			}],
+			rewards: [{
+				id: 2294,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 3.0d,
+			subtitle: "Construct an Electrum Jetpack.",
+			description: [
+				"Jetpack Tier: 3",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1071],
+			id: 1032,
+			tasks: [{
+				id: 1033,
+				type: "item",
+				item: "ironjetpacks:electrum_jetpack"
+			}],
+			rewards: [{
+				id: 2295,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: -2.0d,
+			subtitle: "Construct a Steel Jetpack.",
+			description: [
+				"Jetpack Tier: 3",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1068],
+			id: 1034,
+			tasks: [{
+				id: 1035,
+				type: "item",
+				item: "ironjetpacks:steel_jetpack"
+			}],
+			rewards: [{
+				id: 2296,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.5d,
+			y: -1.0d,
+			subtitle: "Construct a Diamond Jetpack.",
+			description: [
+				"Jetpack Tier: 4",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1077],
+			id: 1036,
+			tasks: [{
+				id: 1037,
+				type: "item",
+				item: "ironjetpacks:diamond_jetpack"
+			}],
+			rewards: [{
+				id: 2297,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 20.0d,
+			y: 0.5d,
+			subtitle: "Construct a an Emerald Jetpack.",
+			description: [
+				"Jetpack Tier: 4",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1083],
+			id: 1038,
+			tasks: [{
+				id: 1039,
+				type: "item",
+				item: "ironjetpacks:emerald_jetpack"
+			}],
+			rewards: [{
+				id: 2298,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.5d,
+			y: 2.0d,
+			subtitle: "Construct a Platinum Jetpack.",
+			description: [
+				"Jetpack Tier: 4",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1080],
+			id: 1040,
+			tasks: [{
+				id: 1041,
+				type: "item",
+				item: "ironjetpacks:platinum_jetpack"
+			}],
+			rewards: [{
+				id: 2299,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "A Basic Coil",
+			x: -1.0d,
+			y: 0.5d,
+			shape: "gear",
+			subtitle: "Craft a Basic Coil",
+			description: [
+				"A basic buzzing electrical Coil.",
+				"",
+				"&oNote: This chapter will be going under renovation soon-ish.",
+				"",
+				"&7Reward: 5 EXP Levels"
+			],
+			size: 1.3d,
+			id: 1045,
+			tasks: [{
+				id: 1046,
+				type: "item",
+				item: "ironjetpacks:basic_coil"
+			}],
+			rewards: [{
+				id: 2314,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			title: "Copper Jetpack Parts",
+			x: 2.5d,
+			y: -1.0d,
+			subtitle: "Parts needed for the Copper Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1016],
+			id: 1047,
+			tasks: [
+				{
+					id: 1048,
+					type: "item",
+					item: "ironjetpacks:copper_thruster",
+					count: 2L
+				},
+				{
+					id: 1049,
+					type: "item",
+					item: "ironjetpacks:copper_capacitor"
+				},
+				{
+					id: 1339,
+					type: "item",
+					item: "ironjetpacks:copper_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2300,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Wooden Jetpack Parts",
+			x: 1.0d,
+			y: 0.5d,
+			subtitle: "Parts needed for the Wooden Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1045],
+			id: 1050,
+			tasks: [
+				{
+					id: 1051,
+					type: "item",
+					item: "ironjetpacks:wood_thruster",
+					count: 2L
+				},
+				{
+					id: 1052,
+					type: "item",
+					item: "ironjetpacks:wood_capacitor"
+				},
+				{
+					id: 1337,
+					type: "item",
+					item: "ironjetpacks:wood_cell",
+					count: 5L
+				},
+				{
+					id: 1338,
+					type: "item",
+					item: "ironjetpacks:strap"
+				}
+			],
+			rewards: [{
+				id: 2301,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Stone Jetpack Parts",
+			x: 2.5d,
+			y: 2.0d,
+			subtitle: "Parts needed for the Stone Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1016],
+			id: 1053,
+			tasks: [
+				{
+					id: 1054,
+					type: "item",
+					item: "ironjetpacks:stone_thruster",
+					count: 2L
+				},
+				{
+					id: 1055,
+					type: "item",
+					item: "ironjetpacks:stone_capacitor"
+				},
+				{
+					id: 1340,
+					type: "item",
+					item: "ironjetpacks:stone_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2302,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Iron Jetpack Parts",
+			x: 5.5d,
+			y: 0.5d,
+			subtitle: "Parts needed for the Iron Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1020,
+				1018
+			],
+			dependency_requirement: "one_completed",
+			id: 1056,
+			tasks: [
+				{
+					id: 1057,
+					type: "item",
+					item: "ironjetpacks:iron_thruster",
+					count: 2L
+				},
+				{
+					id: 1058,
+					type: "item",
+					item: "ironjetpacks:iron_capacitor"
+				},
+				{
+					id: 1341,
+					type: "item",
+					item: "ironjetpacks:iron_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2303,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Bronze Jetpack Parts",
+			x: 7.0d,
+			y: -2.0d,
+			subtitle: "Parts needed for the Bronze Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1020],
+			id: 1059,
+			tasks: [
+				{
+					id: 1060,
+					type: "item",
+					item: "ironjetpacks:bronze_thruster",
+					count: 2L
+				},
+				{
+					id: 1061,
+					type: "item",
+					item: "ironjetpacks:bronze_capacitor"
+				},
+				{
+					id: 1342,
+					type: "item",
+					item: "ironjetpacks:bronze_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2304,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Silver Jetpack Parts",
+			x: 7.0d,
+			y: 3.0d,
+			subtitle: "Parts needed for the Silver Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1018],
+			id: 1062,
+			tasks: [
+				{
+					id: 1063,
+					type: "item",
+					item: "ironjetpacks:silver_thruster",
+					count: 2L
+				},
+				{
+					id: 1064,
+					type: "item",
+					item: "ironjetpacks:silver_capacitor"
+				},
+				{
+					id: 1343,
+					type: "item",
+					item: "ironjetpacks:silver_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2305,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Gold Jetpack Parts",
+			x: 13.0d,
+			y: 0.0d,
+			subtitle: "Parts needed for the Golden Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1086],
+			id: 1065,
+			tasks: [
+				{
+					id: 1066,
+					type: "item",
+					item: "ironjetpacks:gold_thruster",
+					count: 2L
+				},
+				{
+					id: 1067,
+					type: "item",
+					item: "ironjetpacks:gold_capacitor"
+				},
+				{
+					id: 1346,
+					type: "item",
+					item: "ironjetpacks:gold_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2306,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Steel Jetpack Parts",
+			x: 11.5d,
+			y: -2.0d,
+			subtitle: "Parts needed for the Steel Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1024,
+				1086
+			],
+			id: 1068,
+			tasks: [
+				{
+					id: 1069,
+					type: "item",
+					item: "ironjetpacks:steel_thruster",
+					count: 2L
+				},
+				{
+					id: 1070,
+					type: "item",
+					item: "ironjetpacks:steel_capacitor"
+				},
+				{
+					id: 1344,
+					type: "item",
+					item: "ironjetpacks:steel_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2307,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Electrum Jetpack Parts",
+			x: 11.5d,
+			y: 3.0d,
+			subtitle: "Parts needed for the Electrum Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1026,
+				1086
+			],
+			id: 1071,
+			tasks: [
+				{
+					id: 1072,
+					type: "item",
+					item: "ironjetpacks:electrum_thruster",
+					count: 2L
+				},
+				{
+					id: 1073,
+					type: "item",
+					item: "ironjetpacks:electrum_capacitor"
+				},
+				{
+					id: 1345,
+					type: "item",
+					item: "ironjetpacks:electrum_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2308,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Invar Jetpack Parts",
+			x: 13.0d,
+			y: 1.0d,
+			subtitle: "Parts needed for the Invar Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1086],
+			id: 1074,
+			tasks: [
+				{
+					id: 1075,
+					type: "item",
+					item: "ironjetpacks:invar_thruster",
+					count: 2L
+				},
+				{
+					id: 1076,
+					type: "item",
+					item: "ironjetpacks:invar_capacitor"
+				},
+				{
+					id: 1347,
+					type: "item",
+					item: "ironjetpacks:invar_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2309,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Diamond Jetpack Parts",
+			x: 16.0d,
+			y: -1.5d,
+			subtitle: "Parts needed for the Diamond Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1034,
+				1028
+			],
+			dependency_requirement: "one_completed",
+			id: 1077,
+			tasks: [
+				{
+					id: 1078,
+					type: "item",
+					item: "ironjetpacks:diamond_thruster",
+					count: 2L
+				},
+				{
+					id: 1079,
+					type: "item",
+					item: "ironjetpacks:diamond_capacitor"
+				},
+				{
+					id: 1348,
+					type: "item",
+					item: "ironjetpacks:diamond_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2310,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Platinum Jetpack Parts",
+			x: 16.0d,
+			y: 2.5d,
+			subtitle: "Parts needed for the Platinum Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1032,
+				1030
+			],
+			dependency_requirement: "one_completed",
+			id: 1080,
+			tasks: [
+				{
+					id: 1081,
+					type: "item",
+					item: "ironjetpacks:platinum_thruster",
+					count: 2L
+				},
+				{
+					id: 1082,
+					type: "item",
+					item: "ironjetpacks:platinum_capacitor"
+				},
+				{
+					id: 1349,
+					type: "item",
+					item: "ironjetpacks:platinum_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2311,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Emerald Jetpack Parts",
+			x: 18.5d,
+			y: 0.5d,
+			subtitle: "Parts needed for the Emerald Jetpack.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1040,
+				1036
+			],
+			dependency_requirement: "one_completed",
+			id: 1083,
+			tasks: [
+				{
+					id: 1084,
+					type: "item",
+					item: "ironjetpacks:emerald_thruster",
+					count: 2L
+				},
+				{
+					id: 1085,
+					type: "item",
+					item: "ironjetpacks:emerald_capacitor"
+				},
+				{
+					id: 1350,
+					type: "item",
+					item: "ironjetpacks:emerald_cell",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: 2312,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 0.5d,
+			subtitle: "Craft an Advanced Coil",
+			description: [
+				"An advanced buzzing electrical coil.",
+				"",
+				"&7Rewards: 1x Loot Bag & 5 EXP Levels"
+			],
+			dependencies: [I;
+				1022,
+				1024,
+				1026
+			],
+			dependency_requirement: "one_started",
+			id: 1086,
+			tasks: [{
+				id: 1087,
+				type: "item",
+				item: "ironjetpacks:advanced_coil"
+			}],
+			rewards: [
+				{
+					id: 2313,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2315,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

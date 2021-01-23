@@ -1,0 +1,1511 @@
+{
+	id: 2511,
+	filename: "aquaculture",
+	order_index: 24,
+	title: "Aquaculture",
+	icon: "aquaculture:atlantic_cod",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 1.0d,
+			y: -6.0d,
+			id: 2515,
+			tasks: [{
+				id: 2516,
+				type: "item",
+				item: "aquaculture:atlantic_cod"
+			}],
+			rewards: [
+				{
+					id: 2622,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2657,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			id: 2517,
+			tasks: [{
+				id: 2518,
+				type: "item",
+				item: "aquaculture:blackfish"
+			}],
+			rewards: [
+				{
+					id: 2623,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2658,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -6.0d,
+			id: 2519,
+			tasks: [{
+				id: 2520,
+				type: "item",
+				item: "aquaculture:pacific_halibut"
+			}],
+			rewards: [
+				{
+					id: 2624,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2659,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -6.0d,
+			id: 2521,
+			tasks: [{
+				id: 2522,
+				type: "item",
+				item: "aquaculture:atlantic_halibut"
+			}],
+			rewards: [
+				{
+					id: 2625,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2660,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -5.5d,
+			id: 2523,
+			tasks: [{
+				id: 2524,
+				type: "item",
+				item: "aquaculture:atlantic_herring"
+			}],
+			rewards: [
+				{
+					id: 2626,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2661,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: 4.5d,
+			id: 2525,
+			tasks: [{
+				id: 2526,
+				type: "item",
+				item: "aquaculture:pink_salmon"
+			}],
+			rewards: [
+				{
+					id: 2627,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2662,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 5.0d,
+			id: 2527,
+			tasks: [{
+				id: 2528,
+				type: "item",
+				item: "aquaculture:pollock"
+			}],
+			rewards: [
+				{
+					id: 2628,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2663,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 6.0d,
+			id: 2529,
+			tasks: [{
+				id: 2530,
+				type: "item",
+				item: "aquaculture:rainbow_trout"
+			}],
+			rewards: [
+				{
+					id: 2629,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2664,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 6.0d,
+			id: 2531,
+			tasks: [{
+				id: 2532,
+				type: "item",
+				item: "aquaculture:bayad"
+			}],
+			rewards: [
+				{
+					id: 2630,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2665,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 6.0d,
+			id: 2533,
+			tasks: [{
+				id: 2534,
+				type: "item",
+				item: "aquaculture:capitaine"
+			}],
+			rewards: [
+				{
+					id: 2631,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2666,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 6.0d,
+			id: 2535,
+			tasks: [{
+				id: 2536,
+				type: "item",
+				item: "aquaculture:synodontis"
+			}],
+			rewards: [
+				{
+					id: 2632,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2667,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 5.0d,
+			id: 2537,
+			tasks: [{
+				id: 2538,
+				type: "item",
+				item: "aquaculture:smallmouth_bass"
+			}],
+			rewards: [
+				{
+					id: 2633,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2668,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 4.5d,
+			id: 2539,
+			tasks: [{
+				id: 2540,
+				type: "item",
+				item: "aquaculture:bluegill"
+			}],
+			rewards: [
+				{
+					id: 2634,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2669,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 3.5d,
+			id: 2541,
+			tasks: [{
+				id: 2542,
+				type: "item",
+				item: "aquaculture:brown_trout"
+			}],
+			rewards: [
+				{
+					id: 2635,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2670,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -5.5d,
+			id: 2543,
+			tasks: [{
+				id: 2544,
+				type: "item",
+				item: "aquaculture:carp"
+			}],
+			rewards: [
+				{
+					id: 2636,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2671,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -6.0d,
+			id: 2545,
+			tasks: [{
+				id: 2546,
+				type: "item",
+				item: "aquaculture:catfish"
+			}],
+			rewards: [
+				{
+					id: 2637,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2672,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			id: 2547,
+			tasks: [{
+				id: 2548,
+				type: "item",
+				item: "aquaculture:gar"
+			}],
+			rewards: [
+				{
+					id: 2638,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2673,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 1.0d,
+			id: 2549,
+			tasks: [{
+				id: 2550,
+				type: "item",
+				item: {
+					id: "aquaculture:minnow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2639,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2674,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 0.0d,
+			id: 2551,
+			tasks: [{
+				id: 2552,
+				type: "item",
+				item: "aquaculture:muskellunge"
+			}],
+			rewards: [
+				{
+					id: 2640,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2675,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 3.5d,
+			id: 2553,
+			tasks: [{
+				id: 2554,
+				type: "item",
+				item: "aquaculture:perch"
+			}],
+			rewards: [
+				{
+					id: 2641,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2676,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 2.0d,
+			id: 2555,
+			tasks: [{
+				id: 2556,
+				type: "item",
+				item: "aquaculture:arapaima"
+			}],
+			rewards: [
+				{
+					id: 2642,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2677,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			id: 2557,
+			tasks: [{
+				id: 2558,
+				type: "item",
+				item: "aquaculture:piranha"
+			}],
+			rewards: [
+				{
+					id: 2643,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2678,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: -1.0d,
+			id: 2559,
+			tasks: [{
+				id: 2560,
+				type: "item",
+				item: "aquaculture:tambaqui"
+			}],
+			rewards: [
+				{
+					id: 2644,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2679,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -2.0d,
+			id: 2561,
+			tasks: [{
+				id: 2562,
+				type: "item",
+				item: "aquaculture:brown_shrooma"
+			}],
+			rewards: [
+				{
+					id: 2645,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2680,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -3.5d,
+			id: 2563,
+			tasks: [{
+				id: 2564,
+				type: "item",
+				item: "aquaculture:red_shrooma"
+			}],
+			rewards: [
+				{
+					id: 2646,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2681,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: -5.0d,
+			id: 2565,
+			tasks: [{
+				id: 2566,
+				type: "item",
+				item: "aquaculture:jellyfish"
+			}],
+			rewards: [
+				{
+					id: 2647,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2682,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -5.0d,
+			id: 2567,
+			tasks: [{
+				id: 2568,
+				type: "item",
+				item: "aquaculture:red_grouper"
+			}],
+			rewards: [
+				{
+					id: 2648,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2683,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -3.5d,
+			id: 2571,
+			tasks: [{
+				id: 2572,
+				type: "item",
+				item: "aquaculture:tuna"
+			}],
+			rewards: [
+				{
+					id: 2649,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2684,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -2.0d,
+			id: 2573,
+			tasks: [{
+				id: 2574,
+				type: "item",
+				item: "aquaculture:frog"
+			}],
+			rewards: [
+				{
+					id: 2650,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2685,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 5.5d,
+			id: 2575,
+			tasks: [{
+				id: 2576,
+				type: "item",
+				item: {
+					id: "aquaculture:leech",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2651,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2686,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 0.0d,
+			id: 2577,
+			tasks: [{
+				id: 2578,
+				type: "item",
+				item: "aquaculture:box_turtle"
+			}],
+			rewards: [
+				{
+					id: 2652,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2687,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: 1.0d,
+			id: 2579,
+			tasks: [{
+				id: 2580,
+				type: "item",
+				item: "aquaculture:arrau_turtle"
+			}],
+			rewards: [
+				{
+					id: 2653,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2688,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: -1.0d,
+			id: 2581,
+			tasks: [{
+				id: 2582,
+				type: "item",
+				item: "aquaculture:starshell_turtle"
+			}],
+			rewards: [
+				{
+					id: 2654,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2689,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			id: 2583,
+			tasks: [{
+				id: 2584,
+				type: "item",
+				item: "aquaculture:goldfish"
+			}],
+			rewards: [
+				{
+					id: 2655,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2690,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -3.5d,
+			subtitle: "Craft an Iron Fishing Rod",
+			id: 2585,
+			tasks: [{
+				id: 2586,
+				type: "item",
+				item: {
+					id: "aquaculture:iron_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2609,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -4.0d,
+			subtitle: "Craft an Gold Fishing Rod",
+			id: 2587,
+			tasks: [{
+				id: 2588,
+				type: "item",
+				item: {
+					id: "aquaculture:gold_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2610,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			subtitle: "Craft an Diamond Fishing Rod",
+			id: 2589,
+			tasks: [{
+				id: 2590,
+				type: "item",
+				item: {
+					id: "aquaculture:diamond_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2611,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.5d,
+			subtitle: "Acquire/Craft a Neptune Fishing Rod",
+			id: 2591,
+			tasks: [{
+				id: 2592,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2612,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.0d,
+			subtitle: "Has a chance to not use durability.",
+			id: 2593,
+			tasks: [{
+				id: 2594,
+				type: "item",
+				item: "aquaculture:iron_hook"
+			}],
+			rewards: [{
+				id: 2822,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			subtitle: "Increased Luck.",
+			dependencies: [I;2593],
+			id: 2595,
+			tasks: [{
+				id: 2596,
+				type: "item",
+				item: "aquaculture:gold_hook"
+			}],
+			rewards: [{
+				id: 2823,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.5d,
+			subtitle: "Has a chance to not use durability.",
+			dependencies: [I;2593],
+			id: 2597,
+			tasks: [{
+				id: 2598,
+				type: "item",
+				item: "aquaculture:diamond_hook"
+			}],
+			rewards: [{
+				id: 3467,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			subtitle: "Casts further.",
+			dependencies: [I;2593],
+			id: 2599,
+			tasks: [{
+				id: 2600,
+				type: "item",
+				item: "aquaculture:light_hook"
+			}],
+			rewards: [{
+				id: 2825,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.0d,
+			subtitle: "Casts shorter.",
+			dependencies: [I;2593],
+			id: 2601,
+			tasks: [{
+				id: 2602,
+				type: "item",
+				item: "aquaculture:heavy_hook"
+			}],
+			rewards: [{
+				id: 2826,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.5d,
+			subtitle: "A chance to catch two things.",
+			dependencies: [I;2593],
+			id: 2603,
+			tasks: [{
+				id: 2604,
+				type: "item",
+				item: "aquaculture:double_hook"
+			}],
+			rewards: [{
+				id: 2827,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			subtitle: "Longer opportunity to reel in a fish.",
+			dependencies: [I;2593],
+			id: 2605,
+			tasks: [{
+				id: 2606,
+				type: "item",
+				item: "aquaculture:redstone_hook"
+			}],
+			rewards: [{
+				id: 2828,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			subtitle: "Chance to not use durability and increased luck.",
+			dependencies: [I;2597],
+			id: 2607,
+			tasks: [{
+				id: 2608,
+				type: "item",
+				item: "aquaculture:nether_star_hook"
+			}],
+			rewards: [
+				{
+					id: 2620,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2829,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			subtitle: "The Tackle Box. In it, you can store all of the hooks, bait & bobbers, fishing lines. Oh and also bait.",
+			description: ["Construct the Tackle Box."],
+			id: 2691,
+			tasks: [{
+				id: 2692,
+				type: "item",
+				item: "aquaculture:tackle_box"
+			}],
+			rewards: [{
+				id: 3468,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			subtitle: "A dyeable fishing line that can be dyed like leather armor.",
+			id: 2693,
+			tasks: [{
+				id: 2694,
+				type: "item",
+				item: "aquaculture:fishing_line"
+			}],
+			rewards: [{
+				id: 3469,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			subtitle: "A dyeable bobber that can be dyed like leather armor.",
+			id: 2695,
+			tasks: [{
+				id: 2696,
+				type: "item",
+				item: "aquaculture:bobber"
+			}],
+			rewards: [{
+				id: 2835,
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Wooden Fillet Knife."],
+			id: 2700,
+			tasks: [{
+				id: 2701,
+				type: "item",
+				item: {
+					id: "aquaculture:wooden_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2712,
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Stone Fillet Knife."],
+			id: 2702,
+			tasks: [{
+				id: 2703,
+				type: "item",
+				item: {
+					id: "aquaculture:stone_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2713,
+				type: "item",
+				item: "aquaculture:box"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Iron Fillet Knife."],
+			id: 2704,
+			tasks: [{
+				id: 2705,
+				type: "item",
+				item: {
+					id: "aquaculture:iron_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2830,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Gold Fillet Knife."],
+			id: 2706,
+			tasks: [{
+				id: 2707,
+				type: "item",
+				item: {
+					id: "aquaculture:gold_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2831,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Diamond Fillet Knife."],
+			id: 2708,
+			tasks: [{
+				id: 2709,
+				type: "item",
+				item: {
+					id: "aquaculture:diamond_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3471,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			subtitle: "You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish.",
+			description: ["Construct a Neptunium Fillet Knife."],
+			id: 2710,
+			tasks: [{
+				id: 2711,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_fillet_knife",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2718,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3470,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			subtitle: "An audible alert when a fish is approaching.",
+			dependencies: [I;2593],
+			id: 2779,
+			tasks: [{
+				id: 2780,
+				type: "item",
+				item: "aquaculture:note_hook"
+			}],
+			rewards: [{
+				id: 2821,
+				type: "item",
+				item: "aquaculture:lockbox"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			subtitle: "The wearer sees better underwater.",
+			description: ["Construct the Neptunium Helmet."],
+			id: 2781,
+			tasks: [{
+				id: 2782,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2810,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2820,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			subtitle: "The wearer breathes underwater.",
+			description: ["Construct the Neptunium Chestplate."],
+			id: 2783,
+			tasks: [{
+				id: 2784,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2809,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2819,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 1.5d,
+			subtitle: 'The wearer "falls" underwater.',
+			description: ["Construct the Neptunium Leggings."],
+			id: 2785,
+			tasks: [{
+				id: 2786,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2808,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2818,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			subtitle: "The wearer swims faster.",
+			description: ["Construct the Neptunium Boots."],
+			id: 2787,
+			tasks: [{
+				id: 2788,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2807,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2817,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -1.0d,
+			subtitle: "Deal extra damage underwater.",
+			description: ["Construct the Neptunium Sword."],
+			id: 2789,
+			tasks: [{
+				id: 2790,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2802,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2812,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			subtitle: "Doesn't have a mining speed penalty when underwater.",
+			description: ["Construct the Neptunium Pickaxe."],
+			id: 2791,
+			tasks: [{
+				id: 2792,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2803,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2813,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			subtitle: "Doesn't have a mining speed penalty when underwater.",
+			description: ["Construct the Neptunium Shovel."],
+			id: 2793,
+			tasks: [{
+				id: 2794,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2804,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2814,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.0d,
+			subtitle: "Deal extra damage underwater.",
+			description: ["Construct the Neptunium Axe."],
+			id: 2795,
+			tasks: [{
+				id: 2796,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2805,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2815,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Land tilled with this hoe will always be hydrated",
+			description: ["Construct the Neptunium Hoe."],
+			id: 2797,
+			tasks: [{
+				id: 2798,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2806,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2816,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			subtitle: "Normal arrows fired from this bow are not impeded underwater.",
+			description: ["Construct the Neptunium Bow."],
+			id: 2799,
+			tasks: [{
+				id: 2800,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_bow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2801,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2811,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		}
+	]
+}

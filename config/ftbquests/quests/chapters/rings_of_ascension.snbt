@@ -1,0 +1,489 @@
+{
+	id: 796,
+	filename: "rings_of_ascension",
+	order_index: 21,
+	title: "Rings of Ascension",
+	icon: "ringsofascension:ring_slow_falling",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Come here!",
+			x: 0.0d,
+			y: -3.0d,
+			shape: "diamond",
+			subtitle: "Craft or find a Ring of Magnetism.",
+			description: [
+				"Pull nearby items when equipped.",
+				"",
+				"&7Reward: 10 EXP Levels"
+			],
+			size: 1.2d,
+			id: 803,
+			tasks: [{
+				id: 804,
+				type: "item",
+				item: "ringsofascension:ring_magnetism"
+			}],
+			rewards: [{
+				id: 809,
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			title: "Bravo Six, Going Dark",
+			x: -2.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Find a Ring of Night Vision.",
+			description: [
+				"Grants the Night Vision potion effect while equipped.",
+				"",
+				"&7Reward: 10 EXP Levels"
+			],
+			size: 1.2d,
+			id: 810,
+			tasks: [{
+				id: 811,
+				type: "item",
+				item: "ringsofascension:ring_night_vision"
+			}],
+			rewards: [{
+				id: 812,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "A Helping Hand",
+			x: 2.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Find a Ring of Regeneration.",
+			description: [
+				"Grants the Regeneration potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.2d,
+			id: 931,
+			tasks: [{
+				id: 932,
+				type: "item",
+				item: "ringsofascension:ring_regeneration"
+			}],
+			rewards: [{
+				id: 936,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Cave Spiders? Pfft..",
+			x: 0.0d,
+			y: 3.0d,
+			shape: "diamond",
+			subtitle: "Find a Ring of Poison Resistance.",
+			description: [
+				"Grants immunity to the poison effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.2d,
+			id: 933,
+			tasks: [{
+				id: 934,
+				type: "item",
+				item: "ringsofascension:ring_poison_resistance"
+			}],
+			rewards: [{
+				id: 935,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Johnny Bravo",
+			x: -2.0d,
+			y: -1.5d,
+			subtitle: "Find a Ring of Strength.",
+			description: [
+				"Grants the Strength potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 937,
+			tasks: [{
+				id: 938,
+				type: "item",
+				item: "ringsofascension:ring_strength"
+			}],
+			rewards: [{
+				id: 941,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "The Plant Whisperer",
+			x: -2.0d,
+			y: 1.5d,
+			subtitle: "Find a Ring of Growth.",
+			description: [
+				"Grows nearby crops faster when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 939,
+			tasks: [{
+				id: 940,
+				type: "item",
+				item: "ringsofascension:ring_growth"
+			}],
+			rewards: [{
+				id: 942,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "The Invisibility Cloa- *ahem* Ring.",
+			x: 2.0d,
+			y: -1.5d,
+			subtitle: "Find a Ring of Invisibility.",
+			description: [
+				"Grants the Invisibility potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 943,
+			tasks: [{
+				id: 944,
+				type: "item",
+				item: "ringsofascension:ring_invisibility"
+			}],
+			rewards: [{
+				id: 948,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Like breathing air!",
+			x: 2.0d,
+			y: 1.5d,
+			subtitle: "Find a Ring of Water Breathing.",
+			description: [
+				"Grants the Water Breathing potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 945,
+			tasks: [{
+				id: 946,
+				type: "item",
+				item: "ringsofascension:ring_water_breathing"
+			}],
+			rewards: [{
+				id: 947,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Down with the Sickness",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "octagon",
+			subtitle: "Find a Wither Ring.",
+			description: [
+				"Grants immunity to the Wither Potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.35d,
+			id: 949,
+			tasks: [{
+				id: 950,
+				type: "item",
+				item: "ringsofascension:ring_wither"
+			}],
+			rewards: [{
+				id: 951,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Great Minds",
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Find a Dolphin Ring.",
+			description: [
+				"Grants the Dolphins Grace potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 0.85d,
+			id: 952,
+			tasks: [{
+				id: 953,
+				type: "item",
+				item: "ringsofascension:ring_dolphin"
+			}],
+			rewards: [{
+				id: 954,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Knockback? No more!",
+			x: 1.5d,
+			y: 0.0d,
+			subtitle: "Find a Ring of Knockback Resistance.",
+			description: [
+				"Grants Knockback Immunity when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 0.85d,
+			id: 955,
+			tasks: [{
+				id: 956,
+				type: "item",
+				item: "ringsofascension:ring_knockback_resistance"
+			}],
+			rewards: [{
+				id: 957,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Find a Ring of Fire Resistance.",
+			description: [
+				"Grants Fire Resistance potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 0.85d,
+			id: 958,
+			tasks: [{
+				id: 959,
+				type: "item",
+				item: "ringsofascension:ring_fire_resistance"
+			}],
+			rewards: [{
+				id: 960,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Sweet XP",
+			x: -1.5d,
+			y: 0.0d,
+			subtitle: "Find a Ring of Experience.",
+			description: [
+				"Pull nearby xp orbs when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 0.85d,
+			id: 961,
+			tasks: [{
+				id: 962,
+				type: "item",
+				item: "ringsofascension:ring_experience"
+			}],
+			rewards: [{
+				id: 963,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Water's Gone",
+			x: -1.0d,
+			y: -1.0d,
+			shape: "hexagon",
+			subtitle: "Find a Ring of Sponge.",
+			description: [
+				"Removes all nearby water blocks around the player when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 964,
+			tasks: [{
+				id: 965,
+				type: "item",
+				item: "ringsofascension:ring_sponge"
+			}],
+			rewards: [{
+				id: 966,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Gotta Mine Fast",
+			x: 1.0d,
+			y: -1.0d,
+			shape: "hexagon",
+			subtitle: "Find a Ring of Mining.",
+			description: [
+				"Grants the Haste potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 967,
+			tasks: [{
+				id: 968,
+				type: "item",
+				item: "ringsofascension:ring_mining"
+			}],
+			rewards: [{
+				id: 969,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "1-UP",
+			x: 1.0d,
+			y: 1.0d,
+			shape: "hexagon",
+			subtitle: "Find a Ring of Health.",
+			description: [
+				"Grants two extra hearts when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 970,
+			tasks: [{
+				id: 971,
+				type: "item",
+				item: "ringsofascension:ring_health"
+			}],
+			rewards: [{
+				id: 972,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Feel Fast",
+			x: -1.0d,
+			y: 1.0d,
+			shape: "hexagon",
+			subtitle: "Find a Ring of Slowness Resistance.",
+			description: [
+				"Grants immunity to the Slowness potion effect.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 973,
+			tasks: [{
+				id: 974,
+				type: "item",
+				item: "ringsofascension:ring_slow_resistance"
+			}],
+			rewards: [{
+				id: 975,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Bugs Bunny is that you?",
+			x: -1.0d,
+			y: -2.5d,
+			subtitle: "Find a Ring of Jump Boost.",
+			description: [
+				"Grants the Jump Boost potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 976,
+			tasks: [{
+				id: 977,
+				type: "item",
+				item: "ringsofascension:ring_jump_boost"
+			}],
+			rewards: [{
+				id: 981,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Feeling Lucky?",
+			x: 1.0d,
+			y: -2.5d,
+			subtitle: "Find a Ring of Luck.",
+			description: [
+				"Grants the Luck potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 978,
+			tasks: [{
+				id: 979,
+				type: "item",
+				item: "ringsofascension:ring_luck"
+			}],
+			rewards: [{
+				id: 980,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Gotta Go Fast",
+			x: -1.0d,
+			y: 2.5d,
+			subtitle: "Find a Ring of Speed.",
+			description: [
+				"Grants the Speed potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 982,
+			tasks: [{
+				id: 983,
+				type: "item",
+				item: "ringsofascension:ring_speed"
+			}],
+			rewards: [{
+				id: 984,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Great View!",
+			x: 1.0d,
+			y: 2.5d,
+			subtitle: "Find a Ring of Slow Fall.",
+			description: [
+				"Grants the Slow Fall potion effect when equipped.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 985,
+			tasks: [{
+				id: 986,
+				type: "item",
+				item: "ringsofascension:ring_slow_falling"
+			}],
+			rewards: [{
+				id: 987,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

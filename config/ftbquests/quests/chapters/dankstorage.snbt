@@ -1,0 +1,206 @@
+{
+	id: 2842,
+	filename: "dankstorage",
+	order_index: 25,
+	title: "Dank Storage",
+	icon: "dankstorage:dank_7",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -3.0d,
+			shape: "gear",
+			subtitle: "Tier 1",
+			description: [
+				"This Dank have 9 slots and can store 256 items.",
+				"",
+				"&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"
+			],
+			size: 1.5d,
+			id: 2846,
+			tasks: [{
+				id: 2847,
+				type: "item",
+				item: "dankstorage:dank_1"
+			}],
+			rewards: [
+				{
+					id: 2868,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 1008,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			subtitle: "Tier 2",
+			description: [
+				"This Dank have 18 slots and can store 1024 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2846],
+			id: 2848,
+			tasks: [{
+				id: 2849,
+				type: "item",
+				item: "dankstorage:dank_2"
+			}],
+			rewards: [{
+				id: 2861,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.5d,
+			subtitle: "Tier 3",
+			description: [
+				"This Dank have 27 slots and can store 4096 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2848],
+			id: 2850,
+			tasks: [{
+				id: 2851,
+				type: "item",
+				item: "dankstorage:dank_3"
+			}],
+			rewards: [{
+				id: 2862,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			subtitle: "Tier 4",
+			description: [
+				"This Dank have 36 slots and can store 16384 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2850],
+			id: 2852,
+			tasks: [{
+				id: 2853,
+				type: "item",
+				item: "dankstorage:dank_4"
+			}],
+			rewards: [{
+				id: 2863,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			subtitle: "Tier 5",
+			description: [
+				"This Dank have 45 slots and can store 65536 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2852],
+			id: 2854,
+			tasks: [{
+				id: 2855,
+				type: "item",
+				item: "dankstorage:dank_5"
+			}],
+			rewards: [{
+				id: 2864,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			subtitle: "Tier 6",
+			description: [
+				"This Dank have 54 slots and can store 262144 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2854],
+			id: 2856,
+			tasks: [{
+				id: 2857,
+				type: "item",
+				item: "dankstorage:dank_6"
+			}],
+			rewards: [{
+				id: 2865,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.5d,
+			subtitle: "Tier 7 - Max",
+			description: [
+				"This Dank have 81 slots and can store almost infinite items.",
+				"",
+				"&7Reward: 2x Loot Bag"
+			],
+			dependencies: [I;2856],
+			id: 2858,
+			tasks: [{
+				id: 2859,
+				type: "item",
+				item: "dankstorage:dank_7"
+			}],
+			rewards: [
+				{
+					id: 2866,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2867,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -3.0d,
+			subtitle: "This dock can be placed down and be used as a chest if a Dank is stored inside it.",
+			description: ["&7Reward: 5 EXP Levels & 6x Loot Bag &7Pieces."],
+			dependencies: [I;2846],
+			id: 1006,
+			tasks: [{
+				id: 1007,
+				type: "item",
+				item: "dankstorage:dock"
+			}],
+			rewards: [
+				{
+					id: 1010,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1011,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 6
+				}
+			]
+		}
+	]
+}

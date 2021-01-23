@@ -1,0 +1,2496 @@
+{
+	id: 1100,
+	filename: "powah",
+	order_index: 19,
+	title: "Powah!",
+	icon: "powah:energizing_orb",
+	default_quest_shape: "octagon",
+	quests: [
+		{
+			x: 0.0d,
+			y: -3.75d,
+			shape: "gear",
+			subtitle: "A pasty start!",
+			description: [
+				"Powah is a tech mod that adds Various ways to generate, store, and transmit Forge Energy.",
+				"",
+				"It provides several different types of energy generators, from the classic coal generator all the way to the self-building multiblock reactor.",
+				"",
+				"All of Powah's machines are tier-based. You'll start with the appropriately named \"starter\" machines and upgrade them as you go.",
+				"",
+				"The tiers are as follows: Starter, Basic, Hardened, Blazing, Niotic, Spirited and Nitro."
+			],
+			hide_dependency_lines: false,
+			size: 1.5d,
+			id: 1104,
+			tasks: [{
+				id: 1105,
+				type: "item",
+				item: "powah:dielectric_paste"
+			}],
+			rewards: [
+				{
+					id: 1106,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1113,
+					type: "item",
+					item: "powah:dielectric_paste",
+					count: 16
+				},
+				{
+					id: 1118,
+					type: "item",
+					item: "powah:book"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -2.0d,
+			dependencies: [I;1104],
+			id: 1119,
+			tasks: [
+				{
+					id: 1122,
+					type: "item",
+					item: "powah:dielectric_rod",
+					count: 8L
+				},
+				{
+					id: 1151,
+					type: "item",
+					item: "powah:dielectric_rod_horizontal",
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: 1152,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1153,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			description: [
+				"This is essentially Powah's machine frame.",
+				"Used in most of the machine recipes."
+			],
+			dependencies: [I;1119],
+			id: 1154,
+			tasks: [{
+				id: 1197,
+				type: "item",
+				item: "powah:dielectric_casing"
+			}],
+			rewards: [
+				{
+					id: 3942,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3943,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 4
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			dependencies: [I;1104],
+			id: 3944,
+			tasks: [{
+				id: 3945,
+				type: "item",
+				item: "powah:capacitor_basic",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: 3946,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 3947,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			description: ["Generates power from coal."],
+			dependencies: [I;1154],
+			id: 3948,
+			tasks: [{
+				id: 3949,
+				type: "item",
+				item: "powah:furnator_starter"
+			}],
+			rewards: [
+				{
+					id: 1883,
+					type: "item",
+					item: "minecraft:coal",
+					count: 8
+				},
+				{
+					id: 2038,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 2039,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3950,
+			tasks: [{
+				id: 3951,
+				type: "item",
+				item: "powah:energy_cell_starter"
+			}],
+			rewards: [
+				{
+					id: 2005,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2035,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			shape: "diamond",
+			dependencies: [I;
+				1154,
+				1797
+			],
+			id: 3952,
+			tasks: [{
+				id: 3953,
+				type: "item",
+				item: "powah:ender_cell_starter"
+			}],
+			rewards: [
+				{
+					id: 2025,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2037,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 5.5d,
+			dependencies: [I;3944],
+			id: 3954,
+			tasks: [{
+				id: 3955,
+				type: "item",
+				item: "powah:energy_cable_starter"
+			}],
+			rewards: [
+				{
+					id: 2092,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2093,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3956,
+			tasks: [{
+				id: 3957,
+				type: "item",
+				item: "powah:magmator_starter"
+			}],
+			rewards: [
+				{
+					id: 1995,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2031,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			description: ["The Energizing Orb is used to craft the materials for the higher end machines."],
+			dependencies: [I;1154],
+			id: 3958,
+			tasks: [{
+				id: 3959,
+				type: "item",
+				item: "powah:energizing_orb"
+			}],
+			rewards: [
+				{
+					id: 2040,
+					type: "item",
+					item: "minecraft:iron_ingot",
+					count: 2
+				},
+				{
+					id: 2041,
+					type: "item",
+					item: "minecraft:gold_ingot",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 7.0d,
+			dependencies: [I;1154],
+			hide: true,
+			id: 3960,
+			tasks: [{
+				id: 3961,
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}],
+			rewards: [
+				{
+					id: 2716,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2717,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3,
+					random_bonus: 6
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 7.0d,
+			shape: "diamond",
+			dependencies: [I;3960],
+			id: 3962,
+			tasks: [{
+				id: 3963,
+				type: "item",
+				item: "powah:energizing_rod_basic"
+			}],
+			rewards: [{
+				id: 2715,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			hide: true,
+			id: 3964,
+			tasks: [{
+				id: 3965,
+				type: "item",
+				item: "powah:energizing_rod_hardened"
+			}],
+			rewards: [{
+				id: 2184,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			hide: true,
+			id: 3966,
+			tasks: [{
+				id: 3967,
+				type: "item",
+				item: "powah:energizing_rod_blazing"
+			}],
+			rewards: [{
+				id: 2341,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			hide: true,
+			id: 3968,
+			tasks: [{
+				id: 3969,
+				type: "item",
+				item: "powah:energizing_rod_niotic"
+			}],
+			rewards: [{
+				id: 2401,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			hide: true,
+			id: 3970,
+			tasks: [{
+				id: 3971,
+				type: "item",
+				item: "powah:energizing_rod_spirited"
+			}],
+			rewards: [{
+				id: 2439,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			hide: true,
+			id: 3972,
+			tasks: [{
+				id: 3973,
+				type: "item",
+				item: "powah:energizing_rod_nitro"
+			}],
+			rewards: [{
+				id: 2698,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			shape: "diamond",
+			dependencies: [I;3948],
+			id: 3974,
+			tasks: [{
+				id: 3975,
+				type: "item",
+				item: "powah:furnator_basic"
+			}],
+			rewards: [{
+				id: 1884,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3976,
+			tasks: [{
+				id: 3977,
+				type: "item",
+				item: "powah:thermo_generator_starter"
+			}],
+			rewards: [
+				{
+					id: 1938,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1939,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3978,
+			tasks: [{
+				id: 3979,
+				type: "item",
+				item: "powah:solar_panel_starter"
+			}],
+			rewards: [
+				{
+					id: 1998,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2033,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.5d,
+			shape: "diamond",
+			description: [
+				"To make a reactor, you need 36 reactor blocks.",
+				"",
+				"When you hold the reactor blocks, you can look at the ground and a 3x3 shape will appear which will be red if you cannot build the reactor in that space.",
+				"",
+				"Keep in mind the reactor is 4 blocks tall."
+			],
+			dependencies: [I;
+				1154,
+				3988
+			],
+			id: 3980,
+			tasks: [{
+				id: 3981,
+				type: "item",
+				item: "powah:reactor_starter",
+				count: 36L
+			}],
+			rewards: [
+				{
+					id: 1888,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 1889,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3982,
+			tasks: [{
+				id: 3983,
+				type: "item",
+				item: "powah:player_transmitter_starter"
+			}],
+			rewards: [
+				{
+					id: 2001,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2034,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3984,
+			tasks: [{
+				id: 3985,
+				type: "item",
+				item: "powah:energy_hopper_starter"
+			}],
+			rewards: [
+				{
+					id: 1936,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1937,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 3986,
+			tasks: [{
+				id: 3987,
+				type: "item",
+				item: "powah:energy_discharger_starter"
+			}],
+			rewards: [
+				{
+					id: 1940,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2026,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 1.0d,
+			description: ["Uraninite is the fuel used in reactors."],
+			optional: true,
+			id: 3988,
+			tasks: [{
+				id: 3989,
+				type: "item",
+				item: "powah:uraninite"
+			}],
+			rewards: [
+				{
+					id: 1891,
+					type: "item",
+					item: "minecraft:coal",
+					count: 8
+				},
+				{
+					id: 1892,
+					type: "item",
+					item: "minecraft:redstone",
+					count: 8
+				},
+				{
+					id: 1893,
+					type: "item",
+					item: "minecraft:ice",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 3990,
+			tasks: [{
+				id: 3991,
+				type: "item",
+				item: "powah:furnator_hardened"
+			}],
+			rewards: [{
+				id: 2096,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 3992,
+			tasks: [{
+				id: 3993,
+				type: "item",
+				item: "powah:furnator_blazing"
+			}],
+			rewards: [{
+				id: 2244,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 3994,
+			tasks: [{
+				id: 3995,
+				type: "item",
+				item: "powah:furnator_niotic"
+			}],
+			rewards: [{
+				id: 2381,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 3996,
+			tasks: [{
+				id: 3997,
+				type: "item",
+				item: "powah:furnator_spirited"
+			}],
+			rewards: [{
+				id: 2415,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 3998,
+			tasks: [{
+				id: 3999,
+				type: "item",
+				item: "powah:furnator_nitro"
+			}],
+			rewards: [{
+				id: 2613,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 9.0d,
+			dependencies: [I;3958],
+			id: 4000,
+			tasks: [{
+				id: 4001,
+				type: "item",
+				item: "powah:steel_energized",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: 2088,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2089,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3,
+					random_bonus: 6
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 11.5d,
+			dependencies: [I;3958],
+			id: 4002,
+			tasks: [{
+				id: 4003,
+				type: "item",
+				item: "powah:crystal_blazing"
+			}],
+			rewards: [{
+				id: 2201,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.0d,
+			dependencies: [I;3958],
+			id: 4004,
+			tasks: [{
+				id: 4005,
+				type: "item",
+				item: "powah:crystal_niotic"
+			}],
+			rewards: [{
+				id: 2361,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 11.5d,
+			dependencies: [I;3958],
+			id: 4006,
+			tasks: [{
+				id: 4007,
+				type: "item",
+				item: "powah:crystal_spirited"
+			}],
+			rewards: [{
+				id: 2410,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 9.0d,
+			dependencies: [I;3958],
+			id: 4008,
+			tasks: [{
+				id: 4009,
+				type: "item",
+				item: "powah:crystal_nitro",
+				count: 16L
+			}],
+			rewards: [
+				{
+					id: 2512,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					random_bonus: 1
+				},
+				{
+					id: 2514,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			shape: "diamond",
+			dependencies: [I;
+				1154,
+				3988
+			],
+			id: 4010,
+			tasks: [{
+				id: 4011,
+				type: "item",
+				item: "powah:reactor_basic",
+				count: 36L
+			}],
+			rewards: [{
+				id: 1890,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4012,
+			tasks: [{
+				id: 4013,
+				type: "item",
+				item: "powah:magmator_hardened"
+			}],
+			rewards: [{
+				id: 2097,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4014,
+			tasks: [{
+				id: 4015,
+				type: "item",
+				item: "powah:reactor_hardened",
+				count: 36L
+			}],
+			rewards: [{
+				id: 2095,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4016,
+			tasks: [{
+				id: 4017,
+				type: "item",
+				item: "powah:thermo_generator_hardened"
+			}],
+			rewards: [{
+				id: 2148,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4018,
+			tasks: [{
+				id: 4019,
+				type: "item",
+				item: "powah:solar_panel_hardened"
+			}],
+			rewards: [{
+				id: 2174,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4020,
+			tasks: [{
+				id: 4021,
+				type: "item",
+				item: "powah:energy_cell_hardened"
+			}],
+			rewards: [{
+				id: 2178,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4022,
+			tasks: [{
+				id: 4023,
+				type: "item",
+				item: "powah:ender_cell_hardened"
+			}],
+			rewards: [{
+				id: 2179,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4024,
+			tasks: [{
+				id: 4025,
+				type: "item",
+				item: "powah:player_transmitter_hardened"
+			}],
+			rewards: [{
+				id: 2180,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 4026,
+			tasks: [{
+				id: 1532,
+				type: "item",
+				item: "powah:energy_hopper_hardened"
+			}],
+			rewards: [{
+				id: 2181,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 1533,
+			tasks: [{
+				id: 1534,
+				type: "item",
+				item: "powah:energy_discharger_hardened"
+			}],
+			rewards: [{
+				id: 2182,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1535,
+			tasks: [{
+				id: 1542,
+				type: "item",
+				item: "powah:reactor_blazing",
+				count: 36L
+			}],
+			rewards: [{
+				id: 2243,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1543,
+			tasks: [{
+				id: 1544,
+				type: "item",
+				item: "powah:magmator_blazing"
+			}],
+			rewards: [{
+				id: 2245,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1545,
+			tasks: [{
+				id: 1546,
+				type: "item",
+				item: "powah:thermo_generator_blazing"
+			}],
+			rewards: [{
+				id: 2246,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1547,
+			tasks: [{
+				id: 1550,
+				type: "item",
+				item: "powah:solar_panel_blazing"
+			}],
+			rewards: [{
+				id: 2247,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1551,
+			tasks: [{
+				id: 1552,
+				type: "item",
+				item: "powah:energy_cell_blazing"
+			}],
+			rewards: [{
+				id: 2248,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1553,
+			tasks: [{
+				id: 1554,
+				type: "item",
+				item: "powah:ender_cell_blazing"
+			}],
+			rewards: [{
+				id: 2249,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1555,
+			tasks: [{
+				id: 1564,
+				type: "item",
+				item: "powah:player_transmitter_blazing"
+			}],
+			rewards: [{
+				id: 2250,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 1565,
+			tasks: [{
+				id: 1572,
+				type: "item",
+				item: {
+					id: "powah:battery_hardened",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2183,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 1598,
+			tasks: [{
+				id: 1599,
+				type: "item",
+				item: "powah:ender_gate_hardened"
+			}],
+			rewards: [{
+				id: 2191,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1600,
+			tasks: [{
+				id: 1603,
+				type: "item",
+				item: "powah:energy_hopper_blazing"
+			}],
+			rewards: [{
+				id: 2317,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1604,
+			tasks: [{
+				id: 1605,
+				type: "item",
+				item: "powah:energy_discharger_blazing"
+			}],
+			rewards: [{
+				id: 2319,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1606,
+			tasks: [{
+				id: 1607,
+				type: "item",
+				item: {
+					id: "powah:battery_blazing",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2321,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1635,
+			tasks: [{
+				id: 1636,
+				type: "item",
+				item: "powah:ender_gate_blazing"
+			}],
+			rewards: [{
+				id: 2360,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1637,
+			tasks: [{
+				id: 1638,
+				type: "item",
+				item: "powah:reactor_niotic",
+				count: 36L
+			}],
+			rewards: [{
+				id: 2380,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1639,
+			tasks: [{
+				id: 1640,
+				type: "item",
+				item: "powah:magmator_niotic"
+			}],
+			rewards: [{
+				id: 2382,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1641,
+			tasks: [{
+				id: 1642,
+				type: "item",
+				item: "powah:thermo_generator_niotic"
+			}],
+			rewards: [{
+				id: 2383,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1643,
+			tasks: [{
+				id: 1644,
+				type: "item",
+				item: "powah:solar_panel_niotic"
+			}],
+			rewards: [{
+				id: 2384,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1645,
+			tasks: [{
+				id: 1646,
+				type: "item",
+				item: "powah:energy_cell_niotic"
+			}],
+			rewards: [{
+				id: 2391,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1647,
+			tasks: [{
+				id: 1648,
+				type: "item",
+				item: "powah:ender_cell_niotic"
+			}],
+			rewards: [{
+				id: 2393,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1649,
+			tasks: [{
+				id: 1650,
+				type: "item",
+				item: "powah:ender_gate_niotic"
+			}],
+			rewards: [{
+				id: 2409,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1651,
+			tasks: [{
+				id: 1652,
+				type: "item",
+				item: "powah:player_transmitter_niotic"
+			}],
+			rewards: [{
+				id: 2394,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1653,
+			tasks: [{
+				id: 1654,
+				type: "item",
+				item: "powah:energy_hopper_niotic"
+			}],
+			rewards: [{
+				id: 2395,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1655,
+			tasks: [{
+				id: 1667,
+				type: "item",
+				item: "powah:energy_discharger_niotic"
+			}],
+			rewards: [{
+				id: 2396,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1668,
+			tasks: [{
+				id: 1669,
+				type: "item",
+				item: {
+					id: "powah:battery_niotic",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2399,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1681],
+			id: 1674,
+			tasks: [{
+				id: 1676,
+				type: "item",
+				item: "powah:energy_cable_hardened"
+			}],
+			rewards: [{
+				id: 2185,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1683],
+			id: 1677,
+			tasks: [{
+				id: 1678,
+				type: "item",
+				item: "powah:energy_cable_blazing"
+			}],
+			rewards: [{
+				id: 2359,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1685],
+			id: 1679,
+			tasks: [{
+				id: 1680,
+				type: "item",
+				item: "powah:energy_cable_niotic"
+			}],
+			rewards: [{
+				id: 2408,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 10.0d,
+			dependencies: [I;4000],
+			id: 1681,
+			tasks: [{
+				id: 1682,
+				type: "item",
+				item: "powah:capacitor_hardened",
+				count: 2L
+			}],
+			rewards: [
+				{
+					id: 2090,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2091,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3,
+					random_bonus: 6
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 12.5d,
+			dependencies: [I;4002],
+			id: 1683,
+			tasks: [{
+				id: 1684,
+				type: "item",
+				item: "powah:capacitor_blazing",
+				count: 2L
+			}],
+			rewards: [{
+				id: 2242,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 10.0d,
+			dependencies: [I;4004],
+			id: 1685,
+			tasks: [{
+				id: 1686,
+				type: "item",
+				item: "powah:capacitor_niotic"
+			}],
+			rewards: [{
+				id: 2379,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 12.5d,
+			dependencies: [I;4006],
+			id: 1687,
+			tasks: [{
+				id: 1688,
+				type: "item",
+				item: "powah:capacitor_spirited"
+			}],
+			rewards: [{
+				id: 2411,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 10.0d,
+			dependencies: [I;4008],
+			id: 1689,
+			tasks: [{
+				id: 1690,
+				type: "item",
+				item: "powah:capacitor_nitro"
+			}],
+			rewards: [
+				{
+					id: 2513,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					random_bonus: 1
+				},
+				{
+					id: 2569,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1693,
+			tasks: [{
+				id: 1694,
+				type: "item",
+				item: "powah:reactor_spirited",
+				count: 36L
+			}],
+			rewards: [{
+				id: 2414,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1695,
+			tasks: [{
+				id: 1696,
+				type: "item",
+				item: "powah:magmator_spirited"
+			}],
+			rewards: [{
+				id: 2416,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 14.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1697,
+			tasks: [{
+				id: 1698,
+				type: "item",
+				item: "powah:thermo_generator_spirited"
+			}],
+			rewards: [{
+				id: 2417,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1699,
+			tasks: [{
+				id: 1700,
+				type: "item",
+				item: "powah:solar_panel_spirited"
+			}],
+			rewards: [{
+				id: 2419,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1701,
+			tasks: [{
+				id: 1702,
+				type: "item",
+				item: "powah:energy_cell_spirited"
+			}],
+			rewards: [{
+				id: 2420,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 14.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1703,
+			tasks: [{
+				id: 1704,
+				type: "item",
+				item: "powah:ender_cell_spirited"
+			}],
+			rewards: [{
+				id: 2429,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1705,
+			tasks: [{
+				id: 1706,
+				type: "item",
+				item: "powah:player_transmitter_spirited"
+			}],
+			rewards: [{
+				id: 2430,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1707,
+			tasks: [{
+				id: 1708,
+				type: "item",
+				item: "powah:energy_hopper_spirited"
+			}],
+			rewards: [{
+				id: 2431,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1709,
+			tasks: [{
+				id: 1710,
+				type: "item",
+				item: "powah:energy_discharger_spirited"
+			}],
+			rewards: [{
+				id: 2432,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 15.0d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1711,
+			tasks: [{
+				id: 1712,
+				type: "item",
+				item: {
+					id: "powah:battery_spirited",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2438,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1713,
+			tasks: [{
+				id: 1714,
+				type: "item",
+				item: "powah:energy_cable_spirited"
+			}],
+			rewards: [{
+				id: 2498,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 15.5d,
+			shape: "diamond",
+			dependencies: [I;1687],
+			id: 1715,
+			tasks: [{
+				id: 1716,
+				type: "item",
+				item: "powah:ender_gate_spirited"
+			}],
+			rewards: [{
+				id: 2506,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1717,
+			tasks: [{
+				id: 1718,
+				type: "item",
+				item: "powah:reactor_nitro",
+				count: 36L
+			}],
+			rewards: [{
+				id: 2570,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2,
+				random_bonus: 2
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1719,
+			tasks: [{
+				id: 1720,
+				type: "item",
+				item: "powah:magmator_nitro"
+			}],
+			rewards: [{
+				id: 2614,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 11.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1721,
+			tasks: [{
+				id: 1722,
+				type: "item",
+				item: "powah:thermo_generator_nitro"
+			}],
+			rewards: [{
+				id: 2615,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1723,
+			tasks: [{
+				id: 1724,
+				type: "item",
+				item: "powah:solar_panel_nitro"
+			}],
+			rewards: [{
+				id: 2616,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1725,
+			tasks: [{
+				id: 1726,
+				type: "item",
+				item: "powah:energy_cell_nitro"
+			}],
+			rewards: [{
+				id: 2617,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 12.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1727,
+			tasks: [{
+				id: 1728,
+				type: "item",
+				item: "powah:ender_cell_nitro"
+			}],
+			rewards: [{
+				id: 2618,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1729,
+			tasks: [{
+				id: 1730,
+				type: "item",
+				item: "powah:player_transmitter_nitro"
+			}],
+			rewards: [{
+				id: 2619,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1731,
+			tasks: [{
+				id: 1732,
+				type: "item",
+				item: "powah:energy_hopper_nitro"
+			}],
+			rewards: [{
+				id: 2621,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1733,
+			tasks: [{
+				id: 1734,
+				type: "item",
+				item: "powah:energy_discharger_nitro"
+			}],
+			rewards: [{
+				id: 2656,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 12.5d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1735,
+			tasks: [{
+				id: 1740,
+				type: "item",
+				item: {
+					id: "powah:battery_nitro",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2697,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1741,
+			tasks: [{
+				id: 1745,
+				type: "item",
+				item: "powah:energy_cable_nitro"
+			}],
+			rewards: [{
+				id: 2699,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 13.0d,
+			shape: "diamond",
+			dependencies: [I;1689],
+			id: 1746,
+			tasks: [{
+				id: 1747,
+				type: "item",
+				item: "powah:ender_gate_nitro"
+			}],
+			rewards: [{
+				id: 2714,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 7.5d,
+			shape: "diamond",
+			dependencies: [I;3958],
+			id: 1797,
+			tasks: [{
+				id: 1799,
+				type: "item",
+				item: "powah:ender_core"
+			}],
+			rewards: [{
+				id: 1935,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 1800,
+			tasks: [{
+				id: 1801,
+				type: "item",
+				item: {
+					id: "powah:battery_starter",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 1997,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2032,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 3.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 1802,
+			tasks: [{
+				id: 1803,
+				type: "item",
+				item: "powah:ender_gate_starter"
+			}],
+			rewards: [
+				{
+					id: 2024,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 2036,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: [I;3956],
+			id: 1804,
+			tasks: [{
+				id: 1805,
+				type: "item",
+				item: "powah:magmator_basic"
+			}],
+			rewards: [{
+				id: 2060,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			shape: "diamond",
+			dependencies: [I;3976],
+			id: 1839,
+			tasks: [{
+				id: 1840,
+				type: "item",
+				item: "powah:thermo_generator_basic"
+			}],
+			rewards: [{
+				id: 2052,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.5d,
+			shape: "diamond",
+			dependencies: [I;3950],
+			id: 1841,
+			tasks: [{
+				id: 1842,
+				type: "item",
+				item: "powah:energy_cell_basic"
+			}],
+			rewards: [{
+				id: 2085,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 3.5d,
+			shape: "diamond",
+			dependencies: [I;1797],
+			id: 1843,
+			tasks: [{
+				id: 1844,
+				type: "item",
+				item: "powah:ender_cell_basic"
+			}],
+			rewards: [{
+				id: 2087,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			shape: "diamond",
+			dependencies: [I;3978],
+			id: 1845,
+			tasks: [{
+				id: 1846,
+				type: "item",
+				item: "powah:solar_panel_basic"
+			}],
+			rewards: [{
+				id: 2083,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			shape: "diamond",
+			dependencies: [I;3984],
+			id: 1847,
+			tasks: [{
+				id: 1848,
+				type: "item",
+				item: "powah:energy_hopper_basic"
+			}],
+			rewards: [{
+				id: 2043,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 0.0d,
+			shape: "diamond",
+			dependencies: [I;1154],
+			id: 1849,
+			tasks: [{
+				id: 1850,
+				type: "item",
+				item: "powah:energy_discharger_basic"
+			}],
+			rewards: [{
+				id: 2059,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 1.0d,
+			shape: "diamond",
+			dependencies: [I;1800],
+			id: 1851,
+			tasks: [{
+				id: 1852,
+				type: "item",
+				item: {
+					id: "powah:battery_basic",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2064,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.0d,
+			shape: "diamond",
+			dependencies: [I;3982],
+			id: 1853,
+			tasks: [{
+				id: 1854,
+				type: "item",
+				item: "powah:player_transmitter_basic"
+			}],
+			rewards: [{
+				id: 2084,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 5.5d,
+			shape: "diamond",
+			dependencies: [I;3954],
+			optional: true,
+			id: 1855,
+			tasks: [{
+				id: 1856,
+				type: "item",
+				item: "powah:energy_cable_basic"
+			}],
+			rewards: [{
+				id: 2094,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 3.0d,
+			shape: "diamond",
+			dependencies: [I;1802],
+			id: 1857,
+			tasks: [{
+				id: 1858,
+				type: "item",
+				item: "powah:ender_gate_basic"
+			}],
+			rewards: [{
+				id: 2086,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 6.5d,
+			shape: "diamond",
+			description: ["Dry ice offers the best cooling for your reactor."],
+			dependencies: [I;3958],
+			optional: true,
+			id: 1861,
+			tasks: [{
+				id: 1862,
+				type: "item",
+				item: "powah:dry_ice"
+			}],
+			rewards: [
+				{
+					id: 1928,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1929,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3,
+					random_bonus: 6
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 7.0d,
+			shape: "diamond",
+			dependencies: [I;3958],
+			optional: true,
+			id: 1881,
+			tasks: [{
+				id: 1882,
+				type: "item",
+				item: "powah:charged_snowball"
+			}],
+			rewards: [{
+				id: 1930,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 3.5d,
+			dependencies: [I;1104],
+			optional: true,
+			id: 1894,
+			tasks: [{
+				id: 1895,
+				type: "item",
+				item: {
+					id: "powah:wrench",
+					Count: true,
+					tag: {
+						PowahWrenchNBT: {}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 1912,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1913,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 4.5d,
+			dependencies: [I;1104],
+			optional: true,
+			id: 1896,
+			tasks: [{
+				id: 1897,
+				type: "item",
+				item: "powah:aerial_pearl"
+			}],
+			rewards: [
+				{
+					id: 1914,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1915,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 4.5d,
+			dependencies: [I;1896],
+			optional: true,
+			id: 1898,
+			tasks: [{
+				id: 1899,
+				type: "item",
+				item: "powah:player_aerial_pearl"
+			}],
+			rewards: [{
+				id: 1920,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 5.5d,
+			dependencies: [I;1119],
+			optional: true,
+			id: 1900,
+			tasks: [{
+				id: 1901,
+				type: "item",
+				item: "powah:blank_card"
+			}],
+			rewards: [
+				{
+					id: 1916,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1917,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: 5.5d,
+			dependencies: [I;1900],
+			optional: true,
+			id: 1902,
+			tasks: [{
+				id: 1903,
+				type: "item",
+				item: "powah:binding_card"
+			}],
+			rewards: [{
+				id: 1921,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 5.5d,
+			dependencies: [I;1902],
+			optional: true,
+			id: 1904,
+			tasks: [{
+				id: 1905,
+				type: "item",
+				item: "powah:binding_card_dim"
+			}],
+			rewards: [{
+				id: 1924,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 6.5d,
+			dependencies: [I;1908],
+			optional: true,
+			id: 1906,
+			tasks: [{
+				id: 1907,
+				type: "item",
+				item: "powah:lens_of_ender"
+			}],
+			rewards: [{
+				id: 1923,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.5d,
+			dependencies: [I;1104],
+			optional: true,
+			id: 1908,
+			tasks: [{
+				id: 1909,
+				type: "item",
+				item: "powah:photoelectric_pane"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.5d,
+			dependencies: [I;3944],
+			optional: true,
+			id: 1910,
+			tasks: [{
+				id: 1911,
+				type: "item",
+				item: "powah:thermoelectric_plate"
+			}],
+			rewards: [
+				{
+					id: 1918,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 1919,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		}
+	]
+}

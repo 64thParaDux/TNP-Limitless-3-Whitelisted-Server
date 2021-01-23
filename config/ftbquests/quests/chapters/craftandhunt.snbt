@@ -1,0 +1,2747 @@
+{
+	id: 1497,
+	filename: "craftandhunt",
+	order_index: 18,
+	title: "Craft and Hunt",
+	icon: "craftandhunt:cooked_bear_flank",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Spider Tools",
+			x: -12.5d,
+			y: 3.0d,
+			description: ["Construct the Spider Tools."],
+			dependencies: [I;1536],
+			id: 1504,
+			tasks: [
+				{
+					id: 1505,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1561,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1562,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1563,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2008,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Spider Armor",
+			x: -13.5d,
+			y: 3.0d,
+			subtitle: "..there's cobwebs all over it..",
+			description: ["Construct some scary looking Spider Armor."],
+			dependencies: [I;1536],
+			id: 1512,
+			tasks: [
+				{
+					id: 1513,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1558,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1559,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1560,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2009,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Poison Spider Tools",
+			x: -11.5d,
+			y: 5.0d,
+			description: ["Construct the Poison Spider Tools."],
+			dependencies: [I;1538],
+			id: 1520,
+			tasks: [
+				{
+					id: 1521,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1569,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1570,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1571,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2010,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Poison Spider Armor",
+			x: -12.5d,
+			y: 5.0d,
+			subtitle: "..looks like there's still som poison left on it..",
+			description: ["Construct the Poison Spider Armor set."],
+			dependencies: [I;1538],
+			id: 1528,
+			tasks: [
+				{
+					id: 1529,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1566,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1567,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1568,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_poison_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2011,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 2.0d,
+			description: ["Spider Chitin - Rarely dropped by normal Spiders."],
+			id: 1536,
+			tasks: [{
+				id: 1537,
+				type: "item",
+				item: "craftandhunt:spider_chitin"
+			}],
+			rewards: [{
+				id: 2385,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -12.0d,
+			y: 4.0d,
+			description: ["Poison Spider Chitin - Crafted using normal Spider Chitin together with a Spider Eye & Rotten Flesh."],
+			dependencies: [I;1536],
+			id: 1538,
+			tasks: [{
+				id: 1539,
+				type: "item",
+				item: "craftandhunt:spider_poison_chitin"
+			}],
+			rewards: [{
+				id: 2012,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fermented Spider Tools",
+			disable_toast: true,
+			x: -13.5d,
+			y: 5.0d,
+			description: ["Construct the Fermented Spider Tools."],
+			dependencies: [I;1556],
+			id: 1540,
+			tasks: [
+				{
+					id: 1541,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1576,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1577,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1578,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2013,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fermented Spider Armor",
+			x: -14.5d,
+			y: 5.0d,
+			subtitle: "..disgusting looking..",
+			description: ["Construct the Fermented Spider Armor set."],
+			dependencies: [I;1556],
+			id: 1548,
+			tasks: [
+				{
+					id: 1549,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1573,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1574,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1575,
+					type: "item",
+					item: {
+						id: "craftandhunt:spider_fermented_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2014,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -14.0d,
+			y: 4.0d,
+			description: ["Fermented Spider Chitin - Crafted using normal Spider Chitin together with a Brown Mushroom & Sugar."],
+			dependencies: [I;1536],
+			id: 1556,
+			tasks: [{
+				id: 1557,
+				type: "item",
+				item: "craftandhunt:spider_fermented_chitin"
+			}],
+			rewards: [{
+				id: 2015,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Shulker Tools",
+			x: -9.5d,
+			y: 3.0d,
+			description: ["Construct the Shulker Tools."],
+			dependencies: [I;1589],
+			id: 1579,
+			tasks: [
+				{
+					id: 1580,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1581,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1582,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1583,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2016,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Shulker Armor",
+			x: -10.5d,
+			y: 3.0d,
+			subtitle: "..no signs of levitation here..",
+			description: ["Construct the Shulker Armor set."],
+			dependencies: [I;1589],
+			id: 1584,
+			tasks: [
+				{
+					id: 1585,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1586,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1587,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1588,
+					type: "item",
+					item: {
+						id: "craftandhunt:shulker_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2017,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 2.0d,
+			description: ["Shulker Shell - Obtained by killing the Shulker Mob located in End Cities, in The End."],
+			id: 1589,
+			tasks: [{
+				id: 1590,
+				type: "item",
+				item: "minecraft:shulker_shell"
+			}],
+			rewards: [{
+				id: 2386,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Shell Tools",
+			x: -2.0d,
+			y: 3.0d,
+			description: ["Construct the Shell Tools."],
+			dependencies: [I;1601],
+			id: 1591,
+			tasks: [
+				{
+					id: 1592,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1593,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1594,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1595,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2018,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Shell Armor",
+			x: -3.0d,
+			y: 3.0d,
+			subtitle: "..i've become one with the turtles..",
+			description: ["Construct the Shell Armor set."],
+			dependencies: [I;1601],
+			id: 1596,
+			tasks: [
+				{
+					id: 1597,
+					type: "item",
+					item: {
+						id: "minecraft:turtle_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1608,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1609,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1610,
+					type: "item",
+					item: {
+						id: "craftandhunt:shell_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2019,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			description: ["Scute is an item baby turtles drop when they grow into adults."],
+			id: 1601,
+			tasks: [{
+				id: 1602,
+				type: "item",
+				item: "minecraft:scute"
+			}],
+			rewards: [{
+				id: 2388,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 2.0d,
+			description: [
+				"Magma Glass - Obtained by Smelting a Magma Cream in a Furnace.",
+				"",
+				"Magma Cream is acquired by killing Magma Cubes, located in The Nether."
+			],
+			id: 1611,
+			tasks: [{
+				id: 1612,
+				type: "item",
+				item: "craftandhunt:blaze_glass"
+			}],
+			rewards: [{
+				id: 2387,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Magma Glass Tools",
+			x: -5.0d,
+			y: 3.0d,
+			description: ["Construct the Magma Glass Tools."],
+			dependencies: [I;1611],
+			id: 1613,
+			tasks: [
+				{
+					id: 1614,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1615,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1616,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1617,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2020,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Magma Glass Armor",
+			x: -6.0d,
+			y: 3.0d,
+			subtitle: "..it's so.. hot..",
+			description: ["Construct the Magma Glass Armor set."],
+			dependencies: [I;1611],
+			id: 1618,
+			tasks: [
+				{
+					id: 1619,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1620,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1621,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1622,
+					type: "item",
+					item: {
+						id: "craftandhunt:blaze_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2021,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			description: ["Wither Skeleton Skulls are obtained rarely by killing Wither Skeletons, located in The Nether."],
+			id: 1623,
+			tasks: [{
+				id: 1624,
+				type: "item",
+				item: "minecraft:wither_skeleton_skull"
+			}],
+			rewards: [{
+				id: 2390,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Wither Tools",
+			x: 3.5d,
+			y: 3.0d,
+			description: ["Construct the Wither Tools."],
+			dependencies: [I;1623],
+			id: 1625,
+			tasks: [
+				{
+					id: 1626,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1627,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1628,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1629,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 2022,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2065,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			title: "Wither Armor",
+			x: 2.5d,
+			y: 3.0d,
+			subtitle: "..withers your core..",
+			description: ["Construct the Wither Armor set."],
+			dependencies: [I;
+				1623,
+				1868
+			],
+			id: 1630,
+			tasks: [
+				{
+					id: 1631,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1632,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1633,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1634,
+					type: "item",
+					item: {
+						id: "craftandhunt:wither_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2023,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Shulker Armor",
+			x: -10.0d,
+			y: 4.0d,
+			description: [
+				"Construct the Reinforced Shulker Armor set.",
+				" ",
+				"A significant upgrade to the normal Shulker Armor set."
+			],
+			dependencies: [I;1584],
+			id: 1656,
+			tasks: [
+				{
+					id: 1657,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shulker_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1658,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shulker_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1659,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shulker_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1660,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shulker_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2027,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Magma Glass Armor",
+			x: -7.5d,
+			y: 4.0d,
+			description: [
+				"Construct the Reinforced Magma Glass Armor set.",
+				"",
+				"A significant upgrade to the base Magma Glass armor set."
+			],
+			dependencies: [I;162],
+			id: 1661,
+			tasks: [
+				{
+					id: 1662,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_blaze_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1663,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_blaze_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1664,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_blaze_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1665,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_blaze_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2028,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Shell Armor",
+			x: -2.5d,
+			y: 4.0d,
+			description: [
+				"Construct the Reinforced Shell Armor set.",
+				" ",
+				"A good upgrade from the normal Shell Armor set."
+			],
+			dependencies: [I;1596],
+			id: 1666,
+			tasks: [
+				{
+					id: 1748,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shell_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1749,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shell_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1750,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shell_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1751,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_shell_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2029,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Wither Soul Armor",
+			x: 3.0d,
+			y: 4.0d,
+			description: [
+				"Construct the Wither Soul Armor set.",
+				" ",
+				"A significant upgrade to the Wither Armor.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1630],
+			id: 1670,
+			tasks: [
+				{
+					id: 1671,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_wither_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1672,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_wither_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1673,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_wither_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1675,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_wither_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2030,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 2.0d,
+			description: [
+				"Wolf Hide, an item that can be obtained rarely by killing Wolfs.",
+				" ",
+				"Wolfs can be found in Forest & Taiga biomes."
+			],
+			id: 1736,
+			tasks: [{
+				id: 1737,
+				type: "item",
+				item: "craftandhunt:wolf_hide"
+			}],
+			rewards: [{
+				id: 2398,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Wolf Armor",
+			x: 9.0d,
+			y: 3.0d,
+			subtitle: "..if you live among wolves you have to act like a wolf..",
+			description: [
+				"Construct the Wolf Armor set.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1736],
+			id: 1738,
+			tasks: [
+				{
+					id: 1739,
+					type: "item",
+					item: {
+						id: "craftandhunt:wolf_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1742,
+					type: "item",
+					item: {
+						id: "craftandhunt:wolf_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1743,
+					type: "item",
+					item: {
+						id: "craftandhunt:wolf_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1744,
+					type: "item",
+					item: {
+						id: "craftandhunt:wolf_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2042,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			subtitle: "..it's almost like you can fly away..",
+			description: ["Construct the Phantom Armor set."],
+			dependencies: [I;1762],
+			id: 1752,
+			tasks: [
+				{
+					id: 1753,
+					type: "item",
+					item: {
+						id: "craftandhunt:phantom_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1754,
+					type: "item",
+					item: {
+						id: "craftandhunt:phantom_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1755,
+					type: "item",
+					item: {
+						id: "craftandhunt:phantom_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1756,
+					type: "item",
+					item: {
+						id: "craftandhunt:phantom_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2044,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -4.0d,
+			description: [
+				"Construct the Reinforced Phantom Armor set.",
+				" ",
+				"A significant upgrade to the normal Phantom Armor set."
+			],
+			dependencies: [I;1752],
+			id: 1757,
+			tasks: [
+				{
+					id: 1758,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_phantom_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1759,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_phantom_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1760,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_phantom_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1761,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_phantom_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2045,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -2.0d,
+			description: [
+				"Phantom Membrane, an item that can be acquired by killing Phantoms.",
+				" ",
+				"The Phantom is attracted to insomnia and will find players who haven't slept for many days. It will swoop down in groups and bite your flesh."
+			],
+			id: 1762,
+			tasks: [{
+				id: 1763,
+				type: "item",
+				item: "minecraft:phantom_membrane"
+			}],
+			rewards: [{
+				id: 2402,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 2.0d,
+			description: [
+				"Elder Guardian Hide is an item that can be obtained by killing Elder Guardians.",
+				" ",
+				"Located in Ocean Temples.",
+				" ",
+				"&7Reward: 1 EXP Level"
+			],
+			id: 1764,
+			tasks: [{
+				id: 1765,
+				type: "item",
+				item: "craftandhunt:guardian_elder_skin"
+			}],
+			rewards: [{
+				id: 2392,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Elder Guardian Armor",
+			x: 5.5d,
+			y: 3.0d,
+			subtitle: "..creepy looking creature..",
+			description: [
+				"Construct the Elder Guardian Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1764],
+			id: 1766,
+			tasks: [
+				{
+					id: 1767,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_elder_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1768,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_elder_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1769,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_elder_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1770,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_elder_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2046,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Elder Guardian Armor",
+			x: 5.0d,
+			y: 4.0d,
+			description: [
+				"Construct the Reinforced Elder Guardian Armor set.",
+				" ",
+				"An upgrade to the regular Elder Guardian Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1766],
+			id: 1771,
+			tasks: [
+				{
+					id: 1772,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_guardian_elder_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1773,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_guardian_elder_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1774,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_guardian_elder_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1775,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_guardian_elder_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2047,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.0d,
+			description: [
+				"Bee Chitin, an item that can be acquired by killing Bees.",
+				" ",
+				"Bees can be found rarely in Plains biomes & Forest biomes."
+			],
+			id: 1776,
+			tasks: [{
+				id: 1777,
+				type: "item",
+				item: "craftandhunt:bee_chitin"
+			}],
+			rewards: [{
+				id: 2403,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Bee Armor",
+			x: -2.0d,
+			y: -3.0d,
+			subtitle: "..bzz bzz.. bzz..",
+			description: ["Construct the Bee Armor set."],
+			dependencies: [I;1776],
+			id: 1778,
+			tasks: [
+				{
+					id: 1779,
+					type: "item",
+					item: {
+						id: "craftandhunt:bee_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1780,
+					type: "item",
+					item: {
+						id: "craftandhunt:bee_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1781,
+					type: "item",
+					item: {
+						id: "craftandhunt:bee_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1782,
+					type: "item",
+					item: {
+						id: "craftandhunt:bee_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2048,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.0d,
+			description: [
+				"Construct the Reinforced Hive Armor set.",
+				" ",
+				"A significant upgrade to the normal Hive Armor set."
+			],
+			dependencies: [I;156],
+			id: 1783,
+			tasks: [
+				{
+					id: 1784,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bee_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1785,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bee_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1786,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bee_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1787,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bee_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2049,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Poison Spider Armor",
+			x: -12.0d,
+			y: 6.0d,
+			description: [
+				"Construct the Reinforced Poison Spider Armor set.",
+				" ",
+				"A good upgrade from the normal Poison Spider Armor set."
+			],
+			dependencies: [I;1528],
+			id: 1788,
+			tasks: [
+				{
+					id: 1789,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_poison_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1790,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_poison_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1791,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_poison_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1792,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_poison_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2050,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Fermented Spider Armor",
+			x: -14.0d,
+			y: 6.0d,
+			description: [
+				"Construct the Reinforced Fermented Spider Armor set.",
+				" ",
+				"A good upgrade from the normal Fermented Spider Armor set."
+			],
+			dependencies: [I;1548],
+			id: 1793,
+			tasks: [
+				{
+					id: 1794,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_fermented_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1795,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_fermented_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1796,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_fermented_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1798,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_spider_fermented_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2051,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.0d,
+			description: [
+				"Guardian Hide is an item that can be obtained by killing Guardians.",
+				" ",
+				"Guardians are usually found outside Ocean Temples."
+			],
+			id: 1806,
+			tasks: [{
+				id: 1807,
+				type: "item",
+				item: "craftandhunt:guardian_skin"
+			}],
+			rewards: [{
+				id: 2400,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			subtitle: "..those spikes look dangerous..",
+			description: ["Construct the Guardian Armor set."],
+			dependencies: [I;1806],
+			id: 1808,
+			tasks: [
+				{
+					id: 1809,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1810,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1811,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1812,
+					type: "item",
+					item: {
+						id: "craftandhunt:guardian_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2053,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.0d,
+			description: [
+				"Fox Hide, an item that can be obtained rarely by killing Foxes.",
+				" ",
+				"Foxes can usually be found in Taiga Biomes.",
+				"",
+				"&7Reward: 1 EXP Level"
+			],
+			id: 1813,
+			tasks: [{
+				id: 1814,
+				type: "item",
+				item: "craftandhunt:fox_hide"
+			}],
+			rewards: [{
+				id: 2397,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Fox Armor",
+			x: 7.5d,
+			y: 3.0d,
+			subtitle: "..the Fox has many tricks..",
+			description: [
+				"Construct the Fox Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1813],
+			id: 1815,
+			tasks: [
+				{
+					id: 1816,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1817,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1818,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1819,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2054,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 4.0d,
+			description: [
+				"Fire Hound Hide, an item that can be obtained rarely by killing Foxhounds.",
+				" ",
+				"Foxhounds are usually found pretty much anywhere in The Nether.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1815,
+				1738
+			],
+			dependency_requirement: "one_completed",
+			id: 1820,
+			tasks: [{
+				id: 1821,
+				type: "item",
+				item: "craftandhunt:fox_fire_hide"
+			}],
+			rewards: [{
+				id: 2055,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fox Fire Armor",
+			x: 7.0d,
+			y: 5.0d,
+			subtitle: "..the power of the hound is with you..",
+			description: [
+				"Construct the Fox Fire & the regular Fox Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1820],
+			id: 1822,
+			tasks: [
+				{
+					id: 1823,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_fire_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1824,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_fire_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1825,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_fire_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1826,
+					type: "item",
+					item: {
+						id: "craftandhunt:fox_fire_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2056,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Fire Fox Armor",
+			x: 7.5d,
+			y: 6.0d,
+			description: [
+				"Construct the Reinforced Fire Fox Armor set.",
+				" ",
+				"A great upgrade to the normal Fox Armor & Fox Fire Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1822],
+			id: 1827,
+			tasks: [
+				{
+					id: 1828,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_fox_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1829,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_fox_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1830,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_fox_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1831,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_fox_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2057,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Nautilus Shell Armor",
+			x: 0.0d,
+			y: 3.0d,
+			subtitle: "..water is my friend..",
+			description: ["Construct the Nautilus Shell Armor set."],
+			dependencies: [I;1834],
+			id: 1832,
+			tasks: [
+				{
+					id: 1833,
+					type: "item",
+					item: {
+						id: "craftandhunt:naut_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1836,
+					type: "item",
+					item: {
+						id: "craftandhunt:naut_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1837,
+					type: "item",
+					item: {
+						id: "craftandhunt:naut_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1838,
+					type: "item",
+					item: {
+						id: "craftandhunt:naut_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2058,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			description: [
+				"Nautilus Shell can be rarely obtained by fishing, or by killing the Nautilus mob located in Oceans.",
+				" ",
+				"(Specifically the one from Upgrade Aquatic.)"
+			],
+			id: 1834,
+			tasks: [{
+				id: 1835,
+				type: "item",
+				item: "minecraft:nautilus_shell"
+			}],
+			rewards: [{
+				id: 2389,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Chilled Bone Armor",
+			x: -4.5d,
+			y: -4.0d,
+			description: [
+				"Construct the Chilled Bone Armor set.",
+				" ",
+				"An upgrade to the normal Bone Armor set."
+			],
+			dependencies: [I;1868],
+			id: 1859,
+			tasks: [
+				{
+					id: 1860,
+					type: "item",
+					item: {
+						id: "craftandhunt:stray_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1863,
+					type: "item",
+					item: {
+						id: "craftandhunt:stray_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1864,
+					type: "item",
+					item: {
+						id: "craftandhunt:stray_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1865,
+					type: "item",
+					item: {
+						id: "craftandhunt:stray_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2061,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Reinforced Chilled Bone Armor",
+			x: -4.0d,
+			y: -5.0d,
+			description: [
+				"Construct the Reinforced Chilled Bone Armor set.",
+				" ",
+				"A really good upgrade to the Chilled Bone Armor set."
+			],
+			dependencies: [I;1859],
+			id: 1866,
+			tasks: [
+				{
+					id: 1867,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_stray_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1875,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_stray_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1876,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_stray_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1877,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_stray_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2062,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -3.0d,
+			subtitle: "..bones..",
+			description: ["Construct the Bone Armor set."],
+			dependencies: [I;1873],
+			id: 1868,
+			tasks: [
+				{
+					id: 1869,
+					type: "item",
+					item: {
+						id: "craftandhunt:bone_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1870,
+					type: "item",
+					item: {
+						id: "craftandhunt:bone_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1871,
+					type: "item",
+					item: {
+						id: "craftandhunt:bone_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1872,
+					type: "item",
+					item: {
+						id: "craftandhunt:bone_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2063,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "A Bone",
+			x: -4.0d,
+			y: -2.0d,
+			description: ["Bone is a common item, one way of obtaining it is by killing Skeletons."],
+			id: 1873,
+			tasks: [{
+				id: 1874,
+				type: "item",
+				item: "minecraft:bone"
+			}],
+			rewards: [{
+				id: 2404,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Nest Armor",
+			x: -1.5d,
+			y: -4.0d,
+			subtitle: "..honey.. everywhere..",
+			description: ["Construct the Nest Armor Set"],
+			dependencies: [I;1778],
+			id: 156,
+			tasks: [
+				{
+					id: 157,
+					type: "item",
+					item: {
+						id: "craftandhunt:nest_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 158,
+					type: "item",
+					item: {
+						id: "craftandhunt:nest_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 159,
+					type: "item",
+					item: {
+						id: "craftandhunt:nest_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 160,
+					type: "item",
+					item: {
+						id: "craftandhunt:nest_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 161,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Magma Strider Armor",
+			x: -7.5d,
+			y: 3.0d,
+			subtitle: "Striding",
+			description: [
+				"Construct the Magma Strider set.",
+				"",
+				"An upgrade to the Magma Glass armor set."
+			],
+			dependencies: [I;1618],
+			id: 162,
+			tasks: [
+				{
+					id: 163,
+					type: "item",
+					item: {
+						id: "craftandhunt:strider_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 461,
+					type: "item",
+					item: {
+						id: "craftandhunt:strider_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 471,
+					type: "item",
+					item: {
+						id: "craftandhunt:strider_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 473,
+					type: "item",
+					item: {
+						id: "craftandhunt:strider_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 164,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 2.0d,
+			description: [
+				"Panda Bear Leather, an item that can be obtained by killing Panda(bears).",
+				" ",
+				"Pandas spawn in groups of 1–2 in bamboo jungle biomes.",
+				" ",
+				"&7Reward: 1 EXP Level"
+			],
+			id: 169,
+			tasks: [{
+				id: 170,
+				type: "item",
+				item: "craftandhunt:bear_panda_leather"
+			}],
+			rewards: [{
+				id: 268,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Panda Bear Armor",
+			x: 10.5d,
+			y: 3.0d,
+			subtitle: "Likes bamboo!",
+			description: [
+				"Construct the Panda Bear Armor set.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;169],
+			id: 171,
+			tasks: [
+				{
+					id: 172,
+					type: "item",
+					item: {
+						id: "craftandhunt:bear_panda_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 258,
+					type: "item",
+					item: {
+						id: "craftandhunt:bear_panda_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 259,
+					type: "item",
+					item: {
+						id: "craftandhunt:bear_panda_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 260,
+					type: "item",
+					item: {
+						id: "craftandhunt:bear_panda_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 261,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 4.0d,
+			description: [
+				" Construct the Reinforced Panda Bear Armor set.",
+				" ",
+				"A significant upgrade to the Panda Bear Armor.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;171],
+			id: 262,
+			tasks: [
+				{
+					id: 263,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bear_panda_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 264,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bear_panda_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 265,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bear_panda_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 266,
+					type: "item",
+					item: {
+						id: "craftandhunt:u_bear_panda_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 267,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

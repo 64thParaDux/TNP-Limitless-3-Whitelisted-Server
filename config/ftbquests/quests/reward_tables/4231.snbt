@@ -1,0 +1,20 @@
+{
+	id: 4231,
+	title: "Ghost",
+	loot_size: 1,
+	rewards: [
+		{
+			item: {
+				id: "rats:ghost_pirat_hat",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "kubejs:lootbag_piece",
+			count: 3
+		}
+	]
+}

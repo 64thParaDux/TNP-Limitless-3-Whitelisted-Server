@@ -1,0 +1,2933 @@
+{
+	id: 930,
+	filename: "mysticalagriculture",
+	order_index: 20,
+	title: "Mystical Agriculture",
+	icon: "mysticalagriculture:inferium_essence",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.5d,
+			y: 1.5d,
+			subtitle: "Acquire a Prosperity Shard",
+			description: ["&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."],
+			id: 1123,
+			tasks: [{
+				id: 1124,
+				type: "item",
+				item: "mysticalagriculture:prosperity_shard"
+			}],
+			rewards: [
+				{
+					id: 2170,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 648,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			subtitle: "Prosperity Base seed is basically used for any craftable seed.",
+			description: ["&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."],
+			dependencies: [I;1123],
+			id: 1125,
+			tasks: [{
+				id: 1126,
+				type: "item",
+				item: "mysticalagriculture:prosperity_seed_base"
+			}],
+			rewards: [
+				{
+					id: 2167,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 657,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 1.5d,
+			subtitle: "The Infusion Altar is used to create Seeds & Augments.",
+			description: [
+				"By simply placing down the Altar it will display how you need to place the pedestals.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 1127,
+			tasks: [{
+				id: 1128,
+				type: "item",
+				item: "mysticalagriculture:infusion_altar"
+			}],
+			rewards: [{
+				id: 2103,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 2.5d,
+			subtitle: "8 pedestals are needed to use the Infusion Altar.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1127],
+			id: 1129,
+			tasks: [{
+				id: 1130,
+				type: "item",
+				item: "mysticalagriculture:infusion_pedestal",
+				count: 8L
+			}],
+			rewards: [{
+				id: 2104,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 3.0d,
+			subtitle: "Craft Inferium Essence",
+			description: ["&7Reward: 2 EXP Levels"],
+			id: 1131,
+			tasks: [{
+				id: 1132,
+				type: "item",
+				item: "mysticalagriculture:inferium_essence"
+			}],
+			rewards: [{
+				id: 2175,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 15.5d,
+			y: 3.0d,
+			subtitle: "Craft Inferium Seeds",
+			description: ["&7Reward: 2 EXP Levels"],
+			dependencies: [I;1131],
+			id: 1133,
+			tasks: [{
+				id: 1134,
+				type: "item",
+				item: "mysticalagriculture:inferium_seeds"
+			}],
+			rewards: [{
+				id: 2177,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 1.5d,
+			subtitle: "Craft an Infusion Crystal",
+			description: [
+				"&o1000 Total Uses.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1131,
+				1123
+			],
+			id: 1135,
+			tasks: [{
+				id: 1136,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:infusion_crystal",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2105,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 4.0d,
+			subtitle: "Craft Prudentium Essence",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1135],
+			id: 1137,
+			tasks: [{
+				id: 1138,
+				type: "item",
+				item: "mysticalagriculture:prudentium_essence"
+			}],
+			rewards: [{
+				id: 2106,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 5.0d,
+			subtitle: "Craft Tertium Essence",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1137],
+			id: 1139,
+			tasks: [{
+				id: 1140,
+				type: "item",
+				item: "mysticalagriculture:tertium_essence"
+			}],
+			rewards: [{
+				id: 2107,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 6.0d,
+			subtitle: "Craft Imperium Essence",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1139],
+			id: 1141,
+			tasks: [{
+				id: 1142,
+				type: "item",
+				item: "mysticalagriculture:imperium_essence"
+			}],
+			rewards: [{
+				id: 2108,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 7.0d,
+			subtitle: "Craft Supremium Essence",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1141],
+			id: 1143,
+			tasks: [{
+				id: 1144,
+				type: "item",
+				item: "mysticalagriculture:supremium_essence"
+			}],
+			rewards: [{
+				id: 2109,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 2.5d,
+			subtitle: "Soulium Seed Base is used to create seeds for Mobs.",
+			description: ["&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."],
+			dependencies: [I;1125],
+			id: 1145,
+			tasks: [{
+				id: 1146,
+				type: "item",
+				item: "mysticalagriculture:soulium_seed_base"
+			}],
+			rewards: [
+				{
+					id: 2166,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 656,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -7.0d,
+			y: 2.0d,
+			subtitle: "The Tinkering Table is used to apply augments to your Mystical Agriculture Tools & Armor.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1129,
+				1127
+			],
+			id: 1147,
+			tasks: [{
+				id: 1148,
+				type: "item",
+				item: "mysticalagriculture:tinkering_table"
+			}],
+			rewards: [{
+				id: 2110,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 2.0d,
+			subtitle: "Unattuned Augments is the core for any Augment.",
+			description: [
+				"Type '@mysticalagriculture augment' into the JEI search field to bring up all the augments at your disposal.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1123,
+				1127
+			],
+			id: 1149,
+			tasks: [{
+				id: 1150,
+				type: "item",
+				item: "mysticalagriculture:unattuned_augment"
+			}],
+			rewards: [{
+				id: 2111,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 4.0d,
+			subtitle: "Craft Prudentium Farmland",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1137],
+			id: 1155,
+			tasks: [{
+				id: 1156,
+				type: "item",
+				item: "mysticalagriculture:prudentium_farmland"
+			}],
+			rewards: [{
+				id: 2112,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 5.0d,
+			subtitle: "Craft Tertium Farmland",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1139],
+			id: 1157,
+			tasks: [{
+				id: 1158,
+				type: "item",
+				item: "mysticalagriculture:tertium_farmland"
+			}],
+			rewards: [{
+				id: 2113,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 6.0d,
+			subtitle: "Craft Imperium Farmland",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1141],
+			id: 1159,
+			tasks: [{
+				id: 1160,
+				type: "item",
+				item: "mysticalagriculture:imperium_farmland"
+			}],
+			rewards: [{
+				id: 2114,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 7.0d,
+			subtitle: "Craft Supremium Farmland",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1143],
+			id: 1161,
+			tasks: [{
+				id: 1162,
+				type: "item",
+				item: "mysticalagriculture:supremium_farmland"
+			}],
+			rewards: [{
+				id: 2115,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 3.0d,
+			subtitle: "Craft Inferium Farmland",
+			description: ["&7Reward: 2 EXP Levels"],
+			dependencies: [I;1131],
+			id: 1163,
+			tasks: [{
+				id: 1164,
+				type: "item",
+				item: "mysticalagriculture:inferium_farmland"
+			}],
+			rewards: [{
+				id: 2176,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			subtitle: "Craft a Prosperity Ingot",
+			description: ["&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."],
+			dependencies: [I;1123],
+			id: 1165,
+			tasks: [{
+				id: 1166,
+				type: "item",
+				item: "mysticalagriculture:prosperity_ingot"
+			}],
+			rewards: [
+				{
+					id: 2168,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 649,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 5.0d,
+			subtitle: "Craft an Inferium Ingot",
+			description: ["&7Reward: 2 EXP Levels"],
+			dependencies: [I;
+				1131,
+				1165
+			],
+			id: 1167,
+			tasks: [{
+				id: 1168,
+				type: "item",
+				item: "mysticalagriculture:inferium_ingot"
+			}],
+			rewards: [{
+				id: 2189,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 5.0d,
+			subtitle: "Craft a Prudentium Ingot",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1165,
+				1137
+			],
+			id: 1169,
+			tasks: [{
+				id: 1170,
+				type: "item",
+				item: "mysticalagriculture:prudentium_ingot"
+			}],
+			rewards: [{
+				id: 2116,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 5.0d,
+			subtitle: "Craft a Tertium Ingot",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1165,
+				1139
+			],
+			id: 1171,
+			tasks: [{
+				id: 1172,
+				type: "item",
+				item: "mysticalagriculture:tertium_ingot"
+			}],
+			rewards: [{
+				id: 2117,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 5.0d,
+			subtitle: "Craft an Imperium Ingot",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1165,
+				1141
+			],
+			id: 1173,
+			tasks: [{
+				id: 1174,
+				type: "item",
+				item: "mysticalagriculture:imperium_ingot"
+			}],
+			rewards: [{
+				id: 2118,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.0d,
+			subtitle: "Craft a Supremium Ingot",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1165,
+				1143
+			],
+			id: 1175,
+			tasks: [{
+				id: 1176,
+				type: "item",
+				item: "mysticalagriculture:supremium_ingot"
+			}],
+			rewards: [{
+				id: 2119,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.5d,
+			subtitle: "Craft a Prosperity Gemstone",
+			description: ["&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."],
+			dependencies: [I;1123],
+			id: 1177,
+			tasks: [{
+				id: 1178,
+				type: "item",
+				item: "mysticalagriculture:prosperity_gemstone"
+			}],
+			rewards: [
+				{
+					id: 2169,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 653,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 4.0d,
+			subtitle: "Craft an Inferium Gemstone",
+			description: ["&7Reward: 2 EXP Levels"],
+			dependencies: [I;
+				1177,
+				1131
+			],
+			id: 1179,
+			tasks: [{
+				id: 1180,
+				type: "item",
+				item: "mysticalagriculture:inferium_gemstone"
+			}],
+			rewards: [{
+				id: 2190,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.0d,
+			subtitle: "Craft a Prudentium Gemstone",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1177,
+				1137
+			],
+			id: 1181,
+			tasks: [{
+				id: 1182,
+				type: "item",
+				item: "mysticalagriculture:prudentium_gemstone"
+			}],
+			rewards: [{
+				id: 2120,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			subtitle: "Craft a Tertium Gemstone",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1177,
+				1139
+			],
+			id: 1183,
+			tasks: [{
+				id: 1184,
+				type: "item",
+				item: "mysticalagriculture:tertium_gemstone"
+			}],
+			rewards: [{
+				id: 2121,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 4.0d,
+			subtitle: "Craft an Imperium Gemstone",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1177,
+				1141
+			],
+			id: 1185,
+			tasks: [{
+				id: 1186,
+				type: "item",
+				item: "mysticalagriculture:imperium_gemstone"
+			}],
+			rewards: [{
+				id: 2122,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.0d,
+			subtitle: "Craft a Supremium Gemstone",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1177,
+				1143
+			],
+			id: 1187,
+			tasks: [{
+				id: 1188,
+				type: "item",
+				item: "mysticalagriculture:supremium_gemstone"
+			}],
+			rewards: [{
+				id: 2123,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.5d,
+			subtitle: "Craft an Inferium Sword",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1189,
+			tasks: [{
+				id: 1190,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2198,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 7.5d,
+			subtitle: "Craft an Inferium Pickaxe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1191,
+			tasks: [{
+				id: 1192,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2195,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 8.5d,
+			subtitle: "Craft an Inferium Shovel",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1193,
+			tasks: [{
+				id: 1194,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2196,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 9.5d,
+			subtitle: "Craft an Inferium Axe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1195,
+			tasks: [{
+				id: 1196,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2197,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.5d,
+			subtitle: "Craft a Prudentium Sword",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1189
+			],
+			id: 1199,
+			tasks: [{
+				id: 1200,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2124,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 7.5d,
+			subtitle: "Craft a Prudentium Pickaxe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1191
+			],
+			id: 1201,
+			tasks: [{
+				id: 1202,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2125,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 8.5d,
+			subtitle: "Craft a Prudentium Shovel",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1193
+			],
+			id: 1203,
+			tasks: [{
+				id: 1204,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2126,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 9.5d,
+			subtitle: "Craft a Prudentium Axe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1195
+			],
+			id: 1205,
+			tasks: [{
+				id: 1206,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2127,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 6.5d,
+			subtitle: "Craft a Tertium Sword",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1199
+			],
+			id: 1243,
+			tasks: [{
+				id: 1244,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2128,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.5d,
+			subtitle: "Craft a Tertium Pickaxe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1201
+			],
+			id: 1245,
+			tasks: [{
+				id: 1246,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2129,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 8.5d,
+			subtitle: "Craft a Tertium Shovel",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1203
+			],
+			id: 1247,
+			tasks: [{
+				id: 1248,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2130,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 9.5d,
+			subtitle: "Craft a Tertium Axe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1205
+			],
+			id: 1249,
+			tasks: [{
+				id: 1250,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2131,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 6.5d,
+			subtitle: "Craft an Imperium Sword",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1243
+			],
+			id: 1251,
+			tasks: [{
+				id: 1252,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2132,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			subtitle: "Craft an Imperium Pickaxe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1245
+			],
+			id: 1253,
+			tasks: [{
+				id: 1254,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2133,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.5d,
+			subtitle: "Craft an Imperium Shovel",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1247
+			],
+			id: 1255,
+			tasks: [{
+				id: 1256,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2134,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 9.5d,
+			subtitle: "Craft an Imperium Axe",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1249
+			],
+			id: 1257,
+			tasks: [{
+				id: 1258,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2135,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 6.5d,
+			subtitle: "Craft a Supremium Sword",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1251
+			],
+			id: 1259,
+			tasks: [{
+				id: 1260,
+				type: "item",
+				item: "mysticalagriculture:supremium_sword"
+			}],
+			rewards: [
+				{
+					id: 2066,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2074,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 7.5d,
+			subtitle: "Craft a Supremium Pickaxe",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1253
+			],
+			id: 1261,
+			tasks: [{
+				id: 1262,
+				type: "item",
+				item: "mysticalagriculture:supremium_pickaxe"
+			}],
+			rewards: [
+				{
+					id: 2068,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2076,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 8.5d,
+			subtitle: "Craft a Supremium Shovel",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1255
+			],
+			id: 1263,
+			tasks: [{
+				id: 1264,
+				type: "item",
+				item: "mysticalagriculture:supremium_shovel"
+			}],
+			rewards: [
+				{
+					id: 2070,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2078,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 9.5d,
+			subtitle: "Craft a Supremium Axe",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1257
+			],
+			id: 1265,
+			tasks: [{
+				id: 1266,
+				type: "item",
+				item: "mysticalagriculture:supremium_axe"
+			}],
+			rewards: [
+				{
+					id: 2072,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2080,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 6.5d,
+			subtitle: "Craft a Supremium Helmet",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1275
+			],
+			id: 1267,
+			tasks: [{
+				id: 1268,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:supremium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2067,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2075,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 7.5d,
+			subtitle: "Craft a Supremium Chestplate",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1277
+			],
+			id: 1269,
+			tasks: [{
+				id: 1270,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:supremium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2069,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2077,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 8.5d,
+			subtitle: "Craft Supremium Leggings",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1279
+			],
+			id: 1271,
+			tasks: [{
+				id: 1272,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:supremium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2071,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2079,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 9.5d,
+			subtitle: "Craft Supremium Boots",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1187,
+				1175,
+				1281
+			],
+			id: 1273,
+			tasks: [{
+				id: 1274,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:supremium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2073,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2081,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 6.5d,
+			subtitle: "Craft an Imperium Helmet",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1283
+			],
+			id: 1275,
+			tasks: [{
+				id: 1276,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2136,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.5d,
+			subtitle: "Craft an Imperium Chestplate",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1285
+			],
+			id: 1277,
+			tasks: [{
+				id: 1278,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2137,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.5d,
+			subtitle: "Craft Imperium Leggings",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1287
+			],
+			id: 1279,
+			tasks: [{
+				id: 1280,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2138,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 9.5d,
+			subtitle: "Craft Imperium Boots",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1185,
+				1173,
+				1289
+			],
+			id: 1281,
+			tasks: [{
+				id: 1282,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2139,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.5d,
+			subtitle: "Craft a Tertium Helmet",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1291
+			],
+			id: 1283,
+			tasks: [{
+				id: 1284,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2140,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 7.5d,
+			subtitle: "Craft a Tertium Chestplate",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1293
+			],
+			id: 1285,
+			tasks: [{
+				id: 1286,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2141,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 8.5d,
+			subtitle: "Craft Tertium Leggings",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1295
+			],
+			id: 1287,
+			tasks: [{
+				id: 1288,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2142,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 9.5d,
+			subtitle: "Craft Tertium Boots",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1183,
+				1171,
+				1297
+			],
+			id: 1289,
+			tasks: [{
+				id: 1290,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2143,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 6.5d,
+			subtitle: "Craft a Prudentium Helmet",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1299
+			],
+			id: 1291,
+			tasks: [{
+				id: 1292,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2144,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 7.5d,
+			subtitle: "Craft a Prudentium Chestplate",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1301
+			],
+			id: 1293,
+			tasks: [{
+				id: 1294,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2145,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 8.5d,
+			subtitle: "Craft Prudentium Leggings",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1303
+			],
+			id: 1295,
+			tasks: [{
+				id: 1296,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2146,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 9.5d,
+			subtitle: "Craft Prudentium Boots",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1181,
+				1169,
+				1305
+			],
+			id: 1297,
+			tasks: [{
+				id: 1298,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2147,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 6.5d,
+			subtitle: "Craft an Inferium Helmet",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1299,
+			tasks: [{
+				id: 1300,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2194,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 7.5d,
+			subtitle: "Craft an Inferium Chestplate",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1301,
+			tasks: [{
+				id: 1302,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2193,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 8.5d,
+			subtitle: "Craft Inferium Leggings",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1303,
+			tasks: [{
+				id: 1304,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2192,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: 9.5d,
+			subtitle: "Craft Inferium Boots",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1167,
+				1179
+			],
+			id: 1305,
+			tasks: [{
+				id: 1306,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3462,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 10.0d,
+			subtitle: "Craft Inferium Coal",
+			description: [
+				"&oSmelts 12 items.",
+				"",
+				"&7Reward: 2 EXP Levels"
+			],
+			dependencies: [I;1131],
+			id: 1307,
+			tasks: [{
+				id: 1308,
+				type: "item",
+				item: "mysticalagradditions:inferium_coal"
+			}],
+			rewards: [{
+				id: 2173,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 11.0d,
+			subtitle: "Craft Prudentium Coal",
+			description: [
+				"&oSmelts 24 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1137],
+			id: 1309,
+			tasks: [{
+				id: 1310,
+				type: "item",
+				item: "mysticalagradditions:prudentium_coal"
+			}],
+			rewards: [{
+				id: 2149,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: 11.5d,
+			subtitle: "Craft Tertium Coal",
+			description: [
+				"&oSmelts 48 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1139],
+			id: 1311,
+			tasks: [{
+				id: 1312,
+				type: "item",
+				item: "mysticalagradditions:tertium_coal"
+			}],
+			rewards: [{
+				id: 2150,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 11.5d,
+			subtitle: "Craft Imperium Coal",
+			description: [
+				"&oSmelts 96 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1141],
+			id: 1313,
+			tasks: [{
+				id: 1314,
+				type: "item",
+				item: "mysticalagradditions:imperium_coal"
+			}],
+			rewards: [{
+				id: 2151,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 11.0d,
+			subtitle: "Craft Supremium Coal",
+			description: [
+				"&oSmelts 192 items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1143],
+			id: 1315,
+			tasks: [{
+				id: 1316,
+				type: "item",
+				item: "mysticalagradditions:supremium_coal"
+			}],
+			rewards: [{
+				id: 2152,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 3.0d,
+			subtitle: "Craft an Inferium Furnace",
+			description: [
+				"&oCooking Speed: 120%",
+				"&oFuel Efficiency: 100%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1131,
+				1167
+			],
+			id: 1317,
+			tasks: [{
+				id: 1318,
+				type: "item",
+				item: "mysticalagriculture:inferium_furnace"
+			}],
+			rewards: [{
+				id: 3465,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 4.0d,
+			subtitle: "Craft a Prudentium Furnace",
+			description: [
+				"&oCooking Speed: 160%",
+				"&oFuel Efficiency: 135%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1137,
+				1169,
+				1317
+			],
+			id: 1319,
+			tasks: [{
+				id: 1320,
+				type: "item",
+				item: "mysticalagriculture:prudentium_furnace"
+			}],
+			rewards: [{
+				id: 2153,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 5.0d,
+			subtitle: "Craft a Tertium Furnace",
+			description: [
+				"&oCooking Speed: 250%",
+				"&oFuel Efficiency: 170%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1139,
+				1171,
+				1319
+			],
+			id: 1321,
+			tasks: [{
+				id: 1322,
+				type: "item",
+				item: "mysticalagriculture:tertium_furnace"
+			}],
+			rewards: [{
+				id: 2154,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 6.0d,
+			subtitle: "Craft an Imperium Furnace",
+			description: [
+				"&oCooking Speed: 690%",
+				"&oFuel Efficiency: 345%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1141,
+				1173,
+				1321
+			],
+			id: 1323,
+			tasks: [{
+				id: 1324,
+				type: "item",
+				item: "mysticalagriculture:imperium_furnace"
+			}],
+			rewards: [{
+				id: 2155,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 7.0d,
+			subtitle: "Craft a Supremium Furnace",
+			description: [
+				"&oCooking Speed: 4000%",
+				"&oFuel Efficiency: 800%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1143,
+				1175,
+				1323
+			],
+			id: 1325,
+			tasks: [{
+				id: 1326,
+				type: "item",
+				item: "mysticalagriculture:supremium_furnace"
+			}],
+			rewards: [
+				{
+					id: 2156,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3463,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: 11.0d,
+			subtitle: "Craft a Watering Can",
+			description: ["&7Reward: 2 EXP Levels"],
+			id: 1327,
+			tasks: [{
+				id: 1328,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:watering_can",
+					Count: true,
+					tag: {
+						Water: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2186,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 11.0d,
+			subtitle: "Craft an Inferium Watering Can",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1167],
+			id: 1329,
+			tasks: [{
+				id: 1330,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:inferium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2187,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 2199,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 11.0d,
+			subtitle: "Craft a Prudentium Watering Can",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1169,
+				1329
+			],
+			id: 1331,
+			tasks: [{
+				id: 1332,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:prudentium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2102,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 11.0d,
+			subtitle: "Craft an Tertium Watering Can",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1171,
+				1331
+			],
+			id: 1333,
+			tasks: [{
+				id: 1334,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:tertium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2101,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 11.0d,
+			subtitle: "Craft an Imperium Watering Can",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1173,
+				1333
+			],
+			id: 1335,
+			tasks: [{
+				id: 1336,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:imperium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2100,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 11.0d,
+			subtitle: "Craft a Supremium Watering Can",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1175,
+				1335
+			],
+			id: 1352,
+			tasks: [{
+				id: 1353,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:supremium_watering_can",
+					Count: true,
+					tag: {
+						Water: 0,
+						Active: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2098,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2099,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 12.5d,
+			subtitle: "Craft some Mystical Fertilizer",
+			description: ["&7Reward: 3 EXP Levels"],
+			dependencies: [I;1131],
+			dependency_requirement: "one_completed",
+			id: 1354,
+			tasks: [{
+				id: 1355,
+				type: "item",
+				item: "mysticalagriculture:mystical_fertilizer"
+			}],
+			rewards: [{
+				id: 2188,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			subtitle: "Grants additional souls from peaceful creatures.",
+			description: [
+				"Craft a Soulium Dagger with 2 Soulium Ingots & 2 Soulium Dust, + a Gold Sword.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1429],
+			id: 1356,
+			tasks: [{
+				id: 1357,
+				type: "item",
+				item: {
+					id: "mysticalagriculture:soulium_dagger",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2157,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 13.0d,
+			y: 1.5d,
+			subtitle: "Craft a Master Infusion Crystal",
+			description: [
+				"&oUnlimited Uses",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1135,
+				1187,
+				1143
+			],
+			id: 1379,
+			tasks: [{
+				id: 1380,
+				type: "item",
+				item: "mysticalagriculture:master_infusion_crystal"
+			}],
+			rewards: [
+				{
+					id: 2158,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 2200,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 17.0d,
+			y: 3.0d,
+			shape: "rsquare",
+			subtitle: "The Seed Reprocessor is used to transform a seed into its essence form.",
+			description: [
+				"For some seeds, the loot depends on the tier of the seed. For the recipes, please refer to JEI.",
+				" ",
+				"Operation Speed: 200 ticks. (10 seconds.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;1421],
+			size: 1.15d,
+			id: 1389,
+			tasks: [{
+				id: 1390,
+				type: "item",
+				item: "mysticalagriculture:basic_reprocessor"
+			}],
+			rewards: [{
+				id: 2165,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 4.5d,
+			subtitle: "An Upgrade to the regular Seed Reprocessor.",
+			description: [
+				"Operation Speed: 100 ticks. (5 seconds.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1167,
+				1131,
+				1389
+			],
+			id: 1393,
+			tasks: [{
+				id: 1394,
+				type: "item",
+				item: "mysticalagriculture:inferium_reprocessor"
+			}],
+			rewards: [{
+				id: 2159,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 5.5d,
+			subtitle: "An Upgrade to the Inferium Seed Reprocessor.",
+			description: [
+				"Operation Speed: 80 ticks. (4 seconds.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1169,
+				1137,
+				1393
+			],
+			id: 1395,
+			tasks: [{
+				id: 1396,
+				type: "item",
+				item: "mysticalagriculture:prudentium_reprocessor"
+			}],
+			rewards: [{
+				id: 2160,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 6.5d,
+			subtitle: "An Upgrade to the Prudentium Seed Reprocessor.",
+			description: [
+				"Operation Speed: 54 ticks. (2.7 seconds.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1171,
+				1139,
+				1395
+			],
+			id: 1397,
+			tasks: [{
+				id: 1398,
+				type: "item",
+				item: "mysticalagriculture:tertium_reprocessor"
+			}],
+			rewards: [{
+				id: 2161,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 7.5d,
+			subtitle: "An Upgrade to the Tertium Seed Reprocessor.",
+			description: [
+				"Operation Speed: 20 ticks. (1 second.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1173,
+				1141,
+				1397
+			],
+			id: 1399,
+			tasks: [{
+				id: 1400,
+				type: "item",
+				item: "mysticalagriculture:imperium_reprocessor"
+			}],
+			rewards: [{
+				id: 2162,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 8.5d,
+			subtitle: "An Upgrade to the Imperium Seed Reprocessor.",
+			description: [
+				"Operation Speed: 5 ticks. (0.25 seconds.)",
+				" ",
+				"&7Reward: 2x Loot Bag"
+			],
+			dependencies: [I;
+				1175,
+				1143,
+				1399
+			],
+			id: 1419,
+			tasks: [{
+				id: 1420,
+				type: "item",
+				item: "mysticalagriculture:supremium_reprocessor"
+			}],
+			rewards: [
+				{
+					id: 2163,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3464,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.9000000000000004d,
+			y: 1.3d,
+			shape: "gear",
+			subtitle: "Craft the Machine Frame",
+			description: [
+				"Used to create the Seed Reprocessor Machine.",
+				"",
+				"&7Reward: 2 EXP Levels & 3 Loot Bag &7Pieces."
+			],
+			size: 1.3d,
+			id: 1421,
+			tasks: [{
+				id: 1422,
+				type: "item",
+				item: "mysticalagriculture:machine_frame"
+			}],
+			rewards: [
+				{
+					id: 2171,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 655,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			subtitle: "Soulium dust is acquired by Mining Soulium Ore in the Nether then Smelting it in an eligible furnace.",
+			description: ["&7Reward: 2 EXP Levels"],
+			id: 1423,
+			tasks: [{
+				id: 1424,
+				type: "item",
+				item: "mysticalagriculture:soulium_dust"
+			}],
+			rewards: [{
+				id: 2172,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			subtitle: "Soulium Ingot is created by using 2 Soulium Dust + 1 ",
+			description: [
+				"Check it's recipe in JEI by clicking the icon in the Quest Window.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				1165,
+				1423
+			],
+			id: 1429,
+			tasks: [{
+				id: 1430,
+				type: "item",
+				item: "mysticalagriculture:soulium_ingot"
+			}],
+			rewards: [{
+				id: 2164,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 10.0d,
+			subtitle: "Craft Insanium Coal.",
+			description: [
+				"&oSmelts 384 items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3894],
+			id: 3892,
+			tasks: [{
+				id: 3893,
+				type: "item",
+				item: "mysticalagradditions:insanium_coal"
+			}],
+			rewards: [{
+				id: 3936,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: 8.0d,
+			subtitle: "Craft Insanium Essence",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1143],
+			id: 3894,
+			tasks: [{
+				id: 3895,
+				type: "item",
+				item: "mysticalagradditions:insanium_essence"
+			}],
+			rewards: [{
+				id: 3938,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 8.0d,
+			subtitle: "Craft an Insanium Furnace",
+			description: [
+				"&oCooking Speed: 10000%",
+				"&oFuel Efficiency: 1000%",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3894,
+				1325
+			],
+			id: 3896,
+			tasks: [{
+				id: 3897,
+				type: "item",
+				item: "mysticaladaptations:insanium_furnace"
+			}],
+			rewards: [{
+				id: 3939,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 8.0d,
+			subtitle: "Craft Insanium Farmland",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3894],
+			id: 3898,
+			tasks: [{
+				id: 3899,
+				type: "item",
+				item: "mysticalagradditions:insanium_farmland"
+			}],
+			rewards: [{
+				id: 3937,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.5d,
+			subtitle: "Craft an Insanium Sword",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1259,
+				3920,
+				3918
+			],
+			id: 3900,
+			tasks: [{
+				id: 3901,
+				type: "item",
+				item: "mysticaladaptations:insanium_sword"
+			}],
+			rewards: [{
+				id: 3927,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 7.5d,
+			subtitle: "Craft an Insanium Pickaxe",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1261,
+				3920,
+				3918
+			],
+			id: 3902,
+			tasks: [{
+				id: 3903,
+				type: "item",
+				item: "mysticaladaptations:insanium_pickaxe"
+			}],
+			rewards: [{
+				id: 3926,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 8.5d,
+			subtitle: "Craft an Insanium Shovel",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1263,
+				3920,
+				3918
+			],
+			id: 3904,
+			tasks: [{
+				id: 3905,
+				type: "item",
+				item: "mysticaladaptations:insanium_shovel"
+			}],
+			rewards: [{
+				id: 3925,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 9.5d,
+			subtitle: "Craft an Insanium Axe",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1265,
+				3920,
+				3918
+			],
+			id: 3906,
+			tasks: [{
+				id: 3907,
+				type: "item",
+				item: "mysticaladaptations:insanium_axe"
+			}],
+			rewards: [{
+				id: 3924,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 6.5d,
+			subtitle: "Craft an Insanium Helmet",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1267,
+				3920,
+				3918
+			],
+			id: 3908,
+			tasks: [{
+				id: 3909,
+				type: "item",
+				item: {
+					id: "mysticaladaptations:insanium_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3931,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 7.5d,
+			subtitle: "Craft an Insanium Chestplate",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1269,
+				3920,
+				3918
+			],
+			id: 3910,
+			tasks: [{
+				id: 3911,
+				type: "item",
+				item: {
+					id: "mysticaladaptations:insanium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3930,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 8.5d,
+			subtitle: "Craft Insanium Leggings",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1271,
+				3920,
+				3918
+			],
+			id: 3912,
+			tasks: [{
+				id: 3913,
+				type: "item",
+				item: {
+					id: "mysticaladaptations:insanium_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3929,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 9.5d,
+			subtitle: "Craft Insanium Boots",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1273,
+				3920,
+				3918
+			],
+			id: 3914,
+			tasks: [{
+				id: 3915,
+				type: "item",
+				item: {
+					id: "mysticaladaptations:insanium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3928,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 11.0d,
+			subtitle: "Craft an Insanium Watering Can",
+			description: ["&7Reward: 2x Loot Bag"],
+			dependencies: [I;
+				1352,
+				3918
+			],
+			id: 3916,
+			tasks: [{
+				id: 3917,
+				type: "item",
+				item: {
+					id: "mysticaladaptations:insanium_watering_can",
+					Count: true,
+					tag: {
+						Water: false,
+						Active: false
+					}
+				}
+			}],
+			rewards: [{
+				id: 3935,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 5.0d,
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				1165,
+				3894
+			],
+			id: 3918,
+			tasks: [{
+				id: 3919,
+				type: "item",
+				item: "mysticalagradditions:insanium_ingot"
+			}],
+			rewards: [{
+				id: 3933,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.0d,
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;1177],
+			id: 3920,
+			tasks: [{
+				id: 3921,
+				type: "item",
+				item: "mysticalagradditions:insanium_gemstone"
+			}],
+			rewards: [{
+				id: 3932,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 9.5d,
+			subtitle: "An Upgrade to the Supremium Seed Reprocessor.",
+			description: [
+				"Operation Speed: 1 tick. (0.05~ seconds.)",
+				" ",
+				"&7Reward: 2x Loot Bag"
+			],
+			dependencies: [I;
+				3918,
+				3894,
+				1419
+			],
+			id: 3922,
+			tasks: [{
+				id: 3923,
+				type: "item",
+				item: "mysticaladaptations:insanium_reprocessor"
+			}],
+			rewards: [{
+				id: 3940,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		}
+	]
+}
