@@ -1,7 +1,7 @@
 {
 	id: 2511,
 	filename: "aquaculture",
-	order_index: 24,
+	order_index: 25,
 	title: "Aquaculture",
 	icon: "aquaculture:atlantic_cod",
 	default_quest_shape: "",

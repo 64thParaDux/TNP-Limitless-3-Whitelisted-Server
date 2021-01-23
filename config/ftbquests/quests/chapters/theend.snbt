@@ -1,7 +1,7 @@
 {
 	id: 237,
 	filename: "theend",
-	order_index: 4,
+	order_index: 5,
 	title: "The End",
 	icon: "minecraft:end_stone",
 	default_quest_shape: "",

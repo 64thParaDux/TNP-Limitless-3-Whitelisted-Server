@@ -450,6 +450,7 @@
 			x: 0.0d,
 			y: 3.5d,
 			shape: "heart",
+			subtitle: "Please create a wireless microchip to buy a plot at spawn and to easily get your cash.",
 			id: 4233,
 			tasks: [{
 				id: 4234,
@@ -476,7 +477,7 @@
 				{
 					id: 4237,
 					type: "item",
-					item: "economyinc:item_fivehundreedb"
+					item: "economyinc:item_packetfivehundreed"
 				},
 				{
 					id: 4238,
@@ -493,12 +494,19 @@
 					id: 4239,
 					type: "item",
 					item: "quantumstorage:quantum_bag_magenta"
+				},
+				{
+					id: 4243,
+					type: "item",
+					item: "economyinc:item_creditcard"
 				}
 			]
 		},
 		{
+			icon: "waystones:mossy_waystone",
 			x: 0.0d,
 			y: -3.0d,
+			subtitle: "Here you go for help to travel.",
 			id: 4240,
 			tasks: [{
 				id: 4241,
@@ -510,6 +518,42 @@
 				type: "item",
 				item: "waystones:mossy_waystone",
 				count: 6
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			description: ["Freq.1 is Water. Freq.2 is Lava"],
+			id: 4353,
+			tasks: [{
+				id: 4354,
+				type: "checkmark",
+				title: "Public Lava and Water",
+				icon: "dimstorage:dimensional_tank"
+			}],
+			rewards: [{
+				id: 4358,
+				type: "item",
+				item: "dimstorage:dimensional_tank",
+				count: 2,
+				random_bonus: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			id: 4355,
+			tasks: [{
+				id: 4356,
+				type: "checkmark",
+				title: "Public Donation Chest",
+				icon: "dimstorage:dimensional_chest"
+			}],
+			rewards: [{
+				id: 4357,
+				type: "item",
+				item: "dimstorage:dimensional_chest",
+				random_bonus: 5
 			}]
 		}
 	]

@@ -1,7 +1,7 @@
 {
 	id: 1922,
 	filename: "refinedstorage",
-	order_index: 11,
+	order_index: 12,
 	title: "Refined Storage",
 	icon: "refinedstorage:crafting_monitor",
 	default_quest_shape: "",

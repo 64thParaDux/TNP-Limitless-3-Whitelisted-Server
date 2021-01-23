@@ -1,7 +1,7 @@
 {
 	id: 930,
 	filename: "mysticalagriculture",
-	order_index: 20,
+	order_index: 21,
 	title: "Mystical Agriculture",
 	icon: "mysticalagriculture:inferium_essence",
 	default_quest_shape: "",

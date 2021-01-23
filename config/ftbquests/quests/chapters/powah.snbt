@@ -1,7 +1,7 @@
 {
 	id: 1100,
 	filename: "powah",
-	order_index: 19,
+	order_index: 20,
 	title: "Powah!",
 	icon: "powah:energizing_orb",
 	default_quest_shape: "octagon",

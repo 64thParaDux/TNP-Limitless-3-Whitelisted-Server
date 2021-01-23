@@ -1,7 +1,7 @@
 {
 	id: 3090,
 	filename: "silentsmechanisms",
-	order_index: 13,
+	order_index: 14,
 	title: "Silent's Mechanisms",
 	icon: "silents_mechanisms:basic_crusher",
 	default_quest_shape: "",

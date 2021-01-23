@@ -1,7 +1,7 @@
 {
 	id: 173,
 	filename: "adventure",
-	order_index: 6,
+	order_index: 7,
 	title: "Adventure",
 	icon: "minecraft:map",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 2316,
 	filename: "botania",
-	order_index: 23,
+	order_index: 24,
 	title: "Botania",
 	icon: "botania:white_mystical_flower",
 	default_quest_shape: "",

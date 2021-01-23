@@ -1,7 +1,7 @@
 {
 	id: 275,
 	filename: "dark_utilities",
-	order_index: 14,
+	order_index: 15,
 	title: "Dark Utilities",
 	icon: "darkutils:book_runelic",
 	default_quest_shape: "",

@@ -1,7 +1,7 @@
 {
 	id: 212,
 	filename: "husbandry",
-	order_index: 5,
+	order_index: 6,
 	title: "Husbandry",
 	icon: "minecraft:hay_block",
 	default_quest_shape: "",

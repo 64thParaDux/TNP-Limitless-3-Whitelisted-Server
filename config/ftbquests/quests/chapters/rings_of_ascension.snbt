@@ -1,7 +1,7 @@
 {
 	id: 796,
 	filename: "rings_of_ascension",
-	order_index: 21,
+	order_index: 22,
 	title: "Rings of Ascension",
 	icon: "ringsofascension:ring_slow_falling",
 	default_quest_shape: "",

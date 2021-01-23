@@ -1,0 +1,601 @@
+{
+	id: 4244,
+	filename: "spawn_town_economy_inc",
+	order_index: 2,
+	title: "Spawn Town (Economy Inc)",
+	icon: "economyinc:block_seller",
+	subtitle: ["Whitelisted Server Season 2 Special Content"],
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -7.0d,
+			y: 0.0d,
+			dependency_requirement: "one_started",
+			id: 4245,
+			tasks: [{
+				id: 4246,
+				type: "checkmark",
+				title: "Claim your 1-4 spawn chunks."
+			}],
+			rewards: [
+				{
+					id: 4345,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4346,
+					type: "item",
+					item: "mysticalagriculture:wood_essence",
+					count: 64
+				},
+				{
+					id: 4347,
+					type: "item",
+					item: "mysticalagriculture:stone_essence",
+					count: 64
+				},
+				{
+					id: 4348,
+					type: "item",
+					item: "minecraft:cyan_bed"
+				},
+				{
+					id: 4349,
+					type: "item",
+					item: "silentgear:elytra_blueprint"
+				}
+			]
+		},
+		{
+			title: "Go to the mining dimension.",
+			x: -5.5d,
+			y: 1.0d,
+			subtitle: "Go to the Mining Dimension.",
+			description: [
+				"Save spawn by using the mining dimension around the spawn chunks.",
+				"*Claim a portal via the starter quest*"
+			],
+			dependencies: [I;4245],
+			id: 4247,
+			tasks: [{
+				id: 4248,
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}],
+			rewards: [{
+				id: 4344,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Place and use a waystone.",
+			icon: "waystones:mossy_waystone",
+			x: -5.5d,
+			y: -1.0d,
+			description: ["Please place a waystone on your front or inside your house, all depends if you want guests or not."],
+			dependencies: [I;4245],
+			id: 4249,
+			tasks: [{
+				id: 4250,
+				type: "item",
+				item: "waystones:mossy_waystone"
+			}],
+			rewards: [{
+				id: 4343,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Buy a plot.",
+			x: -4.0d,
+			y: 0.0d,
+			subtitle: "Make a vending machine and start a shop!",
+			description: [
+				"To complete make a vending machine this will allow you to sell items at fixed rates without you needing to be online.",
+				"Remember to restock your shop!"
+			],
+			dependencies: [I;
+				4249,
+				4247
+			],
+			id: 4251,
+			tasks: [{
+				id: 4252,
+				type: "item",
+				item: "economyinc:block_seller"
+			}],
+			rewards: [
+				{
+					id: 4339,
+					type: "item",
+					item: "economyinc:block_seller",
+					count: 5
+				},
+				{
+					id: 4340,
+					type: "item",
+					item: "economyinc:block_bills"
+				},
+				{
+					id: 4341,
+					type: "item",
+					item: "supplementaries:hanging_sign_oak"
+				},
+				{
+					id: 4342,
+					type: "item",
+					item: "economyinc:item_wireless"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			id: 4255,
+			tasks: [{
+				id: 4256,
+				type: "xp",
+				value: 10L,
+				points: false
+			}],
+			rewards: [{
+				id: 4311,
+				type: "item",
+				item: "economyinc:item_packetone"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			id: 4257,
+			tasks: [{
+				id: 4258,
+				type: "xp",
+				value: 15L,
+				points: false
+			}],
+			rewards: [{
+				id: 4312,
+				type: "item",
+				item: "economyinc:item_packetone"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			id: 4259,
+			tasks: [{
+				id: 4260,
+				type: "xp",
+				value: 20L,
+				points: false
+			}],
+			rewards: [{
+				id: 4313,
+				type: "item",
+				item: "economyinc:item_packetfive"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.0d,
+			id: 4261,
+			tasks: [{
+				id: 4262,
+				type: "xp",
+				value: 25L,
+				points: false
+			}],
+			rewards: [{
+				id: 4359,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			id: 4263,
+			tasks: [{
+				id: 4264,
+				type: "xp",
+				value: 30L,
+				points: false
+			}],
+			rewards: [{
+				id: 4314,
+				type: "item",
+				item: "economyinc:item_packetfive"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			id: 4265,
+			tasks: [{
+				id: 4266,
+				type: "xp",
+				value: 35L,
+				points: false
+			}],
+			rewards: [{
+				id: 4315,
+				type: "item",
+				item: "economyinc:item_packetfive"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			id: 4267,
+			tasks: [{
+				id: 4268,
+				type: "xp",
+				value: 40L,
+				points: false
+			}],
+			rewards: [{
+				id: 4316,
+				type: "item",
+				item: "economyinc:item_packetten"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			id: 4269,
+			tasks: [{
+				id: 4270,
+				type: "xp",
+				value: 45L,
+				points: false
+			}],
+			rewards: [{
+				id: 4317,
+				type: "item",
+				item: "economyinc:item_packetten"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			id: 4271,
+			tasks: [{
+				id: 4272,
+				type: "xp",
+				value: 50L,
+				points: false
+			}],
+			rewards: [{
+				id: 4318,
+				type: "item",
+				item: "economyinc:item_packetten"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.0d,
+			id: 4273,
+			tasks: [{
+				id: 4274,
+				type: "xp",
+				value: 55L,
+				points: false
+			}],
+			rewards: [{
+				id: 4319,
+				type: "item",
+				item: "economyinc:item_packetten"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.0d,
+			id: 4275,
+			tasks: [{
+				id: 4276,
+				type: "xp",
+				value: 60L,
+				points: false
+			}],
+			rewards: [{
+				id: 4320,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			id: 4277,
+			tasks: [{
+				id: 4278,
+				type: "xp",
+				value: 65L,
+				points: false
+			}],
+			rewards: [{
+				id: 4321,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			id: 4279,
+			tasks: [{
+				id: 4280,
+				type: "xp",
+				value: 70L,
+				points: false
+			}],
+			rewards: [{
+				id: 4322,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			id: 4281,
+			tasks: [{
+				id: 4282,
+				type: "xp",
+				value: 75L,
+				points: false
+			}],
+			rewards: [{
+				id: 4323,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			id: 4283,
+			tasks: [{
+				id: 4284,
+				type: "xp",
+				value: 80L,
+				points: false
+			}],
+			rewards: [{
+				id: 4324,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			id: 4285,
+			tasks: [{
+				id: 4286,
+				type: "xp",
+				value: 85L,
+				points: false
+			}],
+			rewards: [{
+				id: 4325,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			id: 4287,
+			tasks: [{
+				id: 4288,
+				type: "xp",
+				value: 90L,
+				points: false
+			}],
+			rewards: [{
+				id: 4326,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			id: 4289,
+			tasks: [{
+				id: 4290,
+				type: "xp",
+				value: 95L,
+				points: false
+			}],
+			rewards: [{
+				id: 4327,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.0d,
+			id: 4291,
+			tasks: [{
+				id: 4292,
+				type: "xp",
+				value: 100L,
+				points: false
+			}],
+			rewards: [{
+				id: 4328,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			id: 4293,
+			tasks: [{
+				id: 4294,
+				type: "xp",
+				value: 150L,
+				points: false
+			}],
+			rewards: [{
+				id: 4329,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			id: 4295,
+			tasks: [{
+				id: 4296,
+				type: "xp",
+				value: 200L,
+				points: false
+			}],
+			rewards: [{
+				id: 4330,
+				type: "item",
+				item: "economyinc:item_packettwenty"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.0d,
+			id: 4297,
+			tasks: [{
+				id: 4298,
+				type: "xp",
+				value: 250L,
+				points: false
+			}],
+			rewards: [{
+				id: 4331,
+				type: "item",
+				item: "economyinc:item_packethundreed"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			id: 4299,
+			tasks: [{
+				id: 4300,
+				type: "xp",
+				value: 300L,
+				points: false
+			}],
+			rewards: [{
+				id: 4332,
+				type: "item",
+				item: "economyinc:item_packettwohundreed"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			id: 4301,
+			tasks: [{
+				id: 4302,
+				type: "xp",
+				value: 350L,
+				points: false
+			}],
+			rewards: [{
+				id: 4333,
+				type: "item",
+				item: "economyinc:item_packettwohundreed"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			id: 4303,
+			tasks: [{
+				id: 4304,
+				type: "xp",
+				value: 400L,
+				points: false
+			}],
+			rewards: [{
+				id: 4335,
+				type: "item",
+				item: "economyinc:item_packetfivehundreed"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			id: 4305,
+			tasks: [{
+				id: 4306,
+				type: "xp",
+				value: 450L,
+				points: false
+			}],
+			rewards: [{
+				id: 4336,
+				type: "item",
+				item: "economyinc:item_packetfivehundreed"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			id: 4307,
+			tasks: [{
+				id: 4308,
+				type: "xp",
+				value: 500L,
+				points: false
+			}],
+			rewards: [{
+				id: 4337,
+				type: "item",
+				item: "economyinc:item_packetfivehundreed"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			id: 4309,
+			tasks: [{
+				id: 4310,
+				type: "xp",
+				value: 1000L,
+				points: false
+			}],
+			rewards: [{
+				id: 4338,
+				type: "item",
+				item: "economyinc:item_packetfivehundreed"
+			}]
+		},
+		{
+			icon: "economyinc:block_atm",
+			x: 0.5d,
+			y: -1.0d,
+			subtitle: "Shift right click with a credit card to activate it.",
+			id: 4350,
+			tasks: [{
+				id: 4351,
+				type: "checkmark",
+				title: "Use the ATM at spawn.",
+				icon: "economyinc:block_atm"
+			}],
+			rewards: [{
+				id: 4352,
+				type: "item",
+				item: "economyinc:item_hundreedb"
+			}]
+		}
+	]
+}

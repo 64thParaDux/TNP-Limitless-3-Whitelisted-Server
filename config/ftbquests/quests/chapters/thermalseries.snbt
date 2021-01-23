@@ -1,7 +1,7 @@
 {
 	id: 991,
 	filename: "thermalseries",
-	order_index: 12,
+	order_index: 13,
 	title: "Thermal Series",
 	icon: "thermal:machine_frame",
 	default_quest_shape: "",
