@@ -20,7 +20,7 @@
 # You don't know how do edit this file ? You can found tutorials on the github wiki. You can also join the discord to get some help
 [Discord]
 	# Token of the discord bot
-	token = "ODAxOTQzMTgyNzMyNTU4MzU2.YAoByg.3Q9rFaa63_UN4ErBFy1VAT5GbiQ"
+	token = "TOKEN HERE"
 
 	# Discord Channels Ids
 	[Discord.Channels]
