@@ -1,0 +1,973 @@
+{
+	id: 673,
+	filename: "industrialforegoing",
+	order_index: 9,
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:block_placer",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: -3.0d,
+			shape: "gear",
+			subtitle: "Craft a Pity Machine Frame",
+			description: [
+				"A Pity Machine Frame used in almost every IF machine.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.5d,
+			id: 678,
+			tasks: [{
+				id: 679,
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
+			}],
+			rewards: [{
+				id: 2251,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			subtitle: "Craft an Animal Rancher",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 684,
+			tasks: [{
+				id: 685,
+				type: "item",
+				item: "industrialforegoing:animal_rancher"
+			}],
+			rewards: [{
+				id: 2252,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			subtitle: "Craft a Plant Gatherer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 686,
+			tasks: [{
+				id: 687,
+				type: "item",
+				item: "industrialforegoing:plant_gatherer"
+			}],
+			rewards: [{
+				id: 2253,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 5.0d,
+			subtitle: "Craft a Plant Fertilizer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				801,
+				793
+			],
+			id: 688,
+			tasks: [{
+				id: 689,
+				type: "item",
+				item: "industrialforegoing:plant_fertilizer"
+			}],
+			rewards: [{
+				id: 2254,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -3.5d,
+			subtitle: "Craft a Plant Sower",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 690,
+			tasks: [{
+				id: 691,
+				type: "item",
+				item: "industrialforegoing:plant_sower"
+			}],
+			rewards: [{
+				id: 2255,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -3.0d,
+			subtitle: "Craft an Animal Feeder",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 692,
+			tasks: [{
+				id: 693,
+				type: "item",
+				item: "industrialforegoing:animal_feeder"
+			}],
+			rewards: [{
+				id: 2256,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.0d,
+			subtitle: "Craft a Mob Slaughter Factory",
+			description: [
+				"Can be used to produce Pink Slime & Liquid Meat.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;801],
+			id: 694,
+			tasks: [{
+				id: 695,
+				type: "item",
+				item: "industrialforegoing:mob_slaughter_factory"
+			}],
+			rewards: [{
+				id: 2257,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			subtitle: "Craft a Sewer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 696,
+			tasks: [{
+				id: 697,
+				type: "item",
+				item: "industrialforegoing:sewer"
+			}],
+			rewards: [{
+				id: 2258,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -2.0d,
+			subtitle: "Craft a Sewage Composter",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 698,
+			tasks: [{
+				id: 699,
+				type: "item",
+				item: "industrialforegoing:sewage_composter"
+			}],
+			rewards: [{
+				id: 2259,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.5d,
+			subtitle: "Craft an Animal Baby Separator",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 700,
+			tasks: [{
+				id: 701,
+				type: "item",
+				item: "industrialforegoing:animal_baby_separator"
+			}],
+			rewards: [{
+				id: 2260,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			subtitle: "Craft a Latex Processing Unit",
+			description: [
+				"Used to create Tiny Dry Rubber by pumping in Latex & Water into the Latex Processing Unit.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				678,
+				704
+			],
+			id: 702,
+			tasks: [{
+				id: 703,
+				type: "item",
+				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 2261,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -0.5d,
+			subtitle: "Craft a Fluid Extractor",
+			description: [
+				"Used to produce Latex by placing Logs infront of the Fluid Extractor.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;678],
+			id: 704,
+			tasks: [{
+				id: 705,
+				type: "item",
+				item: "industrialforegoing:fluid_extractor"
+			}],
+			rewards: [{
+				id: 2262,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			subtitle: "Craft a Dissolution Chamber",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 706,
+			tasks: [{
+				id: 707,
+				type: "item",
+				item: "industrialforegoing:dissolution_chamber"
+			}],
+			rewards: [{
+				id: 2263,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -2.0d,
+			subtitle: "Craft a Block Breaker",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 708,
+			tasks: [{
+				id: 709,
+				type: "item",
+				item: "industrialforegoing:block_breaker"
+			}],
+			rewards: [{
+				id: 2264,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -2.0d,
+			subtitle: "Craft a Biofuel Generator",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 710,
+			tasks: [{
+				id: 711,
+				type: "item",
+				item: "industrialforegoing:biofuel_generator"
+			}],
+			rewards: [{
+				id: 2265,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			subtitle: "Craft a Bioreactor",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 712,
+			tasks: [{
+				id: 713,
+				type: "item",
+				item: "industrialforegoing:bioreactor"
+			}],
+			rewards: [{
+				id: 2266,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			subtitle: "Craft a Spores Recreator",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 714,
+			tasks: [{
+				id: 715,
+				type: "item",
+				item: "industrialforegoing:spores_recreator"
+			}],
+			rewards: [{
+				id: 2267,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 6.5d,
+			subtitle: "Craft a Material StoneWork Factory",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 716,
+			tasks: [{
+				id: 717,
+				type: "item",
+				item: "industrialforegoing:material_stonework_factory"
+			}],
+			rewards: [{
+				id: 2268,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			subtitle: "Craft a Sludge Refiner",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 718,
+			tasks: [{
+				id: 719,
+				type: "item",
+				item: "industrialforegoing:sludge_refiner"
+			}],
+			rewards: [{
+				id: 2269,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			subtitle: "Craft a Water Condensator",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 720,
+			tasks: [{
+				id: 721,
+				type: "item",
+				item: "industrialforegoing:water_condensator"
+			}],
+			rewards: [{
+				id: 2270,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			subtitle: "Craft Mechanical Dirt",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				678,
+				706
+			],
+			id: 722,
+			tasks: [{
+				id: 723,
+				type: "item",
+				item: "industrialforegoing:mechanical_dirt"
+			}],
+			rewards: [{
+				id: 2271,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 0.0d,
+			subtitle: "Craft a Dye Mixer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 726,
+			tasks: [{
+				id: 727,
+				type: "item",
+				item: "industrialforegoing:dye_mixer"
+			}],
+			rewards: [{
+				id: 2272,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -3.0d,
+			subtitle: "Craft a Fluid Placer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 728,
+			tasks: [{
+				id: 729,
+				type: "item",
+				item: "industrialforegoing:fluid_placer"
+			}],
+			rewards: [{
+				id: 2273,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			subtitle: "Craft a Resourceful Furnace",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;801],
+			id: 730,
+			tasks: [{
+				id: 731,
+				type: "item",
+				item: "industrialforegoing:resourceful_furnace"
+			}],
+			rewards: [{
+				id: 2274,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.0d,
+			subtitle: "Craft a Mob Detector",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;793],
+			id: 732,
+			tasks: [{
+				id: 733,
+				type: "item",
+				item: "industrialforegoing:mob_detector"
+			}],
+			rewards: [{
+				id: 2275,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 4.0d,
+			subtitle: "Craft a Marine Fisher",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;793],
+			id: 734,
+			tasks: [{
+				id: 735,
+				type: "item",
+				item: "industrialforegoing:marine_fisher"
+			}],
+			rewards: [{
+				id: 2276,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 6.5d,
+			subtitle: "Craft a Stasis Chamber",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 736,
+			tasks: [{
+				id: 737,
+				type: "item",
+				item: "industrialforegoing:stasis_chamber"
+			}],
+			rewards: [{
+				id: 2277,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			shape: "pentagon",
+			subtitle: "Craft a Simple Machine Frame",
+			description: [
+				"An Upgrade to the Pity Machine frame, used to create higher tiered machines.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;801],
+			id: 793,
+			tasks: [{
+				id: 794,
+				type: "item",
+				item: "industrialforegoing:machine_frame_simple"
+			}],
+			rewards: [{
+				id: 2278,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.5d,
+			subtitle: "Acquire 9x Tiny Dry Rubber",
+			description: [
+				"Tiny Dry Rubber is acquired by putting Latex & Water in a Latex Processing Unit.",
+				" ",
+				"Latex is produced by placing a Log infront of a Fluid Extractor. It'll slowly produce Latex.",
+				" ",
+				"&7Reward: 5 EXP Levels"
+			],
+			dependencies: [I;702],
+			id: 797,
+			tasks: [{
+				id: 798,
+				type: "item",
+				item: "industrialforegoing:tinydryrubber",
+				count: 9L
+			}],
+			rewards: [{
+				id: 2286,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Craft some Dry Rubber",
+			description: [
+				"Crafted by using the Tiny Dry Rubber produced in the Latex Processing Unit.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;797],
+			id: 799,
+			tasks: [{
+				id: 800,
+				type: "item",
+				item: "industrialforegoing:dryrubber"
+			}],
+			rewards: [{
+				id: 2279,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Plastic",
+			x: 0.0d,
+			y: 2.5d,
+			subtitle: "Craft some Plastic",
+			description: [
+				"Crafted by putting Dry Rubber in a Furnace.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;799],
+			dependency_requirement: "all_started",
+			id: 801,
+			tasks: [{
+				id: 802,
+				type: "item",
+				title: "Any Plastic",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "forge:plastic"
+					}
+				}
+			}],
+			rewards: [{
+				id: 2280,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -1.0d,
+			shape: "circle",
+			subtitle: "Acquired by piping out Pink Slime to any Tank by using Mechanical Pipes from Mekanism or anything similar.",
+			description: [
+				"&7- Optional.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;694],
+			optional: true,
+			id: 805,
+			tasks: [{
+				id: 806,
+				type: "item",
+				item: "industrialforegoing:pink_slime_bucket"
+			}],
+			rewards: [{
+				id: 2281,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.0d,
+			subtitle: "Acquire Pink Slime",
+			description: [
+				"Pink Slime is acquired by putting the bucket of Pink Slime into the Dissolution Chamber and then putting in 1 Glass Pane.",
+				"",
+				"&o(Click the Pink Slime to see the recipe.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				706,
+				805
+			],
+			dependency_requirement: "one_completed",
+			id: 807,
+			tasks: [{
+				id: 808,
+				type: "item",
+				item: "industrialforegoing:pink_slime"
+			}],
+			rewards: [{
+				id: 2282,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			subtitle: "Craft a Mob Imprisonment Tool",
+			description: [
+				"Can be used to capture any Mob, useful for many things.",
+				"",
+				"The Mob Imprisonment Tool can be used as many times as you like.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;801],
+			optional: true,
+			id: 1114,
+			tasks: [{
+				id: 1115,
+				type: "item",
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}],
+			rewards: [{
+				id: 2283,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Craft a Pitiful Generator",
+			description: [
+				"A low-tiered generator that produces a low amount of FE at a pretty slow rate.",
+				"",
+				"&o(Can store up to 100,000 FE internally.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;678],
+			id: 1116,
+			tasks: [{
+				id: 1117,
+				type: "item",
+				item: "industrialforegoing:pitiful_generator"
+			}],
+			rewards: [{
+				id: 2284,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			subtitle: "Construct an Infinity Drill",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;706],
+			id: 1926,
+			tasks: [{
+				id: 1927,
+				type: "item",
+				item: {
+					id: "industrialforegoing:infinity_drill",
+					Count: true,
+					tag: {
+						Special: 0,
+						Selected: "POOR",
+						Energy: 0,
+						Fluid: {
+							FluidName: "biofuel",
+							Amount: 0
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 2285,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 2.0d,
+			subtitle: "Craft an Infinity Saw",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;706],
+			id: 3055,
+			tasks: [{
+				id: 3056,
+				type: "item",
+				item: {
+					id: "industrialforegoing:infinity_saw",
+					Count: true,
+					tag: {
+						CanCharge: 1,
+						Special: 0,
+						Selected: "POOR",
+						Energy: 0,
+						Fluid: {
+							FluidName: "biofuel",
+							Amount: 0
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 3461,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 7.5d,
+			shape: "pentagon",
+			subtitle: "Craft an Advanced Machine Frame",
+			description: [
+				"An Upgrade to the Simple Machine frame, used to create even higher tiered machines.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;793],
+			id: 4173,
+			tasks: [{
+				id: 4174,
+				type: "item",
+				item: "industrialforegoing:machine_frame_advanced"
+			}],
+			rewards: [{
+				id: 4175,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 2.0d,
+			subtitle: "Craft an Infinity Hammer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;706],
+			id: 4176,
+			tasks: [{
+				id: 4177,
+				type: "item",
+				item: {
+					id: "industrialforegoing:infinity_hammer",
+					Count: true,
+					tag: {
+						CanCharge: 1,
+						Energy: 0,
+						Fluid: {
+							FluidName: "biofuel",
+							Amount: 0
+						},
+						Special: 0,
+						Selected: "POOR",
+						Beheading: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 4178,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 9.5d,
+			subtitle: "Craft an Enchantment Extractor",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4179,
+			tasks: [{
+				id: 4180,
+				type: "item",
+				item: "industrialforegoing:enchantment_extractor"
+			}],
+			rewards: [{
+				id: 4181,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 8.5d,
+			subtitle: "Craft an Enchantment Factory",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4182,
+			tasks: [{
+				id: 4183,
+				type: "item",
+				item: "industrialforegoing:enchantment_factory"
+			}],
+			rewards: [{
+				id: 4184,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 9.5d,
+			subtitle: "Craft an Enchantment Applicator",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4185,
+			tasks: [{
+				id: 4186,
+				type: "item",
+				item: "industrialforegoing:enchantment_applicator"
+			}],
+			rewards: [{
+				id: 4187,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 7.5d,
+			subtitle: "Craft an Enchantment Sorter",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4188,
+			tasks: [{
+				id: 4189,
+				type: "item",
+				item: "industrialforegoing:enchantment_sorter"
+			}],
+			rewards: [{
+				id: 4190,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 7.5d,
+			subtitle: "Craft a Mob Crusher",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4191,
+			tasks: [{
+				id: 4192,
+				type: "item",
+				item: "industrialforegoing:mob_crusher"
+			}],
+			rewards: [{
+				id: 4193,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 8.5d,
+			subtitle: "Craft a Potion Brewer",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4173],
+			id: 4194,
+			tasks: [{
+				id: 4195,
+				type: "item",
+				item: "industrialforegoing:potion_brewer"
+			}],
+			rewards: [{
+				id: 4196,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			subtitle: "Acquire a Latex Bucket",
+			description: [
+				"Right click a 'Latex Processing Unit' with a bucket to get a Latex Bucket.",
+				"",
+				"&7- Optional.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;702],
+			optional: true,
+			id: 675,
+			tasks: [{
+				id: 676,
+				type: "item",
+				item: "industrialforegoing:latex_bucket"
+			}],
+			rewards: [{
+				id: 677,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

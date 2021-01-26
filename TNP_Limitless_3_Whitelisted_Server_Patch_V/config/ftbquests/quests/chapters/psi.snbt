@@ -1,0 +1,1303 @@
+{
+	id: 4366,
+	filename: "psi",
+	order_index: 0,
+	title: "PSI",
+	icon: "psi:cad_assembly_creative",
+	subtitle: ["Whitelisted Server Special Content"],
+	default_quest_shape: "",
+	images: [
+		{
+			x: 1.5d,
+			y: 0.0d,
+			width: 4.0d,
+			height: 4.0d,
+			rotation: 0.0d,
+			image: "psi:textures/logo.png",
+			hover: ["Pastebin Spells"],
+			click: "https://pastebin.com/6Q5gA3DA",
+			dev: false
+		},
+		{
+			x: -4.0d,
+			y: -4.988095238095234d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/tutorial_1_spell.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: -1.952380952380949d,
+			y: -5.035714285714288d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/tutorial_4_spell.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 7.105427357601002E-15d,
+			y: -5.035714285714285d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/tutorial_6_spell.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 1.4489795918367463d,
+			y: -5.331632653061224d,
+			width: 2.0d,
+			height: 2.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/tutorial_5_stats.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: -7.500000000000007d,
+			y: -0.3392857142857153d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/assembler_build.png",
+			hover: ["CAD Assember Example"],
+			click: "",
+			dev: false
+		},
+		{
+			x: -7.5d,
+			y: -2.5d,
+			width: 3.1d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "psi:textures/gui/entries/assembler_load.png",
+			hover: ["Example of loading a spell into a Assembly."],
+			click: "",
+			dev: false
+		}
+	],
+	quests: [
+		{
+			x: -6.0d,
+			y: -0.5d,
+			shape: "rsquare",
+			description: [
+				"In the CAD Assembler you can combine your raw CAD assembly and basic components",
+				"to make a basic iron gun.",
+				"This will allow you to Trick:Infuse some Redstone Dust to get Psi Dust"
+			],
+			id: 4367,
+			tasks: [{
+				id: 4368,
+				type: "item",
+				item: "psi:cad_assembler"
+			}],
+			rewards: [
+				{
+					id: 4470,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4471,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					random_bonus: 9
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -0.5d,
+			dependencies: [I;4367],
+			id: 4369,
+			tasks: [{
+				id: 4370,
+				type: "item",
+				item: "psi:cad_assembly_iron"
+			}],
+			rewards: [
+				{
+					id: 4547,
+					type: "item",
+					item: "psi:cad_assembly_iron"
+				},
+				{
+					id: 4556,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			dependencies: [I;4369],
+			id: 4371,
+			tasks: [{
+				id: 4372,
+				type: "item",
+				item: "psi:cad_assembly_gold"
+			}],
+			rewards: [
+				{
+					id: 4548,
+					type: "item",
+					item: "psi:cad_assembly_gold"
+				},
+				{
+					id: 4555,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 1.5d,
+			dependencies: [I;4371],
+			id: 4373,
+			tasks: [{
+				id: 4374,
+				type: "item",
+				item: "psi:cad_assembly_psimetal"
+			}],
+			rewards: [
+				{
+					id: 4549,
+					type: "item",
+					item: "psi:cad_assembly_psimetal"
+				},
+				{
+					id: 4554,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 2.5d,
+			dependencies: [I;4373],
+			id: 4375,
+			tasks: [{
+				id: 4376,
+				type: "item",
+				item: "psi:cad_assembly_ebony_psimetal"
+			}],
+			rewards: [
+				{
+					id: 4550,
+					type: "item",
+					item: "psi:cad_assembly_ebony_psimetal"
+				},
+				{
+					id: 4553,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 3.5d,
+			dependencies: [I;4375],
+			id: 4377,
+			tasks: [{
+				id: 4378,
+				type: "item",
+				item: "psi:cad_assembly_ivory_psimetal"
+			}],
+			rewards: [
+				{
+					id: 4551,
+					type: "item",
+					item: "psi:cad_assembly_ivory_psimetal"
+				},
+				{
+					id: 4552,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					random_bonus: 4
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: [I;4367],
+			id: 4379,
+			tasks: [{
+				id: 4380,
+				type: "item",
+				item: "psi:psidust"
+			}],
+			rewards: [
+				{
+					id: 4487,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4488,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: [I;4379],
+			id: 4381,
+			tasks: [{
+				id: 4382,
+				type: "item",
+				item: "psi:psimetal"
+			}],
+			rewards: [
+				{
+					id: 4489,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 4490,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					random_bonus: 9
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: [I;4381],
+			id: 4383,
+			tasks: [{
+				id: 4384,
+				type: "item",
+				item: "psi:psigem"
+			}],
+			rewards: [{
+				id: 4491,
+				type: "item",
+				item: "rats:psionic_rat_brain"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: [I;4383],
+			id: 4385,
+			tasks: [{
+				id: 4386,
+				type: "item",
+				item: "psi:ebony_psimetal"
+			}],
+			rewards: [{
+				id: 4492,
+				type: "item",
+				item: "psi:cad_assembly_ebony_psimetal"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			shape: "diamond",
+			dependencies: [I;4385],
+			id: 4387,
+			tasks: [{
+				id: 4388,
+				type: "item",
+				item: "psi:ivory_psimetal"
+			}],
+			rewards: [
+				{
+					id: 4493,
+					type: "item",
+					item: {
+						id: "psi:spell_drive",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 4494,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -0.5d,
+			dependencies: [I;4369],
+			id: 4389,
+			tasks: [{
+				id: 4390,
+				type: "item",
+				item: "psi:cad_core_basic"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -0.5d,
+			dependencies: [I;4389],
+			id: 4391,
+			tasks: [{
+				id: 4392,
+				type: "item",
+				item: "psi:cad_socket_basic"
+			}],
+			rewards: [{
+				id: 4541,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			dependencies: [I;4391],
+			id: 4393,
+			tasks: [{
+				id: 4394,
+				type: "item",
+				item: "psi:cad_battery_basic"
+			}],
+			rewards: [{
+				id: 4534,
+				type: "item",
+				item: {
+					id: "powah:battery_hardened",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -2.5d,
+			subtitle: "Default bullet run's your code once when used.",
+			dependencies: [I;4397],
+			id: 4395,
+			tasks: [{
+				id: 4396,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4453,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4533,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -5.0d,
+			y: -2.5d,
+			shape: "rsquare",
+			subtitle: "The heart of codecrafting.",
+			description: [
+				"Don't get overwhelmed ask for help and tinker.",
+				"• Selectors are things in the world its self.",
+				"• Tricks can be seen as Actions.",
+				"• Math is well math.",
+				"• Connectors are vital in getting info around where you need it."
+			],
+			dependencies: [I;4381],
+			id: 4397,
+			tasks: [{
+				id: 4398,
+				type: "item",
+				item: "psi:programmer"
+			}],
+			rewards: [
+				{
+					id: 4464,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					random_bonus: 9
+				},
+				{
+					id: 4465,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -2.5d,
+			dependencies: [I;4395],
+			id: 4399,
+			tasks: [{
+				id: 4400,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet_loop",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4455,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4532,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			dependencies: [I;4399],
+			id: 4401,
+			tasks: [{
+				id: 4402,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet_circle",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4457,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4531,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			dependencies: [I;4401],
+			id: 4403,
+			tasks: [{
+				id: 4404,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet_grenade",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4458,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4530,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			dependencies: [I;4403],
+			id: 4405,
+			tasks: [{
+				id: 4406,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet_charge",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4461,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4529,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			dependencies: [I;4405],
+			id: 4407,
+			tasks: [{
+				id: 4408,
+				type: "item",
+				item: {
+					id: "psi:spell_bullet_mine",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4463,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					random_bonus: 4
+				},
+				{
+					id: 4557,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 4558,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -5.5d,
+			dependencies: [I;4411],
+			id: 4409,
+			tasks: [{
+				id: 4410,
+				type: "item",
+				item: {
+					id: "psi:psimetal_exosuit_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4504,
+					type: "item",
+					item: "psi:exosuit_sensor_light"
+				},
+				{
+					id: 4505,
+					type: "item",
+					item: "psi:exosuit_sensor_stress"
+				},
+				{
+					id: 4508,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -4.5d,
+			dependencies: [I;4413],
+			id: 4411,
+			tasks: [{
+				id: 4412,
+				type: "item",
+				item: {
+					id: "psi:psimetal_exosuit_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4506,
+					type: "item",
+					item: "psi:exosuit_sensor_trigger"
+				},
+				{
+					id: 4507,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -3.5d,
+			dependencies: [I;4415],
+			id: 4413,
+			tasks: [{
+				id: 4414,
+				type: "item",
+				item: {
+					id: "psi:psimetal_exosuit_leggings",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4509,
+					type: "item",
+					item: "psi:exosuit_sensor_water"
+				},
+				{
+					id: 4510,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: -2.5d,
+			dependencies: [I;4381],
+			id: 4415,
+			tasks: [{
+				id: 4416,
+				type: "item",
+				item: {
+					id: "psi:psimetal_exosuit_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4511,
+					type: "item",
+					item: "psi:exosuit_sensor_heat"
+				},
+				{
+					id: 4512,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			shape: "hexagon",
+			dependencies: [I;4405],
+			id: 4417,
+			tasks: [{
+				id: 4418,
+				type: "item",
+				item: "psi:detonator"
+			}],
+			rewards: [
+				{
+					id: 4526,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 4527,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 0.5d,
+			dependencies: [I;4389],
+			id: 4419,
+			tasks: [{
+				id: 4420,
+				type: "item",
+				item: "psi:cad_core_overclocked"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			dependencies: [I;4419],
+			id: 4421,
+			tasks: [{
+				id: 4422,
+				type: "item",
+				item: "psi:cad_core_conductive"
+			}],
+			rewards: [{
+				id: 4543,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 2.5d,
+			dependencies: [I;4421],
+			id: 4423,
+			tasks: [{
+				id: 4424,
+				type: "item",
+				item: "psi:cad_core_hyperclocked"
+			}],
+			rewards: [{
+				id: 4544,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			dependencies: [I;4423],
+			id: 4425,
+			tasks: [{
+				id: 4426,
+				type: "item",
+				item: "psi:cad_core_radiative"
+			}],
+			rewards: [
+				{
+					id: 4545,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					count: 3
+				},
+				{
+					id: 4546,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			shape: "diamond",
+			dependencies: [I;4391],
+			id: 4427,
+			tasks: [{
+				id: 4428,
+				type: "item",
+				item: "psi:cad_socket_signaling"
+			}],
+			rewards: [{
+				id: 4542,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			dependencies: [I;4391],
+			id: 4429,
+			tasks: [{
+				id: 4430,
+				type: "item",
+				item: "psi:cad_socket_large"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			shape: "diamond",
+			dependencies: [I;4429],
+			id: 4431,
+			tasks: [{
+				id: 4432,
+				type: "item",
+				item: "psi:cad_socket_transmissive"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 3.5d,
+			dependencies: [I;4429],
+			id: 4433,
+			tasks: [{
+				id: 4434,
+				type: "item",
+				item: "psi:cad_socket_huge"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.5d,
+			dependencies: [I;4393],
+			id: 4435,
+			tasks: [{
+				id: 4436,
+				type: "item",
+				item: "psi:cad_battery_extended"
+			}],
+			rewards: [
+				{
+					id: 4535,
+					type: "item",
+					item: "minecraft:bat_spawn_egg"
+				},
+				{
+					id: 4536,
+					type: "item",
+					item: "forbidden_arcanus:bat_soup"
+				},
+				{
+					id: 4537,
+					type: "item",
+					item: "forbidden_arcanus:edelwood_bat_bucket"
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: [I;4435],
+			id: 4437,
+			tasks: [{
+				id: 4438,
+				type: "item",
+				item: "psi:cad_battery_ultradense"
+			}],
+			rewards: [
+				{
+					id: 4538,
+					type: "item",
+					item: {
+						id: "byg:pendorite_battleaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4539,
+					type: "item",
+					item: "silents_mechanisms:battery_box"
+				},
+				{
+					id: 4540,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: -1.5d,
+			dependencies: [I;4379],
+			id: 4439,
+			tasks: [{
+				id: 4440,
+				type: "item",
+				item: {
+					id: "psi:psimetal_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4513,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 4514,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: -0.5d,
+			dependencies: [I;4439],
+			id: 4441,
+			tasks: [{
+				id: 4442,
+				type: "item",
+				item: {
+					id: "psi:psimetal_shovel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4515,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 4516,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					random_bonus: 5
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: 0.5d,
+			dependencies: [I;4441],
+			id: 4443,
+			tasks: [{
+				id: 4444,
+				type: "item",
+				item: {
+					id: "psi:psimetal_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4517,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 4519,
+					type: "random",
+					table: 0
+				}
+			]
+		},
+		{
+			x: -9.5d,
+			y: 1.5d,
+			dependencies: [I;4443],
+			id: 4445,
+			tasks: [{
+				id: 4446,
+				type: "item",
+				item: {
+					id: "psi:psimetal_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4520,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4521,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					random_bonus: 5
+				},
+				{
+					id: 4522,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			subtitle: "Lets you know what the heck you doing!",
+			dependencies: [I;4367],
+			id: 4447,
+			tasks: [{
+				id: 4448,
+				type: "item",
+				item: {
+					id: "psi:vector_ruler",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 4486,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				random_bonus: 5
+			}]
+		},
+		{
+			title: "Elytra Flight CAD Bullet Code",
+			x: -4.0d,
+			y: -3.5d,
+			shape: "gear",
+			subtitle: "Right click to launch yourself in the air.",
+			description: [
+				"Caster",
+				"Add Motion > Vector Construct < 1",
+				"^ 3 or more",
+				"Complete once you have done it!"
+			],
+			dependencies: [I;4395],
+			id: 4449,
+			tasks: [{
+				id: 4450,
+				type: "checkmark",
+				title: "Elytra Leap Spell Single Cast Bullet",
+				icon: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4466,
+					type: "random",
+					table: 0
+				},
+				{
+					id: 4467,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: -3.5d,
+			shape: "gear",
+			description: [
+				"Focal Point | Error Supressor",
+				"Entity Position > Connector v",
+				"| Closest to point > Nearby Smeltables",
+				"Smelt Item | 3",
+				"Use with a Circle Bullet to smelt items on the floor."
+			],
+			dependencies: [I;4401],
+			id: 4468,
+			tasks: [{
+				id: 4469,
+				type: "checkmark",
+				title: "Circle Of Smelting",
+				icon: "ironfurnaces:crystal_furnace"
+			}],
+			rewards: [
+				{
+					id: 4523,
+					type: "item",
+					item: "minecraft:iron_ore",
+					count: 32
+				},
+				{
+					id: 4524,
+					type: "item",
+					item: "minecraft:gold_ore",
+					count: 16
+				},
+				{
+					id: 4525,
+					type: "item",
+					item: "silents_mechanisms:zinc_ore",
+					count: 16
+				}
+			]
+		},
+		{
+			title: "INFUSE AND IMBUE",
+			x: -1.0d,
+			y: -1.5d,
+			shape: "hexagon",
+			subtitle: "Infuse Redstone, Gold, Diamonds, Quartz, Coal.",
+			id: 4472,
+			tasks: [
+				{
+					id: 4477,
+					type: "item",
+					item: "psi:ivory_psimetal"
+				},
+				{
+					id: 4478,
+					type: "item",
+					item: "psi:ebony_psimetal"
+				},
+				{
+					id: 4479,
+					type: "item",
+					item: "psi:psigem"
+				},
+				{
+					id: 4480,
+					type: "item",
+					item: "psi:psimetal"
+				},
+				{
+					id: 4481,
+					type: "item",
+					item: "psi:psidust"
+				}
+			],
+			rewards: [
+				{
+					id: 4474,
+					type: "loot",
+					table: 0
+				},
+				{
+					id: 4475,
+					type: "item",
+					item: "lootbagmod:lootbag",
+					random_bonus: 15
+				},
+				{
+					id: 4476,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -5.5d,
+			shape: "pentagon",
+			subtitle: "Let's you know what your CAD gun can accomplish.",
+			description: [
+				"Complexity",
+				"Total number of operations.",
+				"Affected by the Assembly Core",
+				"",
+				"Potency",
+				"Total power draw used by Tricks.",
+				"Affected by Assembly",
+				"",
+				"Cost",
+				"Assemblys efficency, if you over draw you gurt yourself.",
+				"Affected by each spell part used on the grid.",
+				"",
+				"Projection",
+				"Total number of non-debuging Tricks.",
+				"Affected by the CAD Core",
+				"",
+				"Bandwith",
+				"How much space your spel can take up of the grid.",
+				"Affected by Socket"
+			],
+			hide_dependency_lines: true,
+			dependencies: [I;4397],
+			id: 4482,
+			tasks: [{
+				id: 4483,
+				type: "checkmark",
+				title: "Stats Panel Tutorial (Spell Crafter Ext.)",
+				icon: "psi:programmer"
+			}],
+			rewards: [
+				{
+					id: 4484,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 4485,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -6.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "Lets you copy spells.",
+			description: ["Try Shift clicking on a Spell Table."],
+			dependencies: [I;4447],
+			id: 4495,
+			tasks: [{
+				id: 4496,
+				type: "item",
+				item: {
+					id: "psi:spell_drive",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4497,
+					type: "item",
+					item: {
+						id: "psi:spell_drive",
+						Count: true,
+						tag: {}
+					}
+				},
+				{
+					id: 4498,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "Made by: TeuFox",
+			x: 2.5d,
+			y: 3.5d,
+			optional: true,
+			id: 4499,
+			tasks: [{
+				id: 4500,
+				type: "item",
+				item: {
+					id: "craftandhunt:fox_tail",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 4503,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		}
+	]
+}

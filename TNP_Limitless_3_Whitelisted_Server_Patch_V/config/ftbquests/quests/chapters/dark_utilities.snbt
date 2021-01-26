@@ -1,0 +1,792 @@
+{
+	id: 275,
+	filename: "dark_utilities",
+	order_index: 15,
+	title: "Dark Utilities",
+	icon: "darkutils:book_runelic",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 2.5d,
+			shape: "gear",
+			subtitle: "The blank plate is a crafting ingredient used to craft the other flat plate blocks in the mod.",
+			description: [
+				"It also serves as a decorative block. When other flat plate blocks are in their disabled state they will look the same as a blank plate.",
+				"",
+				"&7Reward: 2 EXP Levels & 2x Treasure &7Chest"
+			],
+			size: 1.4d,
+			id: 282,
+			tasks: [{
+				id: 283,
+				type: "item",
+				item: "darkutils:blank_plate"
+			}],
+			rewards: [
+				{
+					id: 285,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 378,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Vector Plate",
+			x: -4.5d,
+			y: 2.0d,
+			subtitle: "The Vector Plate is a flat tile that will push mobs and entities in the direction the arrow is facing.",
+			description: [
+				"Mobs can spawn on and in these tiles making them a good alternative to water in mob farms.",
+				" ",
+				"Vector plates have a fast and extreme variant which moves mobs at faster rates. The Vector Plate can be waterlogged by right clicking on it with a bucket. The Vector Plate is disabled when powered with redstone.",
+				" ",
+				"&7Reward: 5 EXP Levels & 1 Treasure &7Chest."
+			],
+			dependencies: [I;282],
+			id: 286,
+			tasks: [{
+				id: 287,
+				type: "item",
+				item: "darkutils:vector_plate",
+				count: 6L
+			}],
+			rewards: [
+				{
+					id: 349,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 358,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			title: "Export Plate",
+			x: -4.0d,
+			y: 3.0d,
+			subtitle: "The Export Plate is a variant of the Vector Plate that can extract items from connected inventories.",
+			description: [
+				"The export plate will try to extract items from the inventory of the block in the opposite direction of the arrow.",
+				" ",
+				"If that block has no inventory or the inventory is empty it will act like a normal Vector Plate. The fast and extreme variants will extract items at a faster rate in addition to moving them faster.",
+				" ",
+				"&7Reward: 5 EXP Levels & 1 Treasure &7Chest."
+			],
+			dependencies: [I;282],
+			id: 288,
+			tasks: [{
+				id: 289,
+				type: "item",
+				item: "darkutils:export_plate",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: 350,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 359,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			title: "Import Plate",
+			x: -3.0d,
+			y: 4.0d,
+			subtitle: "The Import Plate is a variant of the Vector Plate that can insert items into inventories.",
+			description: [
+				"The Import Plate will try to insert any items dropped on it into the inventory of the block directly in front of the arrow. ",
+				" ",
+				"If there is no inventory or the inventory is full it will behave like a normal Vector Plate. The fast and extreme variants will insert items at a faster rate in addition to moving them faster.",
+				"",
+				"&7Reward: 5 EXP Levels & 1 Treasure &7Chest."
+			],
+			dependencies: [I;282],
+			id: 290,
+			tasks: [{
+				id: 291,
+				type: "item",
+				item: "darkutils:import_plate",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: 351,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 360,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			title: "Fast Vector Plate",
+			x: -5.5d,
+			y: 2.0d,
+			shape: "octagon",
+			subtitle: "A faster variant of the Vector Plate.",
+			description: ["&7Reward: 3x Loot Bag Pieces"],
+			dependencies: [I;286],
+			size: 0.9d,
+			id: 292,
+			tasks: [{
+				id: 293,
+				type: "item",
+				item: "darkutils:vector_plate_fast",
+				count: 6L
+			}],
+			rewards: [{
+				id: 619,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Extreme Vector Plate",
+			x: -6.5d,
+			y: 2.5d,
+			shape: "octagon",
+			subtitle: "An even faster variant of the Vector Plate.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;292],
+			size: 0.9d,
+			id: 294,
+			tasks: [{
+				id: 295,
+				type: "item",
+				item: "darkutils:vector_plate_extreme",
+				count: 6L
+			}],
+			rewards: [{
+				id: 357,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fast Import Plate",
+			x: -3.0d,
+			y: 5.0d,
+			shape: "octagon",
+			subtitle: "A faster variant of the Import Plate.",
+			description: ["&7Reward: 3x Loot Bag Pieces"],
+			dependencies: [I;290],
+			size: 0.9d,
+			id: 296,
+			tasks: [{
+				id: 297,
+				type: "item",
+				item: "darkutils:import_plate_fast",
+				count: 4L
+			}],
+			rewards: [{
+				id: 611,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Extreme Import Plate",
+			x: -4.0d,
+			y: 5.5d,
+			shape: "octagon",
+			subtitle: "An even faster variant of the Import Plate.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;296],
+			size: 0.9d,
+			id: 298,
+			tasks: [{
+				id: 299,
+				type: "item",
+				item: "darkutils:import_plate_extreme",
+				count: 4L
+			}],
+			rewards: [{
+				id: 355,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fast Export Plate",
+			x: -5.0d,
+			y: 3.5d,
+			shape: "octagon",
+			subtitle: "A faster variant of the Export Plate.",
+			description: ["&7Reward: 3x Loot Bag Pieces"],
+			dependencies: [I;288],
+			size: 0.9d,
+			id: 300,
+			tasks: [{
+				id: 301,
+				type: "item",
+				item: "darkutils:export_plate_fast",
+				count: 4L
+			}],
+			rewards: [{
+				id: 618,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Extreme Export Plate",
+			x: -5.5d,
+			y: 4.5d,
+			shape: "octagon",
+			subtitle: "An even faster variant of the Export Plate.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;300],
+			size: 0.9d,
+			id: 302,
+			tasks: [{
+				id: 303,
+				type: "item",
+				item: "darkutils:export_plate_extreme",
+				count: 4L
+			}],
+			rewards: [{
+				id: 356,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Damage Trap",
+			x: 0.0d,
+			y: 7.5d,
+			shape: "diamond",
+			subtitle: "The damage trap will inflict 4 magic damage to any mob that collides with it. This damage is dealt every collision tick.",
+			description: [
+				"This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 304,
+			tasks: [{
+				id: 305,
+				type: "item",
+				item: "darkutils:rune_damage",
+				count: 2L
+			}],
+			rewards: [{
+				id: 609,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Player Damage Trap",
+			x: 1.0d,
+			y: 7.5d,
+			shape: "diamond",
+			subtitle: "The player damage trap will inflict 4 player damage to any mob that collides with it.",
+			description: [
+				"Player damage allows the mob to drop EXP on death and can also result in player-kill only drops. This damage is dealt every collision tick.",
+				"",
+				"This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 308,
+			tasks: [{
+				id: 309,
+				type: "item",
+				item: "darkutils:rune_damage_player",
+				count: 3L
+			}],
+			rewards: [{
+				id: 610,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Alert Trap",
+			x: 0.0d,
+			y: 5.5d,
+			shape: "diamond",
+			subtitle: "The alert trap will inflict any mob that collides with it with the glowing effect.",
+			description: [
+				"This effect renders a white outline around the mob which is visible through blocks and long distances.",
+				" ",
+				"This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 310,
+			tasks: [{
+				id: 361,
+				type: "item",
+				item: "darkutils:rune_glowing",
+				count: 2L
+			}],
+			rewards: [{
+				id: 478,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Weakening Trap",
+			x: 1.0d,
+			y: 6.5d,
+			shape: "diamond",
+			subtitle: "The weakening trap will inflict any mob that collides with it with the weakness debuff.",
+			description: [
+				"This debuff decreases the attack damage of the target. This effect is disabled if the block is powered with a redstone signal.",
+				"",
+				"Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 312,
+			tasks: [{
+				id: 313,
+				type: "item",
+				item: "darkutils:rune_weakness",
+				count: 2L
+			}],
+			rewards: [{
+				id: 577,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Slowing Trap",
+			x: -0.5d,
+			y: 7.0d,
+			shape: "diamond",
+			subtitle: "The slowing trap will inflict any mob that collides with it with the slowness debuff.",
+			description: [
+				"This effect lowers the movement speed of the target. This effect is disabled if the block is powered with a redstone signal.",
+				" ",
+				"Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				" ",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 314,
+			tasks: [{
+				id: 315,
+				type: "item",
+				item: "darkutils:rune_slowness",
+				count: 2L
+			}],
+			rewards: [{
+				id: 594,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Withering Trap",
+			x: -1.0d,
+			y: 6.5d,
+			shape: "diamond",
+			subtitle: "The withering trap will inflict any mob that collides with it with the wither debuff.",
+			description: [
+				"This effect will damage the target over time and make their hearts all black. This effect is disabled if the block is powered with a redstone signal.",
+				" ",
+				"Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 317,
+			tasks: [{
+				id: 318,
+				type: "item",
+				item: "darkutils:rune_wither",
+				count: 2L
+			}],
+			rewards: [{
+				id: 501,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Toxic Trap",
+			x: -0.5d,
+			y: 6.0d,
+			shape: "diamond",
+			subtitle: "The toxic trap will poison any mob that collides with it.",
+			description: [
+				"Poison will damage the target over time but they won't be killed. Many mobs like zombies are immune to poison and will not be affected",
+				" ",
+				"This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				" ",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 319,
+			tasks: [{
+				id: 362,
+				type: "item",
+				item: "darkutils:rune_poison",
+				count: 2L
+			}],
+			rewards: [{
+				id: 479,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Hunger Trap",
+			x: 0.5d,
+			y: 7.0d,
+			shape: "diamond",
+			subtitle: "The hunger trap will inflict any mob that collides with it with the hunger debuff.",
+			description: [
+				"This debuff lowers their food and saturation meter over time. This effect is disabled if the block is powered with a redstone signal.",
+				" ",
+				"Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 325,
+			tasks: [{
+				id: 326,
+				type: "item",
+				item: "darkutils:rune_hunger",
+				count: 2L
+			}],
+			rewards: [{
+				id: 595,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Blindness Trap",
+			x: 0.0d,
+			y: 6.5d,
+			shape: "diamond",
+			subtitle: "The blindness trap will inflict any mob that collides with it with the blindness debuff.",
+			description: [
+				"This debuff makes the vision of the target darker. This effect is disabled if the block is powered with a redstone signal.",
+				"",
+				"Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 341,
+			tasks: [{
+				id: 342,
+				type: "item",
+				item: "darkutils:rune_blindness",
+				count: 2L
+			}],
+			rewards: [{
+				id: 576,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Disorientation Trap",
+			x: -1.0d,
+			y: 7.5d,
+			shape: "diamond",
+			subtitle: "The disorientation trap will inflict any mob that collides with it with the nausea debuff.",
+			description: [
+				"This debuff makes their camera go wavy and unfocused. This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 345,
+			tasks: [{
+				id: 346,
+				type: "item",
+				item: "darkutils:rune_nausea",
+				count: 2L
+			}],
+			rewards: [{
+				id: 608,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			shape: "diamond",
+			subtitle: "Traps mobs that stand on it. Forces them to look in the direction the block is facing.",
+			description: [
+				"This block can be disabled with a redstone signal. This block can be rotated by sneak + right click. This block can be waterlogged. Mobs can spawn on this block. This block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 347,
+			tasks: [{
+				id: 348,
+				type: "item",
+				item: "darkutils:anchor_plate"
+			}],
+			rewards: [{
+				id: 477,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			title: "Flame Trap",
+			x: 0.5d,
+			y: 6.0d,
+			shape: "diamond",
+			subtitle: "The flame trap will set any mob that collides with it on fire.",
+			description: [
+				"This effect is disabled if the block is powered with a redstone signal. Mobs can spawn in and on top of this block. Additionally this block can be waterlogged.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces"
+			],
+			dependencies: [I;282],
+			id: 363,
+			tasks: [{
+				id: 364,
+				type: "item",
+				item: "darkutils:rune_fire",
+				count: 2L
+			}],
+			rewards: [{
+				id: 500,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 3.5d,
+			shape: "diamond",
+			subtitle: "he sleep charm allows the wearer to instantly fall asleep in beds.",
+			description: [
+				"It will also slowly reduce the insomnia counter which will prevent phantoms from spawning and attacking you.",
+				"",
+				"The item must be held in the inventory or offhand slot. It may also be worn as a charm if using the Curio mod.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;282],
+			size: 1.15d,
+			id: 379,
+			tasks: [{
+				id: 380,
+				type: "item",
+				item: "darkutils:charm_sleep"
+			}],
+			rewards: [{
+				id: 475,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			shape: "diamond",
+			subtitle: "The portal charm will allow the wearer to walk through portals instantly.",
+			description: [
+				"The item must be held in the inventory or offhand slot. It may also be worn as a charm if using the Curio mod.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;282],
+			size: 1.15d,
+			id: 381,
+			tasks: [{
+				id: 382,
+				type: "item",
+				item: "darkutils:charm_portal"
+			}],
+			rewards: [{
+				id: 388,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			shape: "diamond",
+			subtitle: "The experience charm will decrease the pickup delay of experience orbs",
+			description: [
+				"It will also slightly increase the amount of experience dropped when killing mobs or mining blocks that drop EXP.",
+				"",
+				"The item must be held in the inventory or offhand slot. It may also be worn as a charm if using the Curio mod.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;282],
+			size: 1.15d,
+			id: 383,
+			tasks: [{
+				id: 384,
+				type: "item",
+				item: "darkutils:charm_experience"
+			}],
+			rewards: [{
+				id: 387,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			shape: "diamond",
+			subtitle: "The gluttony charm will allow the wearer to eat food without delay.",
+			description: [
+				"The item must be held in the inventory or offhand slot. It may also be worn as a charm if using the Curio mod.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;282],
+			size: 1.15d,
+			id: 385,
+			tasks: [{
+				id: 386,
+				type: "item",
+				item: "darkutils:charm_gluttony"
+			}],
+			rewards: [{
+				id: 389,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			shape: "pentagon",
+			subtitle: "The item grate is a simple block that allows items to fall through it.",
+			description: [
+				" Other mobs, even really small ones will not be able to fall through. Powering the grate with redstone will disable it and prevent anything from falling through.",
+				"",
+				"&7Reward: 5 EXP Levels & 1x Treasure &7Chest"
+			],
+			dependencies: [I;282],
+			optional: true,
+			id: 390,
+			tasks: [{
+				id: 391,
+				type: "item",
+				item: "darkutils:item_grate"
+			}],
+			rewards: [
+				{
+					id: 397,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 3
+				},
+				{
+					id: 647,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 2.5d,
+			shape: "pentagon",
+			subtitle: "An upgraded version of the hopper that can teleport nearby items into a connected inventory.",
+			description: [
+				"The squares on the top will glow purple when connected to a valid inventory. Has a radius of 9x9x9 centered on the hopper.",
+				"",
+				"You can sneak + right click to display the collection border.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;282],
+			optional: true,
+			id: 392,
+			tasks: [{
+				id: 393,
+				type: "item",
+				item: "darkutils:ender_hopper"
+			}],
+			rewards: [{
+				id: 396,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Dark Glass",
+			x: -2.5d,
+			y: 1.5d,
+			shape: "pentagon",
+			subtitle: "Acts like a normal glass block allowing you to see through it.",
+			description: [
+				"It does not let light through, allowing it to be used around light sensitive blocks like mob spawners.",
+				"",
+				"&7Reward: 5 EXP Levels & 1x Treasure &7Chest"
+			],
+			dependencies: [I;282],
+			optional: true,
+			id: 398,
+			tasks: [{
+				id: 399,
+				type: "item",
+				item: "darkutils:dark_glass",
+				count: 6L
+			}],
+			rewards: [
+				{
+					id: 401,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 458,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		}
+	]
+}

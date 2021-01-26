@@ -1,0 +1,684 @@
+{
+	id: 4085,
+	filename: "nether",
+	order_index: 4,
+	title: "Nether",
+	icon: "minecraft:netherrack",
+	default_quest_shape: "",
+	quests: [
+		{
+			disable_toast: true,
+			x: 0.5d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "Enter The Nether",
+			description: ["&cBring summer clothes.."],
+			id: 4086,
+			tasks: [{
+				id: 4087,
+				type: "advancement",
+				title: "Bring summer clothes",
+				icon: "minecraft:red_nether_bricks",
+				disable_toast: true,
+				advancement: "minecraft:nether/root",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 3078,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.0d,
+			shape: "hexagon",
+			subtitle: "Use the Nether to travel 7 km in the Overworld. ( 7km = 7000 blocks. )",
+			description: ["&7Reward: 4x Treasure Chest"],
+			id: 4088,
+			tasks: [{
+				id: 4089,
+				type: "advancement",
+				title: "Subspace Bubble",
+				icon: "minecraft:map",
+				advancement: "minecraft:nether/fast_travel",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2913,
+				type: "item",
+				team_reward: false,
+				item: "aquaculture:treasure_chest",
+				count: 4
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.5d,
+			subtitle: "Break your way into a Nether Fortress",
+			description: ["&7Reward: 4x Nether Wart"],
+			id: 4090,
+			tasks: [{
+				id: 4091,
+				type: "advancement",
+				title: "A Terrible Fortress",
+				icon: "minecraft:nether_bricks",
+				advancement: "minecraft:nether/find_fortress",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2999,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:nether_wart",
+				count: 4
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			subtitle: "Destroy(kill) a Ghast with a fireball.",
+			description: ["&7Rewards: 1x 'Infinity' Enchantment or &71x 'Ceaseless' Enchantment &7Book & 2x &7Ghast Tear"],
+			id: 4092,
+			tasks: [{
+				id: 4093,
+				type: "advancement",
+				title: "Return to Sender",
+				icon: "minecraft:fire_charge",
+				advancement: "minecraft:nether/return_to_sender",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 3024,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:ghast_tear",
+					count: 2
+				},
+				{
+					id: 787,
+					type: "choice",
+					team_reward: false,
+					table: 0
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			shape: "octagon",
+			subtitle: "Rescue a ghast from the Nether, bring it safely home to the Overworld... and then kill it.",
+			description: ["&7Reward: 1x Diamond Block"],
+			id: 4094,
+			tasks: [{
+				id: 4095,
+				type: "advancement",
+				title: "Uneasy Alliance",
+				icon: "minecraft:ghast_tear",
+				advancement: "minecraft:nether/uneasy_alliance",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2997,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:diamond_block"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			subtitle: "Relieve a Blaze of its rod",
+			description: ["&7Rewards: 4x Blaze Rod & 1x Splash &7Potion of Fire Resistance (3 Min)"],
+			id: 4096,
+			tasks: [{
+				id: 4097,
+				type: "advancement",
+				title: "Into Fire",
+				icon: "minecraft:blaze_rod",
+				advancement: "minecraft:nether/obtain_blaze_rod",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2912,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "minecraft:splash_potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				},
+				{
+					id: 3025,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:blaze_rod",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 4.0d,
+			subtitle: "Obtain a Wither Skeleton's skull.",
+			description: ["&7Reward: 1x Wither Sword"],
+			id: 4098,
+			tasks: [{
+				id: 4099,
+				type: "advancement",
+				title: "Spooky Scary Skeleton",
+				icon: "minecraft:wither_skeleton_skull",
+				advancement: "minecraft:nether/get_wither_skull",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2911,
+				type: "item",
+				team_reward: false,
+				item: {
+					id: "craftandhunt:wither_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			subtitle: "Summon the Wither Boss.",
+			description: [
+				"Better be prepared!",
+				"",
+				"&7Reward: 1x Potion of Swiftness (3 Min)"
+			],
+			id: 78,
+			tasks: [{
+				id: 79,
+				type: "advancement",
+				title: "Withering Heights",
+				icon: "minecraft:nether_star",
+				advancement: "minecraft:nether/summon_wither",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2964,
+				type: "item",
+				team_reward: false,
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			subtitle: "Brew any potion in a Brewing Stand or similar.",
+			description: ["&7Reward: 1x Potion of Strength (8 Min)"],
+			id: 80,
+			tasks: [{
+				id: 81,
+				type: "advancement",
+				title: "Local Brewery",
+				icon: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				},
+				advancement: "minecraft:nether/brew_potion",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2918,
+				type: "item",
+				team_reward: false,
+				item: {
+					id: "minecraft:potion",
+					Count: true,
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 4.0d,
+			subtitle: "Construct and place a Beacon.",
+			description: ["&7Reward: 30 EXP Levels"],
+			id: 82,
+			tasks: [{
+				id: 4100,
+				type: "advancement",
+				title: "Bring Home the Beacon",
+				icon: "minecraft:beacon",
+				advancement: "minecraft:nether/create_beacon",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2917,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 20
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 4.0d,
+			shape: "hexagon",
+			subtitle: "Bring a beacon to full power. (All layers.)",
+			description: ["&7Reward: 8x Emerald"],
+			id: 4101,
+			tasks: [{
+				id: 4102,
+				type: "advancement",
+				title: "Beaconator",
+				icon: "minecraft:beacon",
+				advancement: "minecraft:nether/create_full_beacon",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2965,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:emerald",
+					count: 8
+				},
+				{
+					id: 4103,
+					type: "item",
+					team_reward: false,
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "Have every potion effect applied at the same time.",
+			description: ["&7Rewards: 6x Diamond & 4x Emerald"],
+			optional: true,
+			id: 4104,
+			tasks: [{
+				id: 4105,
+				type: "advancement",
+				title: "A Furious Cocktail",
+				icon: "minecraft:milk_bucket",
+				advancement: "minecraft:nether/all_potions",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2920,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:diamond",
+					count: 6
+				},
+				{
+					id: 2921,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:emerald",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "Have every Effect applied at the same time.",
+			description: ["&7Rewards: 1x Imperium Sword & 8x &7Diamond Block"],
+			optional: true,
+			id: 4106,
+			tasks: [{
+				id: 4107,
+				type: "advancement",
+				title: "How Did We Get Here?",
+				icon: "minecraft:bucket",
+				advancement: "minecraft:nether/all_effects",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2919,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "mysticalagriculture:imperium_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3026,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:diamond_block",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Kill a Zombified Piglin.",
+			description: ["&7Reward: 1x Gold Block"],
+			size: 0.85d,
+			id: 316,
+			tasks: [{
+				id: 155,
+				type: "kill",
+				title: "Angerment Issues",
+				icon: "minecraft:gold_nugget",
+				entity: "minecraft:zombified_piglin",
+				value: 1L
+			}],
+			rewards: [{
+				id: 2998,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:gold_block"
+			}]
+		},
+		{
+			title: "Hot Tourist Destinations",
+			icon: {
+				id: "minecraft:netherite_boots",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 2.5d,
+			y: -1.0d,
+			subtitle: "Explore all Vanilla Nether biomes",
+			description: ["&7Reward: 1x Emerald Block"],
+			id: 4108,
+			tasks: [{
+				id: 4109,
+				type: "advancement",
+				title: "Hot Tourist Destinations",
+				icon: {
+					id: "minecraft:netherite_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:nether/explore_nether",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4110,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:emerald_block"
+			}]
+		},
+		{
+			title: "Who is Cutting Onions?",
+			x: 1.5d,
+			y: -2.0d,
+			subtitle: "Obtain Crying Obsidian",
+			description: ["&7Reward: 3 EXP Levels & 8x Onions"],
+			id: 4111,
+			tasks: [{
+				id: 4112,
+				type: "item",
+				title: "Who is Cutting Onions?",
+				item: "minecraft:crying_obsidian"
+			}],
+			rewards: [
+				{
+					id: 4113,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 3
+				},
+				{
+					id: 151,
+					type: "item",
+					team_reward: false,
+					item: "simplefarming:onion",
+					count: 8
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			subtitle: "Charge a Respawn Anchor to the maximum",
+			description: ["&7Reward: 1x Iron Block"],
+			id: 4114,
+			tasks: [{
+				id: 90,
+				type: "advancement",
+				title: 'Not Quite "Nine" Lives',
+				icon: "minecraft:respawn_anchor",
+				advancement: "minecraft:nether/charge_respawn_anchor",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4115,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:iron_block"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -4.0d,
+			subtitle: "Enter a Bastion Remnant",
+			description: ["&7Reward: 6x Gold Ingot"],
+			id: 4116,
+			tasks: [{
+				id: 4117,
+				type: "advancement",
+				title: "Those Were the Days",
+				icon: "minecraft:polished_blackstone_bricks",
+				advancement: "minecraft:nether/find_bastion",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4118,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:gold_ingot",
+				count: 6
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -4.0d,
+			subtitle: "Loot a chest in a Bastion Remnant",
+			description: ["&7Reward: 2x Gold Ingot"],
+			id: 4119,
+			tasks: [{
+				id: 4120,
+				type: "advancement",
+				title: "War Pigs",
+				icon: "minecraft:chest",
+				advancement: "minecraft:nether/loot_bastion",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4121,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:gold_ingot",
+				count: 2
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			subtitle: "Obtain Ancient Debris",
+			description: ["&7Reward: 2x Netherite Scrap"],
+			id: 4122,
+			tasks: [{
+				id: 4123,
+				type: "advancement",
+				title: "Hidden in the Depths",
+				icon: "minecraft:ancient_debris",
+				advancement: "minecraft:nether/obtain_ancient_debris",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 102,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:netherite_scrap",
+				count: 2
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			shape: "octagon",
+			subtitle: "Get a full suit of Netherite armor",
+			description: ["&7Reward: 30 EXP Levels & 4x Netherite &7Scraps"],
+			id: 4124,
+			tasks: [{
+				id: 4125,
+				type: "advancement",
+				title: "Cover Me in Debris",
+				icon: {
+					id: "minecraft:netherite_chestplate",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:nether/netherite_armor",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 121,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "invisible",
+					xp_levels: 30
+				},
+				{
+					id: 4126,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:netherite_scrap",
+					count: 4
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 2.0d,
+			subtitle: "Use a compass on Lodestone",
+			description: ["&7Reward: 5 EXP Levels"],
+			id: 4127,
+			tasks: [{
+				id: 4128,
+				type: "advancement",
+				title: "Country Lode, Take Me Home",
+				icon: "minecraft:lodestone",
+				advancement: "minecraft:nether/use_lodestone",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4129,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.5d,
+			subtitle: "Distract Piglins with gold",
+			description: ["&7Reward: 1x Golden Apple"],
+			id: 107,
+			tasks: [{
+				id: 4130,
+				type: "advancement",
+				title: "Oh Shiny",
+				icon: "minecraft:gold_ingot",
+				advancement: "minecraft:nether/distract_piglin",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4131,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:golden_apple"
+			}]
+		},
+		{
+			title: "This Boat Has Legs",
+			icon: {
+				id: "minecraft:warped_fungus_on_a_stick",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -1.0d,
+			subtitle: "Ride a Strider with a Warped Fungus on a Stick",
+			description: ["&7Reward: 2x Gold Ingots"],
+			id: 4132,
+			tasks: [{
+				id: 4133,
+				type: "advancement",
+				title: "This Boat Has Legs",
+				icon: {
+					id: "minecraft:warped_fungus_on_a_stick",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:nether/ride_strider",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 4134,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:gold_ingot",
+					count: 2
+				},
+				{
+					id: 126,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:warped_fungus"
+				}
+			]
+		}
+	]
+}

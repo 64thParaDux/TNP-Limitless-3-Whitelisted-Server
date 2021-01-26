@@ -1,0 +1,560 @@
+{
+	id: 1088,
+	filename: "welcome",
+	order_index: 1,
+	title: "Welcome!",
+	icon: "cyclic:heart",
+	default_quest_shape: "",
+	images: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			width: 0.0d,
+			height: 0.0d,
+			rotation: 0.0d,
+			image: "#FFFFFF",
+			hover: [],
+			click: "",
+			dev: false
+		}
+	],
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.5d,
+			shape: "rsquare",
+			subtitle: "&7Claim your starter kit!",
+			description: [
+				"Welcome to TNP Limitless 3!",
+				" ",
+				"Here's a starter kit for your endeavours!",
+				" ",
+				"To equip the Backpack, right-click while holding it. Then press 'B' or whatever buttons it's bound to, to open it.",
+				" ",
+				"Quests usually have Loot bags & EXP as rewards. Sometimes some other rewards.",
+				" ",
+				"The Loot from the Loot Bags can vary alot, maybe you'll get a really good item or just straight up some bad loot.",
+				" ",
+				"The randomness decides your fate.",
+				" ",
+				"- Gbergz"
+			],
+			size: 1.3d,
+			id: 1089,
+			tasks: [{
+				id: 1090,
+				type: "checkmark",
+				title: "Welcome to TNP Limitless 3!",
+				icon: "cyclic:heart"
+			}],
+			rewards: [
+				{
+					id: 3043,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: {
+						id: "forbidden_arcanus:bone_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3044,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3045,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3046,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: {
+						id: "minecraft:leather_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3047,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3048,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: "minecraft:apple",
+					count: 12
+				},
+				{
+					id: 3049,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: "backpacked:backpack"
+				}
+			]
+		},
+		{
+			icon: "minecraft:tripwire_hook",
+			x: -1.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&7Read a little about Inventory Sorting",
+			description: [
+				"You can sort your inventory or any other container by hovering your mouse in the container and pressing the 'Middle Mouse Button'.",
+				" ",
+				"&7Reward: 1 EXP Level"
+			],
+			dependencies: [I;1089],
+			id: 1092,
+			tasks: [{
+				id: 1093,
+				type: "checkmark",
+				title: "Inventory Tweaks",
+				icon: "minecraft:chest",
+				disable_toast: true
+			}],
+			rewards: [{
+				id: 3051,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "&7Read about Chest Searching",
+			description: [
+				"Struggling to find a specific item in your unorganized chests?",
+				" ",
+				"Then the tweak provided by the mod 'More Overlays' can help you!",
+				" ",
+				"Just write anything into the 'JEI' search field then double click the search bar. It'll highlight anything that matches your text.",
+				" ",
+				"&7Reward: 1x Chest"
+			],
+			dependencies: [I;1089],
+			size: 0.9d,
+			id: 1095,
+			tasks: [{
+				id: 1096,
+				type: "checkmark",
+				title: "Chest Searching",
+				icon: "minecraft:chest",
+				disable_toast: true
+			}],
+			rewards: [{
+				id: 1097,
+				type: "item",
+				team_reward: false,
+				auto: "no_toast",
+				item: "minecraft:chest"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			shape: "diamond",
+			subtitle: "&7Read a little about Crafting Tweaks",
+			description: [
+				"You will notice when you open a Crafting Table or a Crafting Station that there'll be 3 new buttons on the left side of the grid.",
+				" ",
+				"These buttons can be handy for either rotating around a recipe, or clearing the crafting grid fast.",
+				" ",
+				"There's also a button to evenly split a stack into every slot.",
+				" ",
+				"Give them a try!",
+				" ",
+				"&7Reward: Portable Crafting Table"
+			],
+			dependencies: [I;1089],
+			id: 1098,
+			tasks: [{
+				id: 1099,
+				type: "checkmark",
+				title: "Crafting Tweaks",
+				icon: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: 4220,
+				type: "item",
+				team_reward: false,
+				auto: "enabled",
+				item: "vanillatweaks:pad"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "&7The Trash Slot",
+			description: [
+				"Be sure to take advantage of the Trash Slot in your inventory.",
+				" ",
+				"You can safely place an item in the Trash Slot without erasing it- But as soon as you place another item in the slot it'll delete the previous item. Be careful!",
+				" ",
+				"The Trash Slot is really handy if you just need to get rid of items while in a hurry, or just cleaing up.",
+				" ",
+				"(Is your Trash Slot missing? Press 'T' in your inventory as you might've accidentally toggled it.)",
+				" ",
+				"On another note, have a Golden Carrot!",
+				" ",
+				"&7Reward: 1x Golden Carrot"
+			],
+			dependencies: [I;1089],
+			id: 1101,
+			tasks: [{
+				id: 1102,
+				type: "checkmark",
+				title: "Trash Slot",
+				icon: "rats:trash_can"
+			}],
+			rewards: [{
+				id: 1103,
+				type: "item",
+				team_reward: false,
+				auto: "no_toast",
+				item: "minecraft:golden_carrot"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			shape: "pentagon",
+			subtitle: "&7Read about Chunk Claiming",
+			description: [
+				"You're able to claim chunks to protect your base(s). Just click the map icon that is located top left in your inventory.",
+				" ",
+				"This will bring up a fullscreen map, but this isn't the map we're looking for. Click the map again top left corner.",
+				" ",
+				"Here you can freely claim available chunks by just drawing on the map with your mouse. (Left click & drag.)",
+				" ",
+				"To unclaim a chunk you do the opposite, just draw but hold 'Right Click' instead.",
+				" ",
+				"(To Chunkload a Chunk you do as explained above but now you need to hold down 'LSHIFT' while dragging over an existing claimed chunk.)",
+				" ",
+				"A total of 350 chunks can be claimed per player / per team.",
+				"",
+				"A maximum of 8 chunks can be chunk-loaded per player / per team."
+			],
+			dependencies: [I;1089],
+			size: 1.3d,
+			id: 1107,
+			tasks: [{
+				id: 1108,
+				type: "checkmark",
+				title: "Chunk Claiming",
+				icon: "naturesaura:field_creator"
+			}],
+			rewards: [{
+				id: 3050,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			shape: "diamond",
+			subtitle: "&7Curious information",
+			description: [
+				"This mod is named Curious.",
+				" ",
+				"Think of it like the mod Baubles, allowing you to equip certain items like the Backpack from the mod 'Backpacked' or the 'Angel Ring' without having it in your main inventory.",
+				" ",
+				"You will notice while playing that some items have a tooltip displaying that they can be equipped in the Curious Menu.",
+				" ",
+				"The Curious GUI menu can be access by clicking the Coin like icon top left in your inventory. Next to your character.",
+				"",
+				"&7Reward: 1 EXP Level"
+			],
+			dependencies: [I;1089],
+			id: 1110,
+			tasks: [{
+				id: 1111,
+				type: "checkmark",
+				title: "Curious",
+				icon: "curios:ring"
+			}],
+			rewards: [{
+				id: 3052,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			icon: "cyclic:soundproofing",
+			x: -1.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "&7Read more about Sound muffling",
+			description: [
+				"Ever found a specific sound that is annoying you?",
+				" ",
+				"Well then I have good news for you!",
+				"In Limitless 3 there's a mod that allows you to mute specific sounds.",
+				" ",
+				"Simply head into your inventory and click the Muffle button top right of your character render.",
+				" ",
+				"When you've clicked it a GUI will open up & a list of recently played sounds will be displayed. Just left click the one you want to mute & then you're golden! (Click again to unmute.)",
+				" ",
+				"Goodbye annoying sounds!",
+				" ",
+				"&7Rewards: 1x Jukebox & Cat Disc."
+			],
+			dependencies: [I;1089],
+			size: 0.9d,
+			id: 1120,
+			tasks: [{
+				id: 1121,
+				type: "checkmark",
+				title: "Sound Muffling",
+				icon: "mekanism:upgrade_muffling"
+			}],
+			rewards: [
+				{
+					id: 3053,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: "minecraft:jukebox"
+				},
+				{
+					id: 3054,
+					type: "item",
+					team_reward: false,
+					auto: "no_toast",
+					item: "minecraft:music_disc_cat"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "&7Keybind information",
+			description: [
+				"Most of the modded keybinds are unbinded.",
+				" ",
+				"Go into options, controls and bind whatever Key you need on your desired button.",
+				" ",
+				"This is to prevent annoying cases where some mods uses the same button.",
+				" ",
+				"&7Reward: 1 EXP Level"
+			],
+			dependencies: [I;1089],
+			id: 3057,
+			tasks: [{
+				id: 3058,
+				type: "checkmark",
+				title: "Keybinds",
+				icon: "minecraft:stone_button"
+			}],
+			rewards: [{
+				id: 3059,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			icon: "solcarrot:food_book",
+			x: -0.5d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "&7Eat unique food types and level up &7your total health!",
+			description: [
+				"A mod designed to encourage dietary variety!",
+				" ",
+				"It does so by rewarding the player for eating a variety of foods instead of punishing them for failing to diversify.",
+				" ",
+				"The mod keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health!",
+				" ",
+				"In order to max out their HP bars, players will have to quest for and craft exotic foods.",
+				"",
+				"Time to start eating!",
+				" ",
+				"&7Reward: 1x Food Book"
+			],
+			dependencies: [I;1089],
+			id: 3291,
+			tasks: [{
+				id: 3292,
+				type: "checkmark",
+				title: "Spice of Life: Carrot Edition"
+			}],
+			rewards: [{
+				id: 3293,
+				type: "item",
+				team_reward: false,
+				auto: "no_toast",
+				item: "solcarrot:food_book"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			shape: "heart",
+			subtitle: "Please create a wireless microchip to buy a plot at spawn and to easily get your cash.",
+			id: 4233,
+			tasks: [{
+				id: 4234,
+				type: "checkmark",
+				title: "Congrats on getting whitelisted! UwU",
+				icon: {
+					id: "silentgems:chaos_carnelian",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4235,
+					type: "item",
+					item: "darkutils:charm_gluttony"
+				},
+				{
+					id: 4236,
+					type: "item",
+					item: "minecraft:cooked_porkchop",
+					count: 16
+				},
+				{
+					id: 4237,
+					type: "item",
+					item: "economyinc:item_packetfivehundreed"
+				},
+				{
+					id: 4238,
+					type: "item",
+					item: {
+						id: "quark:pickarang",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4239,
+					type: "item",
+					item: "quantumstorage:quantum_bag_magenta"
+				},
+				{
+					id: 4243,
+					type: "item",
+					item: "economyinc:item_creditcard"
+				}
+			]
+		},
+		{
+			icon: "waystones:mossy_waystone",
+			x: 0.0d,
+			y: -3.0d,
+			subtitle: "Here you go for help to travel.",
+			id: 4240,
+			tasks: [{
+				id: 4241,
+				type: "checkmark",
+				title: "Waystones"
+			}],
+			rewards: [{
+				id: 4242,
+				type: "item",
+				item: "waystones:mossy_waystone",
+				count: 6
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			description: ["Freq.1 is Water. Freq.2 is Lava"],
+			id: 4353,
+			tasks: [{
+				id: 4354,
+				type: "checkmark",
+				title: "Public Lava and Water",
+				icon: "dimstorage:dimensional_tank"
+			}],
+			rewards: [{
+				id: 4358,
+				type: "item",
+				item: "dimstorage:dimensional_tank",
+				count: 2,
+				random_bonus: 4
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.5d,
+			id: 4355,
+			tasks: [{
+				id: 4356,
+				type: "checkmark",
+				title: "Public Donation Chest",
+				icon: "dimstorage:dimensional_chest"
+			}],
+			rewards: [{
+				id: 4357,
+				type: "item",
+				item: "dimstorage:dimensional_chest",
+				random_bonus: 5
+			}]
+		}
+	]
+}

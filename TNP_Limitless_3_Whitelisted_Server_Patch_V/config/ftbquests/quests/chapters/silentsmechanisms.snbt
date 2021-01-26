@@ -1,0 +1,625 @@
+{
+	id: 3090,
+	filename: "silentsmechanisms",
+	order_index: 14,
+	title: "Silent's Mechanisms",
+	icon: "silents_mechanisms:basic_crusher",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "Construct a Stone Machine Frame",
+			description: ["&7Reward: 5 EXP Levels & 3x Treasure &7Chest"],
+			size: 1.5d,
+			id: 3094,
+			tasks: [{
+				id: 3095,
+				type: "item",
+				item: "silents_mechanisms:stone_machine_frame"
+			}],
+			rewards: [
+				{
+					id: 3104,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 3270,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			subtitle: "Construct a Basic Alloy Smelter",
+			description: [
+				"Used to mix all kinds of stuff",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3094],
+			id: 3096,
+			tasks: [{
+				id: 3097,
+				type: "item",
+				item: "silents_mechanisms:basic_alloy_smelter"
+			}],
+			rewards: [{
+				id: 3107,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			subtitle: "Construct a Coal Generator",
+			description: [
+				"Generates a small amount of power.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3094],
+			id: 3098,
+			tasks: [{
+				id: 3099,
+				type: "item",
+				item: "silents_mechanisms:coal_generator"
+			}],
+			rewards: [{
+				id: 3108,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			subtitle: "Construct a Basic Crusher",
+			description: [
+				"Can be used to grind down ores to get double the output.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3094],
+			id: 3100,
+			tasks: [{
+				id: 3101,
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
+			}],
+			rewards: [{
+				id: 3109,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.5d,
+			shape: "octagon",
+			subtitle: "Construct an Alloy Machine Frame, the heart of many machines",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3094,
+				3096
+			],
+			id: 3102,
+			tasks: [{
+				id: 3103,
+				type: "item",
+				item: "silents_mechanisms:alloy_machine_frame"
+			}],
+			rewards: [{
+				id: 3110,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			icon: "silents_mechanisms:battery_box",
+			x: 0.0d,
+			y: 8.0d,
+			subtitle: "Construct a battery box and some wires for better power storage and distribution",
+			description: [
+				"Can store up to 500,000 energy.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3102],
+			id: 3111,
+			tasks: [
+				{
+					id: 3112,
+					type: "item",
+					item: "silents_mechanisms:battery_box"
+				},
+				{
+					id: 3121,
+					type: "item",
+					item: "silents_mechanisms:wire",
+					count: 12L
+				}
+			],
+			rewards: [{
+				id: 3122,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 7.5d,
+			subtitle: "Construct a normal Crusher",
+			description: [
+				"An upgraded version of the 'Basic Crusher'.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3100,
+				3102
+			],
+			id: 3113,
+			tasks: [{
+				id: 3114,
+				type: "item",
+				item: "silents_mechanisms:crusher"
+			}],
+			rewards: [{
+				id: 3124,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			subtitle: "Construct an Electric Furnace",
+			description: [
+				"A furnace that works like a normal Vanilla Furnace, smelts items alot faster.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3146,
+				3152
+			],
+			id: 3115,
+			tasks: [{
+				id: 3116,
+				type: "item",
+				item: "silents_mechanisms:electric_furnace"
+			}],
+			rewards: [{
+				id: 3125,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 7.0d,
+			subtitle: "Construct a normal Alloy Smelter",
+			description: [
+				"An upgraded version of the 'Basic Alloy Smelter'.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3096,
+				3152,
+				3167
+			],
+			id: 3117,
+			tasks: [{
+				id: 3145,
+				type: "item",
+				item: "silents_mechanisms:alloy_smelter"
+			}],
+			rewards: [{
+				id: 3123,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.0d,
+			subtitle: "Construct a Compressor",
+			description: [
+				"Can compress various items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3152
+			],
+			id: 3119,
+			tasks: [{
+				id: 3120,
+				type: "item",
+				item: "silents_mechanisms:compressor"
+			}],
+			rewards: [{
+				id: 3126,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.5d,
+			subtitle: "Construct a Refinery",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3102,
+				3146,
+				3148,
+				3161
+			],
+			id: 3127,
+			tasks: [{
+				id: 3128,
+				type: "item",
+				item: "silents_mechanisms:refinery"
+			}],
+			rewards: [{
+				id: 3144,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 4.5d,
+			subtitle: "Construct a Mixer",
+			description: [
+				"Used to mix various liquids to produce another",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3148,
+				3155,
+				3157
+			],
+			id: 3129,
+			tasks: [{
+				id: 3130,
+				type: "item",
+				item: "silents_mechanisms:mixer"
+			}],
+			rewards: [{
+				id: 3143,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 5.5d,
+			subtitle: "Construct a Solidifier",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3102,
+				3148
+			],
+			id: 3131,
+			tasks: [{
+				id: 3132,
+				type: "item",
+				item: "silents_mechanisms:solidifier"
+			}],
+			rewards: [{
+				id: 3142,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.5d,
+			subtitle: "Construct a Pump",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3102,
+				3148,
+				3164
+			],
+			id: 3133,
+			tasks: [{
+				id: 3134,
+				type: "item",
+				item: "silents_mechanisms:pump"
+			}],
+			rewards: [{
+				id: 3141,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			subtitle: "Construct a Lava Generator",
+			description: [
+				"Produces a good amount of energy from Lava",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3148,
+				3152
+			],
+			id: 3135,
+			tasks: [{
+				id: 3136,
+				type: "item",
+				item: "silents_mechanisms:lava_generator"
+			}],
+			rewards: [{
+				id: 3140,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 5.5d,
+			subtitle: "Construct a Diesel Generator",
+			description: [
+				"Produces a good amount of energy from Diesel",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3102,
+				3148
+			],
+			id: 3137,
+			tasks: [{
+				id: 3138,
+				type: "item",
+				item: "silents_mechanisms:diesel_generator"
+			}],
+			rewards: [{
+				id: 3139,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			shape: "circle",
+			subtitle: "Construct a Heating Element",
+			description: [
+				"An important item to some machines.",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;3102],
+			size: 0.85d,
+			id: 3146,
+			tasks: [{
+				id: 3147,
+				type: "item",
+				item: "silents_mechanisms:heating_element"
+			}],
+			rewards: [{
+				id: 3151,
+				type: "item",
+				item: "aquaculture:treasure_chest"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			shape: "circle",
+			subtitle: "Construct a Circuit Board",
+			description: [
+				"A core component for many machines",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;3102],
+			size: 0.85d,
+			id: 3148,
+			tasks: [{
+				id: 3149,
+				type: "item",
+				item: "silents_mechanisms:circuit_board"
+			}],
+			rewards: [{
+				id: 3150,
+				type: "item",
+				item: "aquaculture:treasure_chest"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			shape: "circle",
+			subtitle: "Create some Redstone Alloy",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3152,
+			tasks: [{
+				id: 3153,
+				type: "item",
+				item: "silents_mechanisms:redstone_alloy_ingot"
+			}],
+			rewards: [
+				{
+					id: 3154,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 630,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			shape: "circle",
+			subtitle: "Create some Bismuth Steel",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3155,
+			tasks: [{
+				id: 3156,
+				type: "item",
+				item: "silents_mechanisms:bismuth_steel_ingot"
+			}],
+			rewards: [
+				{
+					id: 3159,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 641,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 1.0d,
+			shape: "circle",
+			subtitle: "Create some Brass",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3157,
+			tasks: [{
+				id: 3158,
+				type: "item",
+				item: "silents_mechanisms:brass_ingot"
+			}],
+			rewards: [
+				{
+					id: 3160,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 633,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 2.0d,
+			shape: "circle",
+			subtitle: "Create some Electrum",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3161,
+			tasks: [{
+				id: 1012,
+				type: "item",
+				item: "thermal:electrum_ingot"
+			}],
+			rewards: [
+				{
+					id: 3163,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 631,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 1.0d,
+			shape: "circle",
+			subtitle: "Create some Invar",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3164,
+			tasks: [{
+				id: 1013,
+				type: "item",
+				item: "thermal:invar_ingot"
+			}],
+			rewards: [
+				{
+					id: 3166,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 632,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			shape: "circle",
+			subtitle: "Create some Bismuth Brass",
+			description: ["&7Reward: 1x Treasure Chest & 3x Loot &7Bag Pieces"],
+			dependencies: [I;3096],
+			size: 0.75d,
+			optional: true,
+			id: 3167,
+			tasks: [{
+				id: 3168,
+				type: "item",
+				item: "silents_mechanisms:bismuth_brass_ingot"
+			}],
+			rewards: [
+				{
+					id: 3169,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 646,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		}
+	]
+}

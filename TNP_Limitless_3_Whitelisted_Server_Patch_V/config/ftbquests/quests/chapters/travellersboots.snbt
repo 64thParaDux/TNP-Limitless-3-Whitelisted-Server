@@ -1,0 +1,156 @@
+{
+	id: 2418,
+	filename: "travellersboots",
+	order_index: 27,
+	title: "Traveller's Boots",
+	icon: {
+		id: "travellersboots:travellersbootmki",
+		Count: true,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: [
+				"Gives Speed I, while you wear these boots.",
+				" ",
+				"Gives 1 armor point, while you wear these boots.",
+				" ",
+				"Can be repaired with Leather.",
+				"",
+				"&7Reward: 5 EXP Levels & 1x Treasure Chest"
+			],
+			size: 1.3d,
+			id: 2421,
+			tasks: [{
+				id: 2422,
+				type: "item",
+				item: {
+					id: "travellersboots:travellersbootmki",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2433,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 2869,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			description: [
+				"Gives Speed I, while you wear these boots.",
+				" ",
+				"Increases step height, while you wear these boots.",
+				" ",
+				"Gives 2 armor points, while you wear these boots.",
+				" ",
+				"Can be repaired with Gold Ingots.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2421],
+			id: 2423,
+			tasks: [{
+				id: 2424,
+				type: "item",
+				item: {
+					id: "travellersboots:travellersbootmkii",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2434,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			description: [
+				"Gives Speed II, while you wear these boots.",
+				" ",
+				"Increases step height, while you wear these boots.",
+				" ",
+				"Gives 4 armor points, while you wear these boots.",
+				" ",
+				"Can be repaired with Diamonds.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2423],
+			id: 2425,
+			tasks: [{
+				id: 2426,
+				type: "item",
+				item: {
+					id: "travellersboots:travellersbootmkiii",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2435,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			description: [
+				"Gives Speed IV, while you wear these boots.",
+				" ",
+				"Gives Jump Boost II, while you wear these boots.",
+				" ",
+				"Increases step height, while you wear these boots.",
+				" ",
+				"Gives 6 armor points, while you wear these boots.",
+				" ",
+				"Can be repaired with Emeralds.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;2425],
+			id: 2427,
+			tasks: [{
+				id: 2428,
+				type: "item",
+				item: {
+					id: "travellersboots:travellersbootmkiv",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2436,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

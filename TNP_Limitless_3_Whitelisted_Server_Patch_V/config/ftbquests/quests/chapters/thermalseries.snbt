@@ -1,0 +1,1472 @@
+{
+	id: 991,
+	filename: "thermalseries",
+	order_index: 13,
+	title: "Thermal Series",
+	icon: "thermal:machine_frame",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 3.3000000000000003d,
+			shape: "rsquare",
+			subtitle: "A Machine Frame, the core for machinery.",
+			description: [
+				"Machine Frames are the central component for many machines in Thermal Series. A Machine Frame must be crafted in order to craft a Machine.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.1d,
+			id: 3302,
+			tasks: [{
+				id: 3303,
+				type: "item",
+				item: "thermal:machine_frame"
+			}],
+			rewards: [{
+				id: 3403,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 6.0d,
+			shape: "octagon",
+			subtitle: "Craft a Pulverizer",
+			description: [
+				"A pulverizer is a machine that crushes items. It is commonly used to process ores and other items more efficiently, and to recycle certain items",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3304,
+			tasks: [{
+				id: 3305,
+				type: "item",
+				item: "thermal:machine_pulverizer"
+			}],
+			rewards: [{
+				id: 3372,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 5.5d,
+			shape: "octagon",
+			subtitle: "Craft a Redstone Furnace",
+			description: [
+				"A redstone furnace is a machine that smelts items.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3306,
+			tasks: [{
+				id: 3307,
+				type: "item",
+				item: "thermal:machine_furnace"
+			}],
+			rewards: [{
+				id: 3373,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.0d,
+			shape: "octagon",
+			subtitle: "Craft a Sawmill",
+			description: [
+				"A sawmill is a machine that processes wood into wood planks more efficiently than by hand. It can also be used to produce pulped biomass and to recycle various wooden things.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3308,
+			tasks: [{
+				id: 3309,
+				type: "item",
+				item: "thermal:machine_sawmill"
+			}],
+			rewards: [{
+				id: 3374,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.5d,
+			shape: "octagon",
+			subtitle: "Craft an Induction Smelter",
+			description: [
+				"An induction smelter, or smelter for short, is a machine that smelts items together at high temperatures. Despite the name, the machine cannot be used for smelting.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3310,
+			tasks: [{
+				id: 3311,
+				type: "item",
+				item: "thermal:machine_smelter"
+			}],
+			rewards: [{
+				id: 3375,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "Craft a Phytogenic Insolator",
+			description: [
+				"A phytogenic insolator, or insolator for short, is a machine that grows and multiplies plants using water, fertilizer and simulated sunlight.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3312,
+			tasks: [{
+				id: 3313,
+				type: "item",
+				item: "thermal:machine_insolator"
+			}],
+			rewards: [{
+				id: 3376,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "Craft a Centrifugal Separator",
+			description: [
+				"A centrifugal separator, or centrifuge for short, is a machine that separates items into their components.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3314,
+			tasks: [{
+				id: 3315,
+				type: "item",
+				item: "thermal:machine_centrifuge"
+			}],
+			rewards: [{
+				id: 3377,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.0d,
+			shape: "octagon",
+			subtitle: "Craft a Magma Crucible",
+			description: [
+				"A magma crucible, or crucible for short, is a machine that melts items into fluids.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3316,
+			tasks: [{
+				id: 3317,
+				type: "item",
+				item: "thermal:machine_crucible"
+			}],
+			rewards: [{
+				id: 3378,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "octagon",
+			subtitle: "Craft a Multiservo Press",
+			description: [
+				"The Multiservo Press is a machine that applies pressure to items to change their form.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3318,
+			tasks: [{
+				id: 3319,
+				type: "item",
+				item: "thermal:machine_press"
+			}],
+			rewards: [{
+				id: 3379,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			shape: "octagon",
+			subtitle: "Craft a Blast Chiller",
+			description: [
+				"A blast chiller, is a machine that freezes fluids into items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3320,
+			tasks: [{
+				id: 3321,
+				type: "item",
+				item: "thermal:machine_chiller"
+			}],
+			rewards: [{
+				id: 3380,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.5d,
+			shape: "octagon",
+			subtitle: "Craft a Fractionating Still",
+			description: [
+				"A fractionating still (or still for short, also known as a refinery) is a machine that refines fluids.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3324,
+			tasks: [{
+				id: 3325,
+				type: "item",
+				item: "thermal:machine_refinery"
+			}],
+			rewards: [{
+				id: 3381,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			shape: "octagon",
+			subtitle: "Craft an Alchemical Imbuer",
+			description: [
+				"An alchemical imbuer, also known as a brewer, is a machine that brews potions. It works with potions in their fluid forms.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3326,
+			tasks: [{
+				id: 3327,
+				type: "item",
+				item: "thermal:machine_brewer"
+			}],
+			rewards: [{
+				id: 3382,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 5.0d,
+			shape: "octagon",
+			subtitle: "Craft a Fluid Encapsulator",
+			description: [
+				"A fluid transposer, or transposer for short, is a machine that fills and empties items that hold fluids, like buckets.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3328,
+			tasks: [{
+				id: 3329,
+				type: "item",
+				item: "thermal:machine_bottler"
+			}],
+			rewards: [{
+				id: 3383,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 4.0d,
+			shape: "octagon",
+			subtitle: "Craft a Sequential Fabricator",
+			description: [
+				"A sequential fabricator (also known as a crafter) is a machine that crafts items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 3330,
+			tasks: [{
+				id: 3331,
+				type: "item",
+				item: "thermal:machine_crafter"
+			}],
+			rewards: [{
+				id: 3384,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.0d,
+			shape: "hexagon",
+			subtitle: "Craft a Stirling Dynamo",
+			description: [
+				"A stirling dynamo is a dynamo fueled by almost any burnable item. (Coal, wood etc.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 3332,
+			tasks: [{
+				id: 3333,
+				type: "item",
+				item: "thermal:dynamo_stirling"
+			}],
+			rewards: [{
+				id: 3385,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			shape: "hexagon",
+			subtitle: "Craft a Compression Dynamo",
+			description: [
+				"A compression dynamo is a dynamo fueled by Tree Oil and *maybe* other fluids + coolants.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 3334,
+			tasks: [{
+				id: 3335,
+				type: "item",
+				item: "thermal:dynamo_compression"
+			}],
+			rewards: [{
+				id: 3386,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			shape: "hexagon",
+			subtitle: "Craft a Magmatic Dynamo",
+			description: [
+				"A magmatic dynamo is a dynamo fueled by hot fluids like lava.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 3336,
+			tasks: [{
+				id: 3337,
+				type: "item",
+				item: "thermal:dynamo_magmatic"
+			}],
+			rewards: [{
+				id: 3387,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.0d,
+			shape: "hexagon",
+			subtitle: "Craft a Numismatic Dynamo",
+			description: [
+				"A numismatic dynamo is a dynamo fueled by currency, metal coins.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 3338,
+			tasks: [{
+				id: 3339,
+				type: "item",
+				item: "thermal:dynamo_numismatic"
+			}],
+			rewards: [{
+				id: 3388,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			shape: "hexagon",
+			subtitle: "Craft a Lapidary Dynamo",
+			description: [
+				"A lapidary dynamo is a dynamo fueled by gems, like emeralds and diamonds.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 3340,
+			tasks: [{
+				id: 3341,
+				type: "item",
+				item: "thermal:dynamo_lapidary"
+			}],
+			rewards: [{
+				id: 3389,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Redstone Flux Coil",
+			description: [
+				"Redstone Flux Coils are crafting materials made of redstone and gold. They are used to craft things that can receive Redstone Flux, notably machines.",
+				"  ",
+				"&7Reward: 5 EXP Levels & 1x Treasure &7Chest + 1x Crescent Hammer"
+			],
+			size: 0.85d,
+			id: 3342,
+			tasks: [{
+				id: 3343,
+				type: "item",
+				item: "thermal:rf_coil"
+			}],
+			rewards: [
+				{
+					id: 3404,
+					type: "xp_levels",
+					team_reward: true,
+					xp_levels: 5
+				},
+				{
+					id: 3432,
+					type: "item",
+					team_reward: true,
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 992,
+					type: "item",
+					team_reward: true,
+					item: "thermal:wrench"
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "Craft an Expanded RF Coil",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3344,
+			tasks: [{
+				id: 3345,
+				type: "item",
+				item: "thermal:rf_coil_augment"
+			}],
+			rewards: [{
+				id: 3390,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "Craft a Stabilized RF Coil",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3346,
+			tasks: [{
+				id: 3347,
+				type: "item",
+				item: "thermal:rf_coil_storage_augment"
+			}],
+			rewards: [{
+				id: 3391,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "Craft a High-Flux RF Coil",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3348,
+			tasks: [{
+				id: 3349,
+				type: "item",
+				item: "thermal:rf_coil_xfer_augment"
+			}],
+			rewards: [{
+				id: 3392,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "Craft an Expanded Tank Construction",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 3350,
+			tasks: [{
+				id: 3351,
+				type: "item",
+				item: "thermal:fluid_tank_augment"
+			}],
+			rewards: [{
+				id: 3393,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "Craft a Flux Linkage Amplifier",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3352,
+			tasks: [{
+				id: 3353,
+				type: "item",
+				item: "thermal:machine_speed_augment"
+			}],
+			rewards: [{
+				id: 3394,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "Craft an Auxiliary Process Sieve",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4205],
+			optional: true,
+			id: 3354,
+			tasks: [{
+				id: 3355,
+				type: "item",
+				item: "thermal:machine_output_augment"
+			}],
+			rewards: [{
+				id: 3395,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -0.5d,
+			shape: "diamond",
+			subtitle: "Craft a Catalytic Reclamation Chamber",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4205],
+			optional: true,
+			id: 3356,
+			tasks: [{
+				id: 3357,
+				type: "item",
+				item: "thermal:machine_catalyst_augment"
+			}],
+			rewards: [{
+				id: 3396,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			shape: "diamond",
+			subtitle: "Craft 1x Cyclical Processing",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4205],
+			optional: true,
+			id: 3358,
+			tasks: [{
+				id: 3359,
+				type: "item",
+				item: "thermal:machine_cycle_augment"
+			}],
+			rewards: [{
+				id: 3397,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			shape: "diamond",
+			subtitle: "Craft an Auxiliary Reaction Chamber",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 3360,
+			tasks: [{
+				id: 3361,
+				type: "item",
+				item: "thermal:dynamo_output_augment"
+			}],
+			rewards: [{
+				id: 3398,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Craft Multi-cycle Injectors",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 3362,
+			tasks: [{
+				id: 3363,
+				type: "item",
+				item: "thermal:dynamo_fuel_augment"
+			}],
+			rewards: [{
+				id: 3399,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "Craft a Radial Enhancement",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;4205],
+			optional: true,
+			id: 3364,
+			tasks: [{
+				id: 3365,
+				type: "item",
+				item: "thermal:area_radius_augment"
+			}],
+			rewards: [{
+				id: 3400,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Craft 1x Alchemical Amplifier",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 3366,
+			tasks: [{
+				id: 3367,
+				type: "item",
+				item: "thermal:potion_amplifier_augment"
+			}],
+			rewards: [{
+				id: 3401,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "Craft an Alchemical Extender",
+			description: ["&7Reward: 1x Loot Bag"],
+			optional: true,
+			id: 3370,
+			tasks: [{
+				id: 3371,
+				type: "item",
+				item: "thermal:potion_duration_augment"
+			}],
+			rewards: [{
+				id: 3402,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			shape: "hexagon",
+			subtitle: "Craft Hardened Integral Components",
+			description: [
+				"Used to upgrade a Machine to Hardened Tier.",
+				" ",
+				"(Placed in an Augment slot.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 3407,
+			tasks: [{
+				id: 3408,
+				type: "item",
+				item: "thermal:upgrade_augment_1"
+			}],
+			rewards: [{
+				id: 3426,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.0d,
+			shape: "hexagon",
+			subtitle: "Craft Reinforced Integral Components",
+			description: [
+				"Used to upgrade a Machine to Reinforced Tier.",
+				" ",
+				"(Placed in an Augment slot.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3407],
+			id: 3409,
+			tasks: [{
+				id: 3410,
+				type: "item",
+				item: "thermal:upgrade_augment_2"
+			}],
+			rewards: [{
+				id: 3427,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			shape: "hexagon",
+			subtitle: "Craft Resonant Integral Components",
+			description: [
+				"Used to upgrade a Machine to Resonant Tier.",
+				" ",
+				"(Placed in an Augment slot.)",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3409],
+			id: 3411,
+			tasks: [{
+				id: 3412,
+				type: "item",
+				item: "thermal:upgrade_augment_3"
+			}],
+			rewards: [{
+				id: 3428,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "Craft a Fluxbore",
+			description: [
+				"A fluxbore (also known as a drill) is a tool that mines blocks using Redstone Flux. It functions as both a pickaxe and a shovel.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3413,
+			tasks: [{
+				id: 3414,
+				type: "item",
+				item: "thermal:flux_drill"
+			}],
+			rewards: [{
+				id: 3421,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Craft a Fluxsaw",
+			description: [
+				"A fluxsaw, or saw for short, is a tool that cuts blocks using Redstone Flux. It functions as an axe and shears.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3415,
+			tasks: [{
+				id: 3416,
+				type: "item",
+				item: "thermal:flux_saw"
+			}],
+			rewards: [{
+				id: 3419,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.5d,
+			shape: "diamond",
+			subtitle: "Craft a FluxoMagnet",
+			description: [
+				"A fluxomagnet, or magnet for short, is a tool that attracts dropped items using Redstone Flux.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3417,
+			tasks: [{
+				id: 3418,
+				type: "item",
+				item: "thermal:flux_magnet"
+			}],
+			rewards: [{
+				id: 3420,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.0d,
+			shape: "diamond",
+			subtitle: "Craft a Flux Capacitor",
+			description: [
+				"A flux capacitor is an item that stores Redstone Flux and can use it to charge items in a player’s inventory.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			optional: true,
+			id: 3422,
+			tasks: [{
+				id: 3423,
+				type: "item",
+				item: {
+					id: "thermal:flux_capacitor",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3460,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.0d,
+			shape: "diamond",
+			subtitle: "Craft a Signalum Security Lock",
+			description: [
+				"Signalum security locks are items that can be installed on certain blocks and items to restrict who can access them.",
+				" ",
+				"&7Reward: 1x Loot Bag & 2x Treasure &7Chest"
+			],
+			optional: true,
+			id: 3429,
+			tasks: [{
+				id: 3430,
+				type: "item",
+				item: "thermal:lock"
+			}],
+			rewards: [
+				{
+					id: 3431,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 2
+				},
+				{
+					id: 1002,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: 1.5d,
+			shape: "diamond",
+			subtitle: "Craft a Watering Can",
+			description: [
+				"A watering can is a tool that uses water to irrigate farmland and speed up plant growth.",
+				" ",
+				"&7Reward: 2x Treasure Chest"
+			],
+			optional: true,
+			id: 3433,
+			tasks: [{
+				id: 3434,
+				type: "item",
+				item: {
+					id: "thermal:watering_can",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 3435,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 2
+				},
+				{
+					id: 997,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			title: "Hazmat Suit",
+			x: 5.0d,
+			y: 3.0d,
+			shape: "hexagon",
+			subtitle: "Craft a full Hazmat Suit",
+			description: [
+				"Provides Hazard Resistance while worn.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.1d,
+			optional: true,
+			id: 3436,
+			tasks: [
+				{
+					id: 3437,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3448,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3449,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3450,
+					type: "item",
+					item: {
+						id: "thermal:hazmat_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3457,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Beekeeper's Suit",
+			x: 4.5d,
+			y: 2.0d,
+			shape: "hexagon",
+			subtitle: "Craft a full Beekeeper's Suit",
+			description: [
+				"Provides Sting Resistance while worn.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.1d,
+			optional: true,
+			id: 3444,
+			tasks: [
+				{
+					id: 3445,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3451,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3452,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3453,
+					type: "item",
+					item: {
+						id: "thermal:beekeeper_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3459,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Diving Suit",
+			x: 4.0d,
+			y: 3.0d,
+			shape: "hexagon",
+			subtitle: "Craft a full Diving Suit",
+			description: [
+				"Swim faster while under water.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			size: 1.1d,
+			optional: true,
+			id: 3446,
+			tasks: [
+				{
+					id: 3447,
+					type: "item",
+					item: {
+						id: "thermal:diving_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3454,
+					type: "item",
+					item: {
+						id: "thermal:diving_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3455,
+					type: "item",
+					item: {
+						id: "thermal:diving_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3456,
+					type: "item",
+					item: {
+						id: "thermal:diving_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3458,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 1.5d,
+			shape: "diamond",
+			subtitle: "Craft a Potion Infuser",
+			description: [
+				"A Potion Infuser (also known as an injector) is a tool that stores and injects fluid potions.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces & 5 EXP &7Levels"
+			],
+			optional: true,
+			id: 993,
+			tasks: [{
+				id: 994,
+				type: "item",
+				item: {
+					id: "thermal:potion_infuser",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 999,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 1000,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: 2.0d,
+			shape: "diamond",
+			subtitle: "Craft an Alchemical Quiver",
+			description: [
+				"An alchemical quiver is an item that stores arrows and can automatically imbue them with fluid potions.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces & 5 EXP &7Levels"
+			],
+			optional: true,
+			id: 995,
+			tasks: [{
+				id: 996,
+				type: "item",
+				item: {
+					id: "thermal:potion_quiver",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 998,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 1001,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: 2.5d,
+			shape: "diamond",
+			subtitle: "Craft the holy Capacitato",
+			description: [
+				"The Capacitato is a low-end battery good for moving energy into machines.",
+				"",
+				"&7Reward: 3x Loot Bag Pieces & 2 EXP &7Levels"
+			],
+			id: 4197,
+			tasks: [{
+				id: 4198,
+				type: "item",
+				item: {
+					id: "thermal:rf_potato",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: 4200,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 4201,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 5.0d,
+			shape: "octagon",
+			subtitle: "Craft the Pyrolyzer.",
+			description: [
+				"The Pyrolyzer is generally used for making Coke and Charcoal.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3302,
+				3342
+			],
+			id: 4202,
+			tasks: [{
+				id: 4203,
+				type: "item",
+				item: "thermal:machine_pyrolyzer"
+			}],
+			rewards: [{
+				id: 4204,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.85d,
+			y: -0.5d,
+			shape: "pentagon",
+			subtitle: "Craft a Redstone Servo",
+			description: [
+				"Redstone servos are crafting materials made of iron and redstone. They are used to craft things that do not need Redstone Flux to operate, notably devices.",
+				"",
+				"&7Reward: 2 EXP Levels."
+			],
+			size: 0.85d,
+			id: 4205,
+			tasks: [{
+				id: 4206,
+				type: "item",
+				item: "thermal:redstone_servo"
+			}],
+			rewards: [{
+				id: 4209,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			shape: "pentagon",
+			subtitle: "Craft a Aqueous Accumulator.",
+			description: [
+				"The Aqueous Accumulator provides lots of water; but does not auto-output.",
+				"",
+				"&7Rewards: 6x Loot Bag Pieces & 4 EXP &7Levels."
+			],
+			dependencies: [I;4205],
+			id: 4207,
+			tasks: [{
+				id: 4208,
+				type: "item",
+				item: "thermal:device_water_gen"
+			}],
+			rewards: [
+				{
+					id: 4214,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 6
+				},
+				{
+					id: 4215,
+					type: "xp_levels",
+					xp_levels: 4
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: 2.5d,
+			shape: "pentagon",
+			subtitle: "Craft a Fluid Cell.",
+			description: [
+				"The fluid cell stores 32,000mb of water.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;4205],
+			id: 4210,
+			tasks: [{
+				id: 4212,
+				type: "item",
+				item: {
+					id: "thermal:fluid_cell",
+					Count: true,
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty",
+								Capacity: 32000,
+								Tank: false,
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 4213,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.5d,
+			shape: "pentagon",
+			subtitle: "Craft a Redstone Flux Cell.",
+			description: [
+				"The Redstone Flux Cell stores up to 1,000,000 RF and has a transfer rate of 1k RF/t.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3342],
+			id: 4216,
+			tasks: [{
+				id: 4217,
+				type: "item",
+				item: {
+					id: "thermal:energy_cell",
+					Count: true,
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000,
+							EnergySend: 1000,
+							Energy: 0,
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}],
+			rewards: [{
+				id: 4218,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

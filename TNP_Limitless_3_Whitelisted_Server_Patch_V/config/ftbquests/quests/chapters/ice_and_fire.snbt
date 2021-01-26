@@ -1,0 +1,4877 @@
+{
+	id: 921,
+	filename: "ice_and_fire",
+	order_index: 16,
+	title: "Ice and Fire",
+	icon: "iceandfire:dragon_skull_fire",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: 0.0d,
+			shape: "diamond",
+			subtitle: "Using 3 manuscripts found in dungeons to create a bestiary.",
+			size: 1.35d,
+			id: 3,
+			tasks: [{
+				id: 148,
+				type: "item",
+				item: "iceandfire:bestiary"
+			}],
+			rewards: [
+				{
+					id: 5,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 149,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			shape: "rsquare",
+			subtitle: "Obtain a gorgons head, a weapon that turns any who look at it to stone.",
+			id: 6,
+			tasks: [{
+				id: 1208,
+				type: "advancement",
+				title: "Clash of the Titans",
+				advancement: "iceandfire:iceandfire/gorgon_head",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 8,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Would you Like to Know More?",
+			x: 1.0d,
+			y: -0.5d,
+			shape: "rsquare",
+			subtitle: "Craft a Bestiary Lectern to learn more about the world of Ice and Fire.",
+			id: 9,
+			tasks: [{
+				id: 11,
+				type: "item",
+				item: "iceandfire:lectern"
+			}],
+			rewards: [{
+				id: 15,
+				type: "xp_levels",
+				xp_levels: 3
+			}]
+		},
+		{
+			title: "Buck Beak",
+			x: 1.0d,
+			y: 1.5d,
+			shape: "rsquare",
+			subtitle: "Tame a hippogryph by dropping rabbit feet near it.",
+			id: 12,
+			tasks: [{
+				id: 13,
+				type: "advancement",
+				title: "Buck Beak",
+				advancement: "iceandfire:iceandfire/tame_hippogryph",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 14,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			shape: "rsquare",
+			subtitle: "Tame a amphithere by shooting it down and riding it.",
+			id: 16,
+			tasks: [{
+				id: 17,
+				type: "advancement",
+				title: "Jungle Fliers",
+				advancement: "iceandfire:iceandfire/tame_amphithere",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 18,
+				type: "item",
+				item: "kubejs:lootbag_piece",
+				count: 3
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -3.5d,
+			shape: "rsquare",
+			subtitle: "Slay a ghost.",
+			description: [
+				"",
+				"",
+				"&7..spooky.. &kasdasdas"
+			],
+			id: 19,
+			tasks: [{
+				id: 20,
+				type: "advancement",
+				title: "Who You Gonna Call?",
+				advancement: "iceandfire:iceandfire/kill_ghost",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 4232,
+				type: "choice",
+				icon: "botania:cosmetic_questgiver_mark",
+				table: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -4.5d,
+			shape: "rsquare",
+			subtitle: "Slay a hydra.",
+			id: 22,
+			tasks: [{
+				id: 23,
+				type: "advancement",
+				title: "The Twelve Labors of Hercules",
+				advancement: "iceandfire:iceandfire/kill_hydra",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 24,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			icon: {
+				id: "iceandfire:deathworm_gauntlet_yellow",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.0d,
+			y: -5.5d,
+			shape: "rsquare",
+			subtitle: "Kill a death worm.",
+			id: 25,
+			tasks: [{
+				id: 26,
+				type: "advancement",
+				title: "The Desert Swimmers",
+				advancement: "iceandfire:iceandfire/kill_deathworm",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 27,
+				type: "item",
+				item: "minecraft:diamond",
+				count: 2
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -7.5d,
+			shape: "rsquare",
+			subtitle: "Befriend a pixie by dropping cake near it.",
+			id: 28,
+			tasks: [{
+				id: 29,
+				type: "advancement",
+				title: "Here Comes Your Man",
+				advancement: "iceandfire:iceandfire/tame_pixie",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 30,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 31,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			icon: "kubejs:siren_quest_icon",
+			x: 1.0d,
+			y: -8.5d,
+			shape: "rsquare",
+			subtitle: "Resist her song and kill a siren.",
+			id: 32,
+			tasks: [{
+				id: 33,
+				type: "advancement",
+				title: "Tie me to the Mast",
+				advancement: "iceandfire:iceandfire/kill_siren",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 34,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3703,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			icon: "iceandfire:cyclops_skull",
+			x: 1.0d,
+			y: -9.5d,
+			shape: "rsquare",
+			subtitle: "Defeat a cyclops.",
+			id: 35,
+			tasks: [{
+				id: 36,
+				type: "advancement",
+				title: "My Name is Nobody",
+				icon: "iceandfire:cyclops_skull",
+				advancement: "iceandfire:iceandfire/kill_cyclops",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 37,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3702,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -10.5d,
+			shape: "rsquare",
+			subtitle: "Tame a hippocampus by feeding it sponges.",
+			id: 38,
+			tasks: [{
+				id: 39,
+				type: "advancement",
+				title: "Free Willy",
+				advancement: "iceandfire:iceandfire/tame_hippocampus",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 41,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3701,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -7.5d,
+			shape: "pentagon",
+			subtitle: "Trap a pixie in a jar to farm the dust.",
+			id: 42,
+			tasks: [{
+				id: 43,
+				type: "advancement",
+				title: "Surfer Rosa",
+				icon: "iceandfire:pixie_jar_0",
+				advancement: "iceandfire:iceandfire/jar_pixie",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 44,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 45,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "Where Is My Mind?",
+			x: 3.0d,
+			y: -6.5d,
+			shape: "pentagon",
+			subtitle: "&7Create the legendary &dPixie &7weapon.",
+			dependencies: [I;3657],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 46,
+			tasks: [{
+				id: 48,
+				type: "item",
+				item: {
+					id: "iceandfire:pixie_wand",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 49,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Paul Atreides",
+			x: 2.0d,
+			y: -5.5d,
+			shape: "pentagon",
+			subtitle: "Obtain a death worm egg.",
+			id: 50,
+			tasks: [{
+				id: 51,
+				type: "item",
+				item: "iceandfire:deathworm_egg"
+			}],
+			rewards: [
+				{
+					id: 52,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 53,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			shape: "rsquare",
+			subtitle: "Kill an ice, fire or lightning dragon.",
+			id: 54,
+			tasks: [{
+				id: 55,
+				type: "advancement",
+				title: "Dragonslayer",
+				advancement: "iceandfire:iceandfire/kill_if_dragon",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 56,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 4.5d,
+			shape: "rsquare",
+			subtitle: "Obtain a rotten egg.",
+			id: 57,
+			tasks: [{
+				id: 58,
+				type: "advancement",
+				title: "Rotten to the Core",
+				advancement: "iceandfire:iceandfire/rotten_egg",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 59,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 150,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			shape: "rsquare",
+			subtitle: "Obtain myrmex chitin from a slain myrmex.",
+			id: 60,
+			tasks: [{
+				id: 61,
+				type: "advancement",
+				title: "The Only Good Bug..",
+				advancement: "iceandfire:iceandfire/kill_myrmex",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 62,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 63,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 8.5d,
+			shape: "rsquare",
+			subtitle: "Kill a troll.",
+			id: 64,
+			tasks: [{
+				id: 65,
+				type: "advancement",
+				title: "They Have a Cave Troll!",
+				advancement: "iceandfire:iceandfire/kill_troll",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 66,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			icon: "iceandfire:seaserpent_skull",
+			x: 1.0d,
+			y: 12.5d,
+			shape: "rsquare",
+			subtitle: "Slay a sea serpent.",
+			id: 67,
+			tasks: [{
+				id: 68,
+				type: "advancement",
+				title: "Sea? Not a Problem",
+				icon: "iceandfire:seaserpent_skull",
+				advancement: "iceandfire:iceandfire/kill_sea_serpent",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 69,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 9.5d,
+			shape: "rsquare",
+			subtitle: "Kill a stymphalian bird.",
+			id: 70,
+			tasks: [{
+				id: 71,
+				type: "advancement",
+				title: "Herc was on a Roll!",
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 72,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 73,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			subtitle: "&7Craft &lany &7tool made out of dragon &7bone.",
+			id: 74,
+			tasks: [{
+				id: 75,
+				type: "advancement",
+				title: "Splintering II",
+				icon: {
+					id: "iceandfire:dragonbone_pickaxe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "iceandfire:iceandfire/dragonbone_tool",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 76,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "Create a dragon forge brick.",
+			id: 77,
+			tasks: [{
+				id: 83,
+				type: "advancement",
+				title: "Another Brick in the Wall!",
+				icon: "iceandfire:dragonforge_fire_brick",
+				advancement: "iceandfire:iceandfire/dragon_forge_brick",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 84,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 4.5d,
+			shape: "hexagon",
+			subtitle: "Obtain a Dragon Egg.",
+			id: 85,
+			tasks: [{
+				id: 86,
+				type: "advancement",
+				title: "Mother of Dragons",
+				icon: "iceandfire:dragonegg_green",
+				advancement: "iceandfire:iceandfire/dragon_egg",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 87,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 5.5d,
+			shape: "hexagon",
+			subtitle: "Tame a cockatrice from an egg or by staring at it repeatedly.",
+			id: 88,
+			tasks: [{
+				id: 89,
+				type: "advancement",
+				title: "Stay Out of my Peripheral!",
+				icon: "iceandfire:cockatrice_skull",
+				advancement: "iceandfire:iceandfire/tame_cockatrice",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 91,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 92,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 6.5d,
+			shape: "hexagon",
+			subtitle: "Obtain myrmex resin, the currency of the myrmex.",
+			id: 93,
+			tasks: [{
+				id: 94,
+				type: "advancement",
+				title: "Its Like Printing my Own Money!",
+				icon: "iceandfire:myrmex_desert_resin",
+				advancement: "iceandfire:iceandfire/myrmex_resin",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 95,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 96,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			icon: {
+				id: "iceandfire:tide_trident",
+				Count: true,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 2.0d,
+			y: 12.5d,
+			shape: "hexagon",
+			subtitle: "Throw a tide triden at a mob.",
+			id: 97,
+			tasks: [{
+				id: 98,
+				type: "advancement",
+				title: "Poseidon, God of the Seas",
+				icon: {
+					id: "iceandfire:tide_trident",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "iceandfire:iceandfire/use_tide_trident",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 99,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 100,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			title: "Flying Forwards",
+			x: 2.0d,
+			y: 9.5d,
+			shape: "hexagon",
+			subtitle: "Craft an Arrow from stymphalian bird feathers that flies further.",
+			id: 101,
+			tasks: [{
+				id: 103,
+				type: "item",
+				item: "iceandfire:stymphalian_arrow"
+			}],
+			rewards: [
+				{
+					id: 104,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 105,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "A Flaming Sword",
+			x: 3.0d,
+			y: 0.5d,
+			shape: "hexagon",
+			subtitle: "Create the legendary fire, ice or lightning dragon weapon.",
+			id: 106,
+			tasks: [{
+				id: 108,
+				type: "advancement",
+				title: "A Flaming Sword",
+				icon: {
+					id: "iceandfire:dragonbone_sword_fire",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "iceandfire:iceandfire/dragonbone_flaming_sword",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 1209,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 1210,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "Create a dragonforge core.",
+			id: 1211,
+			tasks: [{
+				id: 1212,
+				type: "advancement",
+				title: "The Heart and the Flame",
+				icon: "iceandfire:dragonforge_fire_core_disabled",
+				advancement: "iceandfire:iceandfire/dragon_forge_core",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 1213,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 1214,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "Dragon Commander",
+			x: 3.0d,
+			y: 2.5d,
+			shape: "hexagon",
+			subtitle: "Craft a dragon command staff to control your dragons.",
+			id: 115,
+			tasks: [{
+				id: 117,
+				type: "item",
+				item: "iceandfire:dragon_stick"
+			}],
+			rewards: [
+				{
+					id: 118,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 119,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "The Song of the Dragons",
+			x: 3.0d,
+			y: 3.5d,
+			shape: "hexagon",
+			subtitle: "Craft a dragon flute to stop runaway dragons.",
+			id: 120,
+			tasks: [{
+				id: 122,
+				type: "item",
+				item: "iceandfire:dragon_flute"
+			}],
+			rewards: [
+				{
+					id: 123,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 124,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "An Ear-Shattering Roar",
+			x: 2.0d,
+			y: 4.5d,
+			shape: "hexagon",
+			subtitle: "Craft a dragon horn to store dragons.",
+			id: 125,
+			tasks: [{
+				id: 1215,
+				type: "item",
+				item: "iceandfire:dragon_horn"
+			}],
+			rewards: [
+				{
+					id: 128,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 129,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 3.0d,
+			y: 5.5d,
+			shape: "hexagon",
+			subtitle: "Obtain dragon armor.",
+			id: 130,
+			tasks: [{
+				id: 131,
+				type: "advancement",
+				title: "Suit Up",
+				icon: "iceandfire:dragonarmor_diamond_body",
+				advancement: "iceandfire:iceandfire/dragonarmor",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 132,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Dragon Growth Hormone",
+			x: 2.0d,
+			y: 5.5d,
+			shape: "hexagon",
+			subtitle: "Create Dragon Meal to rapidly grow baby dragons.",
+			id: 133,
+			tasks: [{
+				id: 135,
+				type: "item",
+				item: "iceandfire:dragon_meal"
+			}],
+			rewards: [
+				{
+					id: 3529,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3530,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "Create a dragonsteel ingot from dragon blood and iron.",
+			id: 136,
+			tasks: [{
+				id: 137,
+				type: "advancement",
+				title: "Forged in Flame",
+				icon: "iceandfire:dragonsteel_ice_ingot",
+				advancement: "iceandfire:iceandfire/dragonsteel",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 138,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 139,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 5.0d,
+			y: 1.5d,
+			shape: "diamond",
+			subtitle: "Create a weapon from dragonsteel.",
+			size: 1.15d,
+			id: 140,
+			tasks: [{
+				id: 141,
+				type: "advancement",
+				title: "Draconic Evolution",
+				icon: {
+					id: "iceandfire:dragonsteel_fire_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "iceandfire:iceandfire/dragonsteel_weapon",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 142,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 143,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 144,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			disable_toast: true,
+			x: -2.5d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "Welcome to Ice and Fire!",
+			description: ["&7Complete Quests to unlock new paths & &7earn some goodies."],
+			size: 2.0d,
+			id: 145,
+			tasks: [{
+				id: 146,
+				type: "advancement",
+				title: "Ice and Fire: Dragons",
+				icon: "iceandfire:dragon_skull_fire",
+				advancement: "iceandfire:iceandfire/root",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 147,
+				type: "xp_levels",
+				auto: "invisible",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "&4Red Dragon Scale Armor",
+			x: -6.0d,
+			y: 5.5d,
+			shape: "octagon",
+			subtitle: "Craft the &4Red Dragon Scale Armor &7set.",
+			dependencies: [I;3301],
+			optional: true,
+			id: 2941,
+			tasks: [
+				{
+					id: 2946,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_red_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3041,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_red_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3042,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_red_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3061,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_red_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3479,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&6Bronze Dragon Scale Armor",
+			x: -6.0d,
+			y: -2.5d,
+			shape: "octagon",
+			subtitle: "Craft the &6Bronze Dragon Scale Armor &7set.",
+			dependencies: [I;3425],
+			optional: true,
+			id: 2950,
+			tasks: [
+				{
+					id: 2952,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_bronze_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3062,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_bronze_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3072,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_bronze_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3073,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_bronze_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3497,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&2Emerald Dragon Scale Armor",
+			x: -6.0d,
+			y: -0.5d,
+			shape: "octagon",
+			subtitle: "Craft the &2Emerald Dragon Scale Armor &7set.",
+			dependencies: [I;3369],
+			optional: true,
+			id: 2956,
+			tasks: [
+				{
+					id: 2957,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_green_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3079,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_green_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3080,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_green_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3091,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_green_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3495,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&7Gray Dragon Scale Armor",
+			x: -6.0d,
+			y: 1.5d,
+			shape: "octagon",
+			subtitle: "Craft the &7Gray Dragon Scale Armor set.",
+			dependencies: [I;3443],
+			optional: true,
+			id: 2958,
+			tasks: [
+				{
+					id: 2959,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_gray_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3092,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_gray_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3093,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_gray_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3105,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_gray_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3493,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&bBlue Dragon Scale Armor",
+			x: -6.0d,
+			y: 4.5d,
+			shape: "octagon",
+			subtitle: "Craft the &bBlue Dragon Scale Armor &7set.",
+			dependencies: [I;3477],
+			optional: true,
+			id: 2960,
+			tasks: [
+				{
+					id: 2976,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_blue_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3106,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_blue_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3118,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_blue_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3162,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_blue_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3480,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "White Dragon Scale Armor",
+			x: -6.0d,
+			y: 3.5d,
+			shape: "octagon",
+			subtitle: "Craft the &fWhite Dragon Scale Armor &7set.",
+			dependencies: [I;3439],
+			optional: true,
+			id: 2978,
+			tasks: [
+				{
+					id: 2980,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_white_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3165,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_white_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3171,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_white_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3173,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_white_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3491,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&9Sapphire Dragon Scale Armor",
+			x: -6.0d,
+			y: -1.5d,
+			shape: "octagon",
+			subtitle: "Craft the &9Sapphire Dragon Scale Armor &7set.",
+			dependencies: [I;3406],
+			optional: true,
+			id: 2986,
+			tasks: [
+				{
+					id: 2993,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_sapphire_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3174,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_sapphire_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3216,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_sapphire_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3217,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_sapphire_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3496,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&1Electric Blue Dragon Scale Armor",
+			x: -6.0d,
+			y: -5.5d,
+			shape: "octagon",
+			subtitle: "Craft the &1Electric Blue Dragon Scale Armor &7set.",
+			dependencies: [I;3441],
+			optional: true,
+			id: 2994,
+			tasks: [
+				{
+					id: 3002,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_electric_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3264,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_electric_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3267,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_electric_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3268,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_electric_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3500,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&5Amethyst Dragon Scale Armor",
+			x: -6.0d,
+			y: 0.5d,
+			shape: "octagon",
+			subtitle: "Craft the &5Amethyst Dragon Scale Armor &7set.",
+			dependencies: [I;3323],
+			optional: true,
+			id: 3004,
+			tasks: [
+				{
+					id: 3012,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_amythest_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3269,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_amythest_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3279,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_amythest_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3281,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_amythest_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3494,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&6Copper Dragon Scale Armor",
+			x: -6.0d,
+			y: -3.5d,
+			shape: "octagon",
+			subtitle: "Craft the &6Copper Dragon Scale Armor &7set.",
+			dependencies: [I;3299],
+			optional: true,
+			id: 3018,
+			tasks: [
+				{
+					id: 3022,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_copper_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3282,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_copper_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3285,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_copper_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3286,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_copper_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3498,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&8Black Dragon Scale Armor",
+			x: -6.0d,
+			y: 2.5d,
+			shape: "octagon",
+			subtitle: "Craft the &8Black Dragon Scale Armor &7set.",
+			dependencies: [I;3473],
+			optional: true,
+			id: 3028,
+			tasks: [
+				{
+					id: 3030,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_black_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3289,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_black_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3290,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_black_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3298,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_black_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3492,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&7Silver Dragon Scale Armor",
+			x: -6.0d,
+			y: -4.5d,
+			shape: "octagon",
+			subtitle: "Craft the &7Silver Dragon Scale Armor set.",
+			dependencies: [I;3475],
+			optional: true,
+			id: 3218,
+			tasks: [
+				{
+					id: 3219,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_silver_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3239,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_silver_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3240,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_silver_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3263,
+					type: "item",
+					item: {
+						id: "iceandfire:armor_silver_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3499,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&6Copper Dragon Scales",
+			x: -5.0d,
+			y: -3.5d,
+			subtitle: "Obtain some &6Copper Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3299,
+			tasks: [{
+				id: 3300,
+				type: "item",
+				item: "iceandfire:dragonscales_copper"
+			}],
+			rewards: [
+				{
+					id: 3510,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3849,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&4Red Dragon Scales",
+			x: -5.0d,
+			y: 5.5d,
+			shape: "circle",
+			subtitle: "Obtain some &4Red Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3301,
+			tasks: [{
+				id: 3322,
+				type: "item",
+				item: "iceandfire:dragonscales_red"
+			}],
+			rewards: [
+				{
+					id: 3501,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3840,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&5Amethyst Dragon Scales",
+			x: -5.0d,
+			y: 0.5d,
+			subtitle: "Obtain some &5Amethyst Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3323,
+			tasks: [{
+				id: 3368,
+				type: "item",
+				item: "iceandfire:dragonscales_amythest"
+			}],
+			rewards: [
+				{
+					id: 3506,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3845,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&2Emerald Dragon Scales",
+			x: -5.0d,
+			y: -0.5d,
+			subtitle: "Obtain some &2Emerald Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3369,
+			tasks: [{
+				id: 3405,
+				type: "item",
+				item: "iceandfire:dragonscales_green"
+			}],
+			rewards: [
+				{
+					id: 3507,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3846,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&9Sapphire Dragon Scales",
+			x: -5.0d,
+			y: -1.5d,
+			subtitle: "Obtain some &9Sapphire Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3406,
+			tasks: [{
+				id: 3424,
+				type: "item",
+				item: "iceandfire:dragonscales_sapphire"
+			}],
+			rewards: [
+				{
+					id: 3508,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3847,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&6Bronze Dragon Scales",
+			x: -5.0d,
+			y: -2.5d,
+			subtitle: "Obtain some &6Bronze Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3425,
+			tasks: [{
+				id: 3438,
+				type: "item",
+				item: "iceandfire:dragonscales_bronze"
+			}],
+			rewards: [
+				{
+					id: 3509,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3848,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "White Dragon Scales",
+			x: -5.0d,
+			y: 3.5d,
+			subtitle: "Obtain some &fWhite Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3439,
+			tasks: [{
+				id: 3440,
+				type: "item",
+				item: "iceandfire:dragonscales_white"
+			}],
+			rewards: [
+				{
+					id: 3503,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3842,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&1Electric Blue Dragon Scales",
+			x: -5.0d,
+			y: -5.5d,
+			shape: "circle",
+			subtitle: "Obtain some &1Electric Blue Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3441,
+			tasks: [{
+				id: 3442,
+				type: "item",
+				item: "iceandfire:dragonscales_electric"
+			}],
+			rewards: [
+				{
+					id: 3512,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3851,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&7Gray Dragon Scales",
+			x: -5.0d,
+			y: 1.5d,
+			subtitle: "Obtain some &7Gray Dragon Scales.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3443,
+			tasks: [{
+				id: 3466,
+				type: "item",
+				item: "iceandfire:dragonscales_gray"
+			}],
+			rewards: [
+				{
+					id: 3505,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3844,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&8Black Dragon Scales",
+			x: -5.0d,
+			y: 2.5d,
+			subtitle: "Obtain some &8Black Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3473,
+			tasks: [{
+				id: 3474,
+				type: "item",
+				item: "iceandfire:dragonscales_black"
+			}],
+			rewards: [
+				{
+					id: 3504,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3843,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&7Silver Dragon Scales",
+			x: -5.0d,
+			y: -4.5d,
+			subtitle: "Obtain some &7Silver Dragon Scales.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3475,
+			tasks: [{
+				id: 3476,
+				type: "item",
+				item: "iceandfire:dragonscales_silver"
+			}],
+			rewards: [
+				{
+					id: 3511,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3850,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&bBlue Dragon Scales",
+			x: -5.0d,
+			y: 4.5d,
+			shape: "circle",
+			subtitle: "Obtain some &bBlue Dragon Scales&7.",
+			dependencies: [I;54],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3477,
+			tasks: [{
+				id: 3478,
+				type: "item",
+				item: "iceandfire:dragonscales_blue"
+			}],
+			rewards: [
+				{
+					id: 3502,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3841,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&6Desert Myrmex Chitin Armor",
+			x: -1.5d,
+			y: 5.5d,
+			shape: "hexagon",
+			subtitle: "&7Craft the &6Desert Myrmex Chitin Armor &7set.",
+			dependencies: [I;60],
+			hide: true,
+			optional: true,
+			id: 3517,
+			tasks: [
+				{
+					id: 3518,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3523,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3524,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3525,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3521,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&3Jungle Myrmex Chitin Armor",
+			x: -1.5d,
+			y: 6.5d,
+			shape: "hexagon",
+			subtitle: "&7Craft the &3Jungle Myrmex Chitin Armor &7set.",
+			dependencies: [I;60],
+			hide: true,
+			optional: true,
+			id: 3519,
+			tasks: [
+				{
+					id: 3520,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3526,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3527,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3528,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3522,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&6Desert Myrmex Chitin Tools",
+			x: -1.0d,
+			y: 4.5d,
+			shape: "pentagon",
+			subtitle: "&7Craft the &6Desert Myrmex Chitin Tool &7set.",
+			dependencies: [I;60],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3531,
+			tasks: [
+				{
+					id: 3532,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3533,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3534,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3535,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_desert_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3594,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&3Jungle Myrmex Chitin Tools",
+			x: -1.0d,
+			y: 7.5d,
+			shape: "pentagon",
+			subtitle: "&7Craft the &3Jungle Myrmex Chitin Tool set&7.",
+			dependencies: [I;60],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3536,
+			tasks: [
+				{
+					id: 3537,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3538,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_pickaxe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3539,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_shovel",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3540,
+					type: "item",
+					item: {
+						id: "iceandfire:myrmex_jungle_axe",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3595,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 6.800000000000001d,
+			y: 6.825d,
+			subtitle: "Obtain some &2Forest &7Troll Leather.",
+			dependencies: [I;64],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3541,
+			tasks: [{
+				id: 3542,
+				type: "item",
+				item: "iceandfire:troll_leather_forest"
+			}],
+			rewards: [
+				{
+					id: 3562,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3565,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 7.8500000000000005d,
+			y: 6.825d,
+			subtitle: "Obtain some &8Mountain &7Troll Leather.",
+			dependencies: [I;64],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3543,
+			tasks: [{
+				id: 3544,
+				type: "item",
+				item: "iceandfire:troll_leather_mountain"
+			}],
+			rewards: [
+				{
+					id: 3563,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3566,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 8.9d,
+			y: 6.825d,
+			subtitle: "Obtain some &fFrost &7Troll Leather.",
+			dependencies: [I;64],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3545,
+			tasks: [{
+				id: 3546,
+				type: "item",
+				item: "iceandfire:troll_leather_frost"
+			}],
+			rewards: [
+				{
+					id: 3564,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3567,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 7.0d,
+			y: 8.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &2Forest &7Troll Leather Armor &7set.",
+			dependencies: [I;3541],
+			optional: true,
+			id: 3547,
+			tasks: [
+				{
+					id: 3548,
+					type: "item",
+					item: {
+						id: "iceandfire:forest_troll_leather_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3549,
+					type: "item",
+					item: {
+						id: "iceandfire:forest_troll_leather_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3550,
+					type: "item",
+					item: {
+						id: "iceandfire:forest_troll_leather_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3551,
+					type: "item",
+					item: {
+						id: "iceandfire:forest_troll_leather_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3570,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 8.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &8Mountain &7Troll Leather &7Armor &7set.",
+			dependencies: [I;3543],
+			optional: true,
+			id: 3552,
+			tasks: [
+				{
+					id: 3553,
+					type: "item",
+					item: {
+						id: "iceandfire:mountain_troll_leather_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3554,
+					type: "item",
+					item: {
+						id: "iceandfire:mountain_troll_leather_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3555,
+					type: "item",
+					item: {
+						id: "iceandfire:mountain_troll_leather_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3556,
+					type: "item",
+					item: {
+						id: "iceandfire:mountain_troll_leather_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3569,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 8.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &fFrost &7Troll Leather Armor &7set.",
+			dependencies: [I;3545],
+			optional: true,
+			id: 3557,
+			tasks: [
+				{
+					id: 3558,
+					type: "item",
+					item: {
+						id: "iceandfire:frost_troll_leather_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3559,
+					type: "item",
+					item: {
+						id: "iceandfire:frost_troll_leather_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3560,
+					type: "item",
+					item: {
+						id: "iceandfire:frost_troll_leather_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3561,
+					type: "item",
+					item: {
+						id: "iceandfire:frost_troll_leather_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3568,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.5d,
+			shape: "circle",
+			subtitle: "Obtain some Tan Death Worm Chitin.",
+			dependencies: [I;25],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3573,
+			tasks: [{
+				id: 3574,
+				type: "item",
+				item: "iceandfire:deathworm_chitin_yellow"
+			}],
+			rewards: [
+				{
+					id: 3586,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3589,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -7.0d,
+			shape: "circle",
+			subtitle: "&7Obtain some &cRed &fDeath Worm Chitin&7.",
+			dependencies: [I;25],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3575,
+			tasks: [{
+				id: 3576,
+				type: "item",
+				item: "iceandfire:deathworm_chitin_red"
+			}],
+			rewards: [
+				{
+					id: 3587,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3588,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: -1.0d,
+			y: -4.0d,
+			shape: "circle",
+			subtitle: "Obtain some White Death Worm Chitin.",
+			dependencies: [I;25],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3577,
+			tasks: [{
+				id: 3578,
+				type: "item",
+				item: "iceandfire:deathworm_chitin_white"
+			}],
+			rewards: [
+				{
+					id: 3585,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3590,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: -3.0d,
+			y: -5.5d,
+			shape: "octagon",
+			subtitle: "&7Craft the &eTan &fDeath Worm Chitin Armor &7set.",
+			dependencies: [I;3573],
+			optional: true,
+			id: 3579,
+			tasks: [{
+				id: 3580,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_yellow_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3592,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &fWhite &fDeath Worm Chitin Armor &7set.",
+			dependencies: [I;3577],
+			optional: true,
+			id: 3581,
+			tasks: [{
+				id: 3582,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_white_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3591,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -8.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &cRed &fDeath Worm Chitin Armor &7set.",
+			dependencies: [I;3575],
+			optional: true,
+			id: 3583,
+			tasks: [{
+				id: 3584,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_red_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3593,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&4Red Dragon Egg",
+			x: 7.0d,
+			y: 5.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &4Red &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3597,
+			tasks: [{
+				id: 3598,
+				type: "item",
+				item: "iceandfire:dragonegg_red"
+			}],
+			rewards: [{
+				id: 3630,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&2Emerald Dragon Egg",
+			x: 6.0d,
+			y: 5.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain an &2Emerald &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3599,
+			tasks: [{
+				id: 3600,
+				type: "item",
+				item: "iceandfire:dragonegg_green"
+			}],
+			rewards: [{
+				id: 3629,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&6Bronze Dragon Egg",
+			x: 5.5d,
+			y: 5.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &6Bronze &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3601,
+			tasks: [{
+				id: 3602,
+				type: "item",
+				item: "iceandfire:dragonegg_bronze"
+			}],
+			rewards: [{
+				id: 3631,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&7Gray Dragon Egg",
+			x: 6.5d,
+			y: 5.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &7Gray &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3603,
+			tasks: [{
+				id: 3604,
+				type: "item",
+				item: "iceandfire:dragonegg_gray"
+			}],
+			rewards: [{
+				id: 3632,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&bBlue Dragon Egg",
+			x: 6.5d,
+			y: 3.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &bBlue &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3605,
+			tasks: [{
+				id: 3606,
+				type: "item",
+				item: "iceandfire:dragonegg_blue"
+			}],
+			rewards: [{
+				id: 3622,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "White Dragon Egg",
+			x: 5.0d,
+			y: 4.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &fWhite &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3607,
+			tasks: [{
+				id: 3608,
+				type: "item",
+				item: "iceandfire:dragonegg_white"
+			}],
+			rewards: [{
+				id: 3624,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&9Sapphire Dragon Egg",
+			x: 6.0d,
+			y: 4.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &9Sapphire &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			hide_text_until_complete: false,
+			optional: true,
+			id: 3609,
+			tasks: [{
+				id: 3610,
+				type: "item",
+				item: "iceandfire:dragonegg_sapphire"
+			}],
+			rewards: [{
+				id: 3623,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&7Silver Dragon Egg",
+			x: 5.5d,
+			y: 3.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &7Silver &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3611,
+			tasks: [{
+				id: 3612,
+				type: "item",
+				item: "iceandfire:dragonegg_silver"
+			}],
+			rewards: [{
+				id: 3621,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&1Blue Electric Dragon Egg",
+			x: 5.5d,
+			y: 4.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &1Blue Electric &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3613,
+			tasks: [{
+				id: 3614,
+				type: "item",
+				item: "iceandfire:dragonegg_electric"
+			}],
+			rewards: [{
+				id: 3626,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&5Amethyst Dragon Egg",
+			x: 6.5d,
+			y: 4.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain an &5Amethyst &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3615,
+			tasks: [{
+				id: 3616,
+				type: "item",
+				item: "iceandfire:dragonegg_amythest"
+			}],
+			rewards: [{
+				id: 3627,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&6Copper Dragon Egg",
+			x: 5.0d,
+			y: 5.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &6Copper &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3617,
+			tasks: [{
+				id: 3618,
+				type: "item",
+				item: "iceandfire:dragonegg_copper"
+			}],
+			rewards: [{
+				id: 3628,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&8Black Dragon Egg",
+			x: 7.0d,
+			y: 4.0d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &8Black &7Dragon Egg.",
+			dependencies: [I;85],
+			hide: true,
+			optional: true,
+			id: 3619,
+			tasks: [{
+				id: 3620,
+				type: "item",
+				item: "iceandfire:dragonegg_black"
+			}],
+			rewards: [{
+				id: 3625,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&6Fire &7Dragon Skull",
+			x: -1.0d,
+			y: 1.5d,
+			shape: "pentagon",
+			subtitle: "&7Obtain a &6Fire &7Dragon Skull.",
+			dependencies: [I;54],
+			hide: true,
+			optional: true,
+			id: 3633,
+			tasks: [{
+				id: 3634,
+				type: "item",
+				item: "iceandfire:dragon_skull_fire"
+			}],
+			rewards: [
+				{
+					id: 3641,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3642,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&fIce &7Dragon Skull",
+			x: -2.0d,
+			y: 1.5d,
+			shape: "pentagon",
+			subtitle: "&7Obtain a &fIce &7Dragon Skull.",
+			dependencies: [I;54],
+			hide: true,
+			optional: true,
+			id: 3635,
+			tasks: [{
+				id: 3636,
+				type: "item",
+				item: "iceandfire:dragon_skull_ice"
+			}],
+			rewards: [
+				{
+					id: 3640,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3643,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&eLightning &7Dragon Skull",
+			x: -3.0d,
+			y: 1.5d,
+			shape: "pentagon",
+			subtitle: "&7Obtain a &eLightning &7Dragon Skull.",
+			dependencies: [I;54],
+			hide: true,
+			optional: true,
+			id: 3637,
+			tasks: [{
+				id: 3638,
+				type: "item",
+				item: "iceandfire:dragon_skull_lightning"
+			}],
+			rewards: [
+				{
+					id: 3639,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3644,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&bPhantasmal Ingot",
+			x: 2.0d,
+			y: -3.5d,
+			shape: "octagon",
+			subtitle: "&7Obtain a &bPhantasmal Blade&7.",
+			description: ["&7The Phantasmal Ingot is dropped &6rarely &7by &7Ghosts."],
+			dependencies: [I;19],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3645,
+			tasks: [{
+				id: 3646,
+				type: "item",
+				item: "iceandfire:ghost_ingot"
+			}],
+			rewards: [
+				{
+					id: 3651,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3652,
+					type: "xp_levels",
+					xp_levels: 8
+				}
+			]
+		},
+		{
+			title: "&bPhantasmal Blade",
+			x: 3.0d,
+			y: -3.5d,
+			shape: "pentagon",
+			subtitle: "&7Craft the Legendary &bPhantasmal &bBlade.",
+			dependencies: [I;3645],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3647,
+			tasks: [{
+				id: 3648,
+				type: "item",
+				item: {
+					id: "iceandfire:ghost_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3650,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			shape: "rsquare",
+			subtitle: "&7Kill a &dPixie&7.",
+			id: 3653,
+			tasks: [{
+				id: 3654,
+				type: "kill",
+				title: "&dA magical, beautiful thief.",
+				icon: "botania:pixie_dust",
+				entity: "iceandfire:pixie",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 3655,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3656,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&dPixie Wings",
+			x: 2.0d,
+			y: -6.5d,
+			shape: "octagon",
+			subtitle: "&7Obtain &dPixie Wings&7.",
+			description: ["&7The &dPixie Wings &7are dropped &drarely &7by &7Pixies."],
+			dependencies: [I;3653],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3657,
+			tasks: [{
+				id: 3658,
+				type: "item",
+				item: "iceandfire:pixie_wings"
+			}],
+			rewards: [
+				{
+					id: 3719,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3720,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			title: "&7Best not to tell Hagrid..",
+			x: 1.0d,
+			y: 2.5d,
+			shape: "rsquare",
+			subtitle: "Kill a &8Hippogryph&7.",
+			id: 3660,
+			tasks: [{
+				id: 3662,
+				type: "kill",
+				icon: "iceandfire:hippogryph_skull",
+				entity: "iceandfire:hippogryph",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 3664,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3665,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			title: "&8Hippogryph Talon",
+			x: 0.0d,
+			y: 2.5d,
+			shape: "octagon",
+			subtitle: "&7Obtain a &8Hippogryph Talon&7.",
+			description: ["&7The &8Hippogryph Talon &7is dropped &8rarely &7by &8Hippogryps."],
+			dependencies: [I;3660],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3666,
+			tasks: [{
+				id: 3667,
+				type: "item",
+				item: "iceandfire:hippogryph_talon"
+			}],
+			rewards: [
+				{
+					id: 3723,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3724,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&8Hippogryph Talon Sword",
+			x: -1.0d,
+			y: 3.0d,
+			shape: "pentagon",
+			subtitle: "&7Create the legendary &8Hippogryph &7weapon.",
+			dependencies: [I;3666],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3669,
+			tasks: [{
+				id: 3670,
+				type: "item",
+				item: {
+					id: "iceandfire:hippogryph_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3671,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&bSiren Tear",
+			x: 0.050000000000000044d,
+			y: -8.649999999999999d,
+			subtitle: "&7Obtain a &bSiren Tear&7.",
+			description: ["&7The &bSiren Tear &7is dropped &brarely &7by &7Sirens."],
+			dependencies: [I;32],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3674,
+			tasks: [{
+				id: 3675,
+				type: "item",
+				item: "iceandfire:siren_tear"
+			}],
+			rewards: [
+				{
+					id: 3721,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3722,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&bThe Flute For Sirens",
+			x: -0.625d,
+			y: -10.625d,
+			shape: "octagon",
+			subtitle: "&7Create the legendary &bSiren &7weapon.",
+			dependencies: [I;3697],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3676,
+			tasks: [{
+				id: 3677,
+				type: "item",
+				item: {
+					id: "iceandfire:siren_flute",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3679,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&bNo Memories..",
+			x: 1.0d,
+			y: 10.5d,
+			shape: "rsquare",
+			subtitle: "&7Kill a &bHippocampus&7.",
+			id: 3684,
+			tasks: [{
+				id: 3686,
+				type: "kill",
+				icon: "kubejs:hippocampus_quest_icon",
+				entity: "iceandfire:hippocampus",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 3692,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3693,
+					type: "xp_levels",
+					xp_levels: 4
+				}
+			]
+		},
+		{
+			title: "&bHippocampus Fin",
+			x: 0.0d,
+			y: 11.0d,
+			subtitle: "&7Obtain a &bHippocampus Fin&7.",
+			description: ["&7The &bHippocampus Fin &7is dropped &9rarely &7by a &7Hippocampus."],
+			dependencies: [I;3684],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3687,
+			tasks: [{
+				id: 3688,
+				type: "item",
+				item: "iceandfire:hippocampus_fin"
+			}],
+			rewards: [
+				{
+					id: 3715,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3716,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&bHippocampus &9Slapper",
+			x: -1.25d,
+			y: 11.25d,
+			shape: "octagon",
+			subtitle: "&7Create the legendary &9Hippocampus &7comical weapon.",
+			dependencies: [I;3687],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3689,
+			tasks: [{
+				id: 3690,
+				type: "item",
+				item: {
+					id: "iceandfire:hippocampus_slapper",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3694,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&bShiny Scales",
+			x: -0.5d,
+			y: -9.5d,
+			subtitle: "&7Obtain some &bShiny Scales&7.",
+			description: ["&bShiny Scales &7are quite commonly &7dropped &7by &bSirens & &bHippocampus."],
+			dependencies: [I;3674],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3697,
+			tasks: [{
+				id: 3698,
+				type: "item",
+				item: "iceandfire:shiny_scales"
+			}],
+			rewards: [
+				{
+					id: 3699,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 2
+				},
+				{
+					id: 3700,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&6A Mythical Beast",
+			x: 1.0d,
+			y: 11.5d,
+			shape: "rsquare",
+			subtitle: "&7Kill a &6Cockatrice&7.",
+			id: 3704,
+			tasks: [{
+				id: 3706,
+				type: "kill",
+				icon: "kubejs:cockatrice_quest_icon",
+				entity: "iceandfire:cockatrice",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 3707,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3708,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			title: "&6Cockatrice Eye",
+			x: 2.0d,
+			y: 11.5d,
+			subtitle: "&7Obtain a &6Cockatrice Eye&7.",
+			description: ["&7The &6Cockatrice Eye &7is dropped &6rarely &7by &6Cockatrices."],
+			dependencies: [I;3704],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3709,
+			tasks: [{
+				id: 3710,
+				type: "item",
+				item: "iceandfire:cockatrice_eye"
+			}],
+			rewards: [
+				{
+					id: 3717,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3718,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&6Cockatrice Scepter",
+			x: 3.0d,
+			y: 12.0d,
+			shape: "octagon",
+			subtitle: "&7Create the legendary &6Cockatrice &7weapon.",
+			dependencies: [I;3709],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3712,
+			tasks: [{
+				id: 3713,
+				type: "item",
+				item: {
+					id: "iceandfire:cockatrice_scepter",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3714,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&eTan &fDeath Worm Gauntlet",
+			x: -2.6999999999999997d,
+			y: -6.3999999999999995d,
+			shape: "pentagon",
+			subtitle: "&7Craft the Legendary &eTan &fDeath Worm Gauntlet&7.",
+			dependencies: [I;
+				3573,
+				3733
+			],
+			size: 0.9d,
+			optional: true,
+			id: 3725,
+			tasks: [{
+				id: 3726,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_gauntlet_yellow",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3730,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&fTan &fDeath Worm Gauntlet",
+			x: -1.8499999999999999d,
+			y: -3.6999999999999997d,
+			shape: "pentagon",
+			subtitle: "&7Craft the Legendary &fWhite &fDeath Worm Gauntlet&7.",
+			dependencies: [I;
+				3577,
+				3733
+			],
+			size: 0.9d,
+			optional: true,
+			id: 3727,
+			tasks: [{
+				id: 3728,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_gauntlet_white",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3729,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&cRed &fDeath Worm Gauntlet",
+			x: -1.8499999999999999d,
+			y: -7.75d,
+			shape: "pentagon",
+			subtitle: "&7Craft the Legendary &cRed &fDeath Worm Gauntlet&7.",
+			dependencies: [I;
+				3575,
+				3733
+			],
+			size: 0.9d,
+			optional: true,
+			id: 3731,
+			tasks: [{
+				id: 3732,
+				type: "item",
+				item: {
+					id: "iceandfire:deathworm_gauntlet_red",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3766,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -5.5d,
+			shape: "diamond",
+			subtitle: "&7Obtain a &cDeath Worm Tongue&7.",
+			description: ["&7The &cDeath Worm Tongue &7are dropped &crarely &7by &cDeath Worms."],
+			dependencies: [I;25],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3733,
+			tasks: [{
+				id: 3734,
+				type: "item",
+				item: "iceandfire:deathworm_tounge"
+			}],
+			rewards: [
+				{
+					id: 3735,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 4
+				},
+				{
+					id: 3736,
+					type: "xp_levels",
+					xp_levels: 3
+				}
+			]
+		},
+		{
+			title: "&6Desert Myrmex Stinger &6Sword",
+			x: -2.0d,
+			y: 4.5d,
+			shape: "pentagon",
+			subtitle: "&7Craft the &6Desert Myrmex Stinger &6Sword&7.",
+			dependencies: [I;60],
+			hide: true,
+			size: 0.85d,
+			optional: true,
+			id: 3737,
+			tasks: [{
+				id: 3738,
+				type: "item",
+				item: {
+					id: "iceandfire:myrmex_desert_sword_venom",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 3741,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 6
+				},
+				{
+					id: 3744,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&3Jungle Myrmex Stinger &3Sword",
+			x: -2.0d,
+			y: 7.5d,
+			shape: "pentagon",
+			subtitle: "&7Craft the &3Jungle Myrmex Stinger &3Sword&7.",
+			dependencies: [I;60],
+			hide: true,
+			size: 0.85d,
+			optional: true,
+			id: 3739,
+			tasks: [{
+				id: 3740,
+				type: "item",
+				item: {
+					id: "iceandfire:myrmex_jungle_sword_venom",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 3742,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 6
+				},
+				{
+					id: 3743,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 8.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Axe.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3745,
+			tasks: [{
+				id: 3746,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_axe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3762,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 8.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Stone Column.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3747,
+			tasks: [{
+				id: 3748,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_column",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3761,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 9.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Mossy Column.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3749,
+			tasks: [{
+				id: 3750,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_column_forest",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3764,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.5d,
+			shape: "octagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Frosted Col.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3751,
+			tasks: [{
+				id: 3752,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_column_frost",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3759,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 9.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Hammer.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3753,
+			tasks: [{
+				id: 3754,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_hammer",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3765,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 7.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Tree Trunk.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3755,
+			tasks: [{
+				id: 3756,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_trunk",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3760,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 8.5d,
+			shape: "hexagon",
+			subtitle: "&7Obtain the &6Legendary &7Weapon, Troll's &7Frosted Tree Trunk.",
+			description: ["&7Troll weapons are &7Legendary &7Weapons that are dropped by &8Trolls&7. &7Found rarely around the Overworld."],
+			dependencies: [I;64],
+			hide: true,
+			optional: true,
+			id: 3757,
+			tasks: [{
+				id: 3758,
+				type: "item",
+				item: {
+					id: "iceandfire:troll_weapon_trunk_frost",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3763,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 9.5d,
+			subtitle: "&7Obtain a &6Stymphilian Bird Feather&7.",
+			description: ["&6Stymphilian Feathers &7are quite &7commonly &7dropped &7by &6Stymphilian &6Birds."],
+			dependencies: [I;70],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3767,
+			tasks: [{
+				id: 3768,
+				type: "item",
+				item: "iceandfire:stymphalian_bird_feather"
+			}],
+			rewards: [
+				{
+					id: 3773,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				},
+				{
+					id: 3774,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			title: "&7Stymphilian Bird Dagger",
+			x: -1.0d,
+			y: 10.0d,
+			shape: "pentagon",
+			subtitle: "&7Create the &6Stymphilian Bird Dagger&7.",
+			dependencies: [I;3767],
+			hide: true,
+			optional: true,
+			id: 3769,
+			tasks: [{
+				id: 3770,
+				type: "item",
+				item: {
+					id: "iceandfire:stymphalian_bird_dagger",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 3777,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 3778,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "&6Stymphilian Bird Feather Bundle",
+			x: -1.0d,
+			y: 9.0d,
+			shape: "octagon",
+			subtitle: "&7Create the legendary &6Stymphilian Bird &7weapon.",
+			dependencies: [I;3767],
+			hide: true,
+			optional: true,
+			id: 3771,
+			tasks: [{
+				id: 3772,
+				type: "item",
+				item: "iceandfire:stymphalian_feather_bundle"
+			}],
+			rewards: [
+				{
+					id: 3779,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 3780,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "&9Sea Serpent Fang",
+			x: 0.0d,
+			y: 12.5d,
+			subtitle: "&7Obtain a &9Sea Serpent Fang&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3784,
+			tasks: [{
+				id: 3785,
+				type: "item",
+				item: "iceandfire:sea_serpent_fang"
+			}],
+			rewards: [
+				{
+					id: 3788,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 2
+				},
+				{
+					id: 3789,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "&bTide Trident",
+			x: -1.0d,
+			y: 13.0d,
+			shape: "octagon",
+			subtitle: "&7Create the legendary &bTide Trident &7weapon.",
+			dependencies: [I;3784],
+			hide: true,
+			optional: true,
+			id: 3786,
+			tasks: [{
+				id: 3787,
+				type: "item",
+				item: {
+					id: "iceandfire:tide_trident",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "&9Blue Sea Serpent Scales",
+			x: -2.0d,
+			y: 15.5d,
+			subtitle: "&7Obtain some &9Blue Sea Serpent &9Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3790,
+			tasks: [{
+				id: 3791,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_blue"
+			}],
+			rewards: [
+				{
+					id: 3852,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3860,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&6Bronze Sea Serpent Scales",
+			x: -1.0d,
+			y: 15.0d,
+			subtitle: "&7Obtain some &6Bronze Sea Serpent &6Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3792,
+			tasks: [{
+				id: 3793,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_bronze"
+			}],
+			rewards: [
+				{
+					id: 3854,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3861,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&1Deep Blue Sea Serpent Scales",
+			x: 0.0d,
+			y: 14.5d,
+			subtitle: "&7Obtain some &1Deep Blue Sea Serpent &1Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3794,
+			tasks: [{
+				id: 3795,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_deepblue"
+			}],
+			rewards: [
+				{
+					id: 3855,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3862,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&2Green Sea Serpent Scales",
+			x: 1.0d,
+			y: 14.0d,
+			subtitle: "&7Obtain some &2Green Sea Serpent &2Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3796,
+			tasks: [{
+				id: 3797,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_green"
+			}],
+			rewards: [
+				{
+					id: 3856,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3863,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&5Purple Sea Serpent Scales",
+			x: 2.0d,
+			y: 14.5d,
+			subtitle: "&7Obtain some &5Purple Sea Serpent &5Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3798,
+			tasks: [{
+				id: 3799,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_purple"
+			}],
+			rewards: [
+				{
+					id: 3857,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3864,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&4Red Sea Serpent Scales",
+			x: 3.0d,
+			y: 15.0d,
+			subtitle: "&7Obtain some &4Red Sea Serpent &4Scales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3800,
+			tasks: [{
+				id: 3801,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_red"
+			}],
+			rewards: [
+				{
+					id: 3858,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3865,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&bTeal Sea Serpent Scales",
+			x: 4.0d,
+			y: 15.5d,
+			subtitle: "&7Obtain some &bTeal Sea Serpent &bScales&7.",
+			dependencies: [I;67],
+			hide: true,
+			size: 1.05d,
+			optional: true,
+			id: 3802,
+			tasks: [{
+				id: 3803,
+				type: "item",
+				item: "iceandfire:sea_serpent_scales_teal"
+			}],
+			rewards: [
+				{
+					id: 3859,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 3866,
+					type: "item",
+					item: "kubejs:lootbag_piece"
+				}
+			]
+		},
+		{
+			title: "&9Blue Tide Guardian Armor",
+			x: -2.0d,
+			y: 16.5d,
+			shape: "octagon",
+			subtitle: "&7Craft the &9Blue Tide Guardian Armor &7set.",
+			dependencies: [I;3790],
+			optional: true,
+			id: 3804,
+			tasks: [
+				{
+					id: 3805,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_blue_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3806,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_blue_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3807,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_blue_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3808,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_blue_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3867,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&6Bronze Tide Guardian Armor",
+			x: -1.0d,
+			y: 16.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &6Bronze Tide Guardian Armor &7set.",
+			dependencies: [I;3792],
+			optional: true,
+			id: 3809,
+			tasks: [
+				{
+					id: 3810,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_bronze_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3811,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_bronze_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3812,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_bronze_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3813,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_bronze_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3868,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&1Deep Blue Tide Guardian Armor",
+			x: 0.0d,
+			y: 15.5d,
+			shape: "octagon",
+			subtitle: "&7Craft the &1Deep Blue Tide Guardian &1Armor &7set.",
+			dependencies: [I;3794],
+			optional: true,
+			id: 3814,
+			tasks: [
+				{
+					id: 3815,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_deepblue_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3816,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_deepblue_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3817,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_deepblue_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3818,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_deepblue_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3869,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&2Green Tide Guardian Armor",
+			x: 1.0d,
+			y: 15.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &2Green Tide Guardian Armor &7set.",
+			dependencies: [I;3796],
+			optional: true,
+			id: 3819,
+			tasks: [
+				{
+					id: 3820,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_green_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3821,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_green_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3822,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_green_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3823,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_green_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3870,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&5Purple Tide Guardian Armor",
+			x: 2.0d,
+			y: 15.5d,
+			shape: "octagon",
+			subtitle: "&7Craft the &5Purple Tide Guardian Armor &7set.",
+			dependencies: [I;3798],
+			optional: true,
+			id: 3824,
+			tasks: [
+				{
+					id: 3825,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_purple_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3830,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_purple_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3831,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_purple_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3832,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_purple_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3871,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&4Red Tide Guardian Armor",
+			x: 3.0d,
+			y: 16.0d,
+			shape: "octagon",
+			subtitle: "&7Craft the &4Red Tide Guardian Armor &7set.",
+			dependencies: [I;3800],
+			optional: true,
+			id: 3826,
+			tasks: [
+				{
+					id: 3827,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_red_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3833,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_red_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3834,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_red_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3835,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_red_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3872,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&bTeal Tide Guardian Armor",
+			x: 4.0d,
+			y: 16.5d,
+			shape: "octagon",
+			subtitle: "&7Craft the &bTeal Tide Guardian Armor &7set.",
+			dependencies: [I;3802],
+			optional: true,
+			id: 3828,
+			tasks: [
+				{
+					id: 3829,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_teal_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3836,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_teal_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3838,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_teal_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3839,
+					type: "item",
+					item: {
+						id: "iceandfire:tide_teal_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 3873,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 2
+			}]
+		},
+		{
+			title: "&3Flying Jungle Bird Thingy",
+			x: 1.0d,
+			y: -1.5d,
+			shape: "rsquare",
+			subtitle: "&7Kill an &3Amphithere&7.",
+			id: 3874,
+			tasks: [{
+				id: 3875,
+				type: "kill",
+				icon: "iceandfire:amphithere_skull",
+				entity: "iceandfire:amphithere",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 4171,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 2
+				},
+				{
+					id: 4172,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			title: "&3Amphithere Feather",
+			x: 2.0d,
+			y: -1.5d,
+			subtitle: "&7Obtain an &3Amphithere Feather&7.",
+			description: ["&7The &3Amphithere Feathers &7are dropped &3rarely &7by &3Amphitheres&7."],
+			dependencies: [I;3874],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3876,
+			tasks: [{
+				id: 3877,
+				type: "item",
+				item: "iceandfire:amphithere_feather"
+			}],
+			rewards: [
+				{
+					id: 4168,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				},
+				{
+					id: 4169,
+					type: "xp_levels",
+					xp_levels: 4
+				}
+			]
+		},
+		{
+			title: "&3Amphithere Macuahuitl",
+			x: 3.0d,
+			y: -1.5d,
+			shape: "pentagon",
+			subtitle: "&7Create the legendary &3Amphithere &7weapon.",
+			dependencies: [I;3876],
+			hide: true,
+			size: 1.25d,
+			optional: true,
+			id: 3878,
+			tasks: [{
+				id: 3879,
+				type: "item",
+				item: {
+					id: "iceandfire:amphithere_macuahuitl",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 4170,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "An odd Eyeball",
+			x: 2.0d,
+			y: -9.5d,
+			subtitle: "&7Acquire an Eye from a fallen Cyclops.",
+			description: ["&7The 'Eye of Cyclops' can be acquired &7when killing a Cyclops. It has a 50% &7chance to drop."],
+			dependencies: [I;35],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3880,
+			tasks: [{
+				id: 3881,
+				type: "item",
+				item: {
+					id: "iceandfire:cyclops_eye",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 3882,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "&2A Hydra Heart",
+			x: 2.0d,
+			y: -4.5d,
+			subtitle: "&7Acquire a &2Hydra &7heart.",
+			dependencies: [I;22],
+			hide: true,
+			size: 0.9d,
+			optional: true,
+			id: 3883,
+			tasks: [{
+				id: 3884,
+				type: "item",
+				item: "iceandfire:hydra_heart"
+			}],
+			rewards: [{
+				id: 3885,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 7.0d,
+			shape: "pentagon",
+			subtitle: '&7Create the legendary &6Myrmex &7weapon &7the &6"Myrmex Swarm"&7.',
+			dependencies: [I;60],
+			hide: true,
+			optional: true,
+			id: 3886,
+			tasks: [{
+				id: 3887,
+				type: "item",
+				item: "iceandfire:myrmex_desert_swarm"
+			}],
+			rewards: [{
+				id: 3890,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 8.0d,
+			shape: "pentagon",
+			subtitle: '&7Create the legendary &aMyrmex &7weapon &7the &a"Myrmex Swarm"&7.',
+			dependencies: [I;60],
+			hide: true,
+			optional: true,
+			id: 3888,
+			tasks: [{
+				id: 3889,
+				type: "item",
+				item: "iceandfire:myrmex_jungle_swarm"
+			}],
+			rewards: [{
+				id: 3891,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

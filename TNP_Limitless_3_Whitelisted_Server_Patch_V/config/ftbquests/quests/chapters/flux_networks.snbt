@@ -1,0 +1,302 @@
+{
+	id: 743,
+	filename: "flux_networks",
+	order_index: 18,
+	title: "Flux Networks",
+	icon: "fluxnetworks:flux_core",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "Obtain some Flux",
+			description: [
+				"Obtained by dropping redstone between Obsidian & Bedrock.",
+				"",
+				"Obsidian on top and bedrock on the bottom- drop redstone between them and then left click the obsidian.",
+				"",
+				"&o*loud noises*- Flux!",
+				"",
+				"There is no limit to the amount of Redstone Dust you can use, each time",
+				"",
+				"&7Reward: 2 EXP Levels"
+			],
+			size: 1.25d,
+			id: 744,
+			tasks: [{
+				id: 745,
+				type: "item",
+				item: "fluxnetworks:flux_dust"
+			}],
+			rewards: [{
+				id: 746,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			subtitle: "Required to activate Cross-dimensional inventory charging.",
+			description: [
+				"Inventory charging can be configured in the Wireless Charging Tab.",
+				" ",
+				"Only one controller can be connected to a network at one time.",
+				"",
+				"The controller's 'Output' refers to energy outputted from the network via Wireless Charging.",
+				" ",
+				"&lNetwork's do not require a Flux &lController to operate",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;750],
+			id: 748,
+			tasks: [{
+				id: 749,
+				type: "item",
+				item: "fluxnetworks:flux_controller"
+			}],
+			rewards: [{
+				id: 763,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Flux Core",
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "The key crafting ingredient for Flux Networks",
+			description: [
+				"Read more about Flux Networks on their Wiki: https://github.com/SonarSonic/Flux-Networks/wiki",
+				"",
+				"&7Reward: 5 EXP Levels & 1x Loot Bag"
+			],
+			dependencies: [I;744],
+			id: 750,
+			tasks: [{
+				id: 751,
+				type: "item",
+				item: "fluxnetworks:flux_core",
+				count: 4L
+			}],
+			rewards: [
+				{
+					id: 754,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 779,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			subtitle: "Used to Store Energy in the network",
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+				"",
+				"&oTransfer Limit: 20000",
+				"",
+				"This energy can only be accessed by removing energy with a Flux Point.",
+				"",
+				"&lNetwork's do not require a Flux &lStorage to operate.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;750],
+			id: 752,
+			tasks: [{
+				id: 753,
+				type: "item",
+				item: "fluxnetworks:basic_flux_storage"
+			}],
+			rewards: [{
+				id: 762,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 3.0d,
+			subtitle: "Used for Adding Energy to the network",
+			description: [
+				"(You can add energy from all sides simultaneously.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;750],
+			id: 756,
+			tasks: [{
+				id: 757,
+				type: "item",
+				item: "fluxnetworks:flux_plug"
+			}],
+			rewards: [{
+				id: 761,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.0d,
+			subtitle: "Used to Remove Energy from the network",
+			description: [
+				"(You can remove energy from all sides simultaneously.)",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;750],
+			id: 758,
+			tasks: [{
+				id: 759,
+				type: "item",
+				item: "fluxnetworks:flux_point"
+			}],
+			rewards: [{
+				id: 760,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Can be used to access, edit, delete networks on the go.",
+			description: [
+				"It can also be used to copy / paste settings between connectors.",
+				"",
+				"Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to.",
+				"",
+				"If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste.",
+				"",
+				"The configurator can also be renamed here, with the name field.",
+				"",
+				"&7Reward: 5 EXP Levels & 2x Treasure &7Chests."
+			],
+			dependencies: [I;744],
+			optional: true,
+			id: 764,
+			tasks: [{
+				id: 765,
+				type: "item",
+				item: "fluxnetworks:flux_configurator"
+			}],
+			rewards: [
+				{
+					id: 768,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 769,
+					type: "item",
+					item: "aquaculture:treasure_chest",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			subtitle: "Used to Store Energy in the network",
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+				"",
+				"&oTransfer Limit: 120000",
+				"",
+				"This energy can only be accessed by removing energy with a Flux Point.",
+				"",
+				"&lNetwork's do not require a Flux &lStorage to operate.",
+				"",
+				"&7Reward: 2x Loot Bags"
+			],
+			dependencies: [I;752],
+			optional: true,
+			id: 770,
+			tasks: [{
+				id: 771,
+				type: "item",
+				item: "fluxnetworks:herculean_flux_storage"
+			}],
+			rewards: [
+				{
+					id: 774,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 788,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			subtitle: "Used to Store Energy in the network",
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+				"",
+				"&oTransfer Limit: 1440000",
+				"",
+				"This energy can only be accessed by removing energy with a Flux Point.",
+				"",
+				"&lNetwork's do not require a Flux &lStorage to operate.",
+				"",
+				"&7Reward: 3x Loot Bags"
+			],
+			dependencies: [I;770],
+			optional: true,
+			id: 772,
+			tasks: [{
+				id: 773,
+				type: "item",
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}],
+			rewards: [
+				{
+					id: 775,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 789,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				},
+				{
+					id: 790,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 2.5d,
+			subtitle: "Another key crafting ingredients of Flux Networks!",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;750],
+			id: 776,
+			tasks: [{
+				id: 777,
+				type: "item",
+				item: "fluxnetworks:flux_block"
+			}],
+			rewards: [{
+				id: 778,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}

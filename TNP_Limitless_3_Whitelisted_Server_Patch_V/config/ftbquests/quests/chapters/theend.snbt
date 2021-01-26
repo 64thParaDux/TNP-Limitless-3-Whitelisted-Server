@@ -1,0 +1,330 @@
+{
+	id: 237,
+	filename: "theend",
+	order_index: 5,
+	title: "The End",
+	icon: "minecraft:end_stone",
+	default_quest_shape: "",
+	quests: [
+		{
+			disable_toast: true,
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "The End, enter the End Dimension.",
+			id: 238,
+			tasks: [{
+				id: 239,
+				type: "advancement",
+				title: "Or the beginning?",
+				icon: "minecraft:end_stone",
+				disable_toast: true,
+				advancement: "minecraft:end/root",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 1044,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			subtitle: "Kill the majestic Ender Dragon.",
+			description: ["&7Rewards: 4x Dragon Scale, 25 EXP &7Levels & 2x Enderman Spawn Eggs"],
+			id: 240,
+			tasks: [{
+				id: 241,
+				type: "advancement",
+				title: "Free the End",
+				icon: "minecraft:dragon_head",
+				advancement: "minecraft:end/kill_dragon",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2926,
+					type: "item",
+					team_reward: false,
+					item: "forbidden_arcanus:dragon_scale",
+					count: 4
+				},
+				{
+					id: 3003,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 25
+				},
+				{
+					id: 4135,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:enderman_spawn_egg",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			subtitle: "Escape the Main Island",
+			description: ["&7Reward: 4x Ender Pearls & 2x &7Diamonds."],
+			id: 242,
+			tasks: [{
+				id: 243,
+				type: "advancement",
+				title: "Remote Getaway",
+				icon: "minecraft:ender_pearl",
+				advancement: "minecraft:end/enter_end_gateway",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 4136,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:ender_pearl",
+					count: 4
+				},
+				{
+					id: 4137,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:diamond",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			subtitle: "Respawn the Ender Dragon with 4 Ender Crystals.",
+			description: ["&7Reward: 2x Golden Apples & 1x Potion &7of Strength (3 Mins.)"],
+			id: 244,
+			tasks: [{
+				id: 245,
+				type: "advancement",
+				title: "The End... Again...",
+				icon: "minecraft:end_crystal",
+				advancement: "minecraft:end/respawn_dragon",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2932,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:golden_apple",
+					count: 2
+				},
+				{
+					id: 3027,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "minecraft:potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			subtitle: "Collect dragon's breath in a glass bottle, right click in the purple particles that the dragon creates.",
+			description: ["&7Rewards: 1x Water Bucket & 2x &7Dragon's Breath"],
+			id: 246,
+			tasks: [{
+				id: 247,
+				type: "advancement",
+				title: "You Need a Mint",
+				icon: "minecraft:dragon_breath",
+				advancement: "minecraft:end/dragon_breath",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 3081,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:water_bucket"
+				},
+				{
+					id: 3082,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:dragon_breath",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			subtitle: "Hold the Dragon Egg",
+			description: ["&7Reward: 4x Enderman Spawn Egg"],
+			id: 248,
+			tasks: [{
+				id: 249,
+				type: "advancement",
+				title: "The Next Generation",
+				icon: "minecraft:dragon_egg",
+				advancement: "minecraft:end/dragon_egg",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2987,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:enderman_spawn_egg",
+				count: 4
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			subtitle: "Go on in, what could happen? (Enter an End City.)",
+			description: [
+				"              (Find an End City.)",
+				"",
+				"&7Reward: 5 EXP Levels"
+			],
+			id: 250,
+			tasks: [{
+				id: 251,
+				type: "advancement",
+				title: "The City at the End of the Game",
+				icon: "minecraft:purpur_block",
+				advancement: "minecraft:end/find_end_city",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2929,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.0d,
+			subtitle: "Find an elytra.. to infinity and beyond!",
+			description: ["&7Reward: 8x Phantom Membrane & 1x &7Gold Block"],
+			id: 252,
+			tasks: [{
+				id: 253,
+				type: "advancement",
+				title: "Sky's the Limit",
+				icon: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:end/elytra",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2928,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:phantom_membrane",
+					count: 8
+				},
+				{
+					id: 3000,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:gold_block"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -2.0d,
+			subtitle: "Levitate up 50 blocks from the attacks of a Shulker",
+			description: ["&7Reward: 1x Potion of Slow Falling & 1x &7Iron Block"],
+			id: 254,
+			tasks: [{
+				id: 255,
+				type: "advancement",
+				title: "Great View From Up Here",
+				icon: "minecraft:shulker_shell",
+				advancement: "minecraft:end/levitate",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2927,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "minecraft:potion",
+						Count: true,
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+				},
+				{
+					id: 3001,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:iron_block"
+				}
+			]
+		},
+		{
+			title: "Levitation? No more!",
+			x: 3.0d,
+			y: -2.5d,
+			subtitle: "Annihilate a Shulker",
+			description: ["&7Reward: 1x Shulker Sword & 2x &7Shulker Shell"],
+			id: 3294,
+			tasks: [{
+				id: 3295,
+				type: "kill",
+				icon: {
+					id: "minecraft:shulker_box",
+					Count: true,
+					tag: {
+						BlockEntityTag: {}
+					}
+				},
+				entity: "minecraft:shulker",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 3296,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "craftandhunt:shulker_sword",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 3297,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:shulker_shell",
+					count: 2
+				}
+			]
+		}
+	]
+}

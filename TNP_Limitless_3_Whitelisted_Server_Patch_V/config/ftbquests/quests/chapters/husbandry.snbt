@@ -1,0 +1,468 @@
+{
+	id: 212,
+	filename: "husbandry",
+	order_index: 6,
+	title: "Husbandry",
+	icon: "minecraft:hay_block",
+	default_quest_shape: "",
+	quests: [
+		{
+			disable_toast: true,
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "The world is full of friends and food.",
+			id: 213,
+			tasks: [{
+				id: 214,
+				type: "advancement",
+				title: "Husbandry",
+				icon: "minecraft:hay_block",
+				disable_toast: true,
+				advancement: "minecraft:husbandry/root",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 1091,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.5d,
+			subtitle: "Tame an animal.",
+			description: ["&7Rewards: 1 EXP Level & 2x Bread"],
+			id: 215,
+			tasks: [{
+				id: 216,
+				type: "advancement",
+				title: "Best Friends Forever",
+				icon: "minecraft:lead",
+				advancement: "minecraft:husbandry/tame_an_animal",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2947,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 1
+				},
+				{
+					id: 3063,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:bread",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 0.5d,
+			subtitle: "Catch a fish!",
+			description: ["&7Reward: 1x Tropical Fish Spawn Egg & &71x 'Luck of the Sea I' Enchantment &7Book"],
+			id: 217,
+			tasks: [{
+				id: 218,
+				type: "advancement",
+				title: "Fishy Business",
+				icon: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "husbandry/fishy_business",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2962,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:tropical_fish_spawn_egg"
+				},
+				{
+					id: 3005,
+					type: "item",
+					team_reward: false,
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: true,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1,
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			subtitle: "Move a Bee Nest, with 3 bees inside, using Silk Touch.",
+			description: ["&7Rewards: 1x BEEtroot & 5x Bee Chitin"],
+			id: 219,
+			tasks: [{
+				id: 220,
+				type: "advancement",
+				title: "Total Beelocation",
+				icon: "minecraft:bee_nest",
+				advancement: "minecraft:husbandry/silk_touch_nest",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2943,
+					type: "item",
+					title: "BEEtroot",
+					team_reward: false,
+					item: "minecraft:beetroot"
+				},
+				{
+					id: 3006,
+					type: "item",
+					team_reward: false,
+					item: "craftandhunt:bee_chitin",
+					count: 5
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			subtitle: "Breed two animals together.",
+			description: ["&7Rewards: 3 EXP Levels & 2x Carrot & &72x Potato"],
+			id: 221,
+			tasks: [{
+				id: 222,
+				type: "advancement",
+				title: "The Parrots and the Bats",
+				icon: "minecraft:wheat",
+				advancement: "minecraft:husbandry/silk_touch_nest",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 3007,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 2
+				},
+				{
+					id: 3064,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:carrot",
+					count: 2
+				},
+				{
+					id: 3065,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:potato",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -2.5d,
+			subtitle: "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees.",
+			description: ["&7Reward: 2 EXP Levels & 1x Bee Spawn &7Egg"],
+			id: 223,
+			tasks: [{
+				id: 224,
+				type: "advancement",
+				title: "Bee Our Guest",
+				icon: "minecraft:honey_bottle",
+				advancement: "minecraft:husbandry/safely_harvest_honey",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2944,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 2
+				},
+				{
+					id: 2963,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:bee_spawn_egg"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 2.5d,
+			subtitle: "Plant a seed and watch it grow.",
+			description: ["&7Rewards: 1x Melon Seed, 1x Pumpkin &7Seed, 1x Beetroot Seed & 1x Wheat &7Seed"],
+			id: 225,
+			tasks: [{
+				id: 226,
+				type: "advancement",
+				title: "A Seedy Place",
+				icon: "minecraft:wheat_seeds",
+				advancement: "minecraft:husbandry/plant_seed",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2937,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:melon_seeds"
+				},
+				{
+					id: 2938,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:pumpkin_seeds"
+				},
+				{
+					id: 2939,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:beetroot_seeds"
+				},
+				{
+					id: 2940,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:wheat_seeds"
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			shape: "octagon",
+			subtitle: "Eat everything that is edible(vanilla), even if it's not good for you..",
+			description: ["&7Reward: 12x Sandwich"],
+			id: 227,
+			tasks: [{
+				id: 228,
+				type: "advancement",
+				title: "A Balanced Diet",
+				icon: "minecraft:apple",
+				advancement: "minecraft:husbandry/balanced_diet",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2934,
+				type: "item",
+				team_reward: false,
+				item: "simplefarming:sandwich",
+				count: 12
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "Use a Netherite ingot to upgrade a hoe, and then reevaluate your life choices",
+			description: ["&7Reward: 1x Netherite Ingot"],
+			id: 229,
+			tasks: [{
+				id: 230,
+				type: "advancement",
+				title: "Serious Dedication",
+				icon: {
+					id: "minecraft:netherite_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				advancement: "minecraft:husbandry/obtain_netherite_hoe",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 113,
+				type: "item",
+				team_reward: false,
+				item: "minecraft:netherite_ingot"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			subtitle: "Catch a fish... without a fishing rod!",
+			description: ["&7Reward 1x Fishing Rod"],
+			id: 231,
+			tasks: [{
+				id: 232,
+				type: "advancement",
+				title: "Tactical Fishing",
+				icon: "minecraft:pufferfish_bucket",
+				advancement: "minecraft:husbandry/tactical_fishing",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2933,
+				type: "item",
+				team_reward: false,
+				item: {
+					id: "minecraft:fishing_rod",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -0.5d,
+			shape: "octagon",
+			subtitle: "Tame all Vanilla cat variants!",
+			description: ["&7Reward: 1x Cat Ears"],
+			id: 233,
+			tasks: [{
+				id: 234,
+				type: "advancement",
+				title: "A Complete Catalogue",
+				icon: "minecraft:cod",
+				advancement: "minecraft:husbandry/complete_catalogue",
+				criterion: ""
+			}],
+			rewards: [{
+				id: 2961,
+				type: "item",
+				team_reward: false,
+				item: {
+					id: "botania:cosmetic_cat_ears",
+					Count: true,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			shape: "octagon",
+			subtitle: "Breed all the Vanilla animals!",
+			description: ["&7Rewards: 10 EXP Levels, 2x Cow Spawn &7Egg, 2x Sheep Spawn Egg, 2x Chicken &7Spawn Egg & 2x Pig Spawn Egg"],
+			id: 235,
+			tasks: [{
+				id: 236,
+				type: "advancement",
+				title: "Two by Two",
+				icon: "minecraft:golden_carrot",
+				advancement: "minecraft:husbandry/bred_all_animals",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: 2945,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 10
+				},
+				{
+					id: 3008,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:cow_spawn_egg",
+					count: 2
+				},
+				{
+					id: 3009,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:sheep_spawn_egg",
+					count: 2
+				},
+				{
+					id: 3010,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:chicken_spawn_egg",
+					count: 2
+				},
+				{
+					id: 3011,
+					type: "item",
+					team_reward: false,
+					item: "minecraft:pig_spawn_egg",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			subtitle: "Construct a Wooden Hoe, time to farm!",
+			description: ["&7Reward: 1 EXP Level"],
+			id: 273,
+			tasks: [{
+				id: 274,
+				type: "item",
+				title: "Time to Farm!",
+				icon: {
+					id: "minecraft:wooden_hoe",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				item: {
+					id: "minecraft:wooden_hoe",
+					Count: true,
+					tag: {
+						value: "minecraft:hoe"
+					}
+				}
+			}],
+			rewards: [{
+				id: 2942,
+				type: "xp_levels",
+				team_reward: false,
+				auto: "no_toast",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 3.5d,
+			subtitle: "The cake is a lie! .. or is it?",
+			description: ["&7Reward: 5 EXP Levels"],
+			id: 276,
+			tasks: [{
+				id: 277,
+				type: "item",
+				title: "The Lie",
+				icon: "minecraft:cake",
+				item: "minecraft:cake"
+			}],
+			rewards: [
+				{
+					id: 2936,
+					type: "xp_levels",
+					team_reward: false,
+					auto: "no_toast",
+					xp_levels: 5
+				},
+				{
+					id: 114,
+					type: "item",
+					team_reward: false,
+					item: "pamhc2foodcore:carrotcakeitem"
+				}
+			]
+		}
+	]
+}

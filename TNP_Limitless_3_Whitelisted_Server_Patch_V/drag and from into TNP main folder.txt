@@ -1,0 +1,3 @@
+drag the FOLDERS into the MAIN FOLDER of TNP
+
+v5: added chunkpregen

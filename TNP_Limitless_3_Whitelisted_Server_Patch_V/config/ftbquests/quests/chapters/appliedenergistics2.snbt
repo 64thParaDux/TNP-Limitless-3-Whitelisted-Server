@@ -1,0 +1,883 @@
+{
+	id: 3172,
+	filename: "appliedenergistics2",
+	order_index: 10,
+	title: "Applied Energistics 2",
+	icon: "appliedenergistics2:controller",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "That's Shocking!",
+			x: -2.375d,
+			y: -0.9500000000000001d,
+			shape: "pentagon",
+			subtitle: "Acquire some Charged Certus Quartz",
+			description: ["&7Reward: 5 EXP Levels"],
+			dependency_requirement: "one_completed",
+			id: 3175,
+			tasks: [{
+				id: 3176,
+				type: "item",
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}],
+			rewards: [{
+				id: 3185,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			title: "The Four Presses",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "octagon",
+			subtitle: "Find or craft every single press",
+			description: [
+				"(The presses are found in meteorites, found anywhere in the world.)",
+				" ",
+				"Craft a '&lMeteorite Compass&f' to help you locate these easier.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 3177,
+			tasks: [
+				{
+					id: 3178,
+					type: "item",
+					item: "appliedenergistics2:calculation_processor_press"
+				},
+				{
+					id: 3179,
+					type: "item",
+					item: "appliedenergistics2:engineering_processor_press"
+				},
+				{
+					id: 3180,
+					type: "item",
+					item: "appliedenergistics2:logic_processor_press"
+				},
+				{
+					id: 3181,
+					type: "item",
+					item: "appliedenergistics2:silicon_press"
+				}
+			],
+			rewards: [{
+				id: 3182,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.75d,
+			shape: "gear",
+			subtitle: "Construct a Meteorite Compass",
+			description: [
+				"This compass can help you locate meteorites.",
+				" ",
+				"&7Reward: 2 EXP Levels"
+			],
+			size: 1.5d,
+			id: 3183,
+			tasks: [{
+				id: 3184,
+				type: "item",
+				item: "appliedenergistics2:sky_compass"
+			}],
+			rewards: [{
+				id: 3186,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			title: "That's Unnatural!",
+			x: -2.5d,
+			y: 0.5d,
+			shape: "circle",
+			subtitle: "Create Fluix Crystals",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3175],
+			id: 3187,
+			tasks: [{
+				id: 3188,
+				type: "item",
+				item: "appliedenergistics2:fluix_crystal"
+			}],
+			rewards: [{
+				id: 3198,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Charging",
+			x: -4.0d,
+			y: 0.5d,
+			shape: "square",
+			subtitle: "Construct a Charger",
+			description: [
+				"This charger can produce Charged Certus Quartz by inserting normal Certus Quartz with a right click. Requires some energy.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3187],
+			id: 3189,
+			tasks: [{
+				id: 3190,
+				type: "item",
+				item: "appliedenergistics2:charger"
+			}],
+			rewards: [{
+				id: 3197,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			subtitle: "Construct a Crystal Growth Accelerator",
+			description: [
+				"Used to accelerate the process of purifying crystals, which allows you to create Pure Certus Quartz Crystal, Pure Nether Quartz Crystal and Pure Fluix Crystal.",
+				" ",
+				"Needs to be powered with Fluix Glass Cables.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3187],
+			id: 3191,
+			tasks: [{
+				id: 3192,
+				type: "item",
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}],
+			rewards: [{
+				id: 3200,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "Fluix ME Glass Cables",
+			x: -2.5d,
+			y: 1.5d,
+			shape: "square",
+			subtitle: "Construct some ME Fluix Glass Cables",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3187],
+			id: 3193,
+			tasks: [{
+				id: 3194,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:fluix_glass_cable",
+					Count: 4b
+				},
+				count: 4L
+			}],
+			rewards: [{
+				id: 3201,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			subtitle: "Construct an ME Controller",
+			description: [
+				"Requires energy to function.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3177,
+				3230
+			],
+			id: 3195,
+			tasks: [{
+				id: 3196,
+				type: "item",
+				item: "appliedenergistics2:controller"
+			}],
+			rewards: [{
+				id: 3199,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -1.5d,
+			subtitle: "Construct an ME Crafting Terminal",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3258],
+			id: 3202,
+			tasks: [{
+				id: 3203,
+				type: "item",
+				item: "appliedenergistics2:crafting_terminal"
+			}],
+			rewards: [{
+				id: 3207,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -0.5d,
+			shape: "hexagon",
+			subtitle: "Construct a Network Tool",
+			description: ["&7Reward: 2 EXP Levels"],
+			dependencies: [I;
+				3177,
+				3245
+			],
+			optional: true,
+			id: 3204,
+			tasks: [{
+				id: 3205,
+				type: "item",
+				item: "appliedenergistics2:network_tool"
+			}],
+			rewards: [{
+				id: 3206,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			subtitle: "Construct an ME Pattern Terminal",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;3202],
+			id: 3208,
+			tasks: [{
+				id: 3209,
+				type: "item",
+				item: "appliedenergistics2:pattern_terminal"
+			}],
+			rewards: [{
+				id: 3212,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -1.5d,
+			shape: "hexagon",
+			subtitle: "Construct a Crafting Unit",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3208,
+				3245,
+				3243
+			],
+			id: 3210,
+			tasks: [{
+				id: 3211,
+				type: "item",
+				item: "appliedenergistics2:crafting_unit"
+			}],
+			rewards: [{
+				id: 3213,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -3.0d,
+			shape: "octagon",
+			subtitle: "Construct a 1k ME Storage Cell",
+			description: [
+				"Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.",
+				" ",
+				"1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3271],
+			id: 3214,
+			tasks: [{
+				id: 3215,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:1k_storage_cell",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3238,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			shape: "octagon",
+			subtitle: "Construct a 4k ME Storage Cell",
+			description: [
+				"Lowest Tier Storage Cell, which can contain 4,096 bytes of storage.",
+				" ",
+				"4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3273],
+			id: 3220,
+			tasks: [{
+				id: 3221,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:4k_storage_cell",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3237,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -5.5d,
+			shape: "octagon",
+			subtitle: "Construct a 16k ME Storage Cell",
+			description: [
+				"Middle Tier Storage Cell, which can contain 16,384 bytes of storage.",
+				" ",
+				"16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3275],
+			id: 3222,
+			tasks: [{
+				id: 3223,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:16k_storage_cell",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3236,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -6.5d,
+			shape: "octagon",
+			subtitle: "Construct a 64k ME Storage Cell",
+			description: [
+				"Highest Tier Storage Cell, which can contain 65,536 bytes of storage.",
+				" ",
+				"65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items.",
+				" ",
+				"&7Reward: 3x Loot Bag"
+			],
+			dependencies: [I;3277],
+			id: 3224,
+			tasks: [{
+				id: 3225,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:64k_storage_cell",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3235,
+				type: "item",
+				item: "lootbagmod:lootbag",
+				count: 3
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			shape: "circle",
+			subtitle: "Create Pure Certus Quartz Crystals",
+			description: [
+				"Drop a Certus Quartz Seed made from Certus Quartz Dust and Sand into a puddle of water; to make the process go faster add Crystal Growth Accelerators.",
+				" ",
+				"&7Reward: 1x Treasure Chest & 3x Loot Bag Pieces."
+			],
+			dependencies: [I;3191],
+			size: 0.9d,
+			id: 3226,
+			tasks: [{
+				id: 3227,
+				type: "item",
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+			}],
+			rewards: [
+				{
+					id: 3233,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 725,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: 2.5d,
+			shape: "circle",
+			subtitle: "Create Pure Nether Quartz Crystals",
+			description: [
+				"Drop a Nether Quartz Seed made from Nether Quartz Dust and Sand into a puddle of water; to make the process go faster add Crystal Growth Accelerators.",
+				" ",
+				"&7Reward: 1x Treasure Chest & 3x Loot Bag Pieces."
+			],
+			dependencies: [I;3191],
+			size: 0.9d,
+			id: 3228,
+			tasks: [{
+				id: 3229,
+				type: "item",
+				item: "appliedenergistics2:purified_nether_quartz_crystal"
+			}],
+			rewards: [
+				{
+					id: 3232,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 738,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			shape: "circle",
+			subtitle: "Create Pure Fluix Crystals",
+			description: [
+				"Drop a Fluix Seed made from Fluix Dust and Sand into a puddle of water; to make the process go faster add Crystal Growth Accelerators.",
+				" ",
+				"&7Reward: 1x Treasure Chest & 3x Loot Bag Pieces."
+			],
+			dependencies: [I;3191],
+			size: 0.9d,
+			id: 3230,
+			tasks: [{
+				id: 3231,
+				type: "item",
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}],
+			rewards: [
+				{
+					id: 3234,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 724,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -3.0d,
+			subtitle: "Construct an Inscriber",
+			description: [
+				"Used to create different types of Processors.",
+				" ",
+				'The inscriber can also "create" presses by duplicating an existing press with an Iron Block.',
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;
+				3177,
+				3187
+			],
+			id: 3241,
+			tasks: [{
+				id: 3242,
+				type: "item",
+				item: "appliedenergistics2:inscriber"
+			}],
+			rewards: [{
+				id: 3255,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			shape: "circle",
+			subtitle: "Create a Logic Processor",
+			description: [
+				"Used in various AE2 recipes.",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;
+				3241,
+				3249
+			],
+			id: 3243,
+			tasks: [{
+				id: 3244,
+				type: "item",
+				item: "appliedenergistics2:logic_processor"
+			}],
+			rewards: [
+				{
+					id: 3253,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 4227,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			shape: "circle",
+			subtitle: "Create a Calculation Processor",
+			description: [
+				"Used in various AE2 recipes.",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;
+				3241,
+				3249
+			],
+			id: 3245,
+			tasks: [{
+				id: 3246,
+				type: "item",
+				item: "appliedenergistics2:calculation_processor"
+			}],
+			rewards: [
+				{
+					id: 3251,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 4226,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -6.5d,
+			shape: "circle",
+			subtitle: "Create an Engineering Processor",
+			description: [
+				"Used in various AE2 recipes.",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;
+				3241,
+				3249
+			],
+			id: 3247,
+			tasks: [{
+				id: 3248,
+				type: "item",
+				item: "appliedenergistics2:engineering_processor"
+			}],
+			rewards: [
+				{
+					id: 3252,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 4225,
+					type: "item",
+					item: "kubejs:lootbag_piece",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			shape: "circle",
+			subtitle: "Create Printed Silicon",
+			description: [
+				"Used to bind circuits together in an inscriber.",
+				" ",
+				"&7Reward: 1x Treasure Chest"
+			],
+			dependencies: [I;3241],
+			id: 3249,
+			tasks: [{
+				id: 3250,
+				type: "item",
+				item: "appliedenergistics2:printed_silicon"
+			}],
+			rewards: [
+				{
+					id: 3254,
+					type: "item",
+					item: "aquaculture:treasure_chest"
+				},
+				{
+					id: 4228,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -0.5d,
+			subtitle: "Craft an Energy Cell",
+			description: [
+				"Energy Cells store up to 200,000 AE. They do not accept power directly but are used to add additional power storage to an already existing ME Network.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3187],
+			id: 3256,
+			tasks: [{
+				id: 3257,
+				type: "item",
+				item: {
+					id: "appliedenergistics2:energy_cell",
+					Count: true,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 3262,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			title: "The two Cores",
+			x: 4.0d,
+			y: -1.5d,
+			subtitle: "Create a few Annihilation & Formation Cores.",
+			description: ["&7Reward: 1x Loot Bag"],
+			dependencies: [I;
+				3195,
+				3243
+			],
+			id: 3258,
+			tasks: [
+				{
+					id: 3259,
+					type: "item",
+					item: "appliedenergistics2:formation_core",
+					count: 2L
+				},
+				{
+					id: 3260,
+					type: "item",
+					item: "appliedenergistics2:annihilation_core",
+					count: 2L
+				}
+			],
+			rewards: [{
+				id: 3261,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -0.5d,
+			subtitle: "Construct an Energy Acceptor",
+			description: [
+				"The Energy Acceptor is used to convert energy from other mods (e.g., Redstone Flux (RF)) into AE to power ME networks.",
+				" ",
+				"&7Reward: 1x Loot Bag"
+			],
+			dependencies: [I;3187],
+			id: 3265,
+			tasks: [{
+				id: 3266,
+				type: "item",
+				item: "appliedenergistics2:energy_acceptor"
+			}],
+			rewards: [{
+				id: 4223,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.0d,
+			shape: "circle",
+			subtitle: "Construct a 1k ME Storage Component",
+			description: [
+				"Used to create ME Storage Cells",
+				" ",
+				"&7Reward: 2 EXP Levels"
+			],
+			dependencies: [I;
+				3195,
+				3243
+			],
+			size: 0.85d,
+			id: 3271,
+			tasks: [{
+				id: 3272,
+				type: "item",
+				item: "appliedenergistics2:1k_cell_component"
+			}],
+			rewards: [{
+				id: 3283,
+				type: "xp_levels",
+				xp_levels: 2
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -4.5d,
+			shape: "circle",
+			subtitle: "Construct a 4k ME Storage Component",
+			description: [
+				"Used to create ME Storage Cells",
+				" ",
+				"&7Reward: 5 EXP Levels"
+			],
+			dependencies: [I;
+				3271,
+				3245
+			],
+			size: 0.85d,
+			id: 3273,
+			tasks: [{
+				id: 3274,
+				type: "item",
+				item: "appliedenergistics2:4k_cell_component"
+			}],
+			rewards: [{
+				id: 3284,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -5.5d,
+			shape: "circle",
+			subtitle: "Construct a 16k ME Storage Component",
+			description: [
+				"Used to create ME Storage Cells",
+				" ",
+				"&7Reward: 8 EXP Levels"
+			],
+			dependencies: [I;3273],
+			size: 0.85d,
+			id: 3275,
+			tasks: [{
+				id: 3276,
+				type: "item",
+				item: "appliedenergistics2:16k_cell_component"
+			}],
+			rewards: [{
+				id: 3287,
+				type: "xp_levels",
+				xp_levels: 8
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -6.5d,
+			shape: "circle",
+			subtitle: "Construct a 64k ME Storage Component",
+			description: [
+				"Used to create ME Storage Cells",
+				" ",
+				"&7Reward: 10 EXP Levels"
+			],
+			dependencies: [I;
+				3275,
+				3245
+			],
+			size: 0.85d,
+			id: 3277,
+			tasks: [{
+				id: 3278,
+				type: "item",
+				item: "appliedenergistics2:64k_cell_component"
+			}],
+			rewards: [{
+				id: 3288,
+				type: "xp_levels",
+				xp_levels: 10
+			}]
+		},
+		{
+			icon: "appliedenergistics2:grindstone",
+			x: 1.0d,
+			y: 1.0d,
+			subtitle: "The Quartz Grindstone provides a low tech solution for getting more out of your mining trips",
+			description: [
+				"It is much cheaper than its more high-tech counter parts of other mods, but it is slow and a considerable time sink, but what else do you have to do while smelting those dusts?",
+				"",
+				"Why not grind up some other ores into dusts?",
+				" ",
+				"Once you have that set the Quartz Grindstone on the ground, place the Wooden Crank on the side with the hole, sneaking will ensure the crank is placed instead of opening the grindstone gui.",
+				"",
+				"&7Reward: 1x Loot Bag"
+			],
+			id: 739,
+			tasks: [
+				{
+					id: 740,
+					type: "item",
+					item: "appliedenergistics2:grindstone"
+				},
+				{
+					id: 741,
+					type: "item",
+					item: "appliedenergistics2:crank"
+				}
+			],
+			rewards: [{
+				id: 742,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		}
+	]
+}
