@@ -1,0 +1,9 @@
+#Should beams make sounds?
+beam_sounds = true
+#Should electrical arcs make sounds?
+electric_sounds = true
+#Should temporal entropy transfer make sounds?
+entropy_sounds = true
+#Should beams visually rotate?
+rotate_beam = true
+

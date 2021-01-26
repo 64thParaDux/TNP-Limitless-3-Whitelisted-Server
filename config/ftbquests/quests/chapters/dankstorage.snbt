@@ -1,7 +1,7 @@
 {
 	id: 2842,
 	filename: "dankstorage",
-	order_index: 26,
+	order_index: 28,
 	title: "Dank Storage",
 	icon: "dankstorage:dank_7",
 	default_quest_shape: "",

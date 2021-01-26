@@ -1,7 +1,7 @@
 {
 	id: 374,
 	filename: "mekanism",
-	order_index: 8,
+	order_index: 10,
 	title: "Mekanism",
 	icon: "mekanismgenerators:advanced_solar_generator",
 	default_quest_shape: "",

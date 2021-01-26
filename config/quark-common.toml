@@ -475,7 +475,7 @@
 	[tweaks.emotes]
 		#
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.
-		"Enabled Emotes" = [ "goldeneyetilt", "dab", "spin", "still_arms", "superman", "the_heck_man", "no", "yes", "wave", "salute", "cheer", "clap", "think", "point", "shrug", "headbang", "weep", "facepalm"]
+		"Enabled Emotes" = ["goldeneyetilt", "dab", "spin", "still_arms", "superman", "the_heck_man", "no", "yes", "wave", "salute", "cheer", "clap", "think", "point", "shrug", "headbang", "weep", "facepalm"]
 		#
 		#Enable this to make custom emotes read the file every time they're triggered so you can edit on the fly.
 		#DO NOT ship enabled this in a modpack, please.
@@ -483,7 +483,7 @@
 		#
 		#The list of Custom Emotes to be loaded.
 		#Watch the tutorial on Custom Emotes to learn how to make your own: https://youtu.be/ourHUkan6aQ
-		"Custom Emotes" = [ "goldeneyetilt", "dab", "spin", "still_arms", "superman", "the_heck_man" ]
+		"Custom Emotes" = ["goldeneyetilt", "dab", "spin", "still_arms", "superman", "the_heck_man"]
 
 	[tweaks.simple_harvest]
 		#

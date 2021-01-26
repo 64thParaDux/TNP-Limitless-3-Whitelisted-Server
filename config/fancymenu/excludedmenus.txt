@@ -1,0 +1,327 @@
+type = excludedmenus
+
+mekanism.client.gui.machine.GuiMetallurgicInfuser {
+  mode = full
+  startswith = false
+}
+
+net.silentchaos512.gear.item.blueprint.book.BlueprintBookContainerScreen {
+  mode = full
+  startswith = false
+}
+
+shadows.fastbench.gui.GuiFastBench {
+  mode = full
+  startswith = false
+}
+
+com.blamejared.tipthescales.client.FancyVideoSettingsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.StatsScreen {
+  mode = full
+  startswith = false
+}
+
+mezz.jei.gui.recipes.RecipesGui {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.LanguageScreen {
+  mode = full
+  startswith = false
+}
+
+com.tfar.craftingstation.client.CraftingStationScreen {
+  mode = full
+  startswith = false
+}
+
+vazkii.quark.base.client.config.gui.CategoryScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.PackScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.AddServerScreen {
+  mode = full
+  startswith = false
+}
+
+com.refinedmods.refinedstorage.screen.CraftingMonitorScreen {
+  mode = full
+  startswith = false
+}
+
+ninjaphenix.expandedstorage.client.screen.ScrollableScreen {
+  mode = full
+  startswith = false
+}
+
+xaero.minimap.gui.GuiMinimap {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.EditWorldScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.MouseSettingsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+  mode = full
+  startswith = false
+}
+
+com.github.alexthe666.iceandfire.client.gui.bestiary.GuiBestiary {
+  mode = full
+  startswith = false
+}
+
+technicianlp.reauth.gui.AuthScreen {
+  mode = full
+  startswith = false
+}
+
+com.hollingsworth.arsnouveau.client.gui.GuiSpellBook {
+  mode = full
+  startswith = false
+}
+
+shadows.apotheosis.village.fletching.FletchingScreen {
+  mode = full
+  startswith = false
+}
+
+xaero.common.gui.GuiWaypoints {
+  mode = full
+  startswith = false
+}
+
+some.example.menu.identifier.to.exclude {
+  mode = soft
+  startswith = false
+}
+
+net.blay09.mods.craftingcraft.client.gui.PortableCraftingScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.EditBookScreen {
+  mode = full
+  startswith = false
+}
+
+vazkii.quark.base.client.config.gui.QuarkConfigHomeScreen {
+  mode = full
+  startswith = false
+}
+
+stepsword.mahoutsukai.render.gui.guide.ContentsPageGui {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.WinGameScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.CustomizeSkinScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.ServerListScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.CartographyTableScreen {
+  mode = full
+  startswith = false
+}
+
+com.cazsius.solcarrot.client.gui.FoodBookScreen {
+  mode = full
+  startswith = false
+}
+
+betteradvancements.gui.BetterAdvancementsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.ConfirmOpenLinkScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+  mode = full
+  startswith = false
+}
+
+ironfurnaces.gui.BlockIronFurnaceScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.ChatOptionsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.SmithingTableScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.ChestScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.InventoryScreen {
+  mode = full
+  startswith = false
+}
+
+ninjaphenix.expandedstorage.client.screen.SingleScreen {
+  mode = full
+  startswith = false
+}
+
+xaero.map.gui.GuiMap {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.FurnaceScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.ShareToLanScreen {
+  mode = full
+  startswith = false
+}
+
+com.refinedmods.refinedstorage.screen.grid.GridScreen {
+  mode = full
+  startswith = false
+}
+
+vazkii.patchouli.client.book.gui.GuiBookLanding {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.AnvilScreen {
+  mode = full
+  startswith = false
+}
+
+xaero.common.gui.GuiAddWaypoint {
+  mode = full
+  startswith = false
+}
+
+com.feed_the_beast.mods.ftbguilibrary.widget.GuiWrapper {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.OptionsSoundsScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraftforge.fml.client.gui.screen.ModListScreen {
+  mode = full
+  startswith = false
+}
+
+ninjaphenix.expandedstorage.client.screen.SelectContainerScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.inventory.CreativeScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.screen.EditGamerulesScreen {
+  mode = full
+  startswith = false
+}
+
+blusunrize.immersiveengineering.client.gui.CraftingTableScreen {
+  mode = full
+  startswith = false
+}
+
+com.blamejared.controlling.client.gui.GuiNewControls {
+  mode = full
+  startswith = false
+}
+
+appeng.client.gui.implementations.CraftingTermScreen {
+  mode = full
+  startswith = false
+}
+
+ninjaphenix.expandedstorage.client.screen.PagedScreen {
+  mode = full
+  startswith = false
+}
+
+net.blay09.mods.cookingforblockheads.client.gui.screen.RecipeBookScreen {
+  mode = full
+  startswith = false
+}
+
+net.minecraft.client.gui.AccessibilityScreen {
+  mode = full
+  startswith = false
+}
+
+com.stal111.forbidden_arcanus.gui.forbiddenmicon.ForbiddenmiconScreen {
+  mode = full
+  startswith = false
+}
+

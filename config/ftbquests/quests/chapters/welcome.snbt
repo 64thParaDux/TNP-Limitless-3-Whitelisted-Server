@@ -1,7 +1,7 @@
 {
 	id: 1088,
 	filename: "welcome",
-	order_index: 1,
+	order_index: 2,
 	title: "Welcome!",
 	icon: "cyclic:heart",
 	default_quest_shape: "",
@@ -554,6 +554,42 @@
 				type: "item",
 				item: "dimstorage:dimensional_chest",
 				random_bonus: 5
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			id: 4360,
+			tasks: [{
+				id: 4361,
+				type: "checkmark",
+				title: "Use a mining world.",
+				icon: "mining_dimension:teleporter"
+			}],
+			rewards: [{
+				id: 4362,
+				type: "item",
+				item: "mining_dimension:teleporter",
+				count: 2
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			subtitle: "Keep mobs and clutter at bay.",
+			description: ["Place one of these and it will light up a area around it."],
+			id: 4363,
+			tasks: [{
+				id: 4364,
+				type: "checkmark",
+				title: "Light up the spawn with us.",
+				icon: "torchmaster:feral_flare_lantern"
+			}],
+			rewards: [{
+				id: 4365,
+				type: "item",
+				item: "torchmaster:feral_flare_lantern",
+				count: 64
 			}]
 		}
 	]

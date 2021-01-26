@@ -1,0 +1,2612 @@
+{
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_purple_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "essentials:recipes/fertile_soil_beetroot": {
+    "criteria": {
+      "has_ingr": "2021-01-26 01:28:39 -0500"
+    },
+    "done": true
+  },
+  "craftandhunt:recipes/decorations/campfire_torches": {
+    "criteria": {
+      "has_sticks": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:igloos": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_purple_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2021-01-26 15:00:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_brown2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "chiselsandbits:chiselsandbits/collect_bits": {
+    "criteria": {
+      "bit_bag": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_stairs": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_white2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_green_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/the_acknowledgment": {
+    "criteria": {
+      "has_iron_ingot": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_red_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_dolomite": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_black_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_yellow_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "tetra:spelunking/root": {
+    "criteria": {
+      "spelunking": "2021-01-26 02:59:40 -0500"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/slabs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2021-01-24 18:20:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
+    "criteria": {
+      "has_black_dye": "2021-01-24 23:53:01 -0500"
+    },
+    "done": true
+  },
+  "essentials:recipes/fertile_soil_wheat": {
+    "criteria": {
+      "has_ingr": "2021-01-26 01:28:38 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_orange_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-01-24 22:59:12 -0500"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/stairs/sky_stone_stairs": {
+    "criteria": {
+      "has_sky_stone_block": "2021-01-24 18:20:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_magenta_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "essentials:recipes/brazier": {
+    "criteria": {
+      "has_ingr": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_white_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_lime2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/building_blocks/gray_concrete_slab": {
+    "criteria": {
+      "has_gray_concrete": "2021-01-25 00:12:02 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_pink_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.reactor/reactor/basic/activetap_fe": {
+    "criteria": {
+      "has_item2": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_white_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/paper_from_tag_filter": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2021-01-25 02:32:03 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_pillar_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_pink2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_red_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "betterdefaultbiomes:root": {
+    "criteria": {
+      "tick": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_black_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonbone_flaming_sword": {
+    "criteria": {
+      "lightning_sword": "2021-01-25 06:02:57 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_light_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "create:windmill": {
+    "criteria": {
+      "0": "2021-01-24 23:51:54 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_blue_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bullets": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_slab": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_white_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_orange_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/diorite_button": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_wall": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2021-01-26 02:19:34 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_magenta2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_pink2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/building_blocks/black_concrete_slab": {
+    "criteria": {
+      "has_black_concrete": "2021-01-25 00:54:06 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_purple2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_purple_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_light_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_light_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2021-01-25 03:49:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_slab_from_fancy_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_white2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_magenta_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "create:clockwork_bearing": {
+    "criteria": {
+      "0": "2021-01-25 10:36:59 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "simplefarming:root": {
+    "criteria": {
+      "pickup_seed": "2021-01-25 10:00:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_orange2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_cyan_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/andesite_pressure_plate": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/insulating_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/black_concrete_pressure_plate": {
+    "criteria": {
+      "has_black_concrete": "2021-01-25 00:54:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_wall_from_paved_dolomite_stonecutting": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_gray_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_yellow_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "craftandhunt:recipes/cah/spear_stone": {
+    "criteria": {
+      "has_OptionalNamedTag[forge:cobblestone]": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_light_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_yellow2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_cobblestone_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_cobblestone_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_cyan2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_light_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_wall": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_yellow_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/mana_fluxfield": {
+    "criteria": {
+      "has_item": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/transportation/warped_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "expandedstorage:recipes/expandedstorage/netherite_to_old_netherite": {
+    "criteria": {
+      "has_chest": "2021-01-26 00:47:15 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/gray_concrete_wall": {
+    "criteria": {
+      "has_gray_concrete": "2021-01-25 00:12:02 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_pillar": {
+    "criteria": {
+      "has_ingredient": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_black_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_red2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_white_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_white_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/chiseled_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/black_concrete_button": {
+    "criteria": {
+      "has_black_concrete": "2021-01-25 00:54:06 -0500"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_purple_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/secondary_linear_chassisfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-01-25 10:42:11 -0500"
+    },
+    "done": true
+  },
+  "craftandhunt:recipes/cah/impact_slime": {
+    "criteria": {
+      "has_slimeball": "2021-01-25 10:35:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_light_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_orange2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_stairs_from_fancy_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_stairs": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_cyan_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2021-01-25 02:42:18 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_pillar": {
+    "criteria": {
+      "has_ingredient": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_lime_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "fluidtank:recipes/tank/tank_wood_easy": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_red2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/polished_andesite_wall": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "craftandhunt:recipes/misc/replacement_leather_to_books": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_diorite": {
+    "criteria": {
+      "has_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/polished_andesite_pressure_plate": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_orange_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_cyan_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2021-01-25 10:35:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_brown_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2021-01-24 23:53:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-01-24 18:19:21 -0500",
+      "minecraft:beach": "2021-01-25 08:41:46 -0500",
+      "minecraft:dark_forest": "2021-01-24 18:19:40 -0500",
+      "minecraft:river": "2021-01-25 08:41:45 -0500",
+      "minecraft:lukewarm_ocean": "2021-01-25 08:41:43 -0500",
+      "minecraft:stone_shore": "2021-01-26 14:46:01 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_lime2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_red_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/diorite_pressure_plate": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_wall_from_fancy_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/speed_up_belt": {
+    "criteria": {
+      "has_item": "2021-01-26 09:45:39 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_black_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/stone_brick_button": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_pink_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_wall": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "botania:main/bauble_wear": {
+    "criteria": {
+      "code_triggered": "2021-01-26 01:21:08 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_magenta_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_slab_from_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_wall_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2021-01-25 03:49:40 -0500"
+    },
+    "done": false
+  },
+  "connectedglass:recipes/search/clear_glass_yellow2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_green_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_light_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_black2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_pink_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_hoe": "2021-01-26 03:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_lime_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_cyan_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2021-01-24 23:53:01 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_wall_from_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_pink2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/horizontal_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_black2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_light_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_green_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/red_string_fertilizer": {
+    "criteria": {
+      "has_base_block": "2021-01-25 02:41:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-01-25 03:49:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_stairs_from_paved_dolomite_stonecutting": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_lime_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_brown_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_red_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:21 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/decorations/crafting/torch": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "silentgear:recipes/silentgear/stone_rod": {
+    "criteria": {
+      "has_item": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_light_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-01-25 02:42:18 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/transportation/crimson_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_purple2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_stairs_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.turbine/turbine/reinforced/activetap_fe": {
+    "criteria": {
+      "has_item2": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_slab": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_blue_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_light_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_pink_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/vertical_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_pillar_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "adventure:root": {
+    "criteria": {
+      "tick": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "fluidtank:recipes/tank/tank_stone": {
+    "criteria": {
+      "has_stone": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_slab": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_blue_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/gray_concrete_pressure_plate": {
+    "criteria": {
+      "has_gray_concrete": "2021-01-25 00:12:02 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_lime2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_red_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/flower_bag": {
+    "criteria": {
+      "has_item": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_light_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_green2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_pillar": {
+    "criteria": {
+      "has_ingredient": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_purple2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:21 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_yellow2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_orange_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_green_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_pillar_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_gray_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-01-25 04:55:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_gray_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/thicc_scroll": {
+    "criteria": {
+      "has_items": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_red2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_brown_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "rats:rats/root": {
+    "criteria": {
+      "tick": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_stairs_from_dolomite_bricks_stonecutting": {
+    "criteria": {
+      "has_dolomite_bricks": "2021-01-24 21:23:30 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:21 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/smelting/dolomite": {
+    "criteria": {
+      "has_item": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/lexicon": {
+    "criteria": {
+      "has_item": "2021-01-25 02:32:03 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:fortresses": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_brown2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_green_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-01-25 03:49:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruined_portals": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/stone_brick_pressure_plate": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_yellow_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_components": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/polished_andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2021-01-24 23:53:01 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/vine_ball": {
+    "criteria": {
+      "has_item": "2021-01-26 15:00:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2021-01-25 10:35:27 -0500"
+    },
+    "done": true
+  },
+  "craftandhunt:recipes/misc/bone_ash_to_white_dye": {
+    "criteria": {
+      "has_bone_ash": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_molds": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_log": "2021-01-25 04:55:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "silentgear:recipes/silentgear/rough_rod": {
+    "criteria": {
+      "has_item": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:21 -0500"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/shaped/stairs/sky_stone_block": {
+    "criteria": {
+      "has_sky_stone_block": "2021-01-24 18:20:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "appliedenergistics2:recipes/appliedenergistics2/block_cutter/slabs/sky_stone_slab": {
+    "criteria": {
+      "has_sky_stone_block": "2021-01-24 18:20:15 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/building_blocks/gray_concrete_stairs": {
+    "criteria": {
+      "has_gray_concrete": "2021-01-25 00:12:02 -0500"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/lore_fragment": {
+    "criteria": {
+      "has_items": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_magenta2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_green_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_black2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/black_concrete_wall": {
+    "criteria": {
+      "has_black_concrete": "2021-01-25 00:54:06 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/andesite_button": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gearbox": {
+    "criteria": {
+      "has_item": "2021-01-24 22:57:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/blueprint_bannerpatterns": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "silentgear:recipes/silentgear/blueprint_paper": {
+    "criteria": {
+      "has_paper": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2021-01-24 18:22:21 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "productivebees:recipes/decorations/glowstone_nest": {
+    "criteria": {
+      "has_item": "2021-01-24 22:59:12 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_brown_stained_glass_pane_from_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "game_start": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.turbine/turbine/basic/activetap_fe": {
+    "criteria": {
+      "has_item2": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/sc_manual": {
+    "criteria": {
+      "has_wood": "2021-01-25 04:55:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_yellow_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_hoe": "2021-01-26 03:38:20 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_green2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2021-01-25 03:49:15 -0500"
+    },
+    "done": true
+  },
+  "mining_dimension:recipes/decorations/teleporter": {
+    "criteria": {
+      "has_log": "2021-01-25 04:55:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "rats:ratlantis/root": {
+    "criteria": {
+      "tick": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_magenta2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_andesite": {
+    "criteria": {
+      "has_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_stairs": {
+    "criteria": {
+      "has_fancy_dolomite_bricks": "2021-01-24 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "essentials:recipes/fertile_soil_dark_oak": {
+    "criteria": {
+      "has_ingr": "2021-01-26 00:59:04 -0500"
+    },
+    "done": true
+  },
+  "packingtape:recipes/misc/tape": {
+    "criteria": {
+      "has_slime_ball": "2021-01-25 10:35:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2021-01-25 10:35:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_black_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2021-01-25 10:30:37 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_cyan2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/laser_block": {
+    "criteria": {
+      "has_stone": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_brown_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_gray_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/petal_cyan": {
+    "criteria": {
+      "has_item": "2021-01-26 14:28:36 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_light_gray_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_magenta_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_cyan2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/tiled_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_white2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.reactor/reactor/reinforced/activetap_fe": {
+    "criteria": {
+      "has_item2": "2021-01-25 05:42:43 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_green2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_light_gray2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_black_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/fertilizer_dye": {
+    "criteria": {
+      "has_item": "2021-01-24 23:53:01 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_purple_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_slab_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/building_blocks/black_concrete_stairs": {
+    "criteria": {
+      "has_black_concrete": "2021-01-25 00:54:06 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/notice_board": {
+    "criteria": {
+      "has_item": "2021-01-26 09:47:04 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/polished_andesite_button": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_pink_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_lime_stained_glass_pane_from_dye": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/motion_activated_light": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/linear_chassisfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-01-25 10:41:36 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_red_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/lamps": {
+    "criteria": {
+      "has_core_block": "2021-01-24 22:59:12 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_blue2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/borderless_glass_brown2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_orange2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2021-01-24 22:39:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_slab": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2021-01-24 23:04:02 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_wall": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2021-01-24 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_white_stained_glass": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:45 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/polished_diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_orange_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_slab_from_paved_dolomite_stonecutting": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_stairs": {
+    "criteria": {
+      "has_paved_dolomite": "2021-01-24 22:43:30 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/redstone/gray_concrete_button": {
+    "criteria": {
+      "has_gray_concrete": "2021-01-25 00:12:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_gray_dye": "2021-01-25 10:41:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
+    "criteria": {
+      "has_gray_dye": "2021-01-25 10:41:15 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_cyan_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2021-01-26 00:58:18 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2021-01-25 01:55:27 -0500"
+    },
+    "done": true
+  },
+  "variant16x:recipes/decorations/polished_andesite_wall_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2021-01-24 23:28:37 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_magenta_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/scratched_glass_blue_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "fluidtank:recipes/tank/tank_wood": {
+    "criteria": {
+      "has_glass": "2021-01-24 22:38:44 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_bricks_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-01-24 22:33:33 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:strongholds": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-01-26 02:19:22 -0500"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2021-01-24 18:08:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2021-01-25 02:42:18 -0500"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/search/clear_glass_lime_pane2": {
+    "criteria": {
+      "dye": "2021-01-24 18:08:26 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

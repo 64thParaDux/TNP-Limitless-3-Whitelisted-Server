@@ -1,7 +1,7 @@
 {
 	id: 2418,
 	filename: "travellersboots",
-	order_index: 27,
+	order_index: 29,
 	title: "Traveller's Boots",
 	icon: {
 		id: "travellersboots:travellersbootmki",

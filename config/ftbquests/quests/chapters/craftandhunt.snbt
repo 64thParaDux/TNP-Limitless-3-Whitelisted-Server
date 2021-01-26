@@ -1,7 +1,7 @@
 {
 	id: 1497,
 	filename: "craftandhunt",
-	order_index: 19,
+	order_index: 21,
 	title: "Craft and Hunt",
 	icon: "craftandhunt:cooked_bear_flank",
 	default_quest_shape: "",

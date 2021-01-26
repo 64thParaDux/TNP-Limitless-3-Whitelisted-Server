@@ -1,7 +1,7 @@
 {
 	id: 4244,
 	filename: "spawn_town_economy_inc",
-	order_index: 2,
+	order_index: 3,
 	title: "Spawn Town (Economy Inc)",
 	icon: "economyinc:block_seller",
 	subtitle: ["Whitelisted Server Season 2 Special Content"],

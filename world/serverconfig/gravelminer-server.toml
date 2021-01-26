@@ -1,0 +1,8 @@
+
+#Server configuration settings
+[server]
+	#If set to true, GravelMiner will only be active for users who install the mod on their clients (for use in servers).
+	isOptIn = true
+	#If set to true, gravel mined via GravelMiner will have a chance of dropping as flint (server-side only).
+	rollFlintChance = true
+

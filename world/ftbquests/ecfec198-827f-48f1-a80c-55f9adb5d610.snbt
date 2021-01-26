@@ -1,0 +1,29 @@
+{
+	uuid: "ecfec198-827f-48f1-a80c-55f9adb5d610",
+	name: "LegalTalent",
+	can_edit: false,
+	money: 0L,
+	auto_pin: false,
+	task_progress: {
+		7: 1,
+		108: 1,
+		146: 1,
+		209: 1,
+		1368: 1,
+		4087: 1,
+		4140: 1,
+		4159: 1,
+		4248: 1,
+		4561: 1,
+		4578: 1,
+		4620: 1,
+		4637: 1
+	},
+	claimed_rewards: [I;
+		147,
+		2953,
+		2982,
+		3078
+	],
+	pinned_quests: [I;]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TeuFox",
+      "uniqueId": "5b086a1a-91d5-48cb-ac8d-c5eba3a05c0c"
+    },
+    "time": 1611526456896,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#5J1idttQQG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TeuFox",
+      "uniqueId": "5b086a1a-91d5-48cb-ac8d-c5eba3a05c0c"
+    },
+    "time": 1611526442440,
+    "type": "Sampler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/#uroYb9b0t1"
+    }
+  }
+]

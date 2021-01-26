@@ -1,7 +1,7 @@
 {
 	id: 1015,
 	filename: "ironjetpacks",
-	order_index: 17,
+	order_index: 19,
 	title: "Iron Jetpacks",
 	icon: "ironjetpacks:creative_jetpack",
 	default_quest_shape: "",

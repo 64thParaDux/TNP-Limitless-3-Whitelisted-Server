@@ -1,6 +1,6 @@
 {
 	version: 9,
-	last_id: 4359,
+	last_id: 4637,
 	default_reward_team: true,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

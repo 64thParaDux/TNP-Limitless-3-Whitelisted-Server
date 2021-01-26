@@ -1,7 +1,7 @@
 {
 	id: 4366,
 	filename: "psi",
-	order_index: 0,
+	order_index: 4,
 	title: "PSI",
 	icon: "psi:cad_assembly_creative",
 	subtitle: ["Whitelisted Server Special Content"],

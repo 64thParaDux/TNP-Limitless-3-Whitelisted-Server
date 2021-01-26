@@ -1,7 +1,7 @@
 {
 	id: 743,
 	filename: "flux_networks",
-	order_index: 18,
+	order_index: 20,
 	title: "Flux Networks",
 	icon: "fluxnetworks:flux_core",
 	default_quest_shape: "",

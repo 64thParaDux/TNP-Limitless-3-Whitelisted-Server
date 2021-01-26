@@ -1,0 +1,27 @@
+
+[general]
+	"Show entities with full health" = true
+	"Height Above Mob" = 0.65
+	"Group Armor (condense 5 iron icons into 1 diamond icon)" = true
+	"Display on Players" = true
+	"Plate Size (Boss)" = 50
+	"Show Max HP" = true
+	"Max Distance" = 6
+	"Show Attributes" = true
+	"Show Current HP" = true
+	"Show Debug Info with F3" = true
+	"Background Padding" = 2
+	"HP Text Height" = 14
+	"Only show the health bar for the entity looked at" = true
+	"Draw Background" = false
+	"Plate Size" = 25
+	"Display on Bosses" = true
+	"Background Height" = 5
+	"Show Armor" = true
+	"Health Bar Height" = 4
+	"Color Health Bar by Type (instead of health percentage)" = false
+	"Show HP Percentage" = true
+	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
+	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "netherex:salamander", "betteranimalsplus:jellyfish", "druidcraft:dreadfish", "rats:ratfish", "sullys_mod_a_v03:jellyfish", "swampexpansion:slabfish", "upgrade_aquatic:lionfish", "upgrade_aquatic:box_jellyfish", "aquaculture:perch", "aquaculture:brown_trout", "aquaculture:minnow", "aquaculture:atlantic_cod", "aquaculture:blackfish", "aquaculture:pacific_halibut", "aquaculture:atlantic_halibut", "aquaculture:atlantic_herring", "aquaculture:pink_salmon", "aquaculture:pollock", "aquaculture:rainbow_trout", "aquaculture:bayad", "aquaculture:boulti", "aquaculture:capitaine", "aquaculture:synodontis", "aquaculture:smallmouth_bass", "aquaculture:bluegill", "aquaculture:brown_trout", "aquaculture:carp", "aquaculture:catfish", "aquaculture:gar", "aquaculture:muskellunge", "aquaculture:arapaima", "aquaculture:piranha", "aquaculture:tambaqui", "aquaculture:brown_shrooma", "aquaculture:red_shrooma", "aquaculture:jellyfish", "aquaculture:tuna", "aquaculture:red_grouper", "dummmmmmy:target_dummy"]
+	"Render with Interface Disabled (F1)" = false
+

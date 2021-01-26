@@ -1,0 +1,626 @@
+{
+	id: 4559,
+	filename: "create",
+	order_index: 1,
+	title: "Create",
+	icon: "create:wrench",
+	subtitle: ["Whitelisted Server Special Content"],
+	default_quest_shape: "circle",
+	images: [
+		{
+			x: 7.0d,
+			y: -6.5d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/crushing_wheel.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 9.0d,
+			y: -6.5d,
+			width: 3.0d,
+			height: 3.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/crushing_wheel.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 8.0d,
+			y: -4.5d,
+			width: 0.5d,
+			height: 4.0d,
+			rotation: 90.0d,
+			image: "create:textures/block/belt.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 6.0d,
+			y: -5.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 45.0d,
+			image: "create:textures/item/crushed_zinc_ore.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 7.0d,
+			y: -5.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/item/crushed_copper_ore.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 8.0d,
+			y: -5.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/item/crushed_zinc_ore.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 5.5d,
+			y: -4.5d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/item/crushed_brass.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 4.0d,
+			y: -5.5d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/item/propeller.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 4.0d,
+			y: -3.5d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/andesite_bricks.png",
+			hover: ["Place a block here to stop the fan blowing away your items."],
+			click: "",
+			dev: false
+		},
+		{
+			x: 4.0d,
+			y: -7.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/axis.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 5.5d,
+			y: -6.5d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/axis.png",
+			hover: [],
+			click: "",
+			dev: false
+		},
+		{
+			x: 2.0d,
+			y: -9.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/andesite_bricks.png",
+			hover: ["Place a block here"],
+			click: "",
+			dev: false
+		},
+		{
+			x: 1.0d,
+			y: -10.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/andesite_bricks.png",
+			hover: ["Place a block here"],
+			click: "",
+			dev: false
+		},
+		{
+			x: 1.0d,
+			y: -9.0d,
+			width: 1.0d,
+			height: 1.0d,
+			rotation: 0.0d,
+			image: "create:textures/block/andesite_bricks.png",
+			hover: ["Place a block here"],
+			click: "",
+			dev: false
+		},
+		{
+			x: 4.0d,
+			y: -8.0d,
+			width: 1.0d,
+			height: 6.0d,
+			rotation: 90.0d,
+			image: "create:textures/block/axis.png",
+			hover: [],
+			click: "",
+			dev: false
+		}
+	],
+	quests: [
+		{
+			title: "Mine some Andisite",
+			x: -2.0d,
+			y: -3.5d,
+			dependencies: [I;4577],
+			id: 4560,
+			tasks: [{
+				id: 4561,
+				type: "item",
+				item: "minecraft:andesite"
+			}],
+			rewards: [{
+				id: 4588,
+				type: "item",
+				item: "lootbagmod:lootbag"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.5d,
+			dependencies: [I;4577],
+			id: 4562,
+			tasks: [{
+				id: 4563,
+				type: "item",
+				item: "minecraft:iron_nugget"
+			}],
+			rewards: [
+				{
+					id: 4586,
+					type: "item",
+					item: "minecraft:iron_block"
+				},
+				{
+					id: 4587,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			shape: "heart",
+			dependencies: [I;
+				4560,
+				4562
+			],
+			id: 4564,
+			tasks: [{
+				id: 4565,
+				type: "item",
+				item: "create:andesite_alloy"
+			}],
+			rewards: [
+				{
+					id: 4589,
+					type: "item",
+					item: "create:andesite_alloy",
+					count: 64
+				},
+				{
+					id: 4590,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 1.0d,
+			y: -3.5d,
+			id: 4566,
+			tasks: [{
+				id: 4567,
+				type: "item",
+				item: {
+					id: "create:sand_paper",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 4581,
+					type: "item",
+					item: {
+						id: "create:red_sand_paper",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4582,
+					type: "item",
+					item: {
+						id: "create:sand_paper",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4583,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: 2.0d,
+			y: -3.5d,
+			dependencies: [I;4572],
+			id: 4568,
+			tasks: [{
+				id: 4569,
+				type: "item",
+				item: "create:rose_quartz"
+			}],
+			rewards: [
+				{
+					id: 4579,
+					type: "item",
+					item: "create:rose_quartz",
+					count: 16
+				},
+				{
+					id: 4580,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			shape: "heart",
+			dependencies: [I;
+				4568,
+				4566
+			],
+			id: 4570,
+			tasks: [{
+				id: 4571,
+				type: "item",
+				item: "create:polished_rose_quartz"
+			}],
+			rewards: [
+				{
+					id: 4584,
+					type: "item",
+					item: "create:polished_rose_quartz",
+					count: 16
+				},
+				{
+					id: 4585,
+					type: "item",
+					item: "lootbagmod:lootbag"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -4.5d,
+			id: 4572,
+			tasks: [{
+				id: 4573,
+				type: "dimension",
+				title: "Visit the Nether to find Quartz",
+				icon: "minecraft:crying_obsidian",
+				dimension: "minecraft:nether"
+			}],
+			rewards: [{
+				id: 4574,
+				type: "item",
+				item: "minecraft:nether_quartz_ore",
+				random_bonus: 15
+			}]
+		},
+		{
+			icon: "minecraft:grass_block",
+			x: -1.5d,
+			y: -4.5d,
+			id: 4577,
+			tasks: [{
+				id: 4578,
+				type: "dimension",
+				dimension: "minecraft:overworld"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			shape: "heart",
+			id: 4591,
+			tasks: [{
+				id: 4592,
+				type: "item",
+				item: "create:brass_ingot"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -6.0d,
+			id: 4593,
+			tasks: [{
+				id: 4594,
+				type: "item",
+				item: "create:mechanical_mixer"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -4.0d,
+			shape: "rsquare",
+			id: 4595,
+			tasks: [{
+				id: 4596,
+				type: "item",
+				item: "create:basin"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -3.0d,
+			id: 4597,
+			tasks: [{
+				id: 4598,
+				type: "item",
+				item: "create:blaze_burner"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -3.5d,
+			shape: "diamond",
+			optional: true,
+			id: 4599,
+			tasks: [{
+				id: 4600,
+				type: "item",
+				item: "thermal:machine_smelter"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -7.0d,
+			shape: "hexagon",
+			id: 4601,
+			tasks: [{
+				id: 4602,
+				type: "item",
+				item: "create:crushed_copper_ore"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -6.0d,
+			shape: "hexagon",
+			id: 4603,
+			tasks: [{
+				id: 4604,
+				type: "item",
+				item: "create:crushed_zinc_ore"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.0d,
+			id: 4605,
+			tasks: [{
+				id: 4606,
+				type: "item",
+				item: "create:crushed_brass"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -5.0d,
+			id: 4609,
+			tasks: [{
+				id: 4610,
+				type: "item",
+				item: "minecraft:lava_bucket"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -6.5d,
+			subtitle: "Use a fan infront of water, fire, or lava to wet, cook, and smelt respectively.",
+			id: 4611,
+			tasks: [{
+				id: 4612,
+				type: "item",
+				item: "create:encased_fan"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -2.5d,
+			id: 4613,
+			tasks: [{
+				id: 4614,
+				type: "item",
+				item: "create:brass_funnel"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -2.5d,
+			subtitle: "Use this to filter your crushed ores via Shift + Right Click.",
+			id: 4615,
+			tasks: [{
+				id: 4616,
+				type: "item",
+				item: {
+					id: "create:filter",
+					Count: true,
+					tag: {
+						Items: {}
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -8.0d,
+			subtitle: "Going up gear will make it go slower but will have greater torque.",
+			id: 4617,
+			tasks: [{
+				id: 4618,
+				type: "item",
+				item: "create:large_cogwheel"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -7.5d,
+			subtitle: "Going down a gear will make it spin faster with less torque.",
+			id: 4619,
+			tasks: [{
+				id: 4620,
+				type: "item",
+				item: "create:cogwheel"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -9.0d,
+			id: 4621,
+			tasks: [{
+				id: 4622,
+				type: "item",
+				item: "create:water_wheel"
+			}],
+			rewards: [{
+				id: 4625,
+				type: "item",
+				item: "create:water_wheel",
+				count: 6
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -8.0d,
+			id: 4623,
+			tasks: [{
+				id: 4624,
+				type: "item",
+				item: "create:vertical_gearbox"
+			}]
+		},
+		{
+			title: "To Create simple ppower place water here",
+			x: 2.0d,
+			y: -10.0d,
+			id: 4626,
+			tasks: [{
+				id: 4627,
+				type: "item",
+				item: "minecraft:water_bucket"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -5.5d,
+			shape: "heart",
+			id: 4628,
+			tasks: [{
+				id: 4629,
+				type: "item",
+				item: "minecraft:netherrack"
+			}]
+		},
+		{
+			icon: "druidcraft:red_soulfire",
+			x: 1.5d,
+			y: -6.0d,
+			shape: "diamond",
+			id: 4630,
+			tasks: [{
+				id: 4631,
+				type: "item",
+				item: {
+					id: "minecraft:flint_and_steel",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -6.5d,
+			id: 4632,
+			tasks: [{
+				id: 4633,
+				type: "item",
+				item: "create:encased_fan"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			shape: "diamond",
+			id: 4634,
+			tasks: [{
+				id: 4635,
+				type: "item",
+				item: "minecraft:lever"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -7.0d,
+			shape: "diamond",
+			id: 4636,
+			tasks: [{
+				id: 4637,
+				type: "item",
+				item: "create:shaft"
+			}]
+		}
+	]
+}
